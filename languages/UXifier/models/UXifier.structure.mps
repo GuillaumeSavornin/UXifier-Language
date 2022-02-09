@@ -153,28 +153,11 @@
     <property role="EcuMT" value="3864156835952808505" />
     <property role="TrG5h" value="IGridElement" />
     <property role="3GE5qa" value="Coord" />
-    <node concept="1TJgyj" id="3mwfyHbo3k_" role="1TKVEi">
-      <property role="IQ2ns" value="3864156835952997669" />
+    <node concept="1TJgyj" id="3kb1HP7pdgG" role="1TKVEi">
+      <property role="IQ2ns" value="3822156256209327148" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="gridCoords" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3mwfyHbnNxL" resolve="GridCoords" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3mwfyHbnl8U">
-    <property role="EcuMT" value="3864156835952808506" />
-    <property role="TrG5h" value="Coordinate" />
-    <property role="3GE5qa" value="Coord" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="3mwfyHbnl8X" role="1TKVEl">
-      <property role="IQ2nx" value="3864156835952808509" />
-      <property role="TrG5h" value="x" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="3mwfyHbnl93" role="1TKVEl">
-      <property role="IQ2nx" value="3864156835952808515" />
-      <property role="TrG5h" value="y" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <property role="20kJfa" value="gridElement" />
+      <ref role="20lvS9" node="3kb1HP7pdgB" resolve="GridSizableElement" />
     </node>
   </node>
   <node concept="PlHQZ" id="3mwfyHbnl99">
@@ -260,8 +243,8 @@
     <property role="3GE5qa" value="Layouts" />
     <property role="TrG5h" value="BoxLayout" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="3kb1HP7oNjv" role="1TKVEl">
-      <property role="IQ2nx" value="3822156256209220831" />
+    <node concept="1TJgyi" id="3kb1HP7p9wP" role="1TKVEl">
+      <property role="IQ2nx" value="3822156256209311797" />
       <property role="TrG5h" value="direction" />
       <ref role="AX2Wp" node="3kb1HP7oNjx" resolve="DIRECTION" />
     </node>
@@ -283,29 +266,6 @@
       <ref role="PrY4T" node="3mwfyHbnl99" resolve="IGeneralLayout" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3mwfyHbnNxL">
-    <property role="EcuMT" value="3864156835952932977" />
-    <property role="3GE5qa" value="Coord" />
-    <property role="TrG5h" value="GridCoords" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="3mwfyHbnNxO" role="1TKVEi">
-      <property role="IQ2ns" value="3864156835952932980" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="startCoord" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3mwfyHbnl8U" resolve="Coordinate" />
-    </node>
-    <node concept="1TJgyj" id="3mwfyHbnNxP" role="1TKVEi">
-      <property role="IQ2ns" value="3864156835952932981" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="endCoord" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3mwfyHbnl8U" resolve="Coordinate" />
-    </node>
-    <node concept="PrWs8" id="3kb1HP7mi1E" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
   <node concept="AxPO7" id="3kb1HP7oNjx">
     <property role="3F6X1D" value="3822156256209220833" />
     <property role="TrG5h" value="DIRECTION" />
@@ -317,6 +277,63 @@
     <node concept="M4N5e" id="3kb1HP7oNjz" role="M5hS2">
       <property role="1uS6qo" value="HORIZONTAL" />
       <property role="1uS6qv" value="row" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3kb1HP7pdgB">
+    <property role="EcuMT" value="3822156256209327143" />
+    <property role="3GE5qa" value="Coord" />
+    <property role="TrG5h" value="GridSizableElement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="3kb1HP7pdgE" role="1TKVEl">
+      <property role="IQ2nx" value="3822156256209327146" />
+      <property role="TrG5h" value="size" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3kb1HP7urPG" role="1TKVEl">
+      <property role="IQ2nx" value="3822156256210697580" />
+      <property role="TrG5h" value="id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3kb1HP7w0hN">
+    <property role="EcuMT" value="3822156256211108979" />
+    <property role="3GE5qa" value="Components" />
+    <property role="TrG5h" value="FillerComponent" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="3kb1HP7w0hO" role="PzmwI">
+      <ref role="PrY4T" node="3Il97q8Ifg1" resolve="IComponent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ntxW8KqDVb">
+    <property role="EcuMT" value="422643208148393675" />
+    <property role="3GE5qa" value="Components" />
+    <property role="TrG5h" value="TabsControl" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="ntxW8KqDVh" role="1TKVEi">
+      <property role="IQ2ns" value="422643208148393681" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="tabs" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="ntxW8KqDVe" resolve="Tab" />
+    </node>
+    <node concept="PrWs8" id="ntxW8KqDVc" role="PzmwI">
+      <ref role="PrY4T" node="3mwfyHbnl9v" resolve="IControlComponent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ntxW8KqDVe">
+    <property role="EcuMT" value="422643208148393678" />
+    <property role="3GE5qa" value="Components" />
+    <property role="TrG5h" value="Tab" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="ntxW8KqDVf" role="1TKVEi">
+      <property role="IQ2ns" value="422643208148393679" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3mwfyHbnl8T" resolve="IGridElement" />
+    </node>
+    <node concept="PrWs8" id="ntxW8KqDXO" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
