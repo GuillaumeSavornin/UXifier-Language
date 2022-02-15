@@ -113,10 +113,13 @@
         <node concept="2iRkQZ" id="3ksNkQL14ZE" role="2iSdaV" />
         <node concept="VPM3Z" id="3ksNkQL14ZF" role="3F10Kt" />
         <node concept="3EZMnI" id="3ksNkQL14ZJ" role="3EZMnx">
+          <node concept="3F0A7n" id="2dFAI0jDV2w" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:2dFAI0jDT4X" resolve="name" />
+          </node>
           <node concept="2iRfu4" id="3ksNkQL14ZK" role="2iSdaV" />
           <node concept="VPM3Z" id="3ksNkQL14ZL" role="3F10Kt" />
           <node concept="3F0ifn" id="3ksNkQL14ZR" role="3EZMnx">
-            <property role="3F0ifm" value="WebSite format:" />
+            <property role="3F0ifm" value="format:" />
           </node>
         </node>
         <node concept="3EZMnI" id="3ksNkQL150a" role="3EZMnx">
@@ -138,8 +141,11 @@
         <node concept="VPM3Z" id="3ksNkQL152a" role="3F10Kt" />
         <node concept="3EZMnI" id="3ksNkQL152i" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL152k" role="3F10Kt" />
+          <node concept="3F0A7n" id="2dFAI0jDUUQ" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:2dFAI0jDT4X" resolve="name" />
+          </node>
           <node concept="3F0ifn" id="3ksNkQL152z" role="3EZMnx">
-            <property role="3F0ifm" value="Mobile format:" />
+            <property role="3F0ifm" value="format:" />
           </node>
           <node concept="2iRfu4" id="3ksNkQL152n" role="2iSdaV" />
         </node>

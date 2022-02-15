@@ -12,13 +12,8 @@
         <child id="2552303901028114977" name="sections" index="KX7z1" />
       </concept>
       <concept id="2552303901028114983" name="UXifier.structure.MobileFormat" flags="ng" index="KX7z7" />
-      <concept id="2552303901028114948" name="UXifier.structure.PresentationStyling" flags="ng" index="KX7z$">
-        <property id="2552303901028127590" name="showImage" index="KMSA6" />
-        <property id="2552303901028127592" name="imageLocation" index="KMSA8" />
-      </concept>
+      <concept id="2552303901028114948" name="UXifier.structure.PresentationStyling" flags="ng" index="KX7z$" />
       <concept id="2552303901028114951" name="UXifier.structure.IFormat" flags="ng" index="KX7zB">
-        <property id="2552303901028114986" name="resolutionMin" index="KX7za" />
-        <property id="2552303901028114988" name="resolutionMax" index="KX7zc" />
         <child id="2552303901028114968" name="layout" index="KX7zS" />
       </concept>
       <concept id="2552303901028114953" name="UXifier.structure.WebSiteFormat" flags="ng" index="KX7zD" />
@@ -37,7 +32,7 @@
         <child id="2552303901028127588" name="styling" index="KMSA4" />
       </concept>
       <concept id="1904405720489579195" name="UXifier.structure.App" flags="ng" index="2OrhLi">
-        <child id="2552303901028114959" name="format" index="KX7zJ" />
+        <child id="2552303901028114959" name="formats" index="KX7zJ" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -97,23 +92,6 @@
   </node>
   <node concept="2OrhLi" id="2dFAI0jCIhP">
     <property role="TrG5h" value="GuillaumeTestScript" />
-    <node concept="KX7z7" id="2dFAI0jCQQp" role="KX7zJ">
-      <property role="KX7za" value="0" />
-      <property role="KX7zc" value="600" />
-      <node concept="KX7zG" id="2dFAI0jCQQu" role="KX7zS">
-        <node concept="KX7Gv" id="2dFAI0jCXYW" role="KMSAI">
-          <property role="KMSAM" value="Leo" />
-          <property role="KMSAP" value="Burette" />
-          <property role="KMSAK" value="Go is life, Grolang is love!" />
-          <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-          <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-          <node concept="KX7z$" id="2dFAI0jCXYY" role="KMSA4">
-            <property role="KMSA6" value="true" />
-            <property role="KMSA8" value="left" />
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
 </model>
 

@@ -156,6 +156,11 @@
       <property role="TrG5h" value="resolutionMax" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="2dFAI0jDT4X" role="1TKVEl">
+      <property role="IQ2nx" value="2552303901028618557" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="2dFAI0jBY8o" role="1TKVEi">
       <property role="IQ2ns" value="2552303901028114968" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

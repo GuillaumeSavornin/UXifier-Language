@@ -93,6 +93,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="2dFAI0jDT7Z" role="3cqZAp">
+          <node concept="37vLTI" id="2dFAI0jDTUj" role="3clFbG">
+            <node concept="Xl_RD" id="2dFAI0jDTUR" role="37vLTx">
+              <property role="Xl_RC" value="Mobile" />
+            </node>
+            <node concept="2OqwBi" id="2dFAI0jDTgZ" role="37vLTJ">
+              <node concept="13iPFW" id="2dFAI0jDT7X" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2dFAI0jDTz7" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:2dFAI0jDT4X" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -124,6 +137,19 @@
               <node concept="13iPFW" id="2dFAI0jCNcg" role="2Oq$k0" />
               <node concept="3TrcHB" id="2dFAI0jCNf0" role="2OqNvi">
                 <ref role="3TsBF5" to="wi2d:2dFAI0jBY8G" resolve="resolutionMax" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2dFAI0jDUcx" role="3cqZAp">
+          <node concept="37vLTI" id="2dFAI0jDUKT" role="3clFbG">
+            <node concept="Xl_RD" id="2dFAI0jDULj" role="37vLTx">
+              <property role="Xl_RC" value="WebSite" />
+            </node>
+            <node concept="2OqwBi" id="2dFAI0jDUlk" role="37vLTJ">
+              <node concept="13iPFW" id="2dFAI0jDUcv" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2dFAI0jDUu2" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:2dFAI0jDT4X" resolve="name" />
               </node>
             </node>
           </node>
