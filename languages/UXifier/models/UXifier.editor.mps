@@ -29,7 +29,9 @@
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
       </concept>
-      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
+      </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
@@ -108,7 +110,9 @@
       <node concept="VechU" id="3ksNkQL26XW" role="3F10Kt">
         <property role="Vb096" value="fLwANPr/green" />
       </node>
-      <node concept="Vb9p2" id="3ksNkQL26Y2" role="3F10Kt" />
+      <node concept="Vb9p2" id="3ksNkQL26Y2" role="3F10Kt">
+        <property role="Vbekb" value="g1_k_vY/BOLD" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="2dFAI0jC1cY">
@@ -122,11 +126,13 @@
         <node concept="3EZMnI" id="3ksNkQL14ZJ" role="3EZMnx">
           <node concept="3F0A7n" id="2dFAI0jDV2w" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:2dFAI0jDT4X" resolve="name" />
+            <ref role="1k5W1q" node="3ksNkQL26XO" resolve="FormatTitleStyle" />
           </node>
           <node concept="2iRfu4" id="3ksNkQL14ZK" role="2iSdaV" />
           <node concept="VPM3Z" id="3ksNkQL14ZL" role="3F10Kt" />
           <node concept="3F0ifn" id="3ksNkQL14ZR" role="3EZMnx">
             <property role="3F0ifm" value="format:" />
+            <ref role="1k5W1q" node="3ksNkQL26XO" resolve="FormatTitleStyle" />
           </node>
         </node>
         <node concept="3EZMnI" id="3ksNkQL150a" role="3EZMnx">
@@ -150,9 +156,11 @@
           <node concept="VPM3Z" id="3ksNkQL152k" role="3F10Kt" />
           <node concept="3F0A7n" id="2dFAI0jDUUQ" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:2dFAI0jDT4X" resolve="name" />
+            <ref role="1k5W1q" node="3ksNkQL26XO" resolve="FormatTitleStyle" />
           </node>
           <node concept="3F0ifn" id="3ksNkQL152z" role="3EZMnx">
             <property role="3F0ifm" value="format:" />
+            <ref role="1k5W1q" node="3ksNkQL26XO" resolve="FormatTitleStyle" />
           </node>
           <node concept="2iRfu4" id="3ksNkQL152n" role="2iSdaV" />
         </node>
@@ -177,9 +185,6 @@
         <node concept="VPM3Z" id="3ksNkQL18W6" role="3F10Kt" />
         <node concept="3F0ifn" id="3ksNkQL18We" role="3EZMnx">
           <property role="3F0ifm" value="Layout: SinglePage" />
-        </node>
-        <node concept="3F0ifn" id="3ksNkQL18Wz" role="3EZMnx">
-          <property role="3F0ifm" value="Sections: " />
         </node>
         <node concept="3EZMnI" id="3ksNkQL1RTX" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL1RTZ" role="3F10Kt" />
@@ -211,16 +216,17 @@
         <node concept="3F0ifn" id="3ksNkQL1ceX" role="3EZMnx">
           <property role="3F0ifm" value="Layout: MultiPage" />
         </node>
-        <node concept="3F0ifn" id="3ksNkQL1GOS" role="3EZMnx">
-          <property role="3F0ifm" value="Tabs:" />
-        </node>
         <node concept="3EZMnI" id="3ksNkQL1s4g" role="3EZMnx">
-          <node concept="3XFhqQ" id="3ksNkQL1BhB" role="3EZMnx" />
+          <node concept="3XFhqQ" id="3ksNkQL2IBG" role="3EZMnx" />
           <node concept="VPM3Z" id="3ksNkQL1s4i" role="3F10Kt" />
           <node concept="3F2HdR" id="3ksNkQL1s4L" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:2dFAI0jBY8_" resolve="tabs" />
             <node concept="2iRkQZ" id="3ksNkQL1s4O" role="2czzBx" />
             <node concept="VPM3Z" id="3ksNkQL1s4P" role="3F10Kt" />
+            <node concept="3F0ifn" id="3ksNkQL2DyX" role="2czzBI">
+              <property role="3F0ifm" value="[no tab defined]" />
+              <ref role="1k5W1q" node="2dFAI0jBY9D" resolve="NotDefinedStyle" />
+            </node>
           </node>
           <node concept="l2Vlx" id="3ksNkQL1s4l" role="2iSdaV" />
         </node>
@@ -236,19 +242,18 @@
         <node concept="3EZMnI" id="3ksNkQL1cfZ" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL1cg1" role="3F10Kt" />
           <node concept="3F0ifn" id="3ksNkQL1cg9" role="3EZMnx">
-            <property role="3F0ifm" value="Name: " />
+            <property role="3F0ifm" value="--- Tab" />
           </node>
           <node concept="3F0A7n" id="3ksNkQL1cgf" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:2dFAI0jBY8z" resolve="name" />
           </node>
           <node concept="2iRfu4" id="3ksNkQL1cg4" role="2iSdaV" />
-        </node>
-        <node concept="3F0ifn" id="3ksNkQL1MnZ" role="3EZMnx">
-          <property role="3F0ifm" value="Sections:" />
+          <node concept="3F0ifn" id="3ksNkQL2SLD" role="3EZMnx">
+            <property role="3F0ifm" value="---" />
+          </node>
         </node>
         <node concept="3EZMnI" id="3ksNkQL1s2b" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL1s2d" role="3F10Kt" />
-          <node concept="3XFhqQ" id="3ksNkQL1s3D" role="3EZMnx" />
           <node concept="3F2HdR" id="3ksNkQL1s2K" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:2dFAI0jBY8x" resolve="sections" />
             <node concept="2iRkQZ" id="3ksNkQL1s2N" role="2czzBx" />
