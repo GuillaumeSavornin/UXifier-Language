@@ -1,6 +1,8 @@
 # 🇩.🇸.🇱 - (UXifier-Language)
 
-![illustration image](./assets/CV.png)
+<p align="center" width="100%">
+    <img width="33%" src="assets/CV.png"> 
+</p>
 
 ## Team ADSL2
 
