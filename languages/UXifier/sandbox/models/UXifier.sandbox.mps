@@ -169,5 +169,42 @@
       </node>
     </node>
   </node>
+  <node concept="2OrhLi" id="2dFAI0jGpZO">
+    <property role="TrG5h" value="teeeeeeeeest" />
+    <node concept="KX7z7" id="2dFAI0jGpZR" role="KX7zJ">
+      <property role="KX7za" value="0" />
+      <property role="KX7zc" value="600" />
+      <property role="KN0Jt" value="Mobile" />
+      <node concept="KX7zG" id="2dFAI0jGpZW" role="KX7zS">
+        <node concept="KX7Gv" id="2dFAI0jGq01" role="KMSAI">
+          <property role="KMSAM" value="Leo" />
+          <property role="KMSAP" value="Burette" />
+          <property role="KMSAK" value="Go is life, js is love!" />
+          <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
+          <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
+          <node concept="KX7z$" id="2dFAI0jGq03" role="KMSA4">
+            <property role="KMSA8" value="z" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KX7zD" id="2dFAI0jGq0d" role="KX7zJ">
+      <property role="KX7za" value="0" />
+      <property role="KX7zc" value="2147483647" />
+      <property role="KN0Jt" value="WebSite" />
+      <node concept="KX7zG" id="2dFAI0jGq0m" role="KX7zS">
+        <node concept="KX7Gv" id="2dFAI0jGq0r" role="KMSAI">
+          <property role="KMSAM" value="Leo" />
+          <property role="KMSAP" value="Burette" />
+          <property role="KMSAK" value="Go is life, js is love!" />
+          <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
+          <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
+          <node concept="KX7z$" id="2dFAI0jGq0t" role="KMSA4">
+            <property role="KMSA8" value="rr" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

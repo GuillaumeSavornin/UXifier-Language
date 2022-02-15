@@ -212,9 +212,7 @@ function ToolbarMenu(toggleDrawer) {
 
 function WebSiteFormat(){
     const [open, setOpen] = React.useState(false);
-    const toggleDrawer = () => {
-        setOpen(!open);
-    };
+    const toggleDrawer = () => {setOpen(!open);};
 
     return (
         <Box sx={{ display: 'flex' }}>
@@ -238,7 +236,7 @@ function WebSiteFormat(){
                 <Toolbar />  {/* Set the space on the top of the page */}
 
                 <Switch>
-                    <Route path="/test"><SectionDashboard /></Route>
+                    <Route path="/test" style="text-decoration: none"><SectionDashboard /></Route>
                     <Route path="/test2"><SectionDashboard2 /></Route>
                     <Route path="/"><SectionDashboard3 /></Route>
                 </Switch>
