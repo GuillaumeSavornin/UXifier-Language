@@ -104,7 +104,7 @@
         <node concept="KX7Gv" id="2dFAI0jCXYW" role="KMSAI">
           <property role="KMSAM" value="Leo" />
           <property role="KMSAP" value="Burette" />
-          <property role="KMSAK" value="Go is life, js is love!" />
+          <property role="KMSAK" value="Go is life, Grolang is love!" />
           <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
           <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
           <node concept="KX7z$" id="2dFAI0jCXYY" role="KMSA4">

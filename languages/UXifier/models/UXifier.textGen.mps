@@ -91,6 +91,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -175,6 +178,13 @@
             </node>
           </node>
         </node>
+        <node concept="lc7rE" id="2dFAI0jDyOG" role="3cqZAp">
+          <node concept="la8eA" id="2dFAI0jDyU6" role="lcghm">
+            <property role="lacIc" value="// ========================================================================================================================\n/**\n * FORMATS\n */" />
+          </node>
+          <node concept="l8MVK" id="2dFAI0jDyWD" role="lcghm" />
+          <node concept="l8MVK" id="2dFAI0jDyYZ" role="lcghm" />
+        </node>
         <node concept="2Gpval" id="2dFAI0jC$8R" role="3cqZAp">
           <node concept="2GrKxI" id="2dFAI0jC$8T" role="2Gsz3X">
             <property role="TrG5h" value="format" />
@@ -209,6 +219,15 @@
               <property role="3oM_SC" value="Theme" />
             </node>
           </node>
+        </node>
+        <node concept="lc7rE" id="2dFAI0jDzZy" role="3cqZAp">
+          <node concept="l8MVK" id="2dFAI0jDCS_" role="lcghm" />
+          <node concept="l8MVK" id="2dFAI0jDCUZ" role="lcghm" />
+          <node concept="la8eA" id="2dFAI0jD$50" role="lcghm">
+            <property role="lacIc" value="// ========================================================================================================================\n/**\n * THEME\n */" />
+          </node>
+          <node concept="l8MVK" id="2dFAI0jD$ij" role="lcghm" />
+          <node concept="l8MVK" id="2dFAI0jD$kD" role="lcghm" />
         </node>
         <node concept="3clFbJ" id="2dFAI0jC_uI" role="3cqZAp">
           <node concept="3clFbS" id="2dFAI0jC_uK" role="3clFbx">
@@ -250,6 +269,8 @@
           </node>
         </node>
         <node concept="lc7rE" id="2dFAI0jCA5j" role="3cqZAp">
+          <node concept="l8MVK" id="2dFAI0jDCXp" role="lcghm" />
+          <node concept="l8MVK" id="2dFAI0jDCZN" role="lcghm" />
           <node concept="la8eA" id="2dFAI0jCA9t" role="lcghm">
             <property role="lacIc" value="// ========================================================================================================================\n/**\n * RESPONSIVENESS &amp; RENDER\n */\n\nconst ViewportProvider = ({ children }) =&gt; {\n    const [width, setWidth] = React.useState(window.innerWidth);\n    const [height, setHeight] = React.useState(window.innerHeight);\n    const handleWindowResize = () =&gt; {\n        setWidth(window.innerWidth);\n        setHeight(window.innerHeight);\n    };\n\n    React.useEffect(() =&gt; {\n        window.addEventListener(&quot;resize&quot;, handleWindowResize);\n        return () =&gt; window.removeEventListener(&quot;resize&quot;, handleWindowResize);\n    }, []);\n\n    return (\n        &lt;viewportContext.Provider value={{ width, height }}&gt;{children}&lt;/viewportContext.Provider&gt;\n    );\n};" />
           </node>
@@ -278,7 +299,9 @@
                 <property role="lacIc" value="let currentFormat = null;" />
               </node>
               <node concept="l8MVK" id="2dFAI0jD64A" role="lcghm" />
-              <node concept="l8MVK" id="2dFAI0jD64B" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="2dFAI0jDwUo" role="3cqZAp">
+              <node concept="l8MVK" id="2dFAI0jDwWL" role="lcghm" />
             </node>
             <node concept="2Gpval" id="2dFAI0jCZjU" role="3cqZAp">
               <node concept="2GrKxI" id="2dFAI0jCZjW" role="2Gsz3X">
@@ -322,7 +345,7 @@
                     <property role="lacIc" value="currentFormat = &lt;" />
                   </node>
                   <node concept="la8eA" id="2dFAI0jD31P" role="lcghm">
-                    <property role="lacIc" value="??? /&gt;" />
+                    <property role="lacIc" value="???Format /&gt;" />
                   </node>
                   <node concept="l8MVK" id="2dFAI0jD32X" role="lcghm" />
                 </node>
@@ -334,6 +357,9 @@
                   <node concept="l8MVK" id="2dFAI0jD6Zo" role="lcghm" />
                 </node>
               </node>
+            </node>
+            <node concept="lc7rE" id="2dFAI0jDwPs" role="3cqZAp">
+              <node concept="l8MVK" id="2dFAI0jDwRN" role="lcghm" />
             </node>
             <node concept="lc7rE" id="2dFAI0jD4Rs" role="3cqZAp">
               <node concept="2BGw6n" id="2dFAI0jD63o" role="lcghm" />
@@ -367,6 +393,29 @@
             <property role="lacIc" value="ReactDOM.render(\n  &lt;ThemeProvider theme={theme}&gt;\n      &lt;ViewportProvider&gt;\n          &lt;CssBaseline /&gt;\n          &lt;Router&gt;\n            &lt;App /&gt;\n          &lt;/Router&gt;\n      &lt;/ViewportProvider&gt;\n  &lt;/ThemeProvider&gt;,\n  document.querySelector('#root'),\n);" />
           </node>
           <node concept="l8MVK" id="2dFAI0jCFEn" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2dFAI0jDGHd">
+    <property role="3GE5qa" value="format" />
+    <ref role="WuzLi" to="wi2d:2dFAI0jBY8B" resolve="MobileFormat" />
+    <node concept="11bSqf" id="2dFAI0jDGHe" role="11c4hB">
+      <node concept="3clFbS" id="2dFAI0jDGHf" role="2VODD2">
+        <node concept="lc7rE" id="2dFAI0jDGHw" role="3cqZAp">
+          <node concept="la8eA" id="2dFAI0jDGHO" role="lcghm">
+            <property role="lacIc" value="function " />
+          </node>
+          <node concept="la8eA" id="2dFAI0jDGIq" role="lcghm">
+            <property role="lacIc" value="???" />
+          </node>
+          <node concept="la8eA" id="2dFAI0jDGJh" role="lcghm">
+            <property role="lacIc" value="Format(){" />
+          </node>
+          <node concept="l8MVK" id="2dFAI0jDGKC" role="lcghm" />
+        </node>
+        <node concept="3izx1p" id="2dFAI0jDGLi" role="3cqZAp">
+          <node concept="3clFbS" id="2dFAI0jDGLk" role="3izTki" />
         </node>
       </node>
     </node>
