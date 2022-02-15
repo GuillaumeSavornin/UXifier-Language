@@ -83,7 +83,7 @@
         </node>
         <node concept="35HoNQ" id="2dFAI0jBY9c" role="3EZMnx" />
         <node concept="3F2HdR" id="2dFAI0jBY9q" role="3EZMnx">
-          <ref role="1NtTu8" to="wi2d:2dFAI0jBY8f" resolve="format" />
+          <ref role="1NtTu8" to="wi2d:2dFAI0jBY8f" resolve="formats" />
           <node concept="2iRkQZ" id="2dFAI0jBY9s" role="2czzBx" />
           <node concept="3F0ifn" id="2dFAI0jBY9$" role="2czzBI">
             <property role="3F0ifm" value="[no format defined]" />
