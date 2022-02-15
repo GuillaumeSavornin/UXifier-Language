@@ -39,7 +39,6 @@
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
-      <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0" />
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
@@ -81,7 +80,7 @@
         </node>
         <node concept="35HoNQ" id="2dFAI0jBY9c" role="3EZMnx" />
         <node concept="3F2HdR" id="2dFAI0jBY9q" role="3EZMnx">
-          <ref role="1NtTu8" to="wi2d:2dFAI0jBY8f" resolve="format" />
+          <ref role="1NtTu8" to="wi2d:2dFAI0jBY8f" resolve="formats" />
           <node concept="2iRkQZ" id="2dFAI0jBY9s" role="2czzBx" />
           <node concept="3F0ifn" id="2dFAI0jBY9$" role="2czzBI">
             <property role="3F0ifm" value="[no format defined]" />
@@ -106,7 +105,6 @@
     <property role="3GE5qa" value="format" />
     <ref role="1XX52x" to="wi2d:2dFAI0jBY89" resolve="WebSiteFormat" />
     <node concept="3EZMnI" id="2dFAI0jC1d2" role="2wV5jI">
-      <node concept="3EYTF0" id="2dFAI0jC1d4" role="3EZMnx" />
       <node concept="l2Vlx" id="2dFAI0jC1d5" role="2iSdaV" />
     </node>
   </node>
