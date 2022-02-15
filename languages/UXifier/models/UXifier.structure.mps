@@ -13,6 +13,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -23,6 +24,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -35,6 +39,67 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1DHNIAI0daW" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2dFAI0jBY7Y">
+    <property role="EcuMT" value="2552303901028114942" />
+    <property role="TrG5h" value="Theme" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="2dFAI0jBY7Z">
+    <property role="EcuMT" value="2552303901028114943" />
+    <property role="TrG5h" value="PresentationSection" />
+    <property role="3GE5qa" value="section" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="2dFAI0jBY81" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2dFAI0jBY80">
+    <property role="EcuMT" value="2552303901028114944" />
+    <property role="TrG5h" value="ISection" />
+    <property role="3GE5qa" value="section" />
+  </node>
+  <node concept="PlHQZ" id="2dFAI0jBY83">
+    <property role="EcuMT" value="2552303901028114947" />
+    <property role="TrG5h" value="IStyling" />
+    <property role="3GE5qa" value="styling" />
+  </node>
+  <node concept="1TIwiD" id="2dFAI0jBY84">
+    <property role="EcuMT" value="2552303901028114948" />
+    <property role="TrG5h" value="PresentationStyling" />
+    <property role="3GE5qa" value="styling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="2dFAI0jBY85" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2dFAI0jBY87">
+    <property role="EcuMT" value="2552303901028114951" />
+    <property role="TrG5h" value="IFormat" />
+    <property role="3GE5qa" value="format" />
+  </node>
+  <node concept="PlHQZ" id="2dFAI0jBY88">
+    <property role="EcuMT" value="2552303901028114952" />
+    <property role="TrG5h" value="ILayout" />
+    <property role="3GE5qa" value="layout" />
+  </node>
+  <node concept="1TIwiD" id="2dFAI0jBY89">
+    <property role="EcuMT" value="2552303901028114953" />
+    <property role="3GE5qa" value="format" />
+    <property role="TrG5h" value="WebSiteFormat" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="2dFAI0jBY8a" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2dFAI0jBY8c">
+    <property role="EcuMT" value="2552303901028114956" />
+    <property role="3GE5qa" value="layout" />
+    <property role="TrG5h" value="SinglePageLayout" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="2dFAI0jBY8d" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY88" resolve="ILayout" />
     </node>
   </node>
 </model>
