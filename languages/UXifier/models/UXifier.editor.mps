@@ -289,7 +289,7 @@
     <ref role="1XX52x" to="wi2d:2dFAI0jBY8w" resolve="TabLayout" />
     <node concept="3EZMnI" id="3ksNkQL1cfF" role="2wV5jI">
       <node concept="3EZMnI" id="3ksNkQL1cfM" role="3EZMnx">
-        <ref role="1k5W1q" node="1c5gsjEZVPC" resolve="TabBox" />
+        <ref role="1k5W1q" node="1c5gsjEZVPC" resolve="TabBoxStyle" />
         <node concept="VPM3Z" id="3ksNkQL1cfO" role="3F10Kt" />
         <node concept="3EZMnI" id="3ksNkQL1cfZ" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL1cg1" role="3F10Kt" />
