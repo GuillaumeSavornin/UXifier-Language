@@ -79,12 +79,8 @@ function MobileFormat(){
                                 </Paper>
                             </Grid>
                             <Grid item xs={12} md={4} lg={3}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', height: 240,}}>
-                                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"></img>
-                                </Paper>
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                    <Box component="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" sx={{height:'auto'}}/>
                                 </Paper>
                             </Grid>
                         </Grid>
@@ -135,12 +131,8 @@ function WebSiteFormat(){
                                 </Paper>
                             </Grid>
                             <Grid item xs={12} md={4} lg={3}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', height: 240,}}>
-                                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"></img>
-                                </Paper>
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                    <Box component="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" sx={{height:'auto'}}/>
                                 </Paper>
                             </Grid>
                         </Grid>
@@ -159,12 +151,8 @@ function WebSiteFormat(){
                                 </Paper>
                             </Grid>
                             <Grid item xs={12} md={4} lg={3}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', height: 240,}}>
-                                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"></img>
-                                </Paper>
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                    <Box component="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" sx={{height:'auto'}}/>
                                 </Paper>
                             </Grid>
                         </Grid>

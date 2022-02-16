@@ -913,12 +913,12 @@
         </node>
         <node concept="lc7rE" id="4ccJuxn4TwQ" role="3cqZAp">
           <node concept="la8eA" id="4ccJuxn4Txs" role="lcghm">
-            <property role="lacIc" value="               &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', height: 240,}}&gt;\n" />
+            <property role="lacIc" value="               &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}&gt;\n" />
           </node>
         </node>
         <node concept="lc7rE" id="4ccJuxn6wSo" role="3cqZAp">
           <node concept="la8eA" id="4ccJuxn6wVo" role="lcghm">
-            <property role="lacIc" value="                    &lt;img src=&quot;" />
+            <property role="lacIc" value="                    &lt;Box component=&quot;img&quot; src=&quot;" />
           </node>
           <node concept="l9hG8" id="4ccJuxn6x9W" role="lcghm">
             <node concept="2OqwBi" id="4ccJuxn6xi4" role="lb14g">
@@ -929,7 +929,7 @@
             </node>
           </node>
           <node concept="la8eA" id="4ccJuxn6xtc" role="lcghm">
-            <property role="lacIc" value="&quot;&gt;&lt;/img&gt;\n" />
+            <property role="lacIc" value="&quot; sx={{height:'auto'}}/&gt;\n" />
           </node>
         </node>
         <node concept="lc7rE" id="4ccJuxn5ue5" role="3cqZAp">
@@ -939,26 +939,6 @@
         </node>
         <node concept="lc7rE" id="4ccJuxn4TzT" role="3cqZAp">
           <node concept="la8eA" id="4ccJuxn4T$x" role="lcghm">
-            <property role="lacIc" value="          &lt;/Grid&gt;\n" />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4ccJuxn4T_S" role="3cqZAp">
-          <node concept="la8eA" id="4ccJuxn4TAy" role="lcghm">
-            <property role="lacIc" value="          &lt;Grid item xs={12}&gt;\n" />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4ccJuxn4TDx" role="3cqZAp">
-          <node concept="la8eA" id="4ccJuxn4TEd" role="lcghm">
-            <property role="lacIc" value="               &lt;Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}&gt;\n" />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4ccJuxn4TGi" role="3cqZAp">
-          <node concept="la8eA" id="4ccJuxn4TH0" role="lcghm">
-            <property role="lacIc" value="               &lt;/Paper&gt;\n" />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4ccJuxn4TIq" role="3cqZAp">
-          <node concept="la8eA" id="4ccJuxn4TJa" role="lcghm">
             <property role="lacIc" value="          &lt;/Grid&gt;\n" />
           </node>
         </node>
