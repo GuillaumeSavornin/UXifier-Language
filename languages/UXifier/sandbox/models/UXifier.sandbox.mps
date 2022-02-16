@@ -41,6 +41,15 @@
         <property id="2552303901028127582" name="backgroundImage" index="KMSAY" />
         <child id="2552303901028127588" name="styling" index="KMSA4" />
       </concept>
+      <concept id="4440341332753549823" name="UXifier.structure.AdditionalInformationSection" flags="ng" index="2LRsGl">
+        <property id="4440341332753550734" name="driversLicense" index="2LRsX$" />
+        <property id="4440341332753550739" name="mobilityPlaces" index="2LRsXT" />
+        <property id="4440341332753550736" name="age" index="2LRsXU" />
+        <child id="4440341332753550743" name="styling" index="2LRsXX" />
+      </concept>
+      <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN">
+        <property id="4440341332753550748" name="showAge" index="2LRsXQ" />
+      </concept>
       <concept id="1904405720489579195" name="UXifier.structure.App" flags="ng" index="2OrhLi">
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
         <child id="2552303901028114963" name="theme" index="KX7zN" />
@@ -241,7 +250,15 @@
           <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
           <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
           <node concept="KX7z$" id="2dFAI0jGq0t" role="KMSA4">
-            <property role="KMSA8" value="rr" />
+            <property role="KMSA8" value="r" />
+          </node>
+        </node>
+        <node concept="2LRsGl" id="3QvgIEci41a" role="KMSAI">
+          <property role="2LRsX$" value="Class D license" />
+          <property role="2LRsXU" value="22" />
+          <property role="2LRsXT" value="France, Germany" />
+          <node concept="2LRsXN" id="3QvgIEci41c" role="2LRsXX">
+            <property role="2LRsXQ" value="true" />
           </node>
         </node>
       </node>

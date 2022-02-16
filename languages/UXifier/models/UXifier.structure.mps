@@ -325,13 +325,13 @@
     </node>
     <node concept="1TJgyi" id="3QvgIEcgCQe" role="1TKVEl">
       <property role="IQ2nx" value="4440341332753550734" />
-      <property role="TrG5h" value="drivingLicense" />
+      <property role="TrG5h" value="driversLicense" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="3QvgIEcgCQg" role="1TKVEl">
       <property role="IQ2nx" value="4440341332753550736" />
       <property role="TrG5h" value="age" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="3QvgIEcgCQj" role="1TKVEl">
       <property role="IQ2nx" value="4440341332753550739" />

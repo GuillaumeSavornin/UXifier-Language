@@ -230,5 +230,52 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="3QvgIEch7Ka">
+    <property role="3GE5qa" value="section" />
+    <ref role="13h7C2" to="wi2d:3QvgIEcgCBZ" resolve="AdditionalInformationSection" />
+    <node concept="13hLZK" id="3QvgIEch7Kb" role="13h7CW">
+      <node concept="3clFbS" id="3QvgIEch7Kc" role="2VODD2">
+        <node concept="3clFbF" id="3QvgIEch7Km" role="3cqZAp">
+          <node concept="37vLTI" id="3QvgIEch8zh" role="3clFbG">
+            <node concept="2OqwBi" id="3QvgIEch7Su" role="37vLTJ">
+              <node concept="13iPFW" id="3QvgIEch7Kl" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3QvgIEch8a3" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:3QvgIEcgCQe" resolve="driversLicense" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="3QvgIEch9Wn" role="37vLTx">
+              <property role="Xl_RC" value="Class D license" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3QvgIEch9YE" role="3cqZAp">
+          <node concept="37vLTI" id="3QvgIEchaGs" role="3clFbG">
+            <node concept="Xl_RD" id="3QvgIEchaGI" role="37vLTx">
+              <property role="Xl_RC" value="22" />
+            </node>
+            <node concept="2OqwBi" id="3QvgIEcha7b" role="37vLTJ">
+              <node concept="13iPFW" id="3QvgIEch9YC" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3QvgIEchagT" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:3QvgIEcgCQg" resolve="age" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3QvgIEchaIG" role="3cqZAp">
+          <node concept="37vLTI" id="3QvgIEchbBl" role="3clFbG">
+            <node concept="Xl_RD" id="3QvgIEchbBB" role="37vLTx">
+              <property role="Xl_RC" value="France, Germany" />
+            </node>
+            <node concept="2OqwBi" id="3QvgIEchaTC" role="37vLTJ">
+              <node concept="13iPFW" id="3QvgIEchaIE" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3QvgIEchbbM" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:3QvgIEcgCQj" resolve="mobilityPlaces" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
