@@ -304,7 +304,7 @@
             <property role="3F0ifm" value="---" />
           </node>
           <node concept="3F0ifn" id="7MJjWP4_CWZ" role="3EZMnx">
-            <property role="3F0ifm" value=" icon: " />
+            <property role="3F0ifm" value=" icon:" />
           </node>
           <node concept="3F0A7n" id="7MJjWP4_CXb" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:7MJjWP4_CWL" resolve="icon" />
@@ -359,7 +359,7 @@
         <node concept="3EZMnI" id="3ksNkQL29O9" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL29Ob" role="3F10Kt" />
           <node concept="3F0ifn" id="3ksNkQL29Oj" role="3EZMnx">
-            <property role="3F0ifm" value="- Show image: " />
+            <property role="3F0ifm" value="- Show image:" />
           </node>
           <node concept="3F0A7n" id="3ksNkQL29Op" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:2dFAI0jC1dA" resolve="showImage" />
@@ -369,7 +369,7 @@
         <node concept="3EZMnI" id="3ksNkQL29OD" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL29OE" role="3F10Kt" />
           <node concept="3F0ifn" id="3ksNkQL29OF" role="3EZMnx">
-            <property role="3F0ifm" value="- Image location: " />
+            <property role="3F0ifm" value="- Image location:" />
           </node>
           <node concept="3F0A7n" id="3ksNkQL29OG" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:2dFAI0jC1dC" resolve="imageLocation" />
@@ -444,7 +444,7 @@
         <node concept="3EZMnI" id="1c5gsjF0X9D" role="3EZMnx">
           <node concept="VPM3Z" id="1c5gsjF0X9F" role="3F10Kt" />
           <node concept="3F0ifn" id="1c5gsjF0X9U" role="3EZMnx">
-            <property role="3F0ifm" value="- Show flags: " />
+            <property role="3F0ifm" value="- Show flags:" />
           </node>
           <node concept="3F0A7n" id="1c5gsjF0X9Y" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:1c5gsjF0X94" resolve="showFlags" />
@@ -454,7 +454,7 @@
         <node concept="3EZMnI" id="1c5gsjF0Xa9" role="3EZMnx">
           <node concept="VPM3Z" id="1c5gsjF0Xab" role="3F10Kt" />
           <node concept="3F0ifn" id="1c5gsjF0Xao" role="3EZMnx">
-            <property role="3F0ifm" value="- Number of languages: " />
+            <property role="3F0ifm" value="- Number of languages:" />
           </node>
           <node concept="3F0A7n" id="1c5gsjF0Xau" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:1c5gsjF0X98" resolve="numberItems" />
@@ -491,11 +491,15 @@
     <property role="3GE5qa" value="styling" />
     <ref role="1XX52x" to="wi2d:3QvgIEcgCQp" resolve="AdditionalInformationStyling" />
     <node concept="3EZMnI" id="3QvgIEcgCSS" role="2wV5jI">
-      <node concept="3F0ifn" id="3QvgIEcgCT6" role="3EZMnx">
-        <property role="3F0ifm" value="-Show age :" />
-      </node>
-      <node concept="3F0A7n" id="3QvgIEcgCTc" role="3EZMnx">
-        <ref role="1NtTu8" to="wi2d:3QvgIEcgCQs" resolve="showAge" />
+      <node concept="3EZMnI" id="1c5gsjF5D32" role="3EZMnx">
+        <node concept="VPM3Z" id="1c5gsjF5D34" role="3F10Kt" />
+        <node concept="3F0ifn" id="1c5gsjF5D36" role="3EZMnx">
+          <property role="3F0ifm" value="- Show age:" />
+        </node>
+        <node concept="2iRfu4" id="1c5gsjF5D37" role="2iSdaV" />
+        <node concept="3F0A7n" id="1c5gsjF5D3F" role="3EZMnx">
+          <ref role="1NtTu8" to="wi2d:3QvgIEcgCQs" resolve="showAge" />
+        </node>
       </node>
       <node concept="l2Vlx" id="3QvgIEcgCSV" role="2iSdaV" />
     </node>

@@ -1,4 +1,4 @@
-// Application: teeeeeeeeest
+// Application: TestScript
 import data from "./data.json";
 import * as React from 'react';
 import { Fragment } from "react";
@@ -41,80 +41,126 @@ import { css } from "aphrodite/no-important";
  * FORMATS
  */
 
-function MobileFormat(){
-    const [open, setOpen] = React.useState(false);
-    const toggleDrawer = () => {setOpen(!open);};
+function WebSiteFormat(){
+  const [open, setOpen] = React.useState(false);
 
-    return (
-        <Box sx={{ display: 'flex' }}>
+return (
+    <Box sx={{ display: 'flex' }}>
+        <AppBar position="absolute" open={false}>
+            <Toolbar sx={{ pr: '24px', }} >
+                <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>CV</Typography>
+            </Toolbar>
+        </AppBar>
 
-            <AppBar position="absolute" open={open}>
-                <Toolbar sx={{ pr: '24px', }} >
-                    <IconButton edge="start" color="inherit" aria-label="open drawer" sx={{marginRight: '36px', ...(open && { display: 'none' }),}}>
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>Dashboard</Typography>
-                </Toolbar>
-            </AppBar>
+    <Drawer variant="permanent" open={true}>
+        <Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end', px: [1],}}></Toolbar>
+        <Divider />
+        <List component="nav">
+             <Link to="/Main">
+                <ListItemButton>
+                    <ListItemIcon>
+                        <DashboardIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="Main" />
+                </ListItemButton>
+            </Link>
+             <Link to="/More details">
+                <ListItemButton>
+                    <ListItemIcon>
+                        <AssignmentIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="More details" />
+                </ListItemButton>
+            </Link>
+        </List>
+    </Drawer>
 
-
-            <Box component="main"
+<Box component="main"
                  sx={{backgroundColor: (theme) => theme.palette.mode === 'light' ? theme.palette.grey[100] : theme.palette.grey[900],
                      flexGrow: 1, height: '100vh', overflow: 'auto',
                  }}>
 
-                <Toolbar />  {/* Set the space on the top of the page */}
+    <Toolbar />  {/* Set the space on the top of the page */}
+    <Switch>
+        <Route path="/Main"> 
+            <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+    <Grid container spacing={3}>
+        <Grid item xs={12} md={8} lg={9}>
+            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+            PRESENTATION<br/>
+            {(()=>{
+ if(data.presentation){
+ return data.presentation.catchPhrase
+ }
+ return "Go is life, js is love!"
+})()}<br/>
+            {(()=>{
+ if(data.presentation){
+ return data.presentation.name
+ }
+ return "Leo"
+})()} {(()=>{
+ if(data.presentation){
+ return data.presentation.lastName
+ }
+ return "BURETTE"
+})()}
+            </Paper>
+        </Grid>
+        <Grid item xs={12} md={4} lg={3}>
+            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                <Box component="img" src={(()=>{
+ if(data.presentation){
+ return data.presentation.image
+ }
+ return "https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"
+})()} sx={{height:'auto'}}/>
+            </Paper>
+        </Grid>
+    </Grid>
+</Container>
+            <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+      <Grid container spacing={3}>
+            <Grid item xs={12} md={8} lg={9}>
+                  <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                        ADDITIONAL INFORMATION
+                  </Paper>
+                  <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
+                        Driver's license : Class D license
+                  </Paper>
+                  <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
+                        Mobility places : France, Germany
+                  </Paper>
+            </Grid>
+      </Grid>
+</Container>
 
-                <Box flexDirection={"column"}>
-                    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-                        <Grid container spacing={3}>
-                            <Grid item xs={12} md={8} lg={9}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    PRESENTATION<br/>
-                                    {(()=>{
-                                        if(data.presentation){
-                                            return data.presentation.catchPhrase
-                                        }
-                                        return "Go is life, js is love!"
-                                    })()}<br/>
-                                    {(()=>{
-                                        if(data.presentation){
-                                            return data.presentation.name
-                                        }
-                                        return "Leo"
-                                    })()} {(()=>{
-                                    if(data.presentation){
-                                        return data.presentation.lastName
-                                    }
-                                    return "BURETTE"
-                                })()}
-                                </Paper>
-                            </Grid>
-                            <Grid item xs={12} md={4} lg={3}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    <Box component="img" src={(()=>{
-                                        if(data.presentation){
-                                            return data.presentation.image
-                                        }
-                                        return "https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"
-                                    })()} sx={{height:'auto'}}/>
-                                </Paper>
-                            </Grid>
-                        </Grid>
-                    </Container>
-                </Box>
-            </Box>
-        </Box>
-    )
+ </ Route>
+        <Route path="/More details"> 
+            <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+      <Grid container spacing={4}>
+            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                  {(()=>{
+                        let array = [];
+                        data.languageItems.forEach((item)=>{
+                              array.push(<p>{item.language} : {item.level}</p>)
+                        })
+                        return array;                  })()}            </Paper>
+      </Grid></Container>
+
+ </ Route>
+    </Switch>
+</ Box>
+</ Box>)
 
 }
 
-function WebSiteFormat(){
-    const [open, setOpen] = React.useState(false);
-    const toggleDrawer = () => {setOpen(!open);};
+function MobileFormat(){
+  const [open, setOpen] = React.useState(false);
+const toggleDrawer = () => {setOpen(!open);};
 
-    return (
-        <Box sx={{ display: 'flex' }}>
+return (
+    <Box sx={{ display: 'flex' }}>
 
             <AppBar position="absolute" open={open}>
                 <Toolbar sx={{ pr: '24px', }} >
@@ -133,93 +179,57 @@ function WebSiteFormat(){
 
                 <Toolbar />  {/* Set the space on the top of the page */}
 
-                <Box flexDirection={"column"}>
-                    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-                        <Grid container spacing={3}>
-                            <Grid item xs={12} md={8} lg={9}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    PRESENTATION<br/>
-                                    {(()=>{
-                                        if(data.presentation){
-                                            return data.presentation.catchPhrase
-                                        }
-                                        return "Go is life, js is love!"
-                                    })()}<br/>
-                                    {(()=>{
-                                        if(data.presentation){
-                                            return data.presentation.name
-                                        }
-                                        return "Leo"
-                                    })()} {(()=>{
-                                    if(data.presentation){
-                                        return data.presentation.lastName
-                                    }
-                                    return "BURETTE"
-                                })()}
-                                </Paper>
-                            </Grid>
-                            <Grid item xs={12} md={4} lg={3}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    <Box component="img" src={(()=>{
-                                        if(data.presentation){
-                                            return data.presentation.image
-                                        }
-                                        return "https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"
-                                    })()} sx={{height:'auto'}}/>
-                                </Paper>
-                            </Grid>
-                        </Grid>
-                    </Container>
-                    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-                        <Grid container spacing={4}>
-                            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                {(()=>{
-                                    let array = [];
-                                    data.languageItems.forEach((item)=>{
-                                        array.push(<p>{item.language} : {item.level}</p>)
-                                    })
-                                    return array;                  })()}            </Paper>
-                        </Grid></Container>
-                    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-                        <Grid container spacing={3}>
-                            <Grid item xs={12} md={8} lg={9}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    PRESENTATION<br/>
-                                    {(()=>{
-                                        if(data.presentation){
-                                            return data.presentation.catchPhrase
-                                        }
-                                        return "Go is life, js is love!"
-                                    })()}<br/>
-                                    {(()=>{
-                                        if(data.presentation){
-                                            return data.presentation.name
-                                        }
-                                        return "Leo"
-                                    })()} {(()=>{
-                                    if(data.presentation){
-                                        return data.presentation.lastName
-                                    }
-                                    return "BURETTE"
-                                })()}
-                                </Paper>
-                            </Grid>
-                            <Grid item xs={12} md={4} lg={3}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    <Box component="img" src={(()=>{
-                                        if(data.presentation){
-                                            return data.presentation.image
-                                        }
-                                        return "https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"
-                                    })()} sx={{height:'auto'}}/>
-                                </Paper>
-                            </Grid>
-                        </Grid>
-                    </Container>
-                </Box>
-            </Box>
+        <Box flexDirection={"column"}>
+            <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+    <Grid container spacing={3}>
+        <Grid item xs={12} md={8} lg={9}>
+            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+            PRESENTATION<br/>
+            {(()=>{
+ if(data.presentation){
+ return data.presentation.catchPhrase
+ }
+ return "Go is life, js is love!"
+})()}<br/>
+            {(()=>{
+ if(data.presentation){
+ return data.presentation.name
+ }
+ return "Leo"
+})()} {(()=>{
+ if(data.presentation){
+ return data.presentation.lastName
+ }
+ return "BURETTE"
+})()}
+            </Paper>
+        </Grid>
+        <Grid item xs={12} md={4} lg={3}>
+            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                <Box component="img" src={(()=>{
+ if(data.presentation){
+ return data.presentation.image
+ }
+ return "https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"
+})()} sx={{height:'auto'}}/>
+            </Paper>
+        </Grid>
+    </Grid>
+</Container>
+            <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+      <Grid container spacing={4}>
+            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                  {(()=>{
+                        let array = [];
+                        data.languageItems.forEach((item)=>{
+                              array.push(<p>{item.language} : {item.level}</p>)
+                        })
+                        return array;                  })()}            </Paper>
+      </Grid></Container>
         </Box>
-    )
+    </Box>
+</Box>
+)
 
 }
 
@@ -231,10 +241,10 @@ function WebSiteFormat(){
  */
 
 const theme = createTheme({
-    palette: {
-        primary: {main: '#0056a6',},
-        secondary: {main: '#19857b',},
-    },
+  palette: {
+    primary: {main: '#123456',},
+    secondary: {main: '#654321',},
+  },
 });
 
 
@@ -285,30 +295,52 @@ const AppBar = styled(MuiAppBar, {shouldForwardProp: (prop) => prop !== 'open',}
     })
 );
 
+const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' })(
+    ({ theme, open }) => ({
+        '& .MuiDrawer-paper': {
+            position: 'relative',
+            whiteSpace: 'nowrap',
+            width: drawerWidth,
+            boxSizing: 'border-box',
+            ...(!open && {
+                overflowX: 'hidden',
+                transition: theme.transitions.create('width', {
+                    easing: theme.transitions.easing.sharp,
+                    duration: theme.transitions.duration.leavingScreen,
+                }),
+                width: theme.spacing(7),
+                [theme.breakpoints.up('sm')]: {
+                    width: theme.spacing(9),
+                },
+            }),
+        },
+    }),
+);
+
 function App() {
-    const { width } = React.useContext(viewportContext);
-    let currentFormat = null;
+  const { width } = React.useContext(viewportContext);
+  let currentFormat = null;
 
-    if(width >= 0 && width < 600){
-        currentFormat = <MobileFormat />
-        return (currentFormat);
-    }
-    if(width >= 0 && width < 2147483647){
-        currentFormat = <WebSiteFormat />
-        return (currentFormat);
-    }
-
+  if(width >= 0 && width < 600){
+    currentFormat = <MobileFormat />
     return (currentFormat);
+  }
+  if(width >= 0 && width < 2147483647){
+    currentFormat = <WebSiteFormat />
+    return (currentFormat);
+  }
+
+  return (currentFormat);
 }
 
 ReactDOM.render(
-    <ThemeProvider theme={theme}>
-        <ViewportProvider>
-            <CssBaseline />
-            <Router>
-                <App />
-            </Router>
-        </ViewportProvider>
-    </ThemeProvider>,
-    document.querySelector('#root'),
+  <ThemeProvider theme={theme}>
+      <ViewportProvider>
+          <CssBaseline />
+          <Router>
+            <App />
+          </Router>
+      </ViewportProvider>
+  </ThemeProvider>,
+  document.querySelector('#root'),
 );

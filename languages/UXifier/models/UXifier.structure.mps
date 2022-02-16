@@ -357,7 +357,7 @@
     <property role="EcuMT" value="4440341332753549823" />
     <property role="3GE5qa" value="section" />
     <property role="TrG5h" value="AdditionalInformationSection" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3QvgIEcgCQc" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
     </node>
@@ -388,7 +388,7 @@
     <property role="EcuMT" value="4440341332753550745" />
     <property role="3GE5qa" value="styling" />
     <property role="TrG5h" value="AdditionalInformationStyling" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3QvgIEcgCQq" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
     </node>
