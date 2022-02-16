@@ -82,15 +82,11 @@
               <property role="KMSA8" value="dsdqsd" />
             </node>
           </node>
-          <node concept="KX7Gv" id="3ksNkQL381t" role="KX7z1">
-            <property role="KMSAM" value="Leo" />
-            <property role="KMSAP" value="Burette" />
-            <property role="KMSAK" value="Go is life, js is love!" />
-            <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-            <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-            <node concept="KX7z$" id="3ksNkQL381v" role="KMSA4">
-              <property role="KMSA8" value="left" />
-            </node>
+          <node concept="2LRsGl" id="7MJjWP4A_dL" role="KX7z1">
+            <property role="2LRsX$" value="Class D license" />
+            <property role="2LRsXU" value="22" />
+            <property role="2LRsXT" value="France, Germany" />
+            <node concept="2LRsXN" id="7MJjWP4A_dN" role="2LRsXX" />
           </node>
         </node>
         <node concept="KX7z0" id="3ksNkQL2qj1" role="KX7z5">
@@ -122,16 +118,6 @@
           <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
           <node concept="KX7z$" id="3ksNkQL2qkA" role="KMSA4">
             <property role="KMSA8" value="dsdq" />
-          </node>
-        </node>
-        <node concept="KX7Gv" id="3ksNkQL2qkq" role="KMSAI">
-          <property role="KMSAM" value="Leo" />
-          <property role="KMSAP" value="Burette" />
-          <property role="KMSAK" value="Go is life, js is love!" />
-          <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-          <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-          <node concept="KX7z$" id="3ksNkQL2qks" role="KMSA4">
-            <property role="KMSA8" value="dsqdq " />
           </node>
         </node>
       </node>

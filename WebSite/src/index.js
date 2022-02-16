@@ -106,18 +106,13 @@ function WebSiteFormat(){
                             <Grid container spacing={3}>
                                 <Grid item xs={12} md={8} lg={9}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                        PRESENTATION
+                                        ADDITIONAL INFORMATION
                                     </Paper>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                        Go is life, js is love!
+                                        Driver's license : Class D license
                                     </Paper>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                        Leo BURETTE
-                                    </Paper>
-                                </Grid>
-                                <Grid item xs={12} md={4} lg={3}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                        <Box component="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" sx={{height:'auto'}}/>
+                                        Mobility places : France, Germany
                                     </Paper>
                                 </Grid>
                             </Grid>
@@ -178,26 +173,6 @@ function MobileFormat(){
                 <Toolbar />  {/* Set the space on the top of the page */}
 
                 <Box flexDirection={"column"}>
-                    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-                        <Grid container spacing={3}>
-                            <Grid item xs={12} md={8} lg={9}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    PRESENTATION
-                                </Paper>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                    Go is life, js is love!
-                                </Paper>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                    Leo BURETTE
-                                </Paper>
-                            </Grid>
-                            <Grid item xs={12} md={4} lg={3}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    <Box component="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" sx={{height:'auto'}}/>
-                                </Paper>
-                            </Grid>
-                        </Grid>
-                    </Container>
                     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                         <Grid container spacing={3}>
                             <Grid item xs={12} md={8} lg={9}>
