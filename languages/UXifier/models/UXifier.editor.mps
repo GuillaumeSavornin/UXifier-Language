@@ -289,7 +289,7 @@
     <ref role="1XX52x" to="wi2d:2dFAI0jBY8w" resolve="TabLayout" />
     <node concept="3EZMnI" id="3ksNkQL1cfF" role="2wV5jI">
       <node concept="3EZMnI" id="3ksNkQL1cfM" role="3EZMnx">
-        <ref role="1k5W1q" node="1c5gsjEZVPC" resolve="TabBox" />
+        <ref role="1k5W1q" node="1c5gsjEZVPC" resolve="TabBoxStyle" />
         <node concept="VPM3Z" id="3ksNkQL1cfO" role="3F10Kt" />
         <node concept="3EZMnI" id="3ksNkQL1cfZ" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL1cg1" role="3F10Kt" />
@@ -405,6 +405,59 @@
         </node>
         <node concept="l2Vlx" id="58tSxDcszRx" role="2iSdaV" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1c5gsjF0X86">
+    <property role="3GE5qa" value="section" />
+    <ref role="1XX52x" to="wi2d:1c5gsjF0J_O" resolve="LanguageSection" />
+    <node concept="3EZMnI" id="1c5gsjF0X88" role="2wV5jI">
+      <node concept="3EZMnI" id="1c5gsjF0X8f" role="3EZMnx">
+        <node concept="VPM3Z" id="1c5gsjF0X8h" role="3F10Kt" />
+        <node concept="3F0ifn" id="1c5gsjF0X8s" role="3EZMnx">
+          <property role="3F0ifm" value="Language section:" />
+        </node>
+        <node concept="3EZMnI" id="1c5gsjF0X8y" role="3EZMnx">
+          <node concept="VPM3Z" id="1c5gsjF0X8$" role="3F10Kt" />
+          <node concept="3XFhqQ" id="1c5gsjF0X8I" role="3EZMnx" />
+          <node concept="3F1sOY" id="1c5gsjF0X8O" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:1c5gsjF0JAJ" resolve="styling" />
+          </node>
+          <node concept="l2Vlx" id="1c5gsjF0X8B" role="2iSdaV" />
+        </node>
+        <node concept="2iRkQZ" id="1c5gsjF0X8k" role="2iSdaV" />
+      </node>
+      <node concept="l2Vlx" id="1c5gsjF0X8b" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1c5gsjF0X9i">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1XX52x" to="wi2d:1c5gsjF0J_T" resolve="LanguageStyling" />
+    <node concept="3EZMnI" id="1c5gsjF0X9k" role="2wV5jI">
+      <node concept="3EZMnI" id="1c5gsjF0X9v" role="3EZMnx">
+        <node concept="VPM3Z" id="1c5gsjF0X9x" role="3F10Kt" />
+        <node concept="3EZMnI" id="1c5gsjF0X9D" role="3EZMnx">
+          <node concept="VPM3Z" id="1c5gsjF0X9F" role="3F10Kt" />
+          <node concept="3F0ifn" id="1c5gsjF0X9U" role="3EZMnx">
+            <property role="3F0ifm" value="- Show flags: " />
+          </node>
+          <node concept="3F0A7n" id="1c5gsjF0X9Y" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:1c5gsjF0X94" resolve="showFlags" />
+          </node>
+          <node concept="2iRfu4" id="1c5gsjF0X9I" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="1c5gsjF0Xa9" role="3EZMnx">
+          <node concept="VPM3Z" id="1c5gsjF0Xab" role="3F10Kt" />
+          <node concept="3F0ifn" id="1c5gsjF0Xao" role="3EZMnx">
+            <property role="3F0ifm" value="- Number of languages: " />
+          </node>
+          <node concept="3F0A7n" id="1c5gsjF0Xau" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:1c5gsjF0X98" resolve="numberItems" />
+          </node>
+          <node concept="2iRfu4" id="1c5gsjF0Xae" role="2iSdaV" />
+        </node>
+        <node concept="2iRkQZ" id="1c5gsjF0X9$" role="2iSdaV" />
+      </node>
+      <node concept="l2Vlx" id="1c5gsjF0X9n" role="2iSdaV" />
     </node>
   </node>
 </model>

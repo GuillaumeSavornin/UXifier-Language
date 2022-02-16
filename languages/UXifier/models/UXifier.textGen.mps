@@ -13,6 +13,7 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -804,7 +805,151 @@
       <node concept="3clFbS" id="58tSxDcs1nl" role="2VODD2">
         <node concept="lc7rE" id="58tSxDcs1nA" role="3cqZAp">
           <node concept="la8eA" id="58tSxDcs1nU" role="lcghm">
-            <property role="lacIc" value="                    &lt;Container maxWidth=&quot;lg&quot; sx={{ mt: 4, mb: 4 }}&gt;\n                        &lt;Grid container spacing={3}&gt;\n                            &lt;Grid item xs={12} md={8} lg={9}&gt;\n                                &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', height: 240,}}&gt;\n                                    PRESENTATION\n                                &lt;/Paper&gt;\n                            &lt;/Grid&gt;\n                            &lt;Grid item xs={12} md={4} lg={3}&gt;\n                                &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', height: 240,}}&gt;\n                                &lt;/Paper&gt;\n                            &lt;/Grid&gt;\n                            &lt;Grid item xs={12}&gt;\n                                &lt;Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}&gt;\n                                &lt;/Paper&gt;\n                            &lt;/Grid&gt;\n                        &lt;/Grid&gt;\n                    &lt;/Container&gt;" />
+            <property role="lacIc" value="&lt;Container maxWidth=&quot;lg&quot; sx={{ mt: 4, mb: 4 }}&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4Ti6" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4Tiu" role="lcghm">
+            <property role="lacIc" value="     &lt;Grid container spacing={3}&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4Tkf" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4TkD" role="lcghm">
+            <property role="lacIc" value="          &lt;Grid item xs={12} md={8} lg={9}&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4Tn9" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4Tn_" role="lcghm">
+            <property role="lacIc" value="               &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4ToW" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4Tpq" role="lcghm">
+            <property role="lacIc" value="                    PRESENTATION\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4Tqo" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4TqS" role="lcghm">
+            <property role="lacIc" value="               &lt;/Paper&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn5M$P" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn5M_H" role="lcghm">
+            <property role="lacIc" value="               &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn5Egj" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn5Ehb" role="lcghm">
+            <property role="lacIc" value="                    " />
+          </node>
+          <node concept="l9hG8" id="4ccJuxn5FQy" role="lcghm">
+            <node concept="2OqwBi" id="4ccJuxn5FXX" role="lb14g">
+              <node concept="117lpO" id="4ccJuxn5FRp" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4ccJuxn5Ggd" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:2dFAI0jC1dg" resolve="catchPhrase" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4ccJuxn5Glr" role="lcghm">
+            <property role="lacIc" value="\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn5MGB" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn5MGC" role="lcghm">
+            <property role="lacIc" value="               &lt;/Paper&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn6bjx" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn6bjy" role="lcghm">
+            <property role="lacIc" value="               &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn6bCU" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn6bEp" role="lcghm">
+            <property role="lacIc" value="                    " />
+          </node>
+          <node concept="l9hG8" id="4ccJuxn6bFG" role="lcghm">
+            <node concept="2OqwBi" id="4ccJuxn6bN7" role="lb14g">
+              <node concept="117lpO" id="4ccJuxn6bGz" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4ccJuxn6c5r" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:2dFAI0jC1di" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4ccJuxn6pDh" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="4ccJuxn6ca2" role="lcghm">
+            <node concept="2OqwBi" id="4ccJuxn6p9n" role="lb14g">
+              <node concept="2OqwBi" id="4ccJuxn6ca3" role="2Oq$k0">
+                <node concept="117lpO" id="4ccJuxn6ca4" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4ccJuxn6cmQ" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:2dFAI0jC1dl" resolve="lastName" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4ccJuxn6pqR" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4ccJuxn6wCX" role="lcghm">
+            <property role="lacIc" value="\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn6boc" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn6bpE" role="lcghm">
+            <property role="lacIc" value="               &lt;/Paper&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4Tt0" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4Tty" role="lcghm">
+            <property role="lacIc" value="          &lt;/Grid&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4Tu$" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4Tv8" role="lcghm">
+            <property role="lacIc" value="          &lt;Grid item xs={12} md={4} lg={3}&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4TwQ" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4Txs" role="lcghm">
+            <property role="lacIc" value="               &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn6wSo" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn6wVo" role="lcghm">
+            <property role="lacIc" value="                    &lt;Box component=&quot;img&quot; src=&quot;" />
+          </node>
+          <node concept="l9hG8" id="4ccJuxn6x9W" role="lcghm">
+            <node concept="2OqwBi" id="4ccJuxn6xi4" role="lb14g">
+              <node concept="117lpO" id="4ccJuxn6xbw" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4ccJuxn6xr5" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:2dFAI0jC1dp" resolve="image" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4ccJuxn6xtc" role="lcghm">
+            <property role="lacIc" value="&quot; sx={{height:'auto'}}/&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn5ue5" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn5ueV" role="lcghm">
+            <property role="lacIc" value="               &lt;/Paper&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4TzT" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4T$x" role="lcghm">
+            <property role="lacIc" value="          &lt;/Grid&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4TKD" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4TLr" role="lcghm">
+            <property role="lacIc" value="     &lt;/Grid&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="4ccJuxn4TMH" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4TNx" role="lcghm">
+            <property role="lacIc" value="&lt;/Container&gt;" />
           </node>
         </node>
       </node>
