@@ -1192,5 +1192,12 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="3QvgIEcgCTg">
+    <property role="3GE5qa" value="section" />
+    <ref role="WuzLi" to="wi2d:3QvgIEcgCBZ" resolve="AdditionalInformationSection" />
+    <node concept="11bSqf" id="3QvgIEcgCTh" role="11c4hB">
+      <node concept="3clFbS" id="3QvgIEcgCTi" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
