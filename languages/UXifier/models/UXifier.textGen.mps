@@ -87,6 +87,11 @@
       <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
+      <concept id="1237305491868" name="jetbrains.mps.lang.textGen.structure.CollectionAppendPart" flags="ng" index="l9S2W">
+        <property id="1237306003719" name="separator" index="lbP0B" />
+        <property id="1237983969951" name="withSeparator" index="XA4eZ" />
+        <child id="1237305945551" name="list" index="lbANJ" />
+      </concept>
       <concept id="1237305557638" name="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart" flags="ng" index="la8eA">
         <property id="1237305576108" name="value" index="lacIc" />
       </concept>
@@ -216,7 +221,7 @@
         <node concept="3clFbH" id="58tSxDcthB2" role="3cqZAp" />
         <node concept="lc7rE" id="2dFAI0jCyjY" role="3cqZAp">
           <node concept="la8eA" id="2dFAI0jCymI" role="lcghm">
-            <property role="lacIc" value="import * as React from 'react';\nimport { Fragment } from &quot;react&quot;;\nimport ReactDOM from 'react-dom';\nimport CssBaseline from '@mui/material/CssBaseline';\nimport Container from &quot;@mui/material/Container&quot;;\nimport Box from &quot;@mui/material/Box&quot;;\nimport Typography from &quot;@mui/material/Typography&quot;;\nimport SvgIcon from &quot;@mui/material/SvgIcon&quot;;\nimport { red } from '@mui/material/colors';\nimport { BrowserRouter as Router} from &quot;react-router-dom&quot;;\nimport { styled, createTheme, ThemeProvider } from '@mui/material/styles';\nimport MuiDrawer from '@mui/material/Drawer';\nimport MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';\nimport Toolbar from '@mui/material/Toolbar';\nimport List from '@mui/material/List';\nimport Divider from '@mui/material/Divider';\nimport IconButton from '@mui/material/IconButton';\nimport ListItemButton from '@mui/material/ListItemButton';\nimport ListItemIcon from '@mui/material/ListItemIcon';\nimport ListItemText from '@mui/material/ListItemText';\nimport ListSubheader from '@mui/material/ListSubheader';\nimport Badge from '@mui/material/Badge';\nimport Grid from '@mui/material/Grid';\nimport Paper from '@mui/material/Paper';\nimport MenuIcon from '@mui/icons-material/Menu';\nimport ChevronLeftIcon from '@mui/icons-material/ChevronLeft';\nimport DashboardIcon from '@mui/icons-material/Dashboard';\nimport ShoppingCartIcon from '@mui/icons-material/ShoppingCart';\nimport { useParams, useRouteMatch, Switch, Route, Link } from &quot;react-router-dom&quot;;\nimport PeopleIcon from '@mui/icons-material/People';\nimport BarChartIcon from '@mui/icons-material/BarChart';\nimport LayersIcon from '@mui/icons-material/Layers';\nimport AssignmentIcon from '@mui/icons-material/Assignment';\nimport NotificationsIcon from '@mui/icons-material/Notifications';\nimport { css } from &quot;aphrodite/no-important&quot;;" />
+            <property role="lacIc" value="import * as React from 'react';\nimport { Fragment } from &quot;react&quot;;\nimport ReactDOM from 'react-dom';\nimport CssBaseline from '@mui/material/CssBaseline';\nimport Container from &quot;@mui/material/Container&quot;;\nimport Box from &quot;@mui/material/Box&quot;;\nimport Typography from &quot;@mui/material/Typography&quot;;\nimport SvgIcon from &quot;@mui/material/SvgIcon&quot;;\nimport { red } from '@mui/material/colors';\nimport { BrowserRouter as Router} from &quot;react-router-dom&quot;;\nimport { styled, createTheme, ThemeProvider } from '@mui/material/styles';\nimport MuiDrawer from '@mui/material/Drawer';\nimport MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';\nimport Toolbar from '@mui/material/Toolbar';\nimport List from '@mui/material/List';\nimport Divider from '@mui/material/Divider';\nimport IconButton from '@mui/material/IconButton';\nimport ListItemButton from '@mui/material/ListItemButton';\nimport ListItemIcon from '@mui/material/ListItemIcon';\nimport ListItemText from '@mui/material/ListItemText';\nimport ListSubheader from '@mui/material/ListSubheader';\nimport Badge from '@mui/material/Badge';\nimport Grid from '@mui/material/Grid';\nimport Paper from '@mui/material/Paper';\nimport MenuIcon from '@mui/icons-material/Menu';\nimport ChevronLeftIcon from '@mui/icons-material/ChevronLeft';\nimport DashboardIcon from '@mui/icons-material/Dashboard';\nimport ShoppingCartIcon from '@mui/icons-material/ShoppingCart';\nimport { useParams, useRouteMatch, Switch, Route, Link } from &quot;react-router-dom&quot;;\nimport PeopleIcon from '@mui/icons-material/People';\nimport BarChartIcon from '@mui/icons-material/BarChart';\nimport LayersIcon from '@mui/icons-material/Layers';\nimport AssignmentIcon from '@mui/icons-material/Assignment';\nimport NotificationsIcon from '@mui/icons-material/Notifications';\nimport { css } from &quot;aphrodite/no-important&quot;;import Card from '@mui/material/Card';\nimport CardContent from '@mui/material/CardContent';\n" />
           </node>
           <node concept="l8MVK" id="2dFAI0jC$2X" role="lcghm" />
           <node concept="l8MVK" id="2dFAI0jCFEZ" role="lcghm" />
@@ -1046,6 +1051,184 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="7quf1gMz4Yr">
+    <property role="3GE5qa" value="section.item" />
+    <ref role="WuzLi" to="wi2d:7quf1gMz0as" resolve="ExperienceItem" />
+    <node concept="11bSqf" id="7quf1gMz4Ys" role="11c4hB">
+      <node concept="3clFbS" id="7quf1gMz4Yt" role="2VODD2">
+        <node concept="lc7rE" id="7quf1gMz5i0" role="3cqZAp">
+          <node concept="la8eA" id="hFPhRNL6bD" role="lcghm">
+            <property role="lacIc" value="&lt;Card sx={{ minWidth: 275, margin: &quot;0 0 10px 0&quot;}}&gt;" />
+          </node>
+          <node concept="l8MVK" id="hFPhRNL6ci" role="lcghm" />
+        </node>
+        <node concept="3izx1p" id="hFPhRNL6ei" role="3cqZAp">
+          <node concept="3clFbS" id="hFPhRNL6ek" role="3izTki">
+            <node concept="lc7rE" id="hFPhRNL6eF" role="3cqZAp">
+              <node concept="la8eA" id="hFPhRNL6eG" role="lcghm">
+                <property role="lacIc" value="&lt;Typography variant=&quot;h5&quot; component=&quot;div&quot;&gt;" />
+              </node>
+              <node concept="l8MVK" id="hFPhRNL6eH" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="hFPhRNL6fj" role="3cqZAp">
+              <node concept="2BGw6n" id="hFPhRNL6gw" role="lcghm" />
+              <node concept="l9hG8" id="hFPhRNL6h3" role="lcghm">
+                <node concept="2OqwBi" id="hFPhRNL6h4" role="lb14g">
+                  <node concept="117lpO" id="hFPhRNL6h5" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="hFPhRNL6Bs" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:7quf1gMz0ax" resolve="title" />
+                  </node>
+                </node>
+              </node>
+              <node concept="l8MVK" id="hFPhRNL6fl" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="hFPhRNL6ft" role="3cqZAp">
+              <node concept="la8eA" id="hFPhRNL6fu" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+              <node concept="l8MVK" id="hFPhRNL6fv" role="lcghm" />
+            </node>
+          </node>
+        </node>
+        <node concept="3izx1p" id="hFPhRNL6F5" role="3cqZAp">
+          <node concept="3clFbS" id="hFPhRNL6F6" role="3izTki">
+            <node concept="lc7rE" id="hFPhRNL6F7" role="3cqZAp">
+              <node concept="la8eA" id="hFPhRNL6F8" role="lcghm">
+                <property role="lacIc" value="&lt;Typography sx={{ mb: 1.5 }} color=&quot;text.primary&quot;&gt;" />
+              </node>
+              <node concept="l8MVK" id="hFPhRNL6F9" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="hFPhRNL6Fa" role="3cqZAp">
+              <node concept="2BGw6n" id="hFPhRNL6Fb" role="lcghm" />
+              <node concept="l9hG8" id="hFPhRNL6Fc" role="lcghm">
+                <node concept="2OqwBi" id="hFPhRNL6Fd" role="lb14g">
+                  <node concept="117lpO" id="hFPhRNL6Fe" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="hFPhRNL6Ff" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:7quf1gMz0ay" resolve="corporation" />
+                  </node>
+                </node>
+              </node>
+              <node concept="l8MVK" id="hFPhRNL6Fg" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="hFPhRNL6Fh" role="3cqZAp">
+              <node concept="la8eA" id="hFPhRNL6Fi" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+              <node concept="l8MVK" id="hFPhRNL6Fj" role="lcghm" />
+            </node>
+          </node>
+        </node>
+        <node concept="3izx1p" id="hFPhRNL75F" role="3cqZAp">
+          <node concept="3clFbS" id="hFPhRNL75G" role="3izTki">
+            <node concept="lc7rE" id="hFPhRNL75H" role="3cqZAp">
+              <node concept="la8eA" id="hFPhRNL75I" role="lcghm">
+                <property role="lacIc" value="&lt;Typography sx={{ mb: 1.5 }} color=&quot;text.secondary&quot;&gt;" />
+              </node>
+              <node concept="l8MVK" id="hFPhRNL75J" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="hFPhRNL7hn" role="3cqZAp">
+              <node concept="2BGw6n" id="hFPhRNL7hp" role="lcghm" />
+              <node concept="la8eA" id="hFPhRNL7hq" role="lcghm">
+                <property role="lacIc" value="From " />
+              </node>
+              <node concept="l9hG8" id="hFPhRNL7hr" role="lcghm">
+                <node concept="2OqwBi" id="hFPhRNL7hs" role="lb14g">
+                  <node concept="117lpO" id="hFPhRNL7ht" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="hFPhRNL7hu" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:7quf1gMz0av" resolve="startDate" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="hFPhRNL7hv" role="lcghm">
+                <property role="lacIc" value=" to " />
+              </node>
+              <node concept="l9hG8" id="hFPhRNL7IR" role="lcghm">
+                <node concept="2OqwBi" id="hFPhRNL7QJ" role="lb14g">
+                  <node concept="117lpO" id="hFPhRNL7Ke" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="hFPhRNL7U_" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:7quf1gMz0aw" resolve="endDate" />
+                  </node>
+                </node>
+              </node>
+              <node concept="l8MVK" id="hFPhRNL7hw" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="hFPhRNL75R" role="3cqZAp">
+              <node concept="la8eA" id="hFPhRNL75S" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+              <node concept="l8MVK" id="hFPhRNL75T" role="lcghm" />
+            </node>
+          </node>
+        </node>
+        <node concept="3izx1p" id="hFPhRNL7ZV" role="3cqZAp">
+          <node concept="3clFbS" id="hFPhRNL7ZW" role="3izTki">
+            <node concept="lc7rE" id="hFPhRNL7ZX" role="3cqZAp">
+              <node concept="la8eA" id="hFPhRNL87b" role="lcghm">
+                <property role="lacIc" value="&lt;Typography variant=&quot;body2&quot;&gt;" />
+              </node>
+              <node concept="l8MVK" id="hFPhRNL7ZZ" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="hFPhRNL800" role="3cqZAp">
+              <node concept="2BGw6n" id="hFPhRNL801" role="lcghm" />
+              <node concept="l9hG8" id="hFPhRNL804" role="lcghm">
+                <node concept="2OqwBi" id="hFPhRNL805" role="lb14g">
+                  <node concept="117lpO" id="hFPhRNL806" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="hFPhRNL8$H" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:7quf1gMz0az" resolve="description" />
+                  </node>
+                </node>
+              </node>
+              <node concept="l8MVK" id="hFPhRNL80d" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="hFPhRNL80e" role="3cqZAp">
+              <node concept="la8eA" id="hFPhRNL80f" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+              <node concept="l8MVK" id="hFPhRNL80g" role="lcghm" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="hFPhRNL6c_" role="3cqZAp">
+          <node concept="la8eA" id="hFPhRNL6cA" role="lcghm">
+            <property role="lacIc" value="&lt;/Card&gt;" />
+          </node>
+          <node concept="l8MVK" id="hFPhRNL6cB" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="58tSxDcuakZ">
+    <property role="3GE5qa" value="layout" />
+    <ref role="WuzLi" to="wi2d:2dFAI0jBY8w" resolve="TabLayout" />
+    <node concept="11bSqf" id="58tSxDcual0" role="11c4hB">
+      <node concept="3clFbS" id="58tSxDcual1" role="2VODD2">
+        <node concept="2Gpval" id="58tSxDcum6f" role="3cqZAp">
+          <node concept="2GrKxI" id="58tSxDcum6g" role="2Gsz3X">
+            <property role="TrG5h" value="section" />
+          </node>
+          <node concept="2OqwBi" id="58tSxDcum6h" role="2GsD0m">
+            <node concept="117lpO" id="58tSxDcum6i" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="58tSxDcum6j" role="2OqNvi">
+              <ref role="3TtcxE" to="wi2d:2dFAI0jBY8x" resolve="sections" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="58tSxDcum6k" role="2LFqv$">
+            <node concept="lc7rE" id="58tSxDcum6l" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDcum6m" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDcum6n" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDcum6o" role="lcghm" />
+              <node concept="l9hG8" id="58tSxDcum6p" role="lcghm">
+                <node concept="2GrUjf" id="58tSxDcum6q" role="lb14g">
+                  <ref role="2Gs0qQ" node="58tSxDcum6g" resolve="section" />
+                </node>
+              </node>
+              <node concept="l8MVK" id="58tSxDcum6r" role="lcghm" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="WtQ9Q" id="58tSxDctH_M">
     <property role="3GE5qa" value="layout" />
     <ref role="WuzLi" to="wi2d:2dFAI0jBY8t" resolve="MultiPageLayout" />
@@ -1417,38 +1600,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="58tSxDcuakZ">
-    <property role="3GE5qa" value="layout" />
-    <ref role="WuzLi" to="wi2d:2dFAI0jBY8w" resolve="TabLayout" />
-    <node concept="11bSqf" id="58tSxDcual0" role="11c4hB">
-      <node concept="3clFbS" id="58tSxDcual1" role="2VODD2">
-        <node concept="2Gpval" id="58tSxDcum6f" role="3cqZAp">
-          <node concept="2GrKxI" id="58tSxDcum6g" role="2Gsz3X">
-            <property role="TrG5h" value="section" />
-          </node>
-          <node concept="2OqwBi" id="58tSxDcum6h" role="2GsD0m">
-            <node concept="117lpO" id="58tSxDcum6i" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="58tSxDcum6j" role="2OqNvi">
-              <ref role="3TtcxE" to="wi2d:2dFAI0jBY8x" resolve="sections" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="58tSxDcum6k" role="2LFqv$">
-            <node concept="lc7rE" id="58tSxDcum6l" role="3cqZAp">
-              <node concept="2BGw6n" id="58tSxDcum6m" role="lcghm" />
-              <node concept="2BGw6n" id="58tSxDcum6n" role="lcghm" />
-              <node concept="2BGw6n" id="58tSxDcum6o" role="lcghm" />
-              <node concept="l9hG8" id="58tSxDcum6p" role="lcghm">
-                <node concept="2GrUjf" id="58tSxDcum6q" role="lb14g">
-                  <ref role="2Gs0qQ" node="58tSxDcum6g" resolve="section" />
-                </node>
-              </node>
-              <node concept="l8MVK" id="58tSxDcum6r" role="lcghm" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="3QvgIEcgCTg">
     <property role="3GE5qa" value="section" />
     <ref role="WuzLi" to="wi2d:3QvgIEcgCBZ" resolve="AdditionalInformationSection" />
@@ -1646,6 +1797,38 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="hFPhRNLk4n">
+    <property role="3GE5qa" value="section" />
+    <ref role="WuzLi" to="wi2d:7quf1gMz0a$" resolve="ExperiencesSection" />
+    <node concept="11bSqf" id="hFPhRNLkhk" role="11c4hB">
+      <node concept="3clFbS" id="hFPhRNLkhl" role="2VODD2">
+        <node concept="lc7rE" id="hFPhRNLkhC" role="3cqZAp">
+          <node concept="la8eA" id="hFPhRNLkkf" role="lcghm">
+            <property role="lacIc" value="&lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column'}}&gt;" />
+          </node>
+          <node concept="l8MVK" id="1A3hF0yNm55" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="hFPhRNMcvD" role="3cqZAp">
+          <node concept="l9S2W" id="hFPhRNMcw3" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value="\n" />
+            <node concept="2OqwBi" id="hFPhRNMcAB" role="lbANJ">
+              <node concept="117lpO" id="hFPhRNMcwp" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="hFPhRNMcSj" role="2OqNvi">
+                <ref role="3TtcxE" to="wi2d:7quf1gMz0a_" resolve="experiences" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="hFPhRNMcto" role="3cqZAp">
+          <node concept="la8eA" id="hFPhRNMcug" role="lcghm">
+            <property role="lacIc" value="&lt;/Paper&gt;" />
+          </node>
+          <node concept="l8MVK" id="1A3hF0yNm6H" role="lcghm" />
         </node>
       </node>
     </node>

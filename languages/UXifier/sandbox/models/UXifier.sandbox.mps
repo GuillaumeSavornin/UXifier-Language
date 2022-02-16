@@ -55,6 +55,21 @@
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
         <child id="2552303901028114963" name="theme" index="KX7zN" />
       </concept>
+      <concept id="8547335200240841715" name="UXifier.structure.ExperienceItemStyling" flags="ng" index="144wZB">
+        <property id="8547335200240841716" name="itemsNumber" index="144wZw" />
+      </concept>
+      <concept id="8547335200240829084" name="UXifier.structure.ExperienceItem" flags="ng" index="144zU8">
+        <property id="8547335200240829087" name="startDate" index="144zUb" />
+        <property id="8547335200240829088" name="endDate" index="144zUO" />
+        <property id="8547335200240829089" name="title" index="144zUP" />
+        <property id="8547335200240829090" name="corporation" index="144zUQ" />
+        <property id="8547335200240829091" name="description" index="144zUR" />
+        <property id="8547335200240848324" name="summary" index="144B7g" />
+      </concept>
+      <concept id="8547335200240829092" name="UXifier.structure.ExperiencesSection" flags="ng" index="144zUK">
+        <child id="8547335200240829110" name="styling" index="144zUy" />
+        <child id="8547335200240829093" name="experiences" index="144zUL" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -233,6 +248,46 @@
       </node>
     </node>
     <node concept="KX7Gu" id="58tSxDcsZNk" role="KX7zN">
+      <property role="urXY_" value="#19857b" />
+      <property role="urXYB" value="#0056a6" />
+    </node>
+  </node>
+  <node concept="2OrhLi" id="7quf1gMz7dM">
+    <property role="TrG5h" value="ExperiencesTestScript" />
+    <node concept="KX7zD" id="7quf1gMz7dR" role="KX7zJ">
+      <property role="KX7za" value="0" />
+      <property role="KX7zc" value="2147483647" />
+      <property role="KN0Jt" value="WebSite" />
+      <node concept="KX7zX" id="7quf1gMz7dS" role="KX7zS">
+        <node concept="KX7z0" id="7quf1gMz7dT" role="KX7z5">
+          <property role="KX7z3" value="main" />
+          <node concept="144zUK" id="1A3hF0yNm1X" role="KX7z1">
+            <node concept="144zU8" id="1A3hF0yNm1Z" role="144zUL">
+              <property role="144zUb" value="01/01/2020" />
+              <property role="144zUO" value="01/01/2022" />
+              <property role="144zUP" value="My work experience" />
+              <property role="144zUQ" value="My company" />
+              <property role="144zUR" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
+              <property role="144B7g" value="Short description" />
+            </node>
+            <node concept="144wZB" id="1A3hF0yNm21" role="144zUy">
+              <property role="144wZw" value="3" />
+            </node>
+          </node>
+          <node concept="KX7Gv" id="hFPhRNLPeg" role="KX7z1">
+            <property role="KMSAM" value="Leo" />
+            <property role="KMSAP" value="Burette" />
+            <property role="KMSAK" value="Go is life, js is love!" />
+            <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
+            <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
+            <node concept="KX7z$" id="hFPhRNLPei" role="KMSA4">
+              <property role="KMSA8" value="abc" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KX7Gu" id="hFPhRNMcsk" role="KX7zN">
       <property role="urXY_" value="#19857b" />
       <property role="urXYB" value="#0056a6" />
     </node>
