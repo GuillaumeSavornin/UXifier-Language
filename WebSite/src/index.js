@@ -76,20 +76,35 @@ function WebSiteFormat(){
                 <Toolbar />  {/* Set the space on the top of the page */}
                 <Switch>
                     <Route path="/main">
-                        <Paper sx={{p: 2, display: 'flex', flexDirection: 'column'}}><Card sx={{ minWidth: 275, margin: "0 0 10px 0"}}>
-                            <Typography variant="h5" component="div">
-                                My work experience
-                            </Typography>
-                            <Typography sx={{ mb: 1.5 }} color="text.primary">
-                                My company
-                            </Typography>
-                            <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                From 01/01/2020 to 01/01/2022
-                            </Typography>
-                            <Typography variant="body2">
-                                Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description
-                            </Typography>
-                        </Card>
+                        <Paper sx={{p: 2, display: 'flex', flexDirection: 'column'}}>
+                            <Card sx={{ minWidth: 275, margin: "0 0 10px 0"}}>
+                                <Typography variant="h5" component="div">
+                                    My work experience
+                                </Typography>
+                                <Typography sx={{ mb: 1.5 }} color="text.primary">
+                                    My company
+                                </Typography>
+                                <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                                    From 01/01/2020 to 01/01/2022
+                                </Typography>
+                                <Typography variant="body2">
+                                    Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description
+                                </Typography>
+                            </Card>
+                            <Card sx={{ minWidth: 275, margin: "0 0 10px 0"}}>
+                                <Typography variant="h5" component="div">
+                                    My work experience
+                                </Typography>
+                                <Typography sx={{ mb: 1.5 }} color="text.primary">
+                                    My company
+                                </Typography>
+                                <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                                    From 01/01/2020 to 01/01/2022
+                                </Typography>
+                                <Typography variant="body2">
+                                    Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description
+                                </Typography>
+                            </Card>
                             <Card sx={{ minWidth: 275, margin: "0 0 10px 0"}}>
                                 <Typography variant="h5" component="div">
                                     My work experience
@@ -105,6 +120,7 @@ function WebSiteFormat(){
                                 </Typography>
                             </Card>
                         </Paper>
+
                         <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                             <Grid container spacing={3}>
                                 <Grid item xs={12} md={8} lg={9}>
