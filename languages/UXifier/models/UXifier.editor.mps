@@ -35,7 +35,11 @@
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
+      <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
+        <property id="1186414551515" name="flag" index="VOm3f" />
+      </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
       <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
@@ -140,6 +144,12 @@
         <property role="Vbekb" value="g1_k_vY/BOLD" />
       </node>
     </node>
+    <node concept="14StLt" id="1c5gsjEZVPC" role="V601i">
+      <property role="TrG5h" value="TabBoxStyle" />
+      <node concept="VPXOz" id="1c5gsjEZVQ0" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="2dFAI0jC1cY">
     <property role="3GE5qa" value="format" />
@@ -219,6 +229,7 @@
           <node concept="3XFhqQ" id="3ksNkQL1RUi" role="3EZMnx" />
           <node concept="3F2HdR" id="3ksNkQL1RUW" role="3EZMnx">
             <ref role="1NtTu8" to="wi2d:2dFAI0jC1de" resolve="sections" />
+            <ref role="1k5W1q" node="1c5gsjEZVPC" resolve="TabBoxStyle" />
             <node concept="2iRkQZ" id="3ksNkQL1RUZ" role="2czzBx" />
             <node concept="VPM3Z" id="3ksNkQL1RV0" role="3F10Kt" />
             <node concept="3F0ifn" id="3ksNkQL1RV5" role="2czzBI">
@@ -266,6 +277,7 @@
     <ref role="1XX52x" to="wi2d:2dFAI0jBY8w" resolve="TabLayout" />
     <node concept="3EZMnI" id="3ksNkQL1cfF" role="2wV5jI">
       <node concept="3EZMnI" id="3ksNkQL1cfM" role="3EZMnx">
+        <ref role="1k5W1q" node="1c5gsjEZVPC" resolve="TabBox" />
         <node concept="VPM3Z" id="3ksNkQL1cfO" role="3F10Kt" />
         <node concept="3EZMnI" id="3ksNkQL1cfZ" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL1cg1" role="3F10Kt" />
