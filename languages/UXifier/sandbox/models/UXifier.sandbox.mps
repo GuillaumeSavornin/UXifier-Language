@@ -124,6 +124,10 @@
         </node>
       </node>
     </node>
+    <node concept="KX7Gu" id="58tSxDctUYN" role="KX7zN">
+      <property role="urXY_" value="#19857b" />
+      <property role="urXYB" value="#0056a6" />
+    </node>
   </node>
   <node concept="2OrhLi" id="2dFAI0jCIhP">
     <property role="TrG5h" value="GuillaumeTestScript" />
@@ -226,6 +230,9 @@
       <property role="urXY_" value="#19857b" />
       <property role="urXYB" value="#0056a6" />
     </node>
+  </node>
+  <node concept="2OrhLi" id="58tSxDctHHs">
+    <property role="TrG5h" value="MyApp" />
   </node>
 </model>
 

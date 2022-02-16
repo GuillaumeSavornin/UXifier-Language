@@ -254,10 +254,7 @@ function MobileFormat(){
 
             <AppBar position="absolute" open={open}>
                 <Toolbar sx={{ pr: '24px', }} >
-                    <IconButton edge="start" color="inherit" aria-label="open drawer" sx={{marginRight: '36px', ...(open && { display: 'none' }),}}>
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>Dashboard</Typography>
+                    <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>CV</Typography>
                 </Toolbar>
             </AppBar>
 

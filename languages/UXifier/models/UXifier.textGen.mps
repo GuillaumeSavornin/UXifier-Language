@@ -885,5 +885,167 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="58tSxDctH_M">
+    <property role="3GE5qa" value="layout" />
+    <ref role="WuzLi" to="wi2d:2dFAI0jBY8t" resolve="MultiPageLayout" />
+    <node concept="11bSqf" id="58tSxDctH_N" role="11c4hB">
+      <node concept="3clFbS" id="58tSxDctH_O" role="2VODD2">
+        <node concept="lc7rE" id="58tSxDctHOD" role="3cqZAp">
+          <node concept="la8eA" id="58tSxDctHOE" role="lcghm">
+            <property role="lacIc" value="const [open, setOpen] = React.useState(false);" />
+          </node>
+          <node concept="l8MVK" id="58tSxDctHOF" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="58tSxDctHRh" role="3cqZAp">
+          <node concept="l8MVK" id="58tSxDctHRG" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="58tSxDctHSB" role="3cqZAp">
+          <node concept="la8eA" id="58tSxDctHT3" role="lcghm">
+            <property role="lacIc" value="return (" />
+          </node>
+          <node concept="l8MVK" id="58tSxDctHU7" role="lcghm" />
+        </node>
+        <node concept="3izx1p" id="58tSxDctHUN" role="3cqZAp">
+          <node concept="3clFbS" id="58tSxDctHUP" role="3izTki">
+            <node concept="lc7rE" id="58tSxDctHVf" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDctHVz" role="lcghm" />
+              <node concept="la8eA" id="58tSxDctHW9" role="lcghm">
+                <property role="lacIc" value="&lt;Box sx={{ display: 'flex' }}&gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctHX0" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctHXC" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDctHY2" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDctHYC" role="lcghm" />
+              <node concept="la8eA" id="58tSxDctHZg" role="lcghm">
+                <property role="lacIc" value="&lt;AppBar position=&quot;absolute&quot; open={open}&gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctIco" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctI0b" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDctI0c" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDctI0d" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDctI17" role="lcghm" />
+              <node concept="la8eA" id="58tSxDctI0e" role="lcghm">
+                <property role="lacIc" value="&lt;Toolbar sx={{ pr: '24px', }} &gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctId4" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctI29" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDctI2a" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDctI2b" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDctI2c" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDctI3I" role="lcghm" />
+              <node concept="la8eA" id="58tSxDctI2d" role="lcghm">
+                <property role="lacIc" value="&lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1 }}&gt;CV&lt;/Typography&gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctIdM" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctI6V" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDctI6W" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDctI6X" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDctI6Y" role="lcghm" />
+              <node concept="la8eA" id="58tSxDctI6Z" role="lcghm">
+                <property role="lacIc" value="&lt;/Toolbar&gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctIew" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctI8P" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDctI8Q" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDctI8R" role="lcghm" />
+              <node concept="la8eA" id="58tSxDctI8S" role="lcghm">
+                <property role="lacIc" value="&lt;/AppBar&gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctIf0" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctIgV" role="3cqZAp">
+              <node concept="l8MVK" id="58tSxDctIhP" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctIjI" role="3cqZAp">
+              <node concept="la8eA" id="58tSxDctIkD" role="lcghm">
+                <property role="lacIc" value="&lt;Box component=&quot;main&quot;\n                 sx={{backgroundColor: (theme) =&gt; theme.palette.mode === 'light' ? theme.palette.grey[100] : theme.palette.grey[900],\n                     flexGrow: 1, height: '100vh', overflow: 'auto',\n                 }}&gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctIlu" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctImD" role="3cqZAp">
+              <node concept="l8MVK" id="58tSxDctInB" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctIoK" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDctV10" role="lcghm" />
+              <node concept="la8eA" id="58tSxDctIpI" role="lcghm">
+                <property role="lacIc" value="&lt;Toolbar /&gt;  {/* Set the space on the top of the page */}" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctIsY" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDctJ2q" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDctV2b" role="lcghm" />
+              <node concept="la8eA" id="58tSxDctJ42" role="lcghm">
+                <property role="lacIc" value="&lt;Switch&gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctUZL" role="lcghm" />
+            </node>
+            <node concept="2Gpval" id="58tSxDctI_1" role="3cqZAp">
+              <node concept="2GrKxI" id="58tSxDctI_3" role="2Gsz3X">
+                <property role="TrG5h" value="tab" />
+              </node>
+              <node concept="2OqwBi" id="58tSxDctIJm" role="2GsD0m">
+                <node concept="117lpO" id="58tSxDctIB7" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="58tSxDctIRO" role="2OqNvi">
+                  <ref role="3TtcxE" to="wi2d:2dFAI0jBY8_" resolve="tabs" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="58tSxDctI_7" role="2LFqv$">
+                <node concept="lc7rE" id="58tSxDctJmR" role="3cqZAp">
+                  <node concept="2BGw6n" id="58tSxDctJn$" role="lcghm" />
+                  <node concept="2BGw6n" id="58tSxDctV47" role="lcghm" />
+                  <node concept="la8eA" id="58tSxDctJoa" role="lcghm">
+                    <property role="lacIc" value="&lt;Route path=&quot;" />
+                  </node>
+                  <node concept="l9hG8" id="58tSxDctJpI" role="lcghm">
+                    <node concept="2OqwBi" id="58tSxDctJwJ" role="lb14g">
+                      <node concept="2GrUjf" id="58tSxDctJqA" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="58tSxDctI_3" resolve="tab" />
+                      </node>
+                      <node concept="3TrcHB" id="58tSxDctJIL" role="2OqNvi">
+                        <ref role="3TsBF5" to="wi2d:2dFAI0jBY8z" resolve="name" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="58tSxDctJMo" role="lcghm">
+                    <property role="lacIc" value="&quot;&gt;" />
+                  </node>
+                </node>
+                <node concept="lc7rE" id="58tSxDctJi7" role="3cqZAp">
+                  <node concept="2BGw6n" id="58tSxDctJir" role="lcghm" />
+                  <node concept="2BGw6n" id="58tSxDctV4x" role="lcghm" />
+                  <node concept="l9hG8" id="58tSxDctJj1" role="lcghm">
+                    <node concept="2GrUjf" id="58tSxDctJjS" role="lb14g">
+                      <ref role="2Gs0qQ" node="58tSxDctI_3" resolve="tab" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="lc7rE" id="58tSxDctJOL" role="3cqZAp">
+                  <node concept="2BGw6n" id="58tSxDctJPj" role="lcghm" />
+                  <node concept="2BGw6n" id="58tSxDctV4Q" role="lcghm" />
+                  <node concept="la8eA" id="58tSxDctJPT" role="lcghm">
+                    <property role="lacIc" value="&lt;/ Route&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="58tSxDctUZ9" role="lcghm" />
+                </node>
+              </node>
+            </node>
+            <node concept="lc7rE" id="58tSxDctJ7J" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDctV3p" role="lcghm" />
+              <node concept="la8eA" id="58tSxDctJ7K" role="lcghm">
+                <property role="lacIc" value="&lt;/Switch&gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDctV0o" role="lcghm" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="58tSxDctHSi" role="3cqZAp" />
+      </node>
+    </node>
+  </node>
 </model>
 
