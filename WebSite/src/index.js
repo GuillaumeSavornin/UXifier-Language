@@ -1,4 +1,5 @@
 // Application: teeeeeeeeest
+import data from "./data.json";
 import * as React from 'react';
 import { Fragment } from "react";
 import ReactDOM from 'react-dom';
@@ -69,18 +70,34 @@ function MobileFormat(){
                         <Grid container spacing={3}>
                             <Grid item xs={12} md={8} lg={9}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    PRESENTATION
-                                </Paper>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                    Go is life, js is love!
-                                </Paper>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                    Leo BURETTE
+                                    PRESENTATION<br/>
+                                    {(()=>{
+                                        if(data.presentation){
+                                            return data.presentation.catchPhrase
+                                        }
+                                        return "Go is life, js is love!"
+                                    })()}<br/>
+                                    {(()=>{
+                                        if(data.presentation){
+                                            return data.presentation.name
+                                        }
+                                        return "Leo"
+                                    })()} {(()=>{
+                                    if(data.presentation){
+                                        return data.presentation.lastName
+                                    }
+                                    return "BURETTE"
+                                })()}
                                 </Paper>
                             </Grid>
                             <Grid item xs={12} md={4} lg={3}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    <Box component="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" sx={{height:'auto'}}/>
+                                    <Box component="img" src={(()=>{
+                                        if(data.presentation){
+                                            return data.presentation.image
+                                        }
+                                        return "https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"
+                                    })()} sx={{height:'auto'}}/>
                                 </Paper>
                             </Grid>
                         </Grid>
@@ -121,38 +138,80 @@ function WebSiteFormat(){
                         <Grid container spacing={3}>
                             <Grid item xs={12} md={8} lg={9}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    PRESENTATION
-                                </Paper>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                    Go is life, js is love!
-                                </Paper>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                    Leo BURETTE
+                                    PRESENTATION<br/>
+                                    {(()=>{
+                                        if(data.presentation){
+                                            return data.presentation.catchPhrase
+                                        }
+                                        return "Go is life, js is love!"
+                                    })()}<br/>
+                                    {(()=>{
+                                        if(data.presentation){
+                                            return data.presentation.name
+                                        }
+                                        return "Leo"
+                                    })()} {(()=>{
+                                    if(data.presentation){
+                                        return data.presentation.lastName
+                                    }
+                                    return "BURETTE"
+                                })()}
                                 </Paper>
                             </Grid>
                             <Grid item xs={12} md={4} lg={3}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    <Box component="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" sx={{height:'auto'}}/>
+                                    <Box component="img" src={(()=>{
+                                        if(data.presentation){
+                                            return data.presentation.image
+                                        }
+                                        return "https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"
+                                    })()} sx={{height:'auto'}}/>
                                 </Paper>
                             </Grid>
                         </Grid>
                     </Container>
                     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+                        <Grid container spacing={4}>
+                            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                {(()=>{
+                                    let array = [];
+                                    data.languageItems.forEach((item)=>{
+                                        array.push(<p>{item.language} : {item.level}</p>)
+                                    })
+                                    return array;                  })()}            </Paper>
+                        </Grid></Container>
+                    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                         <Grid container spacing={3}>
                             <Grid item xs={12} md={8} lg={9}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    PRESENTATION
-                                </Paper>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                    Go is life, js is love!
-                                </Paper>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', }}>
-                                    Leo BURETTE
+                                    PRESENTATION<br/>
+                                    {(()=>{
+                                        if(data.presentation){
+                                            return data.presentation.catchPhrase
+                                        }
+                                        return "Go is life, js is love!"
+                                    })()}<br/>
+                                    {(()=>{
+                                        if(data.presentation){
+                                            return data.presentation.name
+                                        }
+                                        return "Leo"
+                                    })()} {(()=>{
+                                    if(data.presentation){
+                                        return data.presentation.lastName
+                                    }
+                                    return "BURETTE"
+                                })()}
                                 </Paper>
                             </Grid>
                             <Grid item xs={12} md={4} lg={3}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    <Box component="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" sx={{height:'auto'}}/>
+                                    <Box component="img" src={(()=>{
+                                        if(data.presentation){
+                                            return data.presentation.image
+                                        }
+                                        return "https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU"
+                                    })()} sx={{height:'auto'}}/>
                                 </Paper>
                             </Grid>
                         </Grid>
