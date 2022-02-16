@@ -10,6 +10,17 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration_Old" flags="ng" index="AxPO7">
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration_Old" flags="ig" index="M4N5e">
+        <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -235,6 +246,11 @@
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="7MJjWP4_CWL" role="1TKVEl">
+      <property role="IQ2nx" value="8984487524665036593" />
+      <property role="TrG5h" value="icon" />
+      <ref role="AX2Wp" node="7MJjWP4_CRF" resolve="Icon" />
+    </node>
     <node concept="1TJgyj" id="2dFAI0jBY8x" role="1TKVEi">
       <property role="IQ2ns" value="2552303901028114977" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -313,6 +329,28 @@
       <property role="IQ2nx" value="1370573975616475709" />
       <property role="TrG5h" value="level" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="7MJjWP4_CRF">
+    <property role="3F6X1D" value="8984487524665036267" />
+    <property role="3GE5qa" value="layout" />
+    <property role="TrG5h" value="Icon" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="7MJjWP4_CRG" role="M5hS2">
+      <property role="1uS6qv" value="&lt;DashboardIcon /&gt;" />
+      <property role="1uS6qo" value="DASHBOARD" />
+    </node>
+    <node concept="M4N5e" id="7MJjWP4_CRH" role="M5hS2">
+      <property role="1uS6qv" value="&lt;MenuIcon /&gt;" />
+      <property role="1uS6qo" value="MENU" />
+    </node>
+    <node concept="M4N5e" id="7MJjWP4_CRK" role="M5hS2">
+      <property role="1uS6qv" value="&lt;PeopleIcon /&gt;" />
+      <property role="1uS6qo" value="PEOPLE" />
+    </node>
+    <node concept="M4N5e" id="7MJjWP4_CRO" role="M5hS2">
+      <property role="1uS6qv" value="&lt;AssignmentIcon /&gt;" />
+      <property role="1uS6qo" value="ASSIGNEMENT" />
     </node>
   </node>
 </model>

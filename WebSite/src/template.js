@@ -161,7 +161,7 @@ function SectionDashboard3() {
  * LAYOUTS
  */
 
-function ToolbarMenu(toggleDrawer) {
+function ToolbarMenu() {
     return (
         <Drawer variant="permanent" open={open}>
             <Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end', px: [1],}}>
@@ -172,6 +172,7 @@ function ToolbarMenu(toggleDrawer) {
                     <ListItemButton >
                         <ListItemIcon>
                             <DashboardIcon />
+
                         </ListItemIcon>
                         <ListItemText primary="Dashboard" />
                     </ListItemButton>
@@ -208,7 +209,6 @@ function ToolbarMenu(toggleDrawer) {
 
 function WebSiteFormat(){
     const [open, setOpen] = React.useState(false);
-    const toggleDrawer = () => {setOpen(!open);};
 
     return (
         <Box sx={{ display: 'flex' }}>
@@ -222,7 +222,7 @@ function WebSiteFormat(){
                 </Toolbar>
             </AppBar>
 
-            <ToolbarMenu toggleDrawer={toggleDrawer} />
+            <ToolbarMenu/>
 
             <Box component="main"
                  sx={{backgroundColor: (theme) => theme.palette.mode === 'light' ? theme.palette.grey[100] : theme.palette.grey[900],

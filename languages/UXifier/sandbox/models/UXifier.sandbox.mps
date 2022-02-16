@@ -9,6 +9,7 @@
     <language id="4e1dc705-a412-4767-a656-b52b4061b4b5" name="UXifier">
       <concept id="2552303901028114976" name="UXifier.structure.TabLayout" flags="ng" index="KX7z0">
         <property id="2552303901028114979" name="name" index="KX7z3" />
+        <property id="8984487524665036593" name="icon" index="Ses3W" />
         <child id="2552303901028114977" name="sections" index="KX7z1" />
       </concept>
       <concept id="2552303901028114983" name="UXifier.structure.MobileFormat" flags="ng" index="KX7z7" />
@@ -45,14 +46,6 @@
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
         <child id="2552303901028114963" name="theme" index="KX7zN" />
       </concept>
-      <concept id="1370573975616420270" name="UXifier.structure.LanguageItem" flags="ng" index="3S1VxE" />
-      <concept id="1370573975616420212" name="UXifier.structure.LanguageSection" flags="ng" index="3S1VyK">
-        <child id="1370573975616420271" name="styling" index="3S1VxF" />
-        <child id="1370573975616420220" name="items" index="3S1VyS" />
-      </concept>
-      <concept id="1370573975616420217" name="UXifier.structure.LanguageStyling" flags="ng" index="3S1VyX">
-        <property id="1370573975616475720" name="numberItems" index="3S1Dec" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -68,7 +61,8 @@
       <property role="KN0Jt" value="WebSite" />
       <node concept="KX7zX" id="3ksNkQL2qiZ" role="KX7zS">
         <node concept="KX7z0" id="3ksNkQL2qkG" role="KX7z5">
-          <property role="KX7z3" value="dsdqq" />
+          <property role="KX7z3" value="Leo" />
+          <property role="Ses3W" value="7MJjWP4_CRK/&lt;PeopleIcon /&gt;" />
           <node concept="KX7Gv" id="3ksNkQL2qkN" role="KX7z1">
             <property role="KMSAM" value="Leo" />
             <property role="KMSAP" value="Burette" />
@@ -79,12 +73,6 @@
               <property role="KMSA8" value="dsdqsd" />
             </node>
           </node>
-          <node concept="3S1VyK" id="1c5gsjF15za" role="KX7z1">
-            <node concept="3S1VxE" id="1c5gsjF15zc" role="3S1VyS" />
-            <node concept="3S1VyX" id="1c5gsjF15ze" role="3S1VxF">
-              <property role="3S1Dec" value="3" />
-            </node>
-          </node>
           <node concept="KX7Gv" id="3ksNkQL381t" role="KX7z1">
             <property role="KMSAM" value="Leo" />
             <property role="KMSAP" value="Burette" />
@@ -92,12 +80,13 @@
             <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
             <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
             <node concept="KX7z$" id="3ksNkQL381v" role="KMSA4">
-              <property role="KMSA8" value="dsdqsdsqd" />
+              <property role="KMSA8" value="left" />
             </node>
           </node>
         </node>
         <node concept="KX7z0" id="3ksNkQL2qj1" role="KX7z5">
-          <property role="KX7z3" value="dsd" />
+          <property role="KX7z3" value="Encore Leo" />
+          <property role="Ses3W" value="7MJjWP4_CRO/&lt;AssignmentIcon /&gt;" />
           <node concept="KX7Gv" id="3ksNkQL2qj7" role="KX7z1">
             <property role="KMSAM" value="Leo" />
             <property role="KMSAP" value="Burette" />
@@ -124,12 +113,6 @@
           <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
           <node concept="KX7z$" id="3ksNkQL2qkA" role="KMSA4">
             <property role="KMSA8" value="dsdq" />
-          </node>
-        </node>
-        <node concept="3S1VyK" id="1c5gsjF0WwT" role="KMSAI">
-          <node concept="3S1VxE" id="1c5gsjF0WwV" role="3S1VyS" />
-          <node concept="3S1VyX" id="1c5gsjF0WwX" role="3S1VxF">
-            <property role="3S1Dec" value="5" />
           </node>
         </node>
         <node concept="KX7Gv" id="3ksNkQL2qkq" role="KMSAI">

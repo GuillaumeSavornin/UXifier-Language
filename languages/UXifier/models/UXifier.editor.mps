@@ -303,6 +303,12 @@
           <node concept="3F0ifn" id="3ksNkQL2SLD" role="3EZMnx">
             <property role="3F0ifm" value="---" />
           </node>
+          <node concept="3F0ifn" id="7MJjWP4_CWZ" role="3EZMnx">
+            <property role="3F0ifm" value=" icon: " />
+          </node>
+          <node concept="3F0A7n" id="7MJjWP4_CXb" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:7MJjWP4_CWL" resolve="icon" />
+          </node>
         </node>
         <node concept="3EZMnI" id="3ksNkQL1s2b" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL1s2d" role="3F10Kt" />
