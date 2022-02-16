@@ -204,7 +204,7 @@
           </node>
           <node concept="l8MVK" id="1DHNIAI0fU$" role="lcghm" />
         </node>
-        <node concept="3clFbH" id="2dFAI0jCyix" role="3cqZAp" />
+        <node concept="3clFbH" id="58tSxDcthB2" role="3cqZAp" />
         <node concept="lc7rE" id="2dFAI0jCyjY" role="3cqZAp">
           <node concept="la8eA" id="2dFAI0jCymI" role="lcghm">
             <property role="lacIc" value="import * as React from 'react';\nimport { Fragment } from &quot;react&quot;;\nimport ReactDOM from 'react-dom';\nimport CssBaseline from '@mui/material/CssBaseline';\nimport Container from &quot;@mui/material/Container&quot;;\nimport Box from &quot;@mui/material/Box&quot;;\nimport Typography from &quot;@mui/material/Typography&quot;;\nimport SvgIcon from &quot;@mui/material/SvgIcon&quot;;\nimport { red } from '@mui/material/colors';\nimport { BrowserRouter as Router} from &quot;react-router-dom&quot;;\nimport { styled, createTheme, ThemeProvider } from '@mui/material/styles';\nimport MuiDrawer from '@mui/material/Drawer';\nimport MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';\nimport Toolbar from '@mui/material/Toolbar';\nimport List from '@mui/material/List';\nimport Divider from '@mui/material/Divider';\nimport IconButton from '@mui/material/IconButton';\nimport ListItemButton from '@mui/material/ListItemButton';\nimport ListItemIcon from '@mui/material/ListItemIcon';\nimport ListItemText from '@mui/material/ListItemText';\nimport ListSubheader from '@mui/material/ListSubheader';\nimport Badge from '@mui/material/Badge';\nimport Grid from '@mui/material/Grid';\nimport Paper from '@mui/material/Paper';\nimport MenuIcon from '@mui/icons-material/Menu';\nimport ChevronLeftIcon from '@mui/icons-material/ChevronLeft';\nimport DashboardIcon from '@mui/icons-material/Dashboard';\nimport ShoppingCartIcon from '@mui/icons-material/ShoppingCart';\nimport { useParams, useRouteMatch, Switch, Route, Link } from &quot;react-router-dom&quot;;\nimport PeopleIcon from '@mui/icons-material/People';\nimport BarChartIcon from '@mui/icons-material/BarChart';\nimport LayersIcon from '@mui/icons-material/Layers';\nimport AssignmentIcon from '@mui/icons-material/Assignment';\nimport NotificationsIcon from '@mui/icons-material/Notifications';\nimport { css } from &quot;aphrodite/no-important&quot;;" />
@@ -329,6 +329,22 @@
           <node concept="l8MVK" id="2dFAI0jCFDJ" role="lcghm" />
         </node>
         <node concept="3clFbH" id="2dFAI0jCDTf" role="3cqZAp" />
+        <node concept="lc7rE" id="58tSxDctj21" role="3cqZAp">
+          <node concept="la8eA" id="58tSxDctjb2" role="lcghm">
+            <property role="lacIc" value="const viewportContext = React.createContext({});" />
+          </node>
+          <node concept="l8MVK" id="58tSxDctjY6" role="lcghm" />
+          <node concept="l8MVK" id="58tSxDctk2a" role="lcghm" />
+        </node>
+        <node concept="3clFbH" id="58tSxDctsIS" role="3cqZAp" />
+        <node concept="lc7rE" id="58tSxDctrLm" role="3cqZAp">
+          <node concept="la8eA" id="58tSxDctrLn" role="lcghm">
+            <property role="lacIc" value="const drawerWidth = 240;\n\nconst AppBar = styled(MuiAppBar, {shouldForwardProp: (prop) =&gt; prop !== 'open',})(\n    ({ theme, open }) =&gt; ({\n        zIndex: theme.zIndex.drawer + 1,\n        transition: theme.transitions.create(['width', 'margin'], {\n            easing: theme.transitions.easing.sharp,\n            duration: theme.transitions.duration.leavingScreen,\n        }),\n        ...(open &amp;&amp; {\n            marginLeft: drawerWidth,\n            width: `calc(100% - ${drawerWidth}px)`,\n            transition: theme.transitions.create(['width', 'margin'], {\n                easing: theme.transitions.easing.sharp,\n                duration: theme.transitions.duration.enteringScreen,\n            }),\n        }),\n    })\n);" />
+          </node>
+          <node concept="l8MVK" id="58tSxDctrLo" role="lcghm" />
+          <node concept="l8MVK" id="58tSxDctrLp" role="lcghm" />
+        </node>
+        <node concept="3clFbH" id="58tSxDctiTw" role="3cqZAp" />
         <node concept="lc7rE" id="2dFAI0jCYjQ" role="3cqZAp">
           <node concept="la8eA" id="2dFAI0jCYn3" role="lcghm">
             <property role="lacIc" value="function App() {" />
@@ -764,7 +780,107 @@
               </node>
               <node concept="l8MVK" id="2dFAI0jGYEv" role="lcghm" />
             </node>
+            <node concept="lc7rE" id="58tSxDcspmS" role="3cqZAp">
+              <node concept="la8eA" id="58tSxDcspmU" role="lcghm">
+                <property role="lacIc" value="&lt;/Box&gt;" />
+              </node>
+              <node concept="l8MVK" id="58tSxDcspmV" role="lcghm" />
+            </node>
           </node>
+        </node>
+        <node concept="lc7rE" id="58tSxDcseNH" role="3cqZAp">
+          <node concept="la8eA" id="58tSxDcsePw" role="lcghm">
+            <property role="lacIc" value=")" />
+          </node>
+          <node concept="l8MVK" id="58tSxDcseQl" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="58tSxDcs1nj">
+    <property role="3GE5qa" value="section" />
+    <ref role="WuzLi" to="wi2d:2dFAI0jBY7Z" resolve="PresentationSection" />
+    <node concept="11bSqf" id="58tSxDcs1nk" role="11c4hB">
+      <node concept="3clFbS" id="58tSxDcs1nl" role="2VODD2">
+        <node concept="lc7rE" id="58tSxDcs1nA" role="3cqZAp">
+          <node concept="la8eA" id="58tSxDcs1nU" role="lcghm">
+            <property role="lacIc" value="                    &lt;Container maxWidth=&quot;lg&quot; sx={{ mt: 4, mb: 4 }}&gt;\n                        &lt;Grid container spacing={3}&gt;\n                            &lt;Grid item xs={12} md={8} lg={9}&gt;\n                                &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', height: 240,}}&gt;\n                                    PRESENTATION\n                                &lt;/Paper&gt;\n                            &lt;/Grid&gt;\n                            &lt;Grid item xs={12} md={4} lg={3}&gt;\n                                &lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', height: 240,}}&gt;\n                                &lt;/Paper&gt;\n                            &lt;/Grid&gt;\n                            &lt;Grid item xs={12}&gt;\n                                &lt;Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}&gt;\n                                &lt;/Paper&gt;\n                            &lt;/Grid&gt;\n                        &lt;/Grid&gt;\n                    &lt;/Container&gt;" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="58tSxDct4Tf">
+    <ref role="WuzLi" to="wi2d:2dFAI0jBY7Y" resolve="Theme" />
+    <node concept="11bSqf" id="58tSxDct4Tg" role="11c4hB">
+      <node concept="3clFbS" id="58tSxDct4Th" role="2VODD2">
+        <node concept="lc7rE" id="58tSxDct4Ty" role="3cqZAp">
+          <node concept="la8eA" id="58tSxDct4TQ" role="lcghm">
+            <property role="lacIc" value="const theme = createTheme({" />
+          </node>
+          <node concept="l8MVK" id="58tSxDct4UF" role="lcghm" />
+        </node>
+        <node concept="3izx1p" id="58tSxDct4VK" role="3cqZAp">
+          <node concept="3clFbS" id="58tSxDct4VM" role="3izTki">
+            <node concept="lc7rE" id="58tSxDct4W9" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDct4Wt" role="lcghm" />
+              <node concept="la8eA" id="58tSxDct4WO" role="lcghm">
+                <property role="lacIc" value="palette: {" />
+              </node>
+              <node concept="l8MVK" id="58tSxDct4XF" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDct4Y0" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDct4Y1" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDct4YR" role="lcghm" />
+              <node concept="la8eA" id="58tSxDct4Y2" role="lcghm">
+                <property role="lacIc" value="primary: {main: '" />
+              </node>
+              <node concept="l9hG8" id="58tSxDct50N" role="lcghm">
+                <node concept="2OqwBi" id="58tSxDct57P" role="lb14g">
+                  <node concept="117lpO" id="58tSxDct51H" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="58tSxDct5fw" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:58tSxDcszQX" resolve="primaryColor" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="58tSxDct5iM" role="lcghm">
+                <property role="lacIc" value="',}," />
+              </node>
+              <node concept="l8MVK" id="58tSxDct4Y3" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDct5jO" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDct5jP" role="lcghm" />
+              <node concept="2BGw6n" id="58tSxDct5jQ" role="lcghm" />
+              <node concept="la8eA" id="58tSxDct5jR" role="lcghm">
+                <property role="lacIc" value="secondary: {main: '" />
+              </node>
+              <node concept="l9hG8" id="58tSxDct5jS" role="lcghm">
+                <node concept="2OqwBi" id="58tSxDct5jT" role="lb14g">
+                  <node concept="117lpO" id="58tSxDct5jU" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="58tSxDct5jV" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:58tSxDcszQZ" resolve="secondaryColor" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="58tSxDct5jW" role="lcghm">
+                <property role="lacIc" value="',}," />
+              </node>
+              <node concept="l8MVK" id="58tSxDct5jX" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="58tSxDct5ql" role="3cqZAp">
+              <node concept="2BGw6n" id="58tSxDct5qm" role="lcghm" />
+              <node concept="la8eA" id="58tSxDct5qo" role="lcghm">
+                <property role="lacIc" value="}," />
+              </node>
+              <node concept="l8MVK" id="58tSxDct5qu" role="lcghm" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="58tSxDct5_d" role="3cqZAp">
+          <node concept="la8eA" id="58tSxDct5CD" role="lcghm">
+            <property role="lacIc" value="});" />
+          </node>
+          <node concept="l8MVK" id="58tSxDct5DH" role="lcghm" />
         </node>
       </node>
     </node>

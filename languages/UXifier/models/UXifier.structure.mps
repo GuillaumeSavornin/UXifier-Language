@@ -71,6 +71,16 @@
     <property role="EcuMT" value="2552303901028114942" />
     <property role="TrG5h" value="Theme" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="58tSxDcszQX" role="1TKVEl">
+      <property role="IQ2nx" value="5917134088014282173" />
+      <property role="TrG5h" value="primaryColor" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="58tSxDcszQZ" role="1TKVEl">
+      <property role="IQ2nx" value="5917134088014282175" />
+      <property role="TrG5h" value="secondaryColor" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY7Z">
     <property role="EcuMT" value="2552303901028114943" />
