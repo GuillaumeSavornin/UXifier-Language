@@ -199,6 +199,7 @@
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1178286324487" name="jetbrains.mps.baseLanguage.collections.structure.SortDirection" flags="nn" index="1nlBCl" />
+      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
   </registry>
   <node concept="WtQ9Q" id="1DHNIAI0deP">
@@ -399,23 +400,6 @@
         </node>
         <node concept="3izx1p" id="2dFAI0jDd0d" role="3cqZAp">
           <node concept="3clFbS" id="2dFAI0jDd0f" role="3izTki">
-            <node concept="lc7rE" id="2dFAI0jCYCR" role="3cqZAp">
-              <node concept="2BGw6n" id="2dFAI0jCYH1" role="lcghm" />
-              <node concept="la8eA" id="2dFAI0jCYCS" role="lcghm">
-                <property role="lacIc" value="const { width } = React.useContext(viewportContext);" />
-              </node>
-              <node concept="l8MVK" id="2dFAI0jD6XT" role="lcghm" />
-            </node>
-            <node concept="lc7rE" id="2dFAI0jD64z" role="3cqZAp">
-              <node concept="2BGw6n" id="2dFAI0jD64$" role="lcghm" />
-              <node concept="la8eA" id="2dFAI0jD64_" role="lcghm">
-                <property role="lacIc" value="let currentFormat = null;" />
-              </node>
-              <node concept="l8MVK" id="2dFAI0jD64A" role="lcghm" />
-            </node>
-            <node concept="lc7rE" id="2dFAI0jDwUo" role="3cqZAp">
-              <node concept="l8MVK" id="2dFAI0jDwWL" role="lcghm" />
-            </node>
             <node concept="3clFbH" id="2dFAI0jFt9$" role="3cqZAp" />
             <node concept="3cpWs8" id="2dFAI0jFxV1" role="3cqZAp">
               <node concept="3cpWsn" id="2dFAI0jFxV4" role="3cpWs9">
@@ -523,6 +507,40 @@
               </node>
             </node>
             <node concept="3clFbH" id="2dFAI0jGF19" role="3cqZAp" />
+            <node concept="lc7rE" id="2dFAI0jCYCR" role="3cqZAp">
+              <node concept="2BGw6n" id="2dFAI0jCYH1" role="lcghm" />
+              <node concept="la8eA" id="2dFAI0jCYCS" role="lcghm">
+                <property role="lacIc" value="const { width } = React.useContext(viewportContext);" />
+              </node>
+              <node concept="l8MVK" id="2dFAI0jD6XT" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="2dFAI0jD64z" role="3cqZAp">
+              <node concept="2BGw6n" id="2dFAI0jD64$" role="lcghm" />
+              <node concept="la8eA" id="2dFAI0jD64_" role="lcghm">
+                <property role="lacIc" value="let currentFormat = &lt;" />
+              </node>
+              <node concept="l9hG8" id="4YzckVjbUtL" role="lcghm">
+                <node concept="2OqwBi" id="4YzckVjbZuN" role="lb14g">
+                  <node concept="2OqwBi" id="4YzckVjbWDz" role="2Oq$k0">
+                    <node concept="37vLTw" id="4YzckVjbVHe" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2dFAI0jG00k" resolve="formatsSeq" />
+                    </node>
+                    <node concept="1uHKPH" id="4YzckVjbZhm" role="2OqNvi" />
+                  </node>
+                  <node concept="3TrcHB" id="4YzckVjbZJX" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:2dFAI0jDT4X" resolve="name" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="4YzckVjbUtb" role="lcghm">
+                <property role="lacIc" value="Format /&gt;;" />
+              </node>
+              <node concept="l8MVK" id="2dFAI0jD64A" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="2dFAI0jDwUo" role="3cqZAp">
+              <node concept="l8MVK" id="2dFAI0jDwWL" role="lcghm" />
+            </node>
+            <node concept="3clFbH" id="4YzckVjbVqn" role="3cqZAp" />
             <node concept="2Gpval" id="2dFAI0jCZjU" role="3cqZAp">
               <node concept="2GrKxI" id="2dFAI0jCZjW" role="2Gsz3X">
                 <property role="TrG5h" value="format" />
