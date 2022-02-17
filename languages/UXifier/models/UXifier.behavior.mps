@@ -183,7 +183,7 @@
         <node concept="3clFbF" id="2dFAI0jCRTQ" role="3cqZAp">
           <node concept="37vLTI" id="2dFAI0jCSCc" role="3clFbG">
             <node concept="Xl_RD" id="2dFAI0jCSPK" role="37vLTx">
-              <property role="Xl_RC" value="Leo" />
+              <property role="Xl_RC" value="Name" />
             </node>
             <node concept="2OqwBi" id="2dFAI0jCS1Q" role="37vLTJ">
               <node concept="13iPFW" id="2dFAI0jCRTP" role="2Oq$k0" />
@@ -196,7 +196,7 @@
         <node concept="3clFbF" id="2dFAI0jCSSG" role="3cqZAp">
           <node concept="37vLTI" id="2dFAI0jCTAB" role="3clFbG">
             <node concept="Xl_RD" id="2dFAI0jCTBb" role="37vLTx">
-              <property role="Xl_RC" value="Burette" />
+              <property role="Xl_RC" value="LastName" />
             </node>
             <node concept="2OqwBi" id="2dFAI0jCT13" role="37vLTJ">
               <node concept="13iPFW" id="2dFAI0jCSSE" role="2Oq$k0" />
@@ -209,7 +209,7 @@
         <node concept="3clFbF" id="2dFAI0jCTDs" role="3cqZAp">
           <node concept="37vLTI" id="2dFAI0jCUga" role="3clFbG">
             <node concept="Xl_RD" id="2dFAI0jCUg$" role="37vLTx">
-              <property role="Xl_RC" value="Go is life, js is love!" />
+              <property role="Xl_RC" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum urna, id ultrices nisi." />
             </node>
             <node concept="2OqwBi" id="2dFAI0jCTMa" role="37vLTJ">
               <node concept="13iPFW" id="2dFAI0jCTDq" role="2Oq$k0" />
@@ -329,7 +329,7 @@
         <node concept="3clFbF" id="hFPhRNLiMp" role="3cqZAp">
           <node concept="37vLTI" id="hFPhRNLiMq" role="3clFbG">
             <node concept="Xl_RD" id="hFPhRNLiMr" role="37vLTx">
-              <property role="Xl_RC" value="My work experience" />
+              <property role="Xl_RC" value="Experience title" />
             </node>
             <node concept="2OqwBi" id="hFPhRNLiMs" role="37vLTJ">
               <node concept="13iPFW" id="hFPhRNLiMt" role="2Oq$k0" />
@@ -342,7 +342,7 @@
         <node concept="3clFbF" id="hFPhRNLiMv" role="3cqZAp">
           <node concept="37vLTI" id="hFPhRNLiMw" role="3clFbG">
             <node concept="Xl_RD" id="hFPhRNLiMx" role="37vLTx">
-              <property role="Xl_RC" value="My company" />
+              <property role="Xl_RC" value="Company name" />
             </node>
             <node concept="2OqwBi" id="hFPhRNLiMy" role="37vLTJ">
               <node concept="13iPFW" id="hFPhRNLiMz" role="2Oq$k0" />
@@ -422,7 +422,7 @@
               </node>
             </node>
             <node concept="Xl_RD" id="4ccJuxn87dH" role="37vLTx">
-              <property role="Xl_RC" value="FR" />
+              <property role="Xl_RC" value="Language" />
             </node>
           </node>
         </node>
@@ -442,12 +442,39 @@
         <node concept="3clFbF" id="4ccJuxn87W9" role="3cqZAp">
           <node concept="37vLTI" id="4ccJuxn88UC" role="3clFbG">
             <node concept="Xl_RD" id="4ccJuxn88UU" role="37vLTx">
-              <property role="Xl_RC" value="EXPERT" />
+              <property role="Xl_RC" value="Level" />
             </node>
             <node concept="2OqwBi" id="4ccJuxn884d" role="37vLTJ">
               <node concept="13iPFW" id="4ccJuxn87W7" role="2Oq$k0" />
               <node concept="3TrcHB" id="4ccJuxn88df" role="2OqNvi">
                 <ref role="3TsBF5" to="wi2d:1c5gsjF0X8X" resolve="level" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1eZdBFEKKn_">
+    <property role="3GE5qa" value="section" />
+    <ref role="13h7C2" to="wi2d:7quf1gMz0a$" resolve="ExperiencesSection" />
+    <node concept="13hLZK" id="1eZdBFEKKnA" role="13h7CW">
+      <node concept="3clFbS" id="1eZdBFEKKnB" role="2VODD2">
+        <node concept="3clFbF" id="1eZdBFEKK_V" role="3cqZAp">
+          <node concept="2OqwBi" id="1eZdBFEKK_X" role="3clFbG">
+            <node concept="2OqwBi" id="1eZdBFEKL5B" role="2Oq$k0">
+              <node concept="13iPFW" id="1eZdBFEKK_Z" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1eZdBFEKM1c" role="2OqNvi">
+                <ref role="3TtcxE" to="wi2d:7quf1gMz0a_" resolve="experiences" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="1eZdBFEKKA1" role="2OqNvi">
+              <node concept="2ShNRf" id="1eZdBFEKKA2" role="25WWJ7">
+                <node concept="3zrR0B" id="1eZdBFEKKA3" role="2ShVmc">
+                  <node concept="3Tqbb2" id="1eZdBFEKKA4" role="3zrR0E">
+                    <ref role="ehGHo" to="wi2d:7quf1gMz0as" resolve="ExperienceItem" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

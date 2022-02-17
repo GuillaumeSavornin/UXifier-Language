@@ -121,6 +121,7 @@ function WebSiteFormat(){
                                 </Grid>
                             </Grid>
                         </Container>
+
                         <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                             <Grid container spacing={3}>
                                 <Grid item xs={12} md={8} lg={9}>
@@ -136,16 +137,51 @@ function WebSiteFormat(){
                                 </Grid>
                             </Grid>
                         </Container>
+
                         <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                             <Grid container spacing={4}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
                                     {(()=>{
                                         let array = [];
                                         data.experienceItems.forEach((item)=>{
-                                            array.push(<p>{item.title} : {item.corporation} | {item.startDate} - {item.endDate} | {item.description} | {item.summary}</p>)
+                                            array.push(<p>{(()=>{
+                                                if(item.title){
+                                                    return item.title
+                                                }
+                                                return "Experience title"
+                                            })()} : {(()=>{
+                                                if(item.corporation){
+                                                    return item.corporation
+                                                }
+                                                return "Company name"
+                                            })()} | {(()=>{
+                                                if(item.startDate){
+                                                    return item.startDate
+                                                }
+                                                return "01/01/2020"
+                                            })()} - {(()=>{
+                                                if(item.endDate){
+                                                    return item.endDate
+                                                }
+                                                return "01/01/2022"
+                                            })()} | {(()=>{
+                                                if(item.description){
+                                                    return item.description
+                                                }
+                                                return "Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  "
+                                            })()} | {(()=>{
+                                                if(item.summary){
+                                                    return item.summary
+                                                }
+                                                return "Short description"
+                                            })()}</p>)
                                         })
-                                        return array;                  })()}            </Paper>
-                            </Grid></Container>
+                                        return array;
+                                    })()}
+                                </Paper>
+                            </Grid>
+                        </Container>
+
 
                     </ Route>
                     <Route path="/More details">
@@ -155,10 +191,24 @@ function WebSiteFormat(){
                                     {(()=>{
                                         let array = [];
                                         data.languageItems.forEach((item)=>{
-                                            array.push(<p>{item.language} : {item.level}</p>)
+                                            array.push(<p>{(()=>{
+                                                if(item.language){
+                                                    return item.language
+                                                }
+                                                return "Language"
+                                            })()} : {(()=>{
+                                                if(item.level){
+                                                    return item.level
+                                                }
+                                                return "Level"
+                                            })()}</p>)
                                         })
-                                        return array;                  })()}            </Paper>
-                            </Grid></Container>
+                                        return array;
+                                    })()}
+                                </Paper>
+                            </Grid>
+                        </Container>
+
 
                     </ Route>
                 </Switch>
@@ -228,26 +278,75 @@ function MobileFormat(){
                             </Grid>
                         </Grid>
                     </Container>
+
                     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                         <Grid container spacing={4}>
                             <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
                                 {(()=>{
                                     let array = [];
                                     data.experienceItems.forEach((item)=>{
-                                        array.push(<p>{item.title} : {item.corporation} | {item.startDate} - {item.endDate} | {item.description} | {item.summary}</p>)
+                                        array.push(<p>{(()=>{
+                                            if(item.title){
+                                                return item.title
+                                            }
+                                            return "Experience title"
+                                        })()} : {(()=>{
+                                            if(item.corporation){
+                                                return item.corporation
+                                            }
+                                            return "Company name"
+                                        })()} | {(()=>{
+                                            if(item.startDate){
+                                                return item.startDate
+                                            }
+                                            return "01/01/2020"
+                                        })()} - {(()=>{
+                                            if(item.endDate){
+                                                return item.endDate
+                                            }
+                                            return "01/01/2022"
+                                        })()} | {(()=>{
+                                            if(item.description){
+                                                return item.description
+                                            }
+                                            return "Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  "
+                                        })()} | {(()=>{
+                                            if(item.summary){
+                                                return item.summary
+                                            }
+                                            return "Short description"
+                                        })()}</p>)
                                     })
-                                    return array;                  })()}            </Paper>
-                        </Grid></Container>
+                                    return array;
+                                })()}
+                            </Paper>
+                        </Grid>
+                    </Container>
+
                     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                         <Grid container spacing={4}>
                             <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
                                 {(()=>{
                                     let array = [];
                                     data.languageItems.forEach((item)=>{
-                                        array.push(<p>{item.language} : {item.level}</p>)
+                                        array.push(<p>{(()=>{
+                                            if(item.language){
+                                                return item.language
+                                            }
+                                            return "Language"
+                                        })()} : {(()=>{
+                                            if(item.level){
+                                                return item.level
+                                            }
+                                            return "Level"
+                                        })()}</p>)
                                     })
-                                    return array;                  })()}            </Paper>
-                        </Grid></Container>
+                                    return array;
+                                })()}
+                            </Paper>
+                        </Grid>
+                    </Container>
+
                 </Box>
             </Box>
         </Box>
