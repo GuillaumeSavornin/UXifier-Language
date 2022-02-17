@@ -3444,7 +3444,7 @@
                   <node concept="2BGw6n" id="1eZdBFF5jdr" role="lcghm" />
                   <node concept="2BGw6n" id="1eZdBFF5je3" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFF5eiy" role="lcghm">
-                    <property role="lacIc" value="array.push(&lt;Divider sx={{ m: 1 }} variant=&quot;middle&quot;/&gt;)" />
+                    <property role="lacIc" value="array.push(&lt;Divider sx={{ mb: 1.8 }} variant=&quot;middle&quot;/&gt;)" />
                   </node>
                   <node concept="l8MVK" id="1eZdBFF5hpJ" role="lcghm" />
                 </node>

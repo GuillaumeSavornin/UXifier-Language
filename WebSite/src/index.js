@@ -254,7 +254,7 @@ function WebSiteFormat(){
                                                     </Grid>
                                                 )
                                                 if(i <8-1){
-                                                    array.push(<Divider sx={{ m: 1 }} variant="middle"/>)
+                                                    array.push(<Divider sx={{ mb: 1.8 }} variant="middle"/>)
                                                 }
                                             }
                                             return array;
@@ -320,7 +320,63 @@ function WebSiteFormat(){
                                                     </Grid>
                                                 )
                                                 if(i <2-1){
-                                                    array.push(<Divider sx={{ m: 1 }} variant="middle"/>)
+                                                    array.push(<Divider sx={{ mb: 1.8 }} variant="middle"/>)
+                                                }
+                                            }
+                                            return array;
+                                        })()}
+                                    </Paper>
+                                </Grid>
+                            </Grid>
+                        </Container>
+
+                        <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+                            <Grid container spacing={3}>
+                                <Grid item xs={12} md={8} lg={9}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                        <Typography gutterBottom sx={{ mb: 3 }} variant="h5" component="div">Languages</Typography>
+                                        {(()=>{
+                                            let array = [];
+                                            for(let i = 0; i < 2; i++){
+                                                array.push(<Grid container spacing={3}>
+                                                        <Grid item xs={4} md={4} lg={4}>
+                                                            <p>                        <strong>{(()=>{
+                                                                if(data.languageItems && data.languageItems[i] && data.languageItems[i].language){
+                                                                    return data.languageItems[i].language
+                                                                }
+                                                                return "Language"
+                                                            })()}</strong>
+                                                            </p>
+                                                        </Grid>
+                                                        <Grid item xs={6} md={6} lg={6}>
+                                                            <p>
+                                                                {(() => {
+                                                                    switch((()=>{
+                                                                        if(data.languageItems && data.languageItems[i] && data.languageItems[i].level){
+                                                                            return data.languageItems[i].level
+                                                                        }
+                                                                        return "0"
+                                                                    })()) {
+                                                                        case 1:
+                                                                            return <StyledRating defaultValue={1} icon={<FavoriteIcon fontSize="inherit" />} emptyIcon={<FavoriteBorderIcon fontSize="inherit"/>} readOnly/>
+                                                                        case 2:
+                                                                            return <StyledRating defaultValue={2} icon={<FavoriteIcon fontSize="inherit" />} emptyIcon={<FavoriteBorderIcon fontSize="inherit"/>} readOnly/>
+                                                                        case 3:
+                                                                            return <StyledRating defaultValue={3} icon={<FavoriteIcon fontSize="inherit" />} emptyIcon={<FavoriteBorderIcon fontSize="inherit"/>} readOnly/>
+                                                                        case 4:
+                                                                            return <StyledRating defaultValue={4} icon={<FavoriteIcon fontSize="inherit" />} emptyIcon={<FavoriteBorderIcon fontSize="inherit"/>} readOnly/>
+                                                                        case 5:
+                                                                            return <StyledRating defaultValue={5} icon={<FavoriteIcon fontSize="inherit" />} emptyIcon={<FavoriteBorderIcon fontSize="inherit"/>} readOnly/>
+                                                                        default:
+                                                                            return <StyledRating defaultValue={0} icon={<FavoriteIcon fontSize="inherit" />} emptyIcon={<FavoriteBorderIcon fontSize="inherit"/>} readOnly/>
+                                                                    }
+                                                                })()}
+                                                            </p>
+                                                        </Grid>
+                                                    </Grid>
+                                                )
+                                                if(i <2-1){
+                                                    array.push(<Divider sx={{ mb: 1.8 }} variant="middle"/>)
                                                 }
                                             }
                                             return array;
@@ -385,7 +441,7 @@ function WebSiteFormat(){
                                                     </Grid>
                                                 )
                                                 if(i <2-1){
-                                                    array.push(<Divider sx={{ m: 1 }} variant="middle"/>)
+                                                    array.push(<Divider sx={{ mb: 1.8 }} variant="middle"/>)
                                                 }
                                             }
                                             return array;
@@ -615,7 +671,7 @@ function MobileFormat(){
                                                 </Grid>
                                             )
                                             if(i <4-1){
-                                                array.push(<Divider sx={{ m: 1 }} variant="middle"/>)
+                                                array.push(<Divider sx={{ mb: 1.8 }} variant="middle"/>)
                                             }
                                         }
                                         return array;
@@ -681,7 +737,7 @@ function MobileFormat(){
                                                 </Grid>
                                             )
                                             if(i <8-1){
-                                                array.push(<Divider sx={{ m: 1 }} variant="middle"/>)
+                                                array.push(<Divider sx={{ mb: 1.8 }} variant="middle"/>)
                                             }
                                         }
                                         return array;
