@@ -471,13 +471,23 @@
     <node concept="3EZMnI" id="7quf1gMz7jA" role="2wV5jI">
       <node concept="3EZMnI" id="7quf1gMz7jB" role="3EZMnx">
         <node concept="VPM3Z" id="7quf1gMz7jC" role="3F10Kt" />
+        <node concept="3EZMnI" id="1eZdBFEIAW8" role="3EZMnx">
+          <node concept="VPM3Z" id="1eZdBFEIAWa" role="3F10Kt" />
+          <node concept="3F0ifn" id="1eZdBFEIAWn" role="3EZMnx">
+            <property role="3F0ifm" value="- Display short description:" />
+          </node>
+          <node concept="3F0A7n" id="1eZdBFEIAWt" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:1eZdBFEIARP" resolve="usesShortDescription" />
+          </node>
+          <node concept="2iRfu4" id="1eZdBFEIAWd" role="2iSdaV" />
+        </node>
         <node concept="3EZMnI" id="7quf1gMz7jD" role="3EZMnx">
           <node concept="VPM3Z" id="7quf1gMz7jE" role="3F10Kt" />
           <node concept="3F0ifn" id="1A3hF0yNbb_" role="3EZMnx">
-            <property role="3F0ifm" value="- items number : " />
+            <property role="3F0ifm" value="- items number :" />
           </node>
           <node concept="3F0A7n" id="7quf1gMz7jG" role="3EZMnx">
-            <ref role="1NtTu8" to="wi2d:7quf1gMz3fO" resolve="itemsNumber" />
+            <ref role="1NtTu8" to="wi2d:7quf1gMz3fO" resolve="numberItems" />
           </node>
           <node concept="2iRfu4" id="7quf1gMz7jH" role="2iSdaV" />
         </node>
@@ -489,19 +499,23 @@
   <node concept="24kQdi" id="7quf1gMz0ba">
     <property role="3GE5qa" value="section" />
     <ref role="1XX52x" to="wi2d:7quf1gMz0a$" resolve="ExperiencesSection" />
-    <node concept="3EZMnI" id="hFPhRNLkn8" role="2wV5jI">
-      <node concept="VPM3Z" id="hFPhRNLkn9" role="3F10Kt" />
-      <node concept="3F0ifn" id="hFPhRNLkny" role="3EZMnx">
-        <property role="3F0ifm" value="Experiences section :" />
-      </node>
-      <node concept="3EZMnI" id="1A3hF0yMC$p" role="3EZMnx">
-        <node concept="3XFhqQ" id="1A3hF0yMC$E" role="3EZMnx" />
-        <node concept="2iRfu4" id="1A3hF0yMC$q" role="2iSdaV" />
-        <node concept="3F1sOY" id="1A3hF0yMC$1" role="3EZMnx">
-          <ref role="1NtTu8" to="wi2d:7quf1gMz0aQ" resolve="styling" />
+    <node concept="3EZMnI" id="1eZdBFEIAUG" role="2wV5jI">
+      <node concept="3EZMnI" id="1eZdBFEIAUM" role="3EZMnx">
+        <node concept="VPM3Z" id="1eZdBFEIAUO" role="3F10Kt" />
+        <node concept="3F0ifn" id="1eZdBFEIAUZ" role="3EZMnx">
+          <property role="3F0ifm" value="Experience section:" />
         </node>
+        <node concept="3EZMnI" id="1eZdBFEIAV5" role="3EZMnx">
+          <node concept="VPM3Z" id="1eZdBFEIAV7" role="3F10Kt" />
+          <node concept="3XFhqQ" id="1eZdBFEIAVh" role="3EZMnx" />
+          <node concept="3F1sOY" id="1eZdBFEIAVr" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:7quf1gMz0aQ" resolve="styling" />
+          </node>
+          <node concept="l2Vlx" id="1eZdBFEIAVa" role="2iSdaV" />
+        </node>
+        <node concept="2iRkQZ" id="1eZdBFEIAUR" role="2iSdaV" />
       </node>
-      <node concept="2iRkQZ" id="hFPhRNLkng" role="2iSdaV" />
+      <node concept="l2Vlx" id="1eZdBFEIAUH" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="3QvgIEcgCSQ">

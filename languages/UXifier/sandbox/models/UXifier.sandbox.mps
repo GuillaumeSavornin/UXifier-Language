@@ -56,7 +56,7 @@
         <child id="2552303901028114963" name="theme" index="KX7zN" />
       </concept>
       <concept id="8547335200240841715" name="UXifier.structure.ExperienceItemStyling" flags="ng" index="144wZB">
-        <property id="8547335200240841716" name="itemsNumber" index="144wZw" />
+        <property id="8547335200240841716" name="numberItems" index="144wZw" />
       </concept>
       <concept id="8547335200240829084" name="UXifier.structure.ExperienceItem" flags="ng" index="144zU8">
         <property id="8547335200240829087" name="startDate" index="144zUb" />
@@ -235,6 +235,19 @@
           <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
           <node concept="KX7z$" id="2dFAI0jGq0t" role="KMSA4">
             <property role="KMSA8" value="r" />
+          </node>
+        </node>
+        <node concept="144zUK" id="1eZdBFEJrBA" role="KMSAI">
+          <node concept="144zU8" id="1eZdBFEJrBC" role="144zUL">
+            <property role="144zUb" value="01/01/2020" />
+            <property role="144zUO" value="01/01/2022" />
+            <property role="144zUP" value="My work experience" />
+            <property role="144zUQ" value="My company" />
+            <property role="144zUR" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
+            <property role="144B7g" value="Short description" />
+          </node>
+          <node concept="144wZB" id="1eZdBFEJrBE" role="144zUy">
+            <property role="144wZw" value="3" />
           </node>
         </node>
         <node concept="2LRsGl" id="3QvgIEci41a" role="KMSAI">

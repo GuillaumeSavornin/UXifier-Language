@@ -1856,7 +1856,7 @@
                 </node>
               </node>
               <node concept="3TrcHB" id="1A3hF0yNLAt" role="2OqNvi">
-                <ref role="3TsBF5" to="wi2d:7quf1gMz3fO" resolve="itemsNumber" />
+                <ref role="3TsBF5" to="wi2d:7quf1gMz3fO" resolve="numberItems" />
               </node>
             </node>
             <node concept="37vLTw" id="1A3hF0yNIT$" role="3uHU7B">

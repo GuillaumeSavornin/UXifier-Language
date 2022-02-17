@@ -363,8 +363,13 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7quf1gMz3fO" role="1TKVEl">
       <property role="IQ2nx" value="8547335200240841716" />
-      <property role="TrG5h" value="itemsNumber" />
+      <property role="TrG5h" value="numberItems" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFEIARP" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908824362485" />
+      <property role="TrG5h" value="usesShortDescription" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="7quf1gMz3fQ" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
