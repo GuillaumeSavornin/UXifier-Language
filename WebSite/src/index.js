@@ -161,13 +161,13 @@ function WebSiteFormat(){
                                                     if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].title){
                                                         return data.experienceItems[i].title
                                                     }
-                                                    return "Experience title"
-                                                })()} : {(()=>{
+                                                    return "My work experience"
+                                                })()}<br/>{(()=>{
                                                     if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].corporation){
                                                         return data.experienceItems[i].corporation
                                                     }
-                                                    return "Company name"
-                                                })()} | {(()=>{
+                                                    return "My company"
+                                                })()}<br/>{(()=>{
                                                     if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].startDate){
                                                         return data.experienceItems[i].startDate
                                                     }
@@ -177,17 +177,12 @@ function WebSiteFormat(){
                                                         return data.experienceItems[i].endDate
                                                     }
                                                     return "01/01/2022"
-                                                })()} | {(()=>{
+                                                })()}<br/>{(()=>{
                                                     if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].description){
                                                         return data.experienceItems[i].description
                                                     }
                                                     return "Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  "
-                                                })()} | {(()=>{
-                                                    if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].summary){
-                                                        return data.experienceItems[i].summary
-                                                    }
-                                                    return "Short description"
-                                                })()}</p>)
+                                                })()}<br/></p>)
                                             }
                                             return array;
                                         })()}
@@ -306,13 +301,13 @@ function MobileFormat(){
                                                 if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].title){
                                                     return data.experienceItems[i].title
                                                 }
-                                                return "Experience title"
-                                            })()} : {(()=>{
+                                                return "My work experience"
+                                            })()}<br/>{(()=>{
                                                 if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].corporation){
                                                     return data.experienceItems[i].corporation
                                                 }
-                                                return "Company name"
-                                            })()} | {(()=>{
+                                                return "My company"
+                                            })()}<br/>{(()=>{
                                                 if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].startDate){
                                                     return data.experienceItems[i].startDate
                                                 }
@@ -322,17 +317,12 @@ function MobileFormat(){
                                                     return data.experienceItems[i].endDate
                                                 }
                                                 return "01/01/2022"
-                                            })()} | {(()=>{
-                                                if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].description){
-                                                    return data.experienceItems[i].description
-                                                }
-                                                return "Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  "
-                                            })()} | {(()=>{
+                                            })()}<br/>{(()=>{
                                                 if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].summary){
                                                     return data.experienceItems[i].summary
                                                 }
                                                 return "Short description"
-                                            })()}</p>)
+                                            })()}<br/></p>)
                                         }
                                         return array;
                                     })()}
