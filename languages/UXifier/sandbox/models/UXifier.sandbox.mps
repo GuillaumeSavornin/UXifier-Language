@@ -62,6 +62,7 @@
         <child id="1370573975616420220" name="items" index="3S1VyS" />
       </concept>
       <concept id="1370573975616420217" name="UXifier.structure.LanguageStyling" flags="ng" index="3S1VyX">
+        <property id="1370573975616475716" name="showFlags" index="3S1De0" />
         <property id="1370573975616475720" name="numberItems" index="3S1Dec" />
       </concept>
     </language>
@@ -108,6 +109,7 @@
             </node>
             <node concept="3S1VyX" id="1c5gsjF5Dhk" role="3S1VxF">
               <property role="3S1Dec" value="4" />
+              <property role="3S1De0" value="true" />
             </node>
           </node>
         </node>

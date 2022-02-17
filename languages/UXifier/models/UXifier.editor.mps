@@ -4,9 +4,21 @@
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
+    <use id="602c36ad-cc55-47ff-8c40-73d7f12f035c" name="jetbrains.mps.lang.editor.forms" version="0" />
+    <use id="6106f611-7a74-42d1-80de-edc5c602bfd1" name="jetbrains.mps.lang.editor.diagram" version="1" />
+    <use id="1839bec5-cea6-41df-b9e0-c405ff35c41e" name="jetbrains.mps.lang.editor.imageGen" version="0" />
+    <use id="d7722d50-4b93-4c3a-ae06-1903d05f95a7" name="jetbrains.mps.lang.editor.figures" version="0" />
+    <use id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table" version="0" />
+    <use id="cffe907e-d3de-433f-89d6-57d9c449c0e2" name="jetbrains.mps.lang.editor.menus.extras" version="0" />
+    <use id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips" version="0" />
+    <use id="fa8aeae9-4df9-4e13-bfb1-9b04c67ddb77" name="jetbrains.mps.debugger.java.customViewers" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="g1qu" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.ui(MPS.IDEA/)" />
+    <import index="c4yi" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui.layout(MPS.IDEA/)" />
+    <import index="6dbt" ref="r:4d41399e-188a-4eca-90a3-97c5f1c5b668(jetbrains.mps.lang.editor.forms.generator.template.main@generator)" />
+    <import index="jx1b" ref="r:c1ef22cb-79d9-43c5-a7c0-3497c3269866(jetbrains.mps.lang.editor.forms.editor)" />
     <import index="wi2d" ref="r:cd87d1df-282c-459e-b1af-3bfc6871f1c8(UXifier.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -79,6 +91,13 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+    </language>
+    <language id="602c36ad-cc55-47ff-8c40-73d7f12f035c" name="jetbrains.mps.lang.editor.forms">
+      <concept id="7024409093146622323" name="jetbrains.mps.lang.editor.forms.structure.CheckboxUI_Platform" flags="ng" index="jv8YD" />
+      <concept id="312429380032619384" name="jetbrains.mps.lang.editor.forms.structure.CellModel_Checkbox" flags="ng" index="2yq9I_">
+        <reference id="3696012239575138271" name="propertyDeclaration" index="225u1j" />
+        <child id="1340057216891284122" name="ui" index="1563LE" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -361,8 +380,9 @@
           <node concept="3F0ifn" id="3ksNkQL29Oj" role="3EZMnx">
             <property role="3F0ifm" value="- Show image:" />
           </node>
-          <node concept="3F0A7n" id="3ksNkQL29Op" role="3EZMnx">
-            <ref role="1NtTu8" to="wi2d:2dFAI0jC1dA" resolve="showImage" />
+          <node concept="2yq9I_" id="4YzckVjdXuV" role="3EZMnx">
+            <ref role="225u1j" to="wi2d:2dFAI0jC1dA" resolve="showImage" />
+            <node concept="jv8YD" id="4YzckVjdXuW" role="1563LE" />
           </node>
           <node concept="2iRfu4" id="3ksNkQL29Oe" role="2iSdaV" />
         </node>
@@ -446,8 +466,9 @@
           <node concept="3F0ifn" id="1c5gsjF0X9U" role="3EZMnx">
             <property role="3F0ifm" value="- Show flags:" />
           </node>
-          <node concept="3F0A7n" id="1c5gsjF0X9Y" role="3EZMnx">
-            <ref role="1NtTu8" to="wi2d:1c5gsjF0X94" resolve="showFlags" />
+          <node concept="2yq9I_" id="4YzckVjdout" role="3EZMnx">
+            <ref role="225u1j" to="wi2d:1c5gsjF0X94" resolve="showFlags" />
+            <node concept="jv8YD" id="4YzckVjdO$4" role="1563LE" />
           </node>
           <node concept="2iRfu4" id="1c5gsjF0X9I" role="2iSdaV" />
         </node>
@@ -497,8 +518,9 @@
           <property role="3F0ifm" value="- Show age:" />
         </node>
         <node concept="2iRfu4" id="1c5gsjF5D37" role="2iSdaV" />
-        <node concept="3F0A7n" id="1c5gsjF5D3F" role="3EZMnx">
-          <ref role="1NtTu8" to="wi2d:3QvgIEcgCQs" resolve="showAge" />
+        <node concept="2yq9I_" id="4YzckVjdXuI" role="3EZMnx">
+          <ref role="225u1j" to="wi2d:3QvgIEcgCQs" resolve="showAge" />
+          <node concept="jv8YD" id="4YzckVjdXuJ" role="1563LE" />
         </node>
       </node>
       <node concept="l2Vlx" id="3QvgIEcgCSV" role="2iSdaV" />
