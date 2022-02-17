@@ -4,7 +4,9 @@
   <languages>
     <use id="4e1dc705-a412-4767-a656-b52b4061b4b5" name="UXifier" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
+  </imports>
   <registry>
     <language id="4e1dc705-a412-4767-a656-b52b4061b4b5" name="UXifier">
       <concept id="2552303901028114976" name="UXifier.structure.TabLayout" flags="ng" index="KX7z0">
@@ -41,13 +43,6 @@
         <property id="2552303901028127582" name="backgroundImage" index="KMSAY" />
         <child id="2552303901028127588" name="styling" index="KMSA4" />
       </concept>
-      <concept id="4440341332753549823" name="UXifier.structure.AdditionalInformationSection" flags="ng" index="2LRsGl">
-        <property id="4440341332753550734" name="driversLicense" index="2LRsX$" />
-        <property id="4440341332753550739" name="mobilityPlaces" index="2LRsXT" />
-        <property id="4440341332753550736" name="age" index="2LRsXU" />
-        <child id="4440341332753550743" name="styling" index="2LRsXX" />
-      </concept>
-      <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN" />
       <concept id="1904405720489579195" name="UXifier.structure.App" flags="ng" index="2OrhLi">
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
         <child id="2552303901028114963" name="theme" index="KX7zN" />
@@ -78,7 +73,6 @@
         <child id="1370573975616420220" name="items" index="3S1VyS" />
       </concept>
       <concept id="1370573975616420217" name="UXifier.structure.LanguageStyling" flags="ng" index="3S1VyX">
-        <property id="1370573975616475716" name="showFlags" index="3S1De0" />
         <property id="1370573975616475720" name="numberItems" index="3S1Dec" />
       </concept>
     </language>
@@ -90,56 +84,25 @@
   </registry>
   <node concept="2OrhLi" id="1DHNIAI0_uR">
     <property role="TrG5h" value="TestScript" />
-    <node concept="KX7zD" id="1c5gsjF5D1B" role="KX7zJ">
+    <node concept="KX7zD" id="3bkuCYRwSVj" role="KX7zJ">
       <property role="KX7za" value="0" />
       <property role="KX7zc" value="2147483647" />
       <property role="KN0Jt" value="WebSite" />
-      <node concept="KX7zX" id="1c5gsjF5D1G" role="KX7zS">
-        <node concept="KX7z0" id="1c5gsjF5D1I" role="KX7z5">
-          <property role="KX7z3" value="Main" />
-          <node concept="KX7Gv" id="1c5gsjF5D2I" role="KX7z1">
-            <property role="KMSAM" value="Leo" />
-            <property role="KMSAP" value="Burette" />
-            <property role="KMSAK" value="Go is life, js is love!" />
-            <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-            <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-            <node concept="KX7z$" id="1c5gsjF5D2K" role="KMSA4">
-              <property role="KMSA8" value="left" />
-            </node>
-          </node>
-          <node concept="2LRsGl" id="1c5gsjF5D2b" role="KX7z1">
-            <property role="2LRsX$" value="Class D license" />
-            <property role="2LRsXU" value="22" />
-            <property role="2LRsXT" value="France, Germany" />
-            <node concept="2LRsXN" id="1c5gsjF5D2d" role="2LRsXX" />
-          </node>
-          <node concept="144zUK" id="1eZdBFEKfNZ" role="KX7z1">
-            <node concept="144zU8" id="1eZdBFEKfO1" role="144zUL">
+      <node concept="KX7zX" id="3bkuCYRwSVY" role="KX7zS">
+        <node concept="KX7z0" id="3bkuCYRwSW0" role="KX7z5">
+          <property role="KX7z3" value="test" />
+          <property role="Ses3W" value="7MJjWP4_CRH/&lt;MenuIcon /&gt;" />
+          <node concept="144zUK" id="3bkuCYRwSWe" role="KX7z1">
+            <node concept="144zU8" id="3bkuCYRwSWf" role="144zUL">
               <property role="144zUb" value="01/01/2020" />
               <property role="144zUO" value="01/01/2022" />
-              <property role="144zUP" value="My work experience" />
-              <property role="144zUQ" value="My company" />
+              <property role="144zUP" value="Experience title" />
+              <property role="144zUQ" value="Company name" />
               <property role="144zUR" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
               <property role="144B7g" value="Short description" />
             </node>
-            <node concept="144wZB" id="1eZdBFEKfO3" role="144zUy">
+            <node concept="144wZB" id="3bkuCYRwSWh" role="144zUy">
               <property role="144wZw" value="2" />
-              <property role="3T1lIf" value="true" />
-            </node>
-          </node>
-        </node>
-        <node concept="KX7z0" id="1c5gsjF5Dh8" role="KX7z5">
-          <property role="KX7z3" value="More details" />
-          <property role="Ses3W" value="7MJjWP4_CRO/&lt;AssignmentIcon /&gt;" />
-          <node concept="3S1VyK" id="1c5gsjF5Dhh" role="KX7z1">
-            <node concept="3S1VxE" id="1c5gsjF5Dhi" role="3S1VyS">
-              <property role="3S1DfW" value="FR" />
-              <property role="3S1DfY" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8AI5XtKTkAFJJ6gbrzg4ntHTC7o1gDAAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII=" />
-              <property role="3S1DfT" value="EXPERT" />
-            </node>
-            <node concept="3S1VyX" id="1c5gsjF5Dhk" role="3S1VxF">
-              <property role="3S1Dec" value="4" />
-              <property role="3S1De0" value="true" />
             </node>
           </node>
         </node>
@@ -171,6 +134,7 @@
           </node>
           <node concept="144wZB" id="1eZdBFEKfOn" role="144zUy">
             <property role="144wZw" value="4" />
+            <property role="3T1lIf" value="true" />
           </node>
         </node>
         <node concept="3S1VyK" id="1c5gsjF5Dgx" role="KMSAI">
