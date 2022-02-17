@@ -1030,7 +1030,7 @@
               </node>
             </node>
             <node concept="3TrcHB" id="1eZdBFFiVV7" role="2OqNvi">
-              <ref role="3TsBF5" to="wi2d:1eZdBFFiTq_" resolve="showTitle" />
+              <ref role="3TsBF5" to="wi2d:1eZdBFFmBd4" resolve="showTitle" />
             </node>
           </node>
         </node>
@@ -1787,7 +1787,7 @@
                   </node>
                 </node>
                 <node concept="3TrcHB" id="1eZdBFFiZsb" role="2OqNvi">
-                  <ref role="3TsBF5" to="wi2d:1eZdBFFiTqy" resolve="showTitle" />
+                  <ref role="3TsBF5" to="wi2d:1eZdBFFmBd4" resolve="showTitle" />
                 </node>
               </node>
             </node>
@@ -1995,7 +1995,7 @@
                   </node>
                 </node>
                 <node concept="3TrcHB" id="1eZdBFFiY2T" role="2OqNvi">
-                  <ref role="3TsBF5" to="wi2d:1eZdBFFiTqu" resolve="showTitle" />
+                  <ref role="3TsBF5" to="wi2d:1eZdBFFmBd4" resolve="showTitle" />
                 </node>
               </node>
             </node>
@@ -3424,7 +3424,23 @@
                   <node concept="2BGw6n" id="1eZdBFFh2IW" role="lcghm" />
                   <node concept="2BGw6n" id="1eZdBFFh2IX" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFh2IY" role="lcghm">
-                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} variant=&quot;h5&quot; component=&quot;div&quot;&gt;Languages&lt;/Typography&gt;" />
+                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} " />
+                  </node>
+                  <node concept="l9hG8" id="1eZdBFFnKf2" role="lcghm">
+                    <node concept="2OqwBi" id="1eZdBFFnKSt" role="lb14g">
+                      <node concept="2OqwBi" id="1eZdBFFnKq4" role="2Oq$k0">
+                        <node concept="117lpO" id="1eZdBFFnKfY" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="1eZdBFFnKFL" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:1c5gsjF0JAJ" resolve="styling" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="1eZdBFFnLer" role="2OqNvi">
+                        <ref role="3TsBF5" to="wi2d:1eZdBFFnokT" resolve="alignTitle" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="1eZdBFFnKbg" role="lcghm">
+                    <property role="lacIc" value=" variant=&quot;h5&quot; component=&quot;div&quot;&gt;Languages&lt;/Typography&gt;" />
                   </node>
                   <node concept="l8MVK" id="1eZdBFFh2IZ" role="lcghm" />
                 </node>
@@ -3437,7 +3453,7 @@
                   </node>
                 </node>
                 <node concept="3TrcHB" id="1eZdBFFisy0" role="2OqNvi">
-                  <ref role="3TsBF5" to="wi2d:1eZdBFFioO7" resolve="showTitle" />
+                  <ref role="3TsBF5" to="wi2d:1eZdBFFmBd4" resolve="showTitle" />
                 </node>
               </node>
             </node>
@@ -3566,7 +3582,7 @@
                   <node concept="2BGw6n" id="1eZdBFF5jdr" role="lcghm" />
                   <node concept="2BGw6n" id="1eZdBFF5je3" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFF5eiy" role="lcghm">
-                    <property role="lacIc" value="array.push(&lt;Divider sx={{ mb: 1.8 }} variant=&quot;middle&quot;/&gt;)" />
+                    <property role="lacIc" value="array.push(&lt;Divider sx={{ mb: 1 }} variant=&quot;middle&quot;/&gt;)" />
                   </node>
                   <node concept="l8MVK" id="1eZdBFF5hpJ" role="lcghm" />
                 </node>

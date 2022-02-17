@@ -146,6 +146,16 @@
     <property role="EcuMT" value="2552303901028114947" />
     <property role="TrG5h" value="IStyling" />
     <property role="3GE5qa" value="styling" />
+    <node concept="1TJgyi" id="1eZdBFFmBd4" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908834849604" />
+      <property role="TrG5h" value="showTitle" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFnokT" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908835050809" />
+      <property role="TrG5h" value="alignTitle" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY84">
     <property role="EcuMT" value="2552303901028114948" />
@@ -161,11 +171,6 @@
       <property role="IQ2nx" value="2552303901028127592" />
       <property role="TrG5h" value="imageLocation" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="1eZdBFFiTq_" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908833875621" />
-      <property role="TrG5h" value="showTitle" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="2dFAI0jBY85" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
@@ -333,11 +338,6 @@
       <property role="TrG5h" value="levelDisplayMethod" />
       <ref role="AX2Wp" node="1eZdBFFbDUC" resolve="LANGUAGE_LEVEL_DISPLAY_METHOD" />
     </node>
-    <node concept="1TJgyi" id="1eZdBFFioO7" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908833742087" />
-      <property role="TrG5h" value="showTitle" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1c5gsjF0JAI">
     <property role="EcuMT" value="1370573975616420270" />
@@ -427,11 +427,6 @@
       <property role="TrG5h" value="showAge" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="1eZdBFFiTqy" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908833875618" />
-      <property role="TrG5h" value="showTitle" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
   </node>
   <node concept="1TIwiD" id="7quf1gMz0a$">
     <property role="EcuMT" value="8547335200240829092" />
@@ -470,11 +465,6 @@
     <node concept="1TJgyi" id="1eZdBFEIARP" role="1TKVEl">
       <property role="IQ2nx" value="1422915908824362485" />
       <property role="TrG5h" value="usesShortDescription" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="1eZdBFFiTqu" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908833875614" />
-      <property role="TrG5h" value="showTitle" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="7quf1gMz3fQ" role="PzmwI">
@@ -528,7 +518,7 @@
       <property role="1uS6qv" value="0" />
     </node>
     <node concept="M4N5e" id="1eZdBFFbDUE" role="M5hS2">
-      <property role="1uS6qo" value="STARS" />
+      <property role="1uS6qo" value="STAR" />
       <property role="1uS6qv" value="1" />
     </node>
     <node concept="M4N5e" id="1eZdBFFf2Ba" role="M5hS2">
@@ -538,6 +528,24 @@
     <node concept="M4N5e" id="1eZdBFFbDUH" role="M5hS2">
       <property role="1uS6qo" value="BAR" />
       <property role="1uS6qv" value="3" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1eZdBFFmBck">
+    <property role="3F6X1D" value="1422915908834849556" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="ALIGN_OPTIONS" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1eZdBFFmBcl" role="M5hS2">
+      <property role="1uS6qo" value="LEFT" />
+      <property role="1uS6qv" value="align={&quot;left&quot;}" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFFmBcm" role="M5hS2">
+      <property role="1uS6qo" value="CENTER" />
+      <property role="1uS6qv" value="align={&quot;center&quot;}" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFFmBcp" role="M5hS2">
+      <property role="1uS6qo" value="RIGHT" />
+      <property role="1uS6qv" value="align={&quot;right&quot;}" />
     </node>
   </node>
 </model>
