@@ -273,7 +273,7 @@
       <node concept="3EZMnI" id="3ksNkQL18W4" role="3EZMnx">
         <node concept="VPM3Z" id="3ksNkQL18W6" role="3F10Kt" />
         <node concept="3F0ifn" id="3ksNkQL18We" role="3EZMnx">
-          <property role="3F0ifm" value="Layout: SinglePage" />
+          <property role="3F0ifm" value="Layout: " />
         </node>
         <node concept="3EZMnI" id="3ksNkQL1RTX" role="3EZMnx">
           <node concept="VPM3Z" id="3ksNkQL1RTZ" role="3F10Kt" />
@@ -304,7 +304,7 @@
         <node concept="2iRkQZ" id="3ksNkQL1ceQ" role="2iSdaV" />
         <node concept="VPM3Z" id="3ksNkQL1ceR" role="3F10Kt" />
         <node concept="3F0ifn" id="3ksNkQL1ceX" role="3EZMnx">
-          <property role="3F0ifm" value="Layout: MultiPage" />
+          <property role="3F0ifm" value="Menu layout:" />
         </node>
         <node concept="3EZMnI" id="3ksNkQL1s4g" role="3EZMnx">
           <node concept="3XFhqQ" id="3ksNkQL2IBG" role="3EZMnx" />
