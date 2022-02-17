@@ -24,6 +24,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -98,6 +99,7 @@
     <property role="EcuMT" value="2552303901028114943" />
     <property role="TrG5h" value="PresentationSection" />
     <property role="3GE5qa" value="section" />
+    <property role="34LRSv" value="presentation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2dFAI0jC1d$" role="1TKVEi">
       <property role="IQ2ns" value="2552303901028127588" />
@@ -205,6 +207,7 @@
     <property role="EcuMT" value="2552303901028114953" />
     <property role="3GE5qa" value="format" />
     <property role="TrG5h" value="WebSiteFormat" />
+    <property role="34LRSv" value="website" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8a" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
@@ -214,6 +217,7 @@
     <property role="EcuMT" value="2552303901028114956" />
     <property role="3GE5qa" value="layout" />
     <property role="TrG5h" value="SinglePageLayout" />
+    <property role="34LRSv" value="single page" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2dFAI0jC1de" role="1TKVEi">
       <property role="IQ2ns" value="2552303901028127566" />
@@ -230,6 +234,7 @@
     <property role="EcuMT" value="2552303901028114973" />
     <property role="3GE5qa" value="layout" />
     <property role="TrG5h" value="MultiPageLayout" />
+    <property role="34LRSv" value="multi page" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8u" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY88" resolve="ILayout" />
@@ -246,6 +251,7 @@
     <property role="EcuMT" value="2552303901028114976" />
     <property role="3GE5qa" value="layout" />
     <property role="TrG5h" value="TabLayout" />
+    <property role="34LRSv" value="tab" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2dFAI0jBY8z" role="1TKVEl">
       <property role="IQ2nx" value="2552303901028114979" />
@@ -269,6 +275,7 @@
     <property role="EcuMT" value="2552303901028114983" />
     <property role="3GE5qa" value="format" />
     <property role="TrG5h" value="MobileFormat" />
+    <property role="34LRSv" value="mobile" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8C" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
@@ -278,6 +285,7 @@
     <property role="EcuMT" value="1370573975616420212" />
     <property role="3GE5qa" value="section" />
     <property role="TrG5h" value="LanguageSection" />
+    <property role="34LRSv" value="languages" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1c5gsjF0J_P" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
@@ -378,6 +386,7 @@
     <property role="EcuMT" value="4440341332753549823" />
     <property role="3GE5qa" value="section" />
     <property role="TrG5h" value="AdditionalInformationSection" />
+    <property role="34LRSv" value="additional informat" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3QvgIEcgCQc" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
@@ -428,7 +437,7 @@
     <property role="EcuMT" value="8547335200240829092" />
     <property role="TrG5h" value="ExperiencesSection" />
     <property role="3GE5qa" value="section" />
-    <property role="R4oN_" value="represents a group of experience sections" />
+    <property role="34LRSv" value="experiences" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7quf1gMz0a_" role="1TKVEi">
       <property role="IQ2ns" value="8547335200240829093" />
