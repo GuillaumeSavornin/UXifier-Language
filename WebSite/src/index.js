@@ -34,7 +34,9 @@ import BarChartIcon from '@mui/icons-material/BarChart';
 import LayersIcon from '@mui/icons-material/Layers';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import { css } from "aphrodite/no-important";
+import { css } from "aphrodite/no-important";import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+
 
 // ========================================================================================================================
 /**
@@ -134,6 +136,16 @@ function WebSiteFormat(){
                                 </Grid>
                             </Grid>
                         </Container>
+                        <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+                            <Grid container spacing={4}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                    {(()=>{
+                                        let array = [];
+                                        data.experienceItems.forEach((item)=>{
+                                            array.push(<p>{item.title} : {item.corporation} | {item.startDate} - {item.endDate} | {item.description} | {item.summary}</p>)
+                                        })
+                                        return array;                  })()}            </Paper>
+                            </Grid></Container>
 
                     </ Route>
                     <Route path="/More details">
@@ -216,6 +228,16 @@ function MobileFormat(){
                             </Grid>
                         </Grid>
                     </Container>
+                    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+                        <Grid container spacing={4}>
+                            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                {(()=>{
+                                    let array = [];
+                                    data.experienceItems.forEach((item)=>{
+                                        array.push(<p>{item.title} : {item.corporation} | {item.startDate} - {item.endDate} | {item.description} | {item.summary}</p>)
+                                    })
+                                    return array;                  })()}            </Paper>
+                        </Grid></Container>
                     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                         <Grid container spacing={4}>
                             <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
