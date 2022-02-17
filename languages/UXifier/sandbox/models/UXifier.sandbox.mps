@@ -16,6 +16,7 @@
       <concept id="2552303901028114948" name="UXifier.structure.PresentationStyling" flags="ng" index="KX7z$">
         <property id="2552303901028127590" name="showImage" index="KMSA6" />
         <property id="2552303901028127592" name="imageLocation" index="KMSA8" />
+        <property id="1422915908833875621" name="showTitle" index="3SXa3v" />
       </concept>
       <concept id="2552303901028114951" name="UXifier.structure.IFormat" flags="ng" index="KX7zB">
         <property id="2552303901028618557" name="name" index="KN0Jt" />
@@ -50,6 +51,7 @@
       </concept>
       <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN">
         <property id="4440341332753550748" name="showAge" index="2LRsXQ" />
+        <property id="1422915908833875618" name="showTitle" index="3SXa3o" />
       </concept>
       <concept id="1904405720489579195" name="UXifier.structure.App" flags="ng" index="2OrhLi">
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
@@ -57,6 +59,7 @@
       </concept>
       <concept id="8547335200240841715" name="UXifier.structure.ExperienceItemStyling" flags="ng" index="144wZB">
         <property id="8547335200240841716" name="numberItems" index="144wZw" />
+        <property id="1422915908833875614" name="showTitle" index="3SXa3$" />
         <property id="1422915908824362485" name="usesShortDescription" index="3T1lIf" />
       </concept>
       <concept id="8547335200240829084" name="UXifier.structure.ExperienceItem" flags="ng" index="144zU8">
@@ -85,6 +88,7 @@
         <property id="1370573975616475720" name="numberItems" index="3S1Dec" />
         <property id="1422915908831962114" name="levelDisplayMethod" index="3S$l9S" />
         <property id="1422915908830251866" name="separator" index="3SEROw" />
+        <property id="1422915908833742087" name="showTitle" index="3SXFHX" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -118,6 +122,7 @@
             <property role="2LRsXU" value="XX" />
             <property role="2LRsXT" value="list of countries" />
             <node concept="2LRsXN" id="1eZdBFF4vbj" role="2LRsXX">
+              <property role="3SXa3o" value="true" />
               <property role="2LRsXQ" value="true" />
             </node>
           </node>
@@ -132,6 +137,7 @@
             </node>
             <node concept="144wZB" id="1eZdBFEKfO3" role="144zUy">
               <property role="144wZw" value="2" />
+              <property role="3SXa3$" value="true" />
             </node>
           </node>
         </node>
@@ -148,6 +154,7 @@
               <property role="3S1Dec" value="8" />
               <property role="3S1De0" value="true" />
               <property role="3SEROw" value="true" />
+              <property role="3SXFHX" value="true" />
             </node>
           </node>
           <node concept="3S1VyK" id="1eZdBFFfYyw" role="KX7z1">
@@ -161,6 +168,7 @@
               <property role="3S$l9S" value="1eZdBFFbDUH/3" />
               <property role="3SEROw" value="true" />
               <property role="3S1De0" value="true" />
+              <property role="3SXFHX" value="true" />
             </node>
           </node>
           <node concept="3S1VyK" id="1eZdBFFfYyT" role="KX7z1">
@@ -185,6 +193,7 @@
               <property role="3S1Dec" value="4" />
               <property role="3S1De0" value="true" />
               <property role="3S$l9S" value="1eZdBFFf2Ba/2" />
+              <property role="3SXFHX" value="true" />
             </node>
           </node>
         </node>
@@ -203,6 +212,7 @@
           <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
           <node concept="KX7z$" id="1eZdBFF6ojp" role="KMSA4">
             <property role="KMSA8" value="center" />
+            <property role="3SXa3v" value="true" />
           </node>
         </node>
         <node concept="144zUK" id="1eZdBFF6oj_" role="KMSAI">
@@ -217,6 +227,7 @@
           <node concept="144wZB" id="1eZdBFF6ojC" role="144zUy">
             <property role="144wZw" value="4" />
             <property role="3T1lIf" value="true" />
+            <property role="3SXa3$" value="true" />
           </node>
         </node>
         <node concept="3S1VyK" id="1eZdBFFfyY5" role="KMSAI">
@@ -242,6 +253,7 @@
             <property role="3S1De0" value="true" />
             <property role="3SEROw" value="true" />
             <property role="3S$l9S" value="1eZdBFFbDUE/1" />
+            <property role="3SXFHX" value="true" />
           </node>
         </node>
       </node>

@@ -93,7 +93,6 @@ function WebSiteFormat(){
                             <Grid container spacing={3}>
                                 <Grid item xs={12} md={8} lg={9}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                        PRESENTATION<br/>
                                         {(()=>{
                                             if(data.presentation){
                                                 return data.presentation.catchPhrase
@@ -130,7 +129,7 @@ function WebSiteFormat(){
                             <Grid container spacing={3}>
                                 <Grid item xs={12} md={8} lg={9}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                        ADDITIONAL INFORMATION<br/>
+                                        <Typography gutterBottom sx={{ mb: 3 }} variant="h5" component="div">Additional informations</Typography>
                                         Driver's license: {(()=>{
                                         if(data.additionalInformation){
                                             return data.additionalInformation.driverLicense
@@ -158,6 +157,7 @@ function WebSiteFormat(){
                             <Grid container spacing={3}>
                                 <Grid item xs={12} md={8} lg={9}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                        <Typography gutterBottom sx={{ mb: 3 }} variant="h5" component="div">Experiences</Typography>
                                         {(()=>{
                                             let array = [];
                                             for(let i = 0; i < 2; i++){
@@ -202,6 +202,7 @@ function WebSiteFormat(){
                             <Grid container spacing={3}>
                                 <Grid item xs={12} md={8} lg={9}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                        <Typography gutterBottom sx={{ mb: 3 }} variant="h5" component="div">Languages</Typography>
                                         {(()=>{
                                             let array = [];
                                             for(let i = 0; i < 8; i++){
@@ -217,12 +218,12 @@ function WebSiteFormat(){
                                                                  sx={{height: '50px'}}/>
                                                         </Grid>
                                                         <Grid item xs={4} md={4} lg={4}>
-                                                            <p>                        {(()=>{
+                                                            <p>                        <strong>{(()=>{
                                                                 if(data.languageItems && data.languageItems[i] && data.languageItems[i].language){
                                                                     return data.languageItems[i].language
                                                                 }
                                                                 return "Language"
-                                                            })()}
+                                                            })()}</strong>
                                                             </p>
                                                         </Grid>
                                                         <Grid item xs={6} md={6} lg={6}>
@@ -267,6 +268,7 @@ function WebSiteFormat(){
                             <Grid container spacing={3}>
                                 <Grid item xs={12} md={8} lg={9}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                        <Typography gutterBottom sx={{ mb: 3 }} variant="h5" component="div">Languages</Typography>
                                         {(()=>{
                                             let array = [];
                                             for(let i = 0; i < 2; i++){
@@ -282,12 +284,12 @@ function WebSiteFormat(){
                                                                  sx={{height: '50px'}}/>
                                                         </Grid>
                                                         <Grid item xs={4} md={4} lg={4}>
-                                                            <p>                        {(()=>{
+                                                            <p>                        <strong>{(()=>{
                                                                 if(data.languageItems && data.languageItems[i] && data.languageItems[i].language){
                                                                     return data.languageItems[i].language
                                                                 }
                                                                 return "Language"
-                                                            })()}
+                                                            })()}</strong>
                                                             </p>
                                                         </Grid>
                                                         <Grid item xs={6} md={6} lg={6}>
@@ -347,12 +349,12 @@ function WebSiteFormat(){
                                                                  sx={{height: '50px'}}/>
                                                         </Grid>
                                                         <Grid item xs={4} md={4} lg={4}>
-                                                            <p>                        {(()=>{
+                                                            <p>                        <strong>{(()=>{
                                                                 if(data.languageItems && data.languageItems[i] && data.languageItems[i].language){
                                                                     return data.languageItems[i].language
                                                                 }
                                                                 return "Language"
-                                                            })()}
+                                                            })()}</strong>
                                                             </p>
                                                         </Grid>
                                                         <Grid item xs={6} md={6} lg={6}>
@@ -397,6 +399,7 @@ function WebSiteFormat(){
                             <Grid container spacing={3}>
                                 <Grid item xs={12} md={8} lg={9}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                        <Typography gutterBottom sx={{ mb: 3 }} variant="h5" component="div">Languages</Typography>
                                         {(()=>{
                                             let array = [];
                                             for(let i = 0; i < 4; i++){
@@ -412,12 +415,12 @@ function WebSiteFormat(){
                                                                  sx={{height: '50px'}}/>
                                                         </Grid>
                                                         <Grid item xs={4} md={4} lg={4}>
-                                                            <p>                        {(()=>{
+                                                            <p>                        <strong>{(()=>{
                                                                 if(data.languageItems && data.languageItems[i] && data.languageItems[i].language){
                                                                     return data.languageItems[i].language
                                                                 }
                                                                 return "Language"
-                                                            })()}
+                                                            })()}</strong>
                                                             </p>
                                                         </Grid>
                                                         <Grid item xs={6} md={6} lg={6}>
@@ -492,7 +495,7 @@ function MobileFormat(){
                         <Grid container spacing={3}>
                             <Grid item xs={12} md={8} lg={9}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
-                                    PRESENTATION<br/>
+                                    <Typography gutterBottom sx={{ mb: 3 }} variant="h5" component="div">Presentation</Typography>
                                     {(()=>{
                                         if(data.presentation){
                                             return data.presentation.catchPhrase
@@ -519,6 +522,7 @@ function MobileFormat(){
                         <Grid container spacing={3}>
                             <Grid item xs={12} md={8} lg={9}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                    <Typography gutterBottom sx={{ mb: 3 }} variant="h5" component="div">Experiences</Typography>
                                     {(()=>{
                                         let array = [];
                                         for(let i = 0; i < 4; i++){
@@ -575,12 +579,12 @@ function MobileFormat(){
                                                              sx={{height: '50px'}}/>
                                                     </Grid>
                                                     <Grid item xs={4} md={4} lg={4}>
-                                                        <p>                        {(()=>{
+                                                        <p>                        <strong>{(()=>{
                                                             if(data.languageItems && data.languageItems[i] && data.languageItems[i].language){
                                                                 return data.languageItems[i].language
                                                             }
                                                             return "Language"
-                                                        })()}
+                                                        })()}</strong>
                                                         </p>
                                                     </Grid>
                                                     <Grid item xs={6} md={6} lg={6}>
@@ -625,6 +629,7 @@ function MobileFormat(){
                         <Grid container spacing={3}>
                             <Grid item xs={12} md={8} lg={9}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                    <Typography gutterBottom sx={{ mb: 3 }} variant="h5" component="div">Languages</Typography>
                                     {(()=>{
                                         let array = [];
                                         for(let i = 0; i < 8; i++){
@@ -640,12 +645,12 @@ function MobileFormat(){
                                                              sx={{height: '50px'}}/>
                                                     </Grid>
                                                     <Grid item xs={4} md={4} lg={4}>
-                                                        <p>                        {(()=>{
+                                                        <p>                        <strong>{(()=>{
                                                             if(data.languageItems && data.languageItems[i] && data.languageItems[i].language){
                                                                 return data.languageItems[i].language
                                                             }
                                                             return "Language"
-                                                        })()}
+                                                        })()}</strong>
                                                         </p>
                                                     </Grid>
                                                     <Grid item xs={6} md={6} lg={6}>
