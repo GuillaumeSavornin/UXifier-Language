@@ -14,7 +14,6 @@
       </concept>
       <concept id="2552303901028114983" name="UXifier.structure.MobileFormat" flags="ng" index="KX7z7" />
       <concept id="2552303901028114948" name="UXifier.structure.PresentationStyling" flags="ng" index="KX7z$">
-        <property id="2552303901028127590" name="showImage" index="KMSA6" />
         <property id="2552303901028127592" name="imageLocation" index="KMSA8" />
       </concept>
       <concept id="2552303901028114951" name="UXifier.structure.IFormat" flags="ng" index="KX7zB">
@@ -48,27 +47,22 @@
         <property id="4440341332753550736" name="age" index="2LRsXU" />
         <child id="4440341332753550743" name="styling" index="2LRsXX" />
       </concept>
-      <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN">
-        <property id="4440341332753550748" name="showAge" index="2LRsXQ" />
-      </concept>
+      <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN" />
       <concept id="1904405720489579195" name="UXifier.structure.App" flags="ng" index="2OrhLi">
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
         <child id="2552303901028114963" name="theme" index="KX7zN" />
       </concept>
-      <concept id="8547335200240841715" name="UXifier.structure.ExperienceItemStyling" flags="ng" index="144wZB">
-        <property id="8547335200240841716" name="numberItems" index="144wZw" />
+      <concept id="1370573975616420270" name="UXifier.structure.LanguageItem" flags="ng" index="3S1VxE">
+        <property id="1370573975616475709" name="level" index="3S1DfT" />
+        <property id="1370573975616475704" name="language" index="3S1DfW" />
+        <property id="1370573975616475706" name="flagImage" index="3S1DfY" />
       </concept>
-      <concept id="8547335200240829084" name="UXifier.structure.ExperienceItem" flags="ng" index="144zU8">
-        <property id="8547335200240829087" name="startDate" index="144zUb" />
-        <property id="8547335200240829088" name="endDate" index="144zUO" />
-        <property id="8547335200240829089" name="title" index="144zUP" />
-        <property id="8547335200240829090" name="corporation" index="144zUQ" />
-        <property id="8547335200240829091" name="description" index="144zUR" />
-        <property id="8547335200240848324" name="summary" index="144B7g" />
+      <concept id="1370573975616420212" name="UXifier.structure.LanguageSection" flags="ng" index="3S1VyK">
+        <child id="1370573975616420271" name="styling" index="3S1VxF" />
+        <child id="1370573975616420220" name="items" index="3S1VyS" />
       </concept>
-      <concept id="8547335200240829092" name="UXifier.structure.ExperiencesSection" flags="ng" index="144zUK">
-        <child id="8547335200240829110" name="styling" index="144zUy" />
-        <child id="8547335200240829093" name="experiences" index="144zUL" />
+      <concept id="1370573975616420217" name="UXifier.structure.LanguageStyling" flags="ng" index="3S1VyX">
+        <property id="1370573975616475720" name="numberItems" index="3S1Dec" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -79,234 +73,77 @@
   </registry>
   <node concept="2OrhLi" id="1DHNIAI0_uR">
     <property role="TrG5h" value="TestScript" />
-    <node concept="KX7zD" id="3ksNkQL2qiG" role="KX7zJ">
+    <node concept="KX7zD" id="1c5gsjF5D1B" role="KX7zJ">
       <property role="KX7za" value="0" />
       <property role="KX7zc" value="2147483647" />
       <property role="KN0Jt" value="WebSite" />
-      <node concept="KX7zX" id="3ksNkQL2qiZ" role="KX7zS">
-        <node concept="KX7z0" id="3ksNkQL2qkG" role="KX7z5">
-          <property role="KX7z3" value="Leo" />
-          <property role="Ses3W" value="7MJjWP4_CRK/&lt;PeopleIcon /&gt;" />
-          <node concept="KX7Gv" id="3ksNkQL2qkN" role="KX7z1">
+      <node concept="KX7zX" id="1c5gsjF5D1G" role="KX7zS">
+        <node concept="KX7z0" id="1c5gsjF5D1I" role="KX7z5">
+          <property role="KX7z3" value="Main" />
+          <node concept="KX7Gv" id="1c5gsjF5D2I" role="KX7z1">
             <property role="KMSAM" value="Leo" />
             <property role="KMSAP" value="Burette" />
             <property role="KMSAK" value="Go is life, js is love!" />
             <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
             <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-            <node concept="KX7z$" id="3ksNkQL2qkP" role="KMSA4">
-              <property role="KMSA8" value="dsdqsd" />
+            <node concept="KX7z$" id="1c5gsjF5D2K" role="KMSA4">
+              <property role="KMSA8" value="left" />
             </node>
           </node>
-          <node concept="2LRsGl" id="7MJjWP4A_dL" role="KX7z1">
+          <node concept="2LRsGl" id="1c5gsjF5D2b" role="KX7z1">
             <property role="2LRsX$" value="Class D license" />
             <property role="2LRsXU" value="22" />
             <property role="2LRsXT" value="France, Germany" />
-            <node concept="2LRsXN" id="7MJjWP4A_dN" role="2LRsXX" />
+            <node concept="2LRsXN" id="1c5gsjF5D2d" role="2LRsXX" />
           </node>
         </node>
-        <node concept="KX7z0" id="3ksNkQL2qj1" role="KX7z5">
-          <property role="KX7z3" value="Encore Leo" />
+        <node concept="KX7z0" id="1c5gsjF5Dh8" role="KX7z5">
+          <property role="KX7z3" value="More details" />
           <property role="Ses3W" value="7MJjWP4_CRO/&lt;AssignmentIcon /&gt;" />
-          <node concept="KX7Gv" id="3ksNkQL2qj7" role="KX7z1">
-            <property role="KMSAM" value="Leo" />
-            <property role="KMSAP" value="Burette" />
-            <property role="KMSAK" value="Go is life, js is love!" />
-            <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-            <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-            <node concept="KX7z$" id="3ksNkQL2qj9" role="KMSA4">
-              <property role="KMSA8" value="azde" />
+          <node concept="3S1VyK" id="1c5gsjF5Dhh" role="KX7z1">
+            <node concept="3S1VxE" id="1c5gsjF5Dhi" role="3S1VyS">
+              <property role="3S1DfW" value="FR" />
+              <property role="3S1DfY" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8AI5XtKTkAFJJ6gbrzg4ntHTC7o1gDAAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII=" />
+              <property role="3S1DfT" value="EXPERT" />
+            </node>
+            <node concept="3S1VyX" id="1c5gsjF5Dhk" role="3S1VxF">
+              <property role="3S1Dec" value="4" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="KX7z7" id="3ksNkQL2qkb" role="KX7zJ">
+    <node concept="KX7z7" id="1c5gsjF5Dgd" role="KX7zJ">
       <property role="KX7za" value="0" />
       <property role="KX7zc" value="600" />
       <property role="KN0Jt" value="Mobile" />
-      <node concept="KX7zG" id="3ksNkQL2qkl" role="KX7zS">
-        <node concept="KX7Gv" id="3ksNkQL2qk$" role="KMSAI">
+      <node concept="KX7zG" id="1c5gsjF5Dgs" role="KX7zS">
+        <node concept="KX7Gv" id="1c5gsjF5DgV" role="KMSAI">
           <property role="KMSAM" value="Leo" />
           <property role="KMSAP" value="Burette" />
           <property role="KMSAK" value="Go is life, js is love!" />
           <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
           <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-          <node concept="KX7z$" id="3ksNkQL2qkA" role="KMSA4">
-            <property role="KMSA8" value="dsdq" />
+          <node concept="KX7z$" id="1c5gsjF5DgX" role="KMSA4">
+            <property role="KMSA8" value="center" />
+          </node>
+        </node>
+        <node concept="3S1VyK" id="1c5gsjF5Dgx" role="KMSAI">
+          <node concept="3S1VxE" id="1c5gsjF5Dgy" role="3S1VyS">
+            <property role="3S1DfW" value="FR" />
+            <property role="3S1DfY" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8AI5XtKTkAFJJ6gbrzg4ntHTC7o1gDAAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII=" />
+            <property role="3S1DfT" value="EXPERT" />
+          </node>
+          <node concept="3S1VyX" id="1c5gsjF5Dg$" role="3S1VxF">
+            <property role="3S1Dec" value="2" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="KX7Gu" id="58tSxDctUYN" role="KX7zN">
-      <property role="urXY_" value="#19857b" />
-      <property role="urXYB" value="#0056a6" />
+    <node concept="KX7Gu" id="1c5gsjF5D1z" role="KX7zN">
+      <property role="urXYB" value="#123456" />
+      <property role="urXY_" value="#654321" />
     </node>
-  </node>
-  <node concept="2OrhLi" id="2dFAI0jCIhP">
-    <property role="TrG5h" value="GuillaumeTestScript" />
-    <node concept="KX7z7" id="2dFAI0jE5e9" role="KX7zJ">
-      <property role="KX7za" value="0" />
-      <property role="KX7zc" value="600" />
-      <property role="KN0Jt" value="Mobile" />
-      <node concept="KX7zG" id="2dFAI0jE5ee" role="KX7zS">
-        <node concept="KX7Gv" id="2dFAI0jE5ej" role="KMSAI">
-          <property role="KMSAM" value="Leo" />
-          <property role="KMSAP" value="Burette" />
-          <property role="KMSAK" value="Go is life, js is love!" />
-          <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-          <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-          <node concept="KX7z$" id="2dFAI0jE5el" role="KMSA4">
-            <property role="KMSA8" value="left" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="KX7zD" id="2dFAI0jEaHu" role="KX7zJ">
-      <property role="KX7za" value="0" />
-      <property role="KX7zc" value="2147483647" />
-      <property role="KN0Jt" value="WebSite" />
-      <node concept="KX7zX" id="2dFAI0jEaHB" role="KX7zS">
-        <node concept="KX7z0" id="2dFAI0jEaHD" role="KX7z5">
-          <property role="KX7z3" value="zea" />
-          <node concept="KX7Gv" id="2dFAI0jEaHT" role="KX7z1">
-            <property role="KMSAM" value="Leo" />
-            <property role="KMSAP" value="Burette" />
-            <property role="KMSAK" value="Go is life, js is love!" />
-            <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-            <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-            <node concept="KX7z$" id="2dFAI0jEaHV" role="KMSA4">
-              <property role="KMSA8" value="aze" />
-            </node>
-          </node>
-          <node concept="KX7Gv" id="2dFAI0jEaHJ" role="KX7z1">
-            <property role="KMSAM" value="Leo" />
-            <property role="KMSAP" value="Burette" />
-            <property role="KMSAK" value="Go is life, js is love!" />
-            <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-            <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-            <node concept="KX7z$" id="2dFAI0jEaHL" role="KMSA4">
-              <property role="KMSA8" value="azeaze" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2OrhLi" id="2dFAI0jGpZO">
-    <property role="TrG5h" value="teeeeeeeeest" />
-    <node concept="KX7z7" id="2dFAI0jGpZR" role="KX7zJ">
-      <property role="KX7za" value="0" />
-      <property role="KX7zc" value="600" />
-      <property role="KN0Jt" value="Mobile" />
-      <node concept="KX7zG" id="2dFAI0jGpZW" role="KX7zS">
-        <node concept="KX7Gv" id="2dFAI0jGq01" role="KMSAI">
-          <property role="KMSAM" value="Leo" />
-          <property role="KMSAP" value="Burette" />
-          <property role="KMSAK" value="Go is life, js is love!" />
-          <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-          <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-          <node concept="KX7z$" id="2dFAI0jGq03" role="KMSA4">
-            <property role="KMSA8" value="z" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="KX7zD" id="2dFAI0jGq0d" role="KX7zJ">
-      <property role="KX7za" value="0" />
-      <property role="KX7zc" value="2147483647" />
-      <property role="KN0Jt" value="WebSite" />
-      <node concept="KX7zG" id="2dFAI0jGq0m" role="KX7zS">
-        <node concept="KX7Gv" id="58tSxDctzmM" role="KMSAI">
-          <property role="KMSAM" value="Leo" />
-          <property role="KMSAP" value="Burette" />
-          <property role="KMSAK" value="Go is life, js is love!" />
-          <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-          <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-          <node concept="KX7z$" id="58tSxDctzmO" role="KMSA4">
-            <property role="KMSA8" value="left" />
-            <property role="KMSA6" value="true" />
-          </node>
-        </node>
-        <node concept="KX7Gv" id="2dFAI0jGq0r" role="KMSAI">
-          <property role="KMSAM" value="Leo" />
-          <property role="KMSAP" value="Burette" />
-          <property role="KMSAK" value="Go is life, js is love!" />
-          <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-          <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-          <node concept="KX7z$" id="2dFAI0jGq0t" role="KMSA4">
-            <property role="KMSA8" value="r" />
-          </node>
-        </node>
-        <node concept="144zUK" id="1eZdBFEJrBA" role="KMSAI">
-          <node concept="144zU8" id="1eZdBFEJrBC" role="144zUL">
-            <property role="144zUb" value="01/01/2020" />
-            <property role="144zUO" value="01/01/2022" />
-            <property role="144zUP" value="My work experience" />
-            <property role="144zUQ" value="My company" />
-            <property role="144zUR" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
-            <property role="144B7g" value="Short description" />
-          </node>
-          <node concept="144wZB" id="1eZdBFEJrBE" role="144zUy">
-            <property role="144wZw" value="3" />
-          </node>
-        </node>
-        <node concept="2LRsGl" id="3QvgIEci41a" role="KMSAI">
-          <property role="2LRsX$" value="Class D license" />
-          <property role="2LRsXU" value="22" />
-          <property role="2LRsXT" value="France, Germany" />
-          <node concept="2LRsXN" id="3QvgIEci41c" role="2LRsXX">
-            <property role="2LRsXQ" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="KX7Gu" id="58tSxDcsZNk" role="KX7zN">
-      <property role="urXY_" value="#19857b" />
-      <property role="urXYB" value="#0056a6" />
-    </node>
-  </node>
-  <node concept="2OrhLi" id="7quf1gMz7dM">
-    <property role="TrG5h" value="ExperiencesTestScript" />
-    <node concept="KX7zD" id="7quf1gMz7dR" role="KX7zJ">
-      <property role="KX7za" value="0" />
-      <property role="KX7zc" value="2147483647" />
-      <property role="KN0Jt" value="WebSite" />
-      <node concept="KX7zX" id="7quf1gMz7dS" role="KX7zS">
-        <node concept="KX7z0" id="7quf1gMz7dT" role="KX7z5">
-          <property role="KX7z3" value="main" />
-          <node concept="144zUK" id="1A3hF0yNm1X" role="KX7z1">
-            <node concept="144zU8" id="1A3hF0yNm1Z" role="144zUL">
-              <property role="144zUb" value="01/01/2020" />
-              <property role="144zUO" value="01/01/2022" />
-              <property role="144zUP" value="My work experience" />
-              <property role="144zUQ" value="My company" />
-              <property role="144zUR" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
-              <property role="144B7g" value="Short description" />
-            </node>
-            <node concept="144wZB" id="1A3hF0yNm21" role="144zUy">
-              <property role="144wZw" value="3" />
-            </node>
-          </node>
-          <node concept="KX7Gv" id="hFPhRNLPeg" role="KX7z1">
-            <property role="KMSAM" value="Leo" />
-            <property role="KMSAP" value="Burette" />
-            <property role="KMSAK" value="Go is life, js is love!" />
-            <property role="KMSAT" value="https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&amp;v=beta&amp;t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU" />
-            <property role="KMSAY" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-            <node concept="KX7z$" id="hFPhRNLPei" role="KMSA4">
-              <property role="KMSA8" value="abc" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="KX7Gu" id="hFPhRNMcsk" role="KX7zN">
-      <property role="urXY_" value="#19857b" />
-      <property role="urXYB" value="#0056a6" />
-    </node>
-  </node>
-  <node concept="2OrhLi" id="58tSxDctHHs">
-    <property role="TrG5h" value="MyApp" />
   </node>
 </model>
 
