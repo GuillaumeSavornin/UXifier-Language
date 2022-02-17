@@ -162,6 +162,11 @@
       <property role="TrG5h" value="imageLocation" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="1eZdBFFiTq_" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908833875621" />
+      <property role="TrG5h" value="showTitle" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="2dFAI0jBY85" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
     </node>
@@ -328,6 +333,11 @@
       <property role="TrG5h" value="levelDisplayMethod" />
       <ref role="AX2Wp" node="1eZdBFFbDUC" resolve="LANGUAGE_LEVEL_DISPLAY_METHOD" />
     </node>
+    <node concept="1TJgyi" id="1eZdBFFioO7" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908833742087" />
+      <property role="TrG5h" value="showTitle" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1c5gsjF0JAI">
     <property role="EcuMT" value="1370573975616420270" />
@@ -417,6 +427,11 @@
       <property role="TrG5h" value="showAge" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="1eZdBFFiTqy" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908833875618" />
+      <property role="TrG5h" value="showTitle" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7quf1gMz0a$">
     <property role="EcuMT" value="8547335200240829092" />
@@ -455,6 +470,11 @@
     <node concept="1TJgyi" id="1eZdBFEIARP" role="1TKVEl">
       <property role="IQ2nx" value="1422915908824362485" />
       <property role="TrG5h" value="usesShortDescription" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFiTqu" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908833875614" />
+      <property role="TrG5h" value="showTitle" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="7quf1gMz3fQ" role="PzmwI">
