@@ -23,6 +23,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -396,6 +397,86 @@
       <property role="IQ2nx" value="4440341332753550748" />
       <property role="TrG5h" value="showAge" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7quf1gMz0a$">
+    <property role="EcuMT" value="8547335200240829092" />
+    <property role="TrG5h" value="ExperiencesSection" />
+    <property role="3GE5qa" value="section" />
+    <property role="R4oN_" value="represents a group of experience sections" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7quf1gMz0a_" role="1TKVEi">
+      <property role="IQ2ns" value="8547335200240829093" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="experiences" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7quf1gMz0as" resolve="ExperienceItem" />
+    </node>
+    <node concept="1TJgyj" id="7quf1gMz0aQ" role="1TKVEi">
+      <property role="IQ2ns" value="8547335200240829110" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="styling" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7quf1gMz3fN" resolve="ExperienceItemStyling" />
+    </node>
+    <node concept="PrWs8" id="7quf1gMz0aA" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7quf1gMz3fN">
+    <property role="EcuMT" value="8547335200240841715" />
+    <property role="TrG5h" value="ExperienceItemStyling" />
+    <property role="3GE5qa" value="styling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7quf1gMz3fO" role="1TKVEl">
+      <property role="IQ2nx" value="8547335200240841716" />
+      <property role="TrG5h" value="numberItems" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFEIARP" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908824362485" />
+      <property role="TrG5h" value="usesShortDescription" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="7quf1gMz3fQ" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7quf1gMz0as">
+    <property role="EcuMT" value="8547335200240829084" />
+    <property role="TrG5h" value="ExperienceItem" />
+    <property role="3GE5qa" value="section.item" />
+    <property role="R4oN_" value="represents an experience on the curriculum vitae, can be scholar or professional" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7quf1gMz0av" role="1TKVEl">
+      <property role="IQ2nx" value="8547335200240829087" />
+      <property role="TrG5h" value="startDate" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7quf1gMz0aw" role="1TKVEl">
+      <property role="IQ2nx" value="8547335200240829088" />
+      <property role="TrG5h" value="endDate" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7quf1gMz0ax" role="1TKVEl">
+      <property role="IQ2nx" value="8547335200240829089" />
+      <property role="TrG5h" value="title" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7quf1gMz0ay" role="1TKVEl">
+      <property role="IQ2nx" value="8547335200240829090" />
+      <property role="TrG5h" value="corporation" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7quf1gMz0az" role="1TKVEl">
+      <property role="IQ2nx" value="8547335200240829091" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7quf1gMz4R4" role="1TKVEl">
+      <property role="IQ2nx" value="8547335200240848324" />
+      <property role="TrG5h" value="summary" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
