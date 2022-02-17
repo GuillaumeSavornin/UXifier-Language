@@ -262,14 +262,14 @@
               </node>
             </node>
             <node concept="Xl_RD" id="3QvgIEch9Wn" role="37vLTx">
-              <property role="Xl_RC" value="Class D license" />
+              <property role="Xl_RC" value="Type of license" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="3QvgIEch9YE" role="3cqZAp">
           <node concept="37vLTI" id="3QvgIEchaGs" role="3clFbG">
             <node concept="Xl_RD" id="3QvgIEchaGI" role="37vLTx">
-              <property role="Xl_RC" value="22" />
+              <property role="Xl_RC" value="XX" />
             </node>
             <node concept="2OqwBi" id="3QvgIEcha7b" role="37vLTJ">
               <node concept="13iPFW" id="3QvgIEch9YC" role="2Oq$k0" />
@@ -282,7 +282,7 @@
         <node concept="3clFbF" id="3QvgIEchaIG" role="3cqZAp">
           <node concept="37vLTI" id="3QvgIEchbBl" role="3clFbG">
             <node concept="Xl_RD" id="3QvgIEchbBB" role="37vLTx">
-              <property role="Xl_RC" value="France, Germany" />
+              <property role="Xl_RC" value="list of countries" />
             </node>
             <node concept="2OqwBi" id="3QvgIEchaTC" role="37vLTJ">
               <node concept="13iPFW" id="3QvgIEchaIE" role="2Oq$k0" />

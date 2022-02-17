@@ -47,7 +47,9 @@
         <property id="4440341332753550736" name="age" index="2LRsXU" />
         <child id="4440341332753550743" name="styling" index="2LRsXX" />
       </concept>
-      <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN" />
+      <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN">
+        <property id="4440341332753550748" name="showAge" index="2LRsXQ" />
+      </concept>
       <concept id="1904405720489579195" name="UXifier.structure.App" flags="ng" index="2OrhLi">
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
         <child id="2552303901028114963" name="theme" index="KX7zN" />
@@ -111,7 +113,9 @@
             <property role="2LRsX$" value="Class D license" />
             <property role="2LRsXU" value="22" />
             <property role="2LRsXT" value="France, Germany" />
-            <node concept="2LRsXN" id="1c5gsjF5D2d" role="2LRsXX" />
+            <node concept="2LRsXN" id="1c5gsjF5D2d" role="2LRsXX">
+              <property role="2LRsXQ" value="true" />
+            </node>
           </node>
           <node concept="144zUK" id="1eZdBFEKfNZ" role="KX7z1">
             <node concept="144zU8" id="1eZdBFEKfO1" role="144zUL">

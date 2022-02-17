@@ -9,6 +9,11 @@
       "level": "Professional working proficiency"
     }
   ],
+  "additionalInformation": {
+    "driverLicense" : "Class D license",
+    "age": "22",
+    "mobilityPlaces" : "France, Germany"
+  },
   "presentation": {
     "catchPhrase" : "Etudiant à Polytech Nice Sophia en 5ème année de la section \"Sciences Informatiques\" spécialité « Architecture logiciel ».\nPassionné de nouvelles technologies mais aussi de lecture, cinéma et musique que j'ai pratiqué au sein d'un groupe.",
     "name": "Leo",
