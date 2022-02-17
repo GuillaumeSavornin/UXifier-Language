@@ -8,6 +8,7 @@
   <imports>
     <import index="wi2d" ref="r:cd87d1df-282c-459e-b1af-3bfc6871f1c8(UXifier.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -151,7 +152,9 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <property id="1238684351431" name="asCast" index="1BlNFB" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -812,14 +815,106 @@
         </node>
         <node concept="3izx1p" id="2dFAI0jGRMI" role="3cqZAp">
           <node concept="3clFbS" id="2dFAI0jGRMK" role="3izTki">
-            <node concept="lc7rE" id="2dFAI0jGRXO" role="3cqZAp">
-              <node concept="2BGw6n" id="2dFAI0jGS5l" role="lcghm" />
-              <node concept="la8eA" id="2dFAI0jGRY8" role="lcghm">
-                <property role="lacIc" value="&lt;Box sx={{ display: 'flex' }}&gt;\n\n            &lt;AppBar position=&quot;absolute&quot; open={open}&gt;\n                &lt;Toolbar sx={{ pr: '24px', }} &gt;\n                    &lt;IconButton edge=&quot;start&quot; color=&quot;inherit&quot; aria-label=&quot;open drawer&quot; sx={{marginRight: '36px', ...(open &amp;&amp; { display: 'none' }),}}&gt;\n                        &lt;MenuIcon /&gt;\n                    &lt;/IconButton&gt;\n                    &lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1 }}&gt;Dashboard&lt;/Typography&gt;\n                &lt;/Toolbar&gt;\n            &lt;/AppBar&gt;\n\n\n            &lt;Box component=&quot;main&quot;\n                 sx={{backgroundColor: (theme) =&gt; theme.palette.mode === 'light' ? theme.palette.grey[100] : theme.palette.grey[900],\n                     flexGrow: 1, height: '100vh', overflow: 'auto',\n                 }}&gt;\n\n                &lt;Toolbar /&gt;  {/* Set the space on the top of the page */}\n" />
+            <node concept="lc7rE" id="3bkuCYRz1q$" role="3cqZAp">
+              <node concept="2BGw6n" id="3bkuCYRz1q_" role="lcghm" />
+              <node concept="la8eA" id="3bkuCYRz1qA" role="lcghm">
+                <property role="lacIc" value="&lt;Box sx={{ display: 'flex' }}&gt;" />
               </node>
-              <node concept="l8MVK" id="2dFAI0jGRZR" role="lcghm" />
+              <node concept="l8MVK" id="3bkuCYRz1qB" role="lcghm" />
             </node>
-            <node concept="3clFbH" id="2dFAI0jGRYV" role="3cqZAp" />
+            <node concept="lc7rE" id="3bkuCYRz1qC" role="3cqZAp">
+              <node concept="2BGw6n" id="3bkuCYRz1qD" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYRz1qE" role="lcghm" />
+              <node concept="la8eA" id="3bkuCYRz1qF" role="lcghm">
+                <property role="lacIc" value="&lt;AppBar position=&quot;absolute&quot; open={false}&gt;" />
+              </node>
+              <node concept="l8MVK" id="3bkuCYRz1qG" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="3bkuCYRz1qH" role="3cqZAp">
+              <node concept="2BGw6n" id="3bkuCYRz1qI" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYRz1qJ" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYRz1qK" role="lcghm" />
+              <node concept="la8eA" id="3bkuCYRz1qL" role="lcghm">
+                <property role="lacIc" value="&lt;Toolbar sx={{ height: '100px', }} &gt;" />
+              </node>
+              <node concept="l8MVK" id="3bkuCYRz1qM" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="3bkuCYRz1Gb" role="3cqZAp">
+              <node concept="2BGw6n" id="3bkuCYRz1Gc" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYRz1Gd" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYRz1Ge" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYRz1Wh" role="lcghm" />
+              <node concept="la8eA" id="3bkuCYRz1Gf" role="lcghm">
+                <property role="lacIc" value="&lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1 }}&gt;" />
+              </node>
+              <node concept="l9hG8" id="3bkuCYRz1Gg" role="lcghm">
+                <node concept="2OqwBi" id="3bkuCYRz1Gh" role="lb14g">
+                  <node concept="2OqwBi" id="3bkuCYRz1Gi" role="2Oq$k0">
+                    <node concept="1PxgMI" id="3bkuCYRz1Gj" role="2Oq$k0">
+                      <property role="1BlNFB" value="true" />
+                      <node concept="chp4Y" id="3bkuCYRz1Gk" role="3oSUPX">
+                        <ref role="cht4Q" to="wi2d:1DHNIAI0daV" resolve="App" />
+                      </node>
+                      <node concept="2OqwBi" id="3bkuCYRz1Gl" role="1m5AlR">
+                        <node concept="2OqwBi" id="3bkuCYRz1Gm" role="2Oq$k0">
+                          <node concept="117lpO" id="3bkuCYRz1Gn" role="2Oq$k0" />
+                          <node concept="1mfA1w" id="3bkuCYRz1Go" role="2OqNvi" />
+                        </node>
+                        <node concept="1mfA1w" id="3bkuCYRz1Gp" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="3bkuCYRz1Gq" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3bkuCYRz1Gr" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="3bkuCYRz1Gs" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+              <node concept="l8MVK" id="3bkuCYRz1Gt" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="3bkuCYRz1qU" role="3cqZAp">
+              <node concept="2BGw6n" id="3bkuCYRz1qV" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYRz1qW" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYRz1qX" role="lcghm" />
+              <node concept="la8eA" id="3bkuCYRz1qY" role="lcghm">
+                <property role="lacIc" value="&lt;/Toolbar&gt;" />
+              </node>
+              <node concept="l8MVK" id="3bkuCYRz1qZ" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="3bkuCYRz1r0" role="3cqZAp">
+              <node concept="2BGw6n" id="3bkuCYRz1r1" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYRz1r2" role="lcghm" />
+              <node concept="la8eA" id="3bkuCYRz1r3" role="lcghm">
+                <property role="lacIc" value="&lt;/AppBar&gt;" />
+              </node>
+              <node concept="l8MVK" id="3bkuCYRz1r4" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="3bkuCYRz1r5" role="3cqZAp">
+              <node concept="l8MVK" id="3bkuCYRz1r6" role="lcghm" />
+            </node>
+            <node concept="3clFbH" id="3bkuCYRy7aF" role="3cqZAp" />
+            <node concept="lc7rE" id="3bkuCYR_gLV" role="3cqZAp">
+              <node concept="2BGw6n" id="3bkuCYR_gQW" role="lcghm" />
+              <node concept="la8eA" id="3bkuCYR_gP$" role="lcghm">
+                <property role="lacIc" value="&lt;Box&gt;" />
+              </node>
+              <node concept="l8MVK" id="3bkuCYR_gQC" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="3bkuCYR$AnS" role="3cqZAp">
+              <node concept="2BGw6n" id="3bkuCYR_gRg" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYR_gRm" role="lcghm" />
+              <node concept="la8eA" id="3bkuCYR$Ary" role="lcghm">
+                <property role="lacIc" value="&lt;Box sx={{ height: '100px' }} &gt; &lt;/Box&gt;" />
+              </node>
+              <node concept="l8MVK" id="3bkuCYR$At4" role="lcghm" />
+              <node concept="l8MVK" id="3bkuCYR$Atw" role="lcghm" />
+            </node>
+            <node concept="3clFbH" id="3bkuCYR$9KQ" role="3cqZAp" />
             <node concept="lc7rE" id="2dFAI0jGS0v" role="3cqZAp">
               <node concept="2BGw6n" id="2dFAI0jGS4G" role="lcghm" />
               <node concept="2BGw6n" id="2dFAI0jH4CQ" role="lcghm" />
@@ -867,12 +962,11 @@
               </node>
               <node concept="l8MVK" id="2dFAI0jGYEv" role="lcghm" />
             </node>
-            <node concept="lc7rE" id="58tSxDcspmS" role="3cqZAp">
-              <node concept="la8eA" id="58tSxDcspmU" role="lcghm">
-                <property role="lacIc" value="&lt;/Box&gt;" />
-              </node>
-              <node concept="l8MVK" id="58tSxDcspmV" role="lcghm" />
-            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="3bkuCYR$9nA" role="3cqZAp">
+          <node concept="la8eA" id="3bkuCYR$9rr" role="lcghm">
+            <property role="lacIc" value="&lt;/Box&gt;" />
           </node>
         </node>
         <node concept="lc7rE" id="58tSxDcseNH" role="3cqZAp">
@@ -1239,15 +1333,43 @@
               </node>
               <node concept="l8MVK" id="58tSxDctId4" role="lcghm" />
             </node>
-            <node concept="lc7rE" id="58tSxDctI29" role="3cqZAp">
-              <node concept="2BGw6n" id="58tSxDctI2a" role="lcghm" />
-              <node concept="2BGw6n" id="58tSxDctI2b" role="lcghm" />
-              <node concept="2BGw6n" id="58tSxDctI2c" role="lcghm" />
-              <node concept="2BGw6n" id="58tSxDctI3I" role="lcghm" />
-              <node concept="la8eA" id="58tSxDctI2d" role="lcghm">
-                <property role="lacIc" value="&lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1 }}&gt;CV&lt;/Typography&gt;" />
+            <node concept="lc7rE" id="3bkuCYR_vqi" role="3cqZAp">
+              <node concept="2BGw6n" id="3bkuCYR_vqj" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYR_vqk" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYR_vql" role="lcghm" />
+              <node concept="2BGw6n" id="3bkuCYR_vqm" role="lcghm" />
+              <node concept="la8eA" id="3bkuCYR_vqn" role="lcghm">
+                <property role="lacIc" value="&lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1 }}&gt;" />
               </node>
-              <node concept="l8MVK" id="58tSxDctIdM" role="lcghm" />
+              <node concept="l9hG8" id="3bkuCYR_vqo" role="lcghm">
+                <node concept="2OqwBi" id="3bkuCYR_vqp" role="lb14g">
+                  <node concept="2OqwBi" id="3bkuCYR_vqq" role="2Oq$k0">
+                    <node concept="1PxgMI" id="3bkuCYR_vqr" role="2Oq$k0">
+                      <property role="1BlNFB" value="true" />
+                      <node concept="chp4Y" id="3bkuCYR_vqs" role="3oSUPX">
+                        <ref role="cht4Q" to="wi2d:1DHNIAI0daV" resolve="App" />
+                      </node>
+                      <node concept="2OqwBi" id="3bkuCYR_vqt" role="1m5AlR">
+                        <node concept="2OqwBi" id="3bkuCYR_vqu" role="2Oq$k0">
+                          <node concept="117lpO" id="3bkuCYR_vqv" role="2Oq$k0" />
+                          <node concept="1mfA1w" id="3bkuCYR_vqw" role="2OqNvi" />
+                        </node>
+                        <node concept="1mfA1w" id="3bkuCYR_vqx" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="3bkuCYR_vqy" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3bkuCYR_vqz" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="3bkuCYR_vq$" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+              <node concept="l8MVK" id="3bkuCYR_vq_" role="lcghm" />
             </node>
             <node concept="lc7rE" id="58tSxDctI6V" role="3cqZAp">
               <node concept="2BGw6n" id="58tSxDctI6W" role="lcghm" />
