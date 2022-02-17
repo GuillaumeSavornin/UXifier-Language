@@ -251,7 +251,7 @@
   </node>
   <node concept="24kQdi" id="3ksNkQL18VV">
     <property role="3GE5qa" value="layout" />
-    <ref role="1XX52x" to="wi2d:2dFAI0jBY8c" resolve="SinglePageLayout" />
+    <ref role="1XX52x" to="wi2d:2dFAI0jBY8c" resolve="SimpleLayout" />
     <node concept="3EZMnI" id="3ksNkQL18VX" role="2wV5jI">
       <node concept="3EZMnI" id="3ksNkQL18W4" role="3EZMnx">
         <node concept="VPM3Z" id="3ksNkQL18W6" role="3F10Kt" />
@@ -280,7 +280,7 @@
   </node>
   <node concept="24kQdi" id="3ksNkQL1cex">
     <property role="3GE5qa" value="layout" />
-    <ref role="1XX52x" to="wi2d:2dFAI0jBY8t" resolve="MultiPageLayout" />
+    <ref role="1XX52x" to="wi2d:2dFAI0jBY8t" resolve="MenuLayout" />
     <node concept="3EZMnI" id="3ksNkQL1cez" role="2wV5jI">
       <node concept="l2Vlx" id="3ksNkQL1ceA" role="2iSdaV" />
       <node concept="3EZMnI" id="3ksNkQL1ceP" role="3EZMnx">

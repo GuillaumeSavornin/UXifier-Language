@@ -51,7 +51,6 @@
       </concept>
       <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN">
         <property id="4440341332753550748" name="showAge" index="2LRsXQ" />
-        <property id="1422915908833875618" name="showTitle" index="3SXa3o" />
       </concept>
       <concept id="1904405720489579195" name="UXifier.structure.App" flags="ng" index="2OrhLi">
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
@@ -123,7 +122,6 @@
             <property role="2LRsXT" value="list of countries" />
             <node concept="2LRsXN" id="1eZdBFF4vbj" role="2LRsXX">
               <property role="2LRsXQ" value="true" />
-              <property role="3SXa3o" value="true" />
             </node>
           </node>
           <node concept="3S1VyK" id="3bkuCYRy4A4" role="KX7z1">
@@ -149,7 +147,6 @@
             </node>
             <node concept="144wZB" id="1eZdBFEKfO3" role="144zUy">
               <property role="144wZw" value="2" />
-              <property role="3SXa3$" value="true" />
             </node>
           </node>
         </node>

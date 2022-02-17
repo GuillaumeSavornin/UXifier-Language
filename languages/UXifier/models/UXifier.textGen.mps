@@ -786,7 +786,7 @@
   </node>
   <node concept="WtQ9Q" id="2dFAI0jGRJl">
     <property role="3GE5qa" value="layout" />
-    <ref role="WuzLi" to="wi2d:2dFAI0jBY8c" resolve="SinglePageLayout" />
+    <ref role="WuzLi" to="wi2d:2dFAI0jBY8c" resolve="SimpleLayout" />
     <node concept="11bSqf" id="2dFAI0jGRJm" role="11c4hB">
       <node concept="3clFbS" id="2dFAI0jGRJn" role="2VODD2">
         <node concept="lc7rE" id="2dFAI0jGRNx" role="3cqZAp">
@@ -1301,7 +1301,7 @@
   </node>
   <node concept="WtQ9Q" id="58tSxDctH_M">
     <property role="3GE5qa" value="layout" />
-    <ref role="WuzLi" to="wi2d:2dFAI0jBY8t" resolve="MultiPageLayout" />
+    <ref role="WuzLi" to="wi2d:2dFAI0jBY8t" resolve="MenuLayout" />
     <node concept="11bSqf" id="58tSxDctH_N" role="11c4hB">
       <node concept="3clFbS" id="58tSxDctH_O" role="2VODD2">
         <node concept="lc7rE" id="58tSxDctHOD" role="3cqZAp">
