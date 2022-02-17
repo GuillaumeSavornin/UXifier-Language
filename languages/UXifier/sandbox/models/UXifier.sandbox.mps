@@ -54,6 +54,7 @@
       </concept>
       <concept id="8547335200240841715" name="UXifier.structure.ExperienceItemStyling" flags="ng" index="144wZB">
         <property id="8547335200240841716" name="numberItems" index="144wZw" />
+        <property id="1422915908824362485" name="usesShortDescription" index="3T1lIf" />
       </concept>
       <concept id="8547335200240829084" name="UXifier.structure.ExperienceItem" flags="ng" index="144zU8">
         <property id="8547335200240829087" name="startDate" index="144zUb" />
@@ -123,6 +124,7 @@
             </node>
             <node concept="144wZB" id="1eZdBFEKfO3" role="144zUy">
               <property role="144wZw" value="2" />
+              <property role="3T1lIf" value="true" />
             </node>
           </node>
         </node>
