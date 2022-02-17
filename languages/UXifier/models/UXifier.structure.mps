@@ -313,10 +313,20 @@
       <property role="TrG5h" value="showFlags" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="1eZdBFF54Hq" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908830251866" />
+      <property role="TrG5h" value="separator" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="1c5gsjF0X98" role="1TKVEl">
       <property role="IQ2nx" value="1370573975616475720" />
       <property role="TrG5h" value="numberItems" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFbAg2" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908831962114" />
+      <property role="TrG5h" value="levelDisplayMethod" />
+      <ref role="AX2Wp" node="1eZdBFFbDUC" resolve="LANGUAGE_LEVEL_DISPLAY_METHOD" />
     </node>
   </node>
   <node concept="1TIwiD" id="1c5gsjF0JAI">
@@ -337,13 +347,13 @@
     <node concept="1TJgyi" id="1c5gsjF0X8X" role="1TKVEl">
       <property role="IQ2nx" value="1370573975616475709" />
       <property role="TrG5h" value="level" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="AxPO7" id="7MJjWP4_CRF">
     <property role="3F6X1D" value="8984487524665036267" />
-    <property role="3GE5qa" value="layout" />
-    <property role="TrG5h" value="Icon" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="ICON" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="7MJjWP4_CRG" role="M5hS2">
       <property role="1uS6qv" value="&lt;DashboardIcon /&gt;" />
@@ -486,6 +496,28 @@
       <property role="IQ2nx" value="8547335200240848324" />
       <property role="TrG5h" value="summary" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1eZdBFFbDUC">
+    <property role="3F6X1D" value="1422915908831977128" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="LANGUAGE_LEVEL_DISPLAY_METHOD" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="M4N5e" id="1eZdBFFbDUD" role="M5hS2">
+      <property role="1uS6qo" value="TEXT" />
+      <property role="1uS6qv" value="0" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFFbDUE" role="M5hS2">
+      <property role="1uS6qo" value="STARS" />
+      <property role="1uS6qv" value="1" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFFf2Ba" role="M5hS2">
+      <property role="1uS6qv" value="2" />
+      <property role="1uS6qo" value="HEART" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFFbDUH" role="M5hS2">
+      <property role="1uS6qo" value="BAR" />
+      <property role="1uS6qv" value="3" />
     </node>
   </node>
 </model>

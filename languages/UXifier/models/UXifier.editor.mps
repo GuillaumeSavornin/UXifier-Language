@@ -469,16 +469,38 @@
           <node concept="jv8YD" id="4YzckVjdO$4" role="1563LE" />
         </node>
       </node>
+      <node concept="3EZMnI" id="1eZdBFF54Hu" role="3EZMnx">
+        <node concept="VPM3Z" id="1eZdBFF54Hv" role="3F10Kt" />
+        <node concept="3F0ifn" id="1eZdBFF54Hw" role="3EZMnx">
+          <property role="3F0ifm" value="- Show separator:" />
+        </node>
+        <node concept="2iRfu4" id="1eZdBFF54Hx" role="2iSdaV" />
+        <node concept="2yq9I_" id="1eZdBFF54Hy" role="3EZMnx">
+          <ref role="225u1j" to="wi2d:1eZdBFF54Hq" resolve="separator" />
+          <node concept="jv8YD" id="1eZdBFF54Hz" role="1563LE" />
+        </node>
+      </node>
       <node concept="3EZMnI" id="1c5gsjF0Xa9" role="3EZMnx">
         <node concept="VPM3Z" id="1c5gsjF0Xab" role="3F10Kt" />
         <node concept="3F0ifn" id="1c5gsjF0Xao" role="3EZMnx">
-          <property role="3F0ifm" value="- Number of languages:" />
+          <property role="3F0ifm" value="- Level display method:" />
         </node>
         <node concept="3F0A7n" id="1c5gsjF0Xau" role="3EZMnx">
-          <ref role="1NtTu8" to="wi2d:1c5gsjF0X98" resolve="numberItems" />
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="NumberStyle" />
+          <ref role="1NtTu8" to="wi2d:1eZdBFFbAg2" resolve="levelDisplayMethod" />
         </node>
         <node concept="2iRfu4" id="1c5gsjF0Xae" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="1eZdBFFbDVC" role="3EZMnx">
+        <node concept="VPM3Z" id="1eZdBFFbDVD" role="3F10Kt" />
+        <node concept="3F0ifn" id="1eZdBFFbDVE" role="3EZMnx">
+          <property role="3F0ifm" value="- Number of languages:" />
+        </node>
+        <node concept="3F0A7n" id="1eZdBFFbDVF" role="3EZMnx">
+          <ref role="1NtTu8" to="wi2d:1c5gsjF0X98" resolve="numberItems" />
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+        </node>
+        <node concept="2iRfu4" id="1eZdBFFbDVG" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="1c5gsjF0X9$" role="2iSdaV" />
     </node>

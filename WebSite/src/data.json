@@ -3,31 +3,31 @@
     {
       "language":"Francais",
       "flagImage":"https://cdn.countryflags.com/thumbs/france/flag-square-250.png",
-      "level": "Native or bilingual proficiency"
+      "level": 5
     },{
       "language":"English",
       "flagImage":"https://cdn.countryflags.com/thumbs/united-kingdom/flag-square-250.png",
-      "level": "Full professional proficiency"
+      "level": 4
     },{
       "language":"Spanish",
       "flagImage":"https://cdn.countryflags.com/thumbs/spain/flag-square-250.png",
-      "level": "Professional working proficiency"
+      "level": 4
     },{
       "language":"Dutch",
       "flagImage":"https://cdn.countryflags.com/thumbs/netherlands/flag-square-250.png",
-      "level": "Elementary proficiency"
+      "level": 3
     },{
       "language":"Egyptian",
       "flagImage":"https://cdn.countryflags.com/thumbs/egypt/flag-square-250.png",
-      "level": "Elementary proficiency"
+      "level": 2
     },{
       "language":"Serbian",
       "flagImage":"https://cdn.countryflags.com/thumbs/serbia/flag-square-250.png",
-      "level": "Elementary proficiency"
+      "level": 1
     },{
       "language":"Portuguese",
       "flagImage":"https://cdn.countryflags.com/thumbs/portugal/flag-square-250.png",
-      "level": "Professional working proficiency"
+      "level": 1
     }
   ],
   "additionalInformation": {
