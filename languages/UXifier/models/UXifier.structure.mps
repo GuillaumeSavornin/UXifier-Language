@@ -224,15 +224,15 @@
     <property role="TrG5h" value="SimpleLayout" />
     <property role="34LRSv" value="single page" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2dFAI0jBY8d" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY88" resolve="ILayout" />
+    </node>
     <node concept="1TJgyj" id="3bkuCYRAqUt" role="1TKVEi">
       <property role="IQ2ns" value="3662687154638270109" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="pages" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3bkuCYRAqUs" resolve="IPage" />
-    </node>
-    <node concept="PrWs8" id="2dFAI0jBY8d" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY88" resolve="ILayout" />
     </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY8t">
@@ -263,17 +263,17 @@
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="7MJjWP4_CWL" role="1TKVEl">
+      <property role="IQ2nx" value="8984487524665036593" />
+      <property role="TrG5h" value="icon" />
+      <ref role="AX2Wp" node="7MJjWP4_CRF" resolve="Icon" />
+    </node>
     <node concept="1TJgyj" id="3bkuCYRAqUv" role="1TKVEi">
       <property role="IQ2ns" value="3662687154638270111" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="pages" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3bkuCYRAqUs" resolve="IPage" />
-    </node>
-    <node concept="1TJgyi" id="7MJjWP4_CWL" role="1TKVEl">
-      <property role="IQ2nx" value="8984487524665036593" />
-      <property role="TrG5h" value="icon" />
-      <ref role="AX2Wp" node="7MJjWP4_CRF" resolve="Icon" />
     </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY8B">
@@ -511,7 +511,7 @@
   <node concept="AxPO7" id="1eZdBFFbDUC">
     <property role="3F6X1D" value="1422915908831977128" />
     <property role="3GE5qa" value="enumeration" />
-    <property role="TrG5h" value="LANGUAGE_LEVEL_DISPLAY_METHOD" />
+    <property role="TrG5h" value="LEVEL_DISPLAY_METHOD" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <node concept="M4N5e" id="1eZdBFFbDUD" role="M5hS2">
       <property role="1uS6qo" value="TEXT" />
@@ -528,6 +528,10 @@
     <node concept="M4N5e" id="1eZdBFFbDUH" role="M5hS2">
       <property role="1uS6qo" value="BAR" />
       <property role="1uS6qv" value="3" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFFrbj$" role="M5hS2">
+      <property role="1uS6qo" value="NONE" />
+      <property role="1uS6qv" value="4" />
     </node>
   </node>
   <node concept="AxPO7" id="1eZdBFFmBck">
@@ -601,6 +605,90 @@
       <property role="IQ2nx" value="3662687154638478613" />
       <property role="TrG5h" value="size" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFFr7qF">
+    <property role="EcuMT" value="1422915908836030123" />
+    <property role="3GE5qa" value="section.item" />
+    <property role="TrG5h" value="SkillItem" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="1eZdBFFr7qG" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908836030124" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFr7qI" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908836030126" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFr7qL" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908836030129" />
+      <property role="TrG5h" value="level" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFr8of" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908836034063" />
+      <property role="TrG5h" value="icon" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFFr7q_">
+    <property role="EcuMT" value="1422915908836030117" />
+    <property role="3GE5qa" value="section" />
+    <property role="TrG5h" value="SkillSection" />
+    <property role="34LRSv" value="skills" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="1eZdBFFr7qB" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+    </node>
+    <node concept="1TJgyj" id="1eZdBFFr7qD" role="1TKVEi">
+      <property role="IQ2ns" value="1422915908836030121" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1eZdBFFr7qF" resolve="SkillItem" />
+    </node>
+    <node concept="1TJgyj" id="1eZdBFFrenm" role="1TKVEi">
+      <property role="IQ2ns" value="1422915908836058582" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="styling" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1eZdBFFrbj6" resolve="SkillStyling" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFFrbj6">
+    <property role="EcuMT" value="1422915908836046022" />
+    <property role="3GE5qa" value="styling" />
+    <property role="TrG5h" value="SkillStyling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="1eZdBFFrbj7" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908836046023" />
+      <property role="TrG5h" value="numberItems" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFrbj9" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908836046025" />
+      <property role="TrG5h" value="showIcon" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFrenB" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908836058599" />
+      <property role="TrG5h" value="showDescription" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFrbjc" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908836046028" />
+      <property role="TrG5h" value="separator" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFrbjg" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908836046032" />
+      <property role="TrG5h" value="levelDisplayMethod" />
+      <ref role="AX2Wp" node="1eZdBFFbDUC" resolve="LANGUAGE_LEVEL_DISPLAY_METHOD" />
+    </node>
+    <node concept="PrWs8" id="1eZdBFFreCq" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
     </node>
   </node>
 </model>

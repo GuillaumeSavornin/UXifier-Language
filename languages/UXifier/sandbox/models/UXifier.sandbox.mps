@@ -117,6 +117,7 @@
           <property role="KX7z3" value="Menu" />
           <node concept="25jtgD" id="3bkuCYRBdNA" role="25jtgg">
             <node concept="25jtgA" id="3bkuCYRBdNC" role="25jtgz">
+              <property role="25iauq" value="12" />
               <node concept="2LRsGl" id="3bkuCYRBdNI" role="25jtg_">
                 <property role="2LRsX$" value="Type of license" />
                 <property role="2LRsXU" value="XX" />

@@ -30,6 +30,44 @@
       "level": 1
     }
   ],
+  "skillItems": [
+    {
+      "name":"Java",
+      "icon":"https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v2.png",
+      "level": 5,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },{
+      "name":"GoLang",
+      "icon":"https://img.icons8.com/color/96/000000/golang.png",
+      "level": 4,
+      "description": "Nullam et tempor sapien. Vivamus tempor metus sem."
+    },{
+      "name":"Python",
+      "icon":"https://img.icons8.com/color/96/000000/python--v1.png",
+      "level": 2,
+      "description": "Nullam et tempor sapien. Vivamus tempor metus sem, sed auctor leo ullamcorper id. Morbi nibh tellus, tincidunt."
+    },{
+      "name":"JavaScript",
+      "icon":"https://img.icons8.com/color/96/000000/javascript--v1.png",
+      "level": 1,
+      "description": "Morbi nibh tellus, tincidunt."
+    },{
+      "name":"Kubernetes",
+      "icon":"https://img.icons8.com/color/96/000000/kubernetes.png",
+      "level": 4,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit."
+    },{
+      "name":"Docker",
+      "icon":"https://img.icons8.com/color/96/000000/docker.png",
+      "level": 5,
+      "description": "Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit."
+    },{
+      "name":"MPS",
+      "icon":"https://upload.wikimedia.org/wikipedia/commons/6/69/MPS_Icon_2.png",
+      "level": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ],
   "additionalInformation": {
     "driverLicense" : "Class D license",
     "age": "22",
