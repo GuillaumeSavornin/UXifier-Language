@@ -212,7 +212,7 @@
     <property role="EcuMT" value="2552303901028114953" />
     <property role="3GE5qa" value="format" />
     <property role="TrG5h" value="WebSiteFormat" />
-    <property role="34LRSv" value="website" />
+    <property role="34LRSv" value="website format" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8a" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
@@ -280,7 +280,7 @@
     <property role="EcuMT" value="2552303901028114983" />
     <property role="3GE5qa" value="format" />
     <property role="TrG5h" value="MobileFormat" />
-    <property role="34LRSv" value="mobile" />
+    <property role="34LRSv" value="mobile format" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8C" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
@@ -913,30 +913,6 @@
       <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1eZdBFG4yzH">
-    <property role="EcuMT" value="1422915908846889197" />
-    <property role="TrG5h" value="ImageStyling" />
-    <property role="3GE5qa" value="styling" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="1eZdBFG4yzM" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908846889202" />
-      <property role="TrG5h" value="showLegend" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="1eZdBFG4yzO" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908846889204" />
-      <property role="TrG5h" value="imageFilter" />
-      <ref role="AX2Wp" node="1eZdBFG4yzS" resolve="IMAGE_FILTER" />
-    </node>
-    <node concept="1TJgyi" id="1eZdBFG4CT2" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908846915138" />
-      <property role="TrG5h" value="filterPorcentage" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="PrWs8" id="1eZdBFG4yzK" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
-    </node>
-  </node>
   <node concept="AxPO7" id="1eZdBFG4yzS">
     <property role="3F6X1D" value="1422915908846889208" />
     <property role="3GE5qa" value="enumeration" />
@@ -969,6 +945,40 @@
     <node concept="M4N5e" id="1eZdBFG4y$$" role="M5hS2">
       <property role="1uS6qo" value="SEPIA" />
       <property role="1uS6qv" value="sepia" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFG4yzH">
+    <property role="EcuMT" value="1422915908846889197" />
+    <property role="TrG5h" value="ImageStyling" />
+    <property role="3GE5qa" value="styling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1eZdBFG4yzM" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889202" />
+      <property role="TrG5h" value="showLegend" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFG4yzO" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889204" />
+      <property role="TrG5h" value="imageFilter" />
+      <ref role="AX2Wp" node="1eZdBFG4yzS" resolve="IMAGE_FILTER" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFG4CT2" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846915138" />
+      <property role="TrG5h" value="filterPorcentage" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="1eZdBFG4yzK" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6hY3O8TM25D">
+    <property role="EcuMT" value="7241242027970011497" />
+    <property role="3GE5qa" value="format" />
+    <property role="TrG5h" value="CustomFormat" />
+    <property role="34LRSv" value="custom format" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6hY3O8TM25E" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
     </node>
   </node>
 </model>
