@@ -901,6 +901,17 @@
           <node concept="jv8YD" id="1eZdBFF$mey" role="1563LE" />
         </node>
       </node>
+      <node concept="3EZMnI" id="1eZdBFFVz5v" role="3EZMnx">
+        <node concept="VPM3Z" id="1eZdBFFVz5w" role="3F10Kt" />
+        <node concept="3F0ifn" id="1eZdBFFVz5x" role="3EZMnx">
+          <property role="3F0ifm" value="- Align contact informations:" />
+        </node>
+        <node concept="3F0A7n" id="1eZdBFFVz5y" role="3EZMnx">
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+          <ref role="1NtTu8" to="wi2d:1eZdBFFVyKj" resolve="alignContactInformations" />
+        </node>
+        <node concept="2iRfu4" id="1eZdBFFVz5z" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="1eZdBFFA_sM" role="3EZMnx">
         <node concept="VPM3Z" id="1eZdBFFA_sN" role="3F10Kt" />
         <node concept="3F0ifn" id="1eZdBFFA_sO" role="3EZMnx">
@@ -974,6 +985,29 @@
               <node concept="2OqwBi" id="1eZdBFFHOJH" role="3cqZAk">
                 <node concept="pncrf" id="1eZdBFFHOJI" role="2Oq$k0" />
                 <node concept="3TrcHB" id="1eZdBFFHOJJ" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:1eZdBFFA_lx" resolve="showSocialNetworks" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="1eZdBFFXZgN" role="3EZMnx">
+        <node concept="VPM3Z" id="1eZdBFFXZgO" role="3F10Kt" />
+        <node concept="3F0ifn" id="1eZdBFFXZgP" role="3EZMnx">
+          <property role="3F0ifm" value="- Align social networks:" />
+        </node>
+        <node concept="3F0A7n" id="1eZdBFFXZgQ" role="3EZMnx">
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+          <ref role="1NtTu8" to="wi2d:1eZdBFFXZ8I" resolve="alignSocialNetwork" />
+        </node>
+        <node concept="2iRfu4" id="1eZdBFFXZgR" role="2iSdaV" />
+        <node concept="pkWqt" id="1eZdBFFXZgS" role="pqm2j">
+          <node concept="3clFbS" id="1eZdBFFXZgT" role="2VODD2">
+            <node concept="3cpWs6" id="1eZdBFFXZgU" role="3cqZAp">
+              <node concept="2OqwBi" id="1eZdBFFXZgV" role="3cqZAk">
+                <node concept="pncrf" id="1eZdBFFXZgW" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1eZdBFFXZgX" role="2OqNvi">
                   <ref role="3TsBF5" to="wi2d:1eZdBFFA_lx" resolve="showSocialNetworks" />
                 </node>
               </node>

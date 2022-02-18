@@ -102,10 +102,13 @@
       </concept>
       <concept id="1422915908838449950" name="UXifier.structure.ContactStyling" flags="ng" index="3Sb_l$">
         <property id="1422915908840928928" name="socialNetworkBackGroundColor" index="3S203q" />
+        <property id="1422915908840919971" name="socialNetworkBorder" index="3S22np" />
         <property id="1422915908840919966" name="socialNetworksColor" index="3S22n$" />
         <property id="1422915908839026400" name="separator" index="3S9hyq" />
         <property id="1422915908839036257" name="showSocialNetworks" index="3S9mcr" />
         <property id="1422915908838449954" name="numberSocialNetworkItems" index="3Sb_lo" />
+        <property id="1422915908845171246" name="alignSocialNetwork" index="3Sichk" />
+        <property id="1422915908844530707" name="alignContactInformations" index="3SkhDD" />
       </concept>
       <concept id="1422915908838398686" name="UXifier.structure.SocialNetworkItem" flags="ng" index="3SbUM$">
         <property id="1422915908838398688" name="url" index="3SbUMq" />
@@ -226,6 +229,9 @@
                   <property role="3STkkY" value="true" />
                   <property role="3S22n$" value="red" />
                   <property role="3S203q" value="background.paper" />
+                  <property role="3S22np" value="true" />
+                  <property role="3Sichk" value="1eZdBFFmBcm/center" />
+                  <property role="3SkhDD" value="1eZdBFFmBcm/center" />
                 </node>
               </node>
               <node concept="3S1VyK" id="3bkuCYRHkCY" role="25jtg_">
@@ -300,10 +306,10 @@
                 <node concept="3Sb_l$" id="3bkuCYRMGZB" role="3SbUMQ">
                   <property role="3Sb_lo" value="30" />
                   <property role="3S9hyq" value="true" />
-                  <property role="3S9mcr" value="true" />
                   <property role="3STkkY" value="true" />
                   <property role="3S22n$" value="#FFFFFF" />
                   <property role="3S203q" value="red" />
+                  <property role="3SSFd3" value="1eZdBFFmBcp/right" />
                 </node>
               </node>
             </node>
@@ -386,6 +392,25 @@
             <property role="2LRsXU" value="XX" />
             <property role="2LRsXT" value="list of countries" />
             <node concept="2LRsXN" id="3bkuCYRBCDu" role="2LRsXX" />
+          </node>
+          <node concept="3SbUMN" id="1eZdBFFZ4f4" role="25jtgF">
+            <property role="3SbUMR" value="Number Address, Country" />
+            <property role="3SbUMP" value="00.00.00.00.00" />
+            <property role="3SbUMC" value="Email@address.com" />
+            <node concept="3SbUM$" id="1eZdBFFZ4f5" role="3SbUML">
+              <property role="3SbUMq" value="http://google.fr" />
+            </node>
+            <node concept="3Sb_l$" id="1eZdBFFZ4f7" role="3SbUMQ">
+              <property role="3S9hyq" value="true" />
+              <property role="3S9mcr" value="true" />
+              <property role="3STkkY" value="true" />
+              <property role="3SSFd3" value="1eZdBFFmBcp/right" />
+              <property role="3S22n$" value="#123456" />
+              <property role="3S203q" value="#654321" />
+              <property role="3Sb_lo" value="5" />
+              <property role="3SkhDD" value="1eZdBFFmBcp/right" />
+              <property role="3Sichk" value="1eZdBFFmBcm/center" />
+            </node>
           </node>
         </node>
       </node>

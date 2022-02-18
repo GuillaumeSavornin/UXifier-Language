@@ -1026,7 +1026,7 @@
               <node concept="2BGw6n" id="1eZdBFFvVY2" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFvVY3" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFvVY4" role="lcghm">
-                <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} " />
+                <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} align={&quot;" />
               </node>
               <node concept="l9hG8" id="1eZdBFFvVY5" role="lcghm">
                 <node concept="2OqwBi" id="1eZdBFFvVY6" role="lb14g">
@@ -1042,7 +1042,7 @@
                 </node>
               </node>
               <node concept="la8eA" id="1eZdBFFvVYb" role="lcghm">
-                <property role="lacIc" value=" variant=&quot;h5&quot; component=&quot;div&quot;&gt;Presentation&lt;/Typography&gt;" />
+                <property role="lacIc" value="&quot;} variant=&quot;h5&quot; component=&quot;div&quot;&gt;Presentation&lt;/Typography&gt;" />
               </node>
               <node concept="l8MVK" id="1eZdBFFvVYc" role="lcghm" />
             </node>
@@ -1761,7 +1761,7 @@
                   <node concept="2BGw6n" id="1eZdBFFvTkm" role="lcghm" />
                   <node concept="2BGw6n" id="1eZdBFFvTkn" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFvTko" role="lcghm">
-                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} " />
+                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} align={&quot;" />
                   </node>
                   <node concept="l9hG8" id="1eZdBFFvTkp" role="lcghm">
                     <node concept="2OqwBi" id="1eZdBFFvTkq" role="lb14g">
@@ -1777,7 +1777,7 @@
                     </node>
                   </node>
                   <node concept="la8eA" id="1eZdBFFvTkv" role="lcghm">
-                    <property role="lacIc" value=" variant=&quot;h5&quot; component=&quot;div&quot;&gt;Additional Informations&lt;/Typography&gt;" />
+                    <property role="lacIc" value="&quot;} variant=&quot;h5&quot; component=&quot;div&quot;&gt;Additional Informations&lt;/Typography&gt;" />
                   </node>
                   <node concept="l8MVK" id="1eZdBFFvTkw" role="lcghm" />
                 </node>
@@ -1928,7 +1928,7 @@
                 <node concept="lc7rE" id="1eZdBFFvTMB" role="3cqZAp">
                   <node concept="2BGw6n" id="1eZdBFFvTME" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFvTMF" role="lcghm">
-                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} " />
+                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} align={&quot;" />
                   </node>
                   <node concept="l9hG8" id="1eZdBFFvTMG" role="lcghm">
                     <node concept="2OqwBi" id="1eZdBFFvTMH" role="lb14g">
@@ -1944,7 +1944,7 @@
                     </node>
                   </node>
                   <node concept="la8eA" id="1eZdBFFvTMM" role="lcghm">
-                    <property role="lacIc" value=" variant=&quot;h5&quot; component=&quot;div&quot;&gt;Experiences&lt;/Typography&gt;" />
+                    <property role="lacIc" value="&quot;} variant=&quot;h5&quot; component=&quot;div&quot;&gt;Experiences&lt;/Typography&gt;" />
                   </node>
                   <node concept="l8MVK" id="1eZdBFFvTMN" role="lcghm" />
                 </node>
@@ -3356,7 +3356,7 @@
                 <node concept="lc7rE" id="1eZdBFFh2IU" role="3cqZAp">
                   <node concept="2BGw6n" id="1eZdBFFh2IX" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFh2IY" role="lcghm">
-                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} " />
+                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} align={&quot;" />
                   </node>
                   <node concept="l9hG8" id="1eZdBFFnKf2" role="lcghm">
                     <node concept="2OqwBi" id="1eZdBFFnKSt" role="lb14g">
@@ -3372,7 +3372,7 @@
                     </node>
                   </node>
                   <node concept="la8eA" id="1eZdBFFnKbg" role="lcghm">
-                    <property role="lacIc" value=" variant=&quot;h5&quot; component=&quot;div&quot;&gt;Languages&lt;/Typography&gt;" />
+                    <property role="lacIc" value="&quot;} variant=&quot;h5&quot; component=&quot;div&quot;&gt;Languages&lt;/Typography&gt;" />
                   </node>
                   <node concept="l8MVK" id="1eZdBFFh2IZ" role="lcghm" />
                 </node>
@@ -3899,7 +3899,7 @@
                 <node concept="lc7rE" id="1eZdBFFrgST" role="3cqZAp">
                   <node concept="2BGw6n" id="1eZdBFFrgSW" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFrgSX" role="lcghm">
-                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} " />
+                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} align={&quot;" />
                   </node>
                   <node concept="l9hG8" id="1eZdBFFrgSY" role="lcghm">
                     <node concept="2OqwBi" id="1eZdBFFrgSZ" role="lb14g">
@@ -3915,7 +3915,7 @@
                     </node>
                   </node>
                   <node concept="la8eA" id="1eZdBFFrgT4" role="lcghm">
-                    <property role="lacIc" value=" variant=&quot;h5&quot; component=&quot;div&quot;&gt;Skills&lt;/Typography&gt;" />
+                    <property role="lacIc" value="&quot;} variant=&quot;h5&quot; component=&quot;div&quot;&gt;Skills&lt;/Typography&gt;" />
                   </node>
                   <node concept="l8MVK" id="1eZdBFFrgT5" role="lcghm" />
                 </node>
@@ -5258,7 +5258,7 @@
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <ref role="37wK5l" node="1eZdBFFdUhw" resolve="checkRawJSONItemForSwitch" />
                   <node concept="Xl_RD" id="1eZdBFFASQb" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFASQc" role="37wK5m">
                     <property role="Xl_RC" value="icon" />
@@ -5270,18 +5270,12 @@
               </node>
             </node>
             <node concept="lc7rE" id="1eZdBFFCrfn" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCrfo" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrfp" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrfq" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCrfr" role="lcghm">
                 <property role="lacIc" value="(() =&gt; {" />
               </node>
               <node concept="l8MVK" id="1eZdBFFCrfs" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCrft" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCrfu" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrfv" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrfw" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCrfx" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCrfy" role="lcghm">
                 <property role="lacIc" value="switch(" />
@@ -5297,9 +5291,6 @@
               <node concept="l8MVK" id="1eZdBFFCrfA" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCrfB" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCrfC" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrfD" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrfE" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCrfF" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCrfG" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCrfH" role="lcghm">
@@ -5308,9 +5299,6 @@
               <node concept="l8MVK" id="1eZdBFFCrfI" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFEJSd" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFEJSe" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFEJSf" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFEJSg" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFEJSh" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFEJSi" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFEJSj" role="lcghm" />
@@ -5346,7 +5334,7 @@
                   <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <node concept="Xl_RD" id="1eZdBFFGhWB" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFGhWC" role="37wK5m">
                     <property role="Xl_RC" value="url" />
@@ -5365,9 +5353,6 @@
               <node concept="l8MVK" id="1eZdBFFEJSl" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCx_l" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCx_m" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCx_n" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCx_o" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCx_p" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCx_q" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCx_r" role="lcghm">
@@ -5376,9 +5361,6 @@
               <node concept="l8MVK" id="1eZdBFFCx_s" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFFwyF" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFFwyG" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFwyH" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFwyI" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFwyJ" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFwyK" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFwyL" role="lcghm" />
@@ -5414,7 +5396,7 @@
                   <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <node concept="Xl_RD" id="1eZdBFFGi2J" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFGi2K" role="37wK5m">
                     <property role="Xl_RC" value="url" />
@@ -5433,9 +5415,6 @@
               <node concept="l8MVK" id="1eZdBFFFwyV" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCxFp" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCxFq" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCxFr" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCxFs" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCxFt" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCxFu" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCxFv" role="lcghm">
@@ -5444,9 +5423,6 @@
               <node concept="l8MVK" id="1eZdBFFCxFw" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFFwGF" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFFwGG" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFwGH" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFwGI" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFwGJ" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFwGK" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFwGL" role="lcghm" />
@@ -5482,7 +5458,7 @@
                   <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <node concept="Xl_RD" id="1eZdBFFGi76" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFGi77" role="37wK5m">
                     <property role="Xl_RC" value="url" />
@@ -5501,9 +5477,6 @@
               <node concept="l8MVK" id="1eZdBFFFwGV" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCxL_" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCxLA" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCxLB" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCxLC" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCxLD" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCxLE" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCxLF" role="lcghm">
@@ -5512,9 +5485,6 @@
               <node concept="l8MVK" id="1eZdBFFCxLG" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFFwQg" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFFwQh" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFwQi" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFwQj" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFwQk" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFwQl" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFwQm" role="lcghm" />
@@ -5550,7 +5520,7 @@
                   <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <node concept="Xl_RD" id="1eZdBFFGicl" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFGicm" role="37wK5m">
                     <property role="Xl_RC" value="url" />
@@ -5569,9 +5539,6 @@
               <node concept="l8MVK" id="1eZdBFFFwQw" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCxRT" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCxRU" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCxRV" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCxRW" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCxRX" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCxRY" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCxRZ" role="lcghm">
@@ -5580,9 +5547,6 @@
               <node concept="l8MVK" id="1eZdBFFCxS0" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFFx1b" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFFx1c" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFx1d" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFx1e" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFx1f" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFx1g" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFx1h" role="lcghm" />
@@ -5618,7 +5582,7 @@
                   <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <node concept="Xl_RD" id="1eZdBFFGijl" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFGijm" role="37wK5m">
                     <property role="Xl_RC" value="url" />
@@ -5637,9 +5601,6 @@
               <node concept="l8MVK" id="1eZdBFFFx1r" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCxYl" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCxYm" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCxYn" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCxYo" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCxYp" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCxYq" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCxYr" role="lcghm">
@@ -5648,9 +5609,6 @@
               <node concept="l8MVK" id="1eZdBFFCxYs" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFFxds" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFFxdt" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFxdu" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFxdv" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxdw" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxdx" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxdy" role="lcghm" />
@@ -5686,7 +5644,7 @@
                   <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <node concept="Xl_RD" id="1eZdBFFGio$" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFGio_" role="37wK5m">
                     <property role="Xl_RC" value="url" />
@@ -5705,9 +5663,6 @@
               <node concept="l8MVK" id="1eZdBFFFxdG" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCy4T" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCy4U" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCy4V" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCy4W" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCy4X" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCy4Y" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCy4Z" role="lcghm">
@@ -5716,9 +5671,6 @@
               <node concept="l8MVK" id="1eZdBFFCy50" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFFxsO" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFFxsP" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFxsQ" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFxsR" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxsS" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxsT" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxsU" role="lcghm" />
@@ -5754,7 +5706,7 @@
                   <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <node concept="Xl_RD" id="1eZdBFFGitN" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFGitO" role="37wK5m">
                     <property role="Xl_RC" value="url" />
@@ -5773,9 +5725,6 @@
               <node concept="l8MVK" id="1eZdBFFFxt4" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCyb_" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCybA" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCybB" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCybC" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCybD" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCybE" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCybF" role="lcghm">
@@ -5784,9 +5733,6 @@
               <node concept="l8MVK" id="1eZdBFFCybG" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFFxFL" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFFxFM" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFxFN" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFxFO" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxFP" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxFQ" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxFR" role="lcghm" />
@@ -5822,7 +5768,7 @@
                   <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <node concept="Xl_RD" id="1eZdBFFGizU" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFGizV" role="37wK5m">
                     <property role="Xl_RC" value="url" />
@@ -5841,9 +5787,6 @@
               <node concept="l8MVK" id="1eZdBFFFxG1" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCrgW" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCrgX" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrgY" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrgZ" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCrh0" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCrh1" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCrh2" role="lcghm">
@@ -5852,9 +5795,6 @@
               <node concept="l8MVK" id="1eZdBFFCrh3" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFFxW4" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFFxW5" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFxW6" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFFxW7" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxW8" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxW9" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFFxWa" role="lcghm" />
@@ -5890,7 +5830,7 @@
                   <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
                   <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
                   <node concept="Xl_RD" id="1eZdBFFGiD9" role="37wK5m">
-                    <property role="Xl_RC" value="SocialNetworkItems" />
+                    <property role="Xl_RC" value="socialNetworkItems" />
                   </node>
                   <node concept="Xl_RD" id="1eZdBFFGiDa" role="37wK5m">
                     <property role="Xl_RC" value="url" />
@@ -5909,9 +5849,6 @@
               <node concept="l8MVK" id="1eZdBFFFxWk" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCrhd" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCrhe" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrhf" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrhg" role="lcghm" />
               <node concept="2BGw6n" id="1eZdBFFCrhh" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCrhi" role="lcghm">
                 <property role="lacIc" value="}" />
@@ -5919,9 +5856,6 @@
               <node concept="l8MVK" id="1eZdBFFCrhj" role="lcghm" />
             </node>
             <node concept="lc7rE" id="1eZdBFFCrhk" role="3cqZAp">
-              <node concept="2BGw6n" id="1eZdBFFCrhl" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrhm" role="lcghm" />
-              <node concept="2BGw6n" id="1eZdBFFCrhn" role="lcghm" />
               <node concept="la8eA" id="1eZdBFFCrho" role="lcghm">
                 <property role="lacIc" value="})()" />
               </node>
@@ -5951,7 +5885,7 @@
                 <node concept="lc7rE" id="1eZdBFFAv0W" role="3cqZAp">
                   <node concept="2BGw6n" id="1eZdBFFAv0Z" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFAv10" role="lcghm">
-                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} " />
+                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} align={&quot;" />
                   </node>
                   <node concept="l9hG8" id="1eZdBFFAv11" role="lcghm">
                     <node concept="2OqwBi" id="1eZdBFFAv12" role="lb14g">
@@ -5967,7 +5901,7 @@
                     </node>
                   </node>
                   <node concept="la8eA" id="1eZdBFFAv17" role="lcghm">
-                    <property role="lacIc" value=" variant=&quot;h5&quot; component=&quot;div&quot;&gt;Contact&lt;/Typography&gt;" />
+                    <property role="lacIc" value="&quot;} variant=&quot;h5&quot; component=&quot;div&quot;&gt;Contact&lt;/Typography&gt;" />
                   </node>
                   <node concept="l8MVK" id="1eZdBFFAv18" role="lcghm" />
                 </node>
@@ -5984,20 +5918,152 @@
                 </node>
               </node>
             </node>
-            <node concept="3SKdUt" id="1eZdBFFAAAN" role="3cqZAp">
-              <node concept="1PaTwC" id="1eZdBFFAAAO" role="1aUNEU">
-                <node concept="3oM_SD" id="1eZdBFFAAIC" role="1PaTwD">
-                  <property role="3oM_SC" value="display" />
+            <node concept="3clFbH" id="1eZdBFFTwCM" role="3cqZAp" />
+            <node concept="lc7rE" id="1eZdBFFTuR1" role="3cqZAp">
+              <node concept="la8eA" id="1eZdBFFTuR2" role="lcghm">
+                <property role="lacIc" value="&lt;Typography sx={{ml: 1, mr: 1, textAlign:&quot;" />
+              </node>
+              <node concept="l9hG8" id="1eZdBFFV$Ic" role="lcghm">
+                <node concept="2OqwBi" id="1eZdBFFV_o7" role="lb14g">
+                  <node concept="2OqwBi" id="1eZdBFFV$Tb" role="2Oq$k0">
+                    <node concept="117lpO" id="1eZdBFFV$J5" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="1eZdBFFV_br" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:1eZdBFF$9Fc" resolve="styling" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="1eZdBFFV_I5" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:1eZdBFFVyKj" resolve="alignContactInformations" />
+                  </node>
                 </node>
-                <node concept="3oM_SD" id="1eZdBFFAAIS" role="1PaTwD">
-                  <property role="3oM_SC" value="contat" />
+              </node>
+              <node concept="la8eA" id="1eZdBFFV$Fs" role="lcghm">
+                <property role="lacIc" value="&quot;}} align={&quot;justify&quot;} variant=&quot;subtitle1&quot; gutterBottom component=&quot;div&quot;&gt;" />
+              </node>
+              <node concept="l8MVK" id="1eZdBFFTuR3" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="1eZdBFFTuR4" role="3cqZAp">
+              <node concept="2BGw6n" id="1eZdBFFTuR5" role="lcghm" />
+              <node concept="l9hG8" id="1eZdBFFTuR6" role="lcghm">
+                <node concept="2YIFZM" id="1eZdBFFV9DF" role="lb14g">
+                  <ref role="37wK5l" node="4ccJuxna$E$" resolve="checkRawJSON" />
+                  <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
+                  <node concept="Xl_RD" id="1eZdBFFV9DG" role="37wK5m">
+                    <property role="Xl_RC" value="contactInformation" />
+                  </node>
+                  <node concept="Xl_RD" id="1eZdBFFV9DH" role="37wK5m">
+                    <property role="Xl_RC" value="address" />
+                  </node>
+                  <node concept="2OqwBi" id="1eZdBFFV9DI" role="37wK5m">
+                    <node concept="117lpO" id="1eZdBFFV9DJ" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="1eZdBFFV9DK" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:1eZdBFF$9Fd" resolve="address" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="3oM_SD" id="1eZdBFFAAJ9" role="1PaTwD">
-                  <property role="3oM_SC" value="section" />
+              </node>
+              <node concept="l8MVK" id="1eZdBFFTuRd" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="1eZdBFFTuRe" role="3cqZAp">
+              <node concept="la8eA" id="1eZdBFFTuRf" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+            </node>
+            <node concept="lc7rE" id="1eZdBFFVAIh" role="3cqZAp">
+              <node concept="la8eA" id="1eZdBFFVAIi" role="lcghm">
+                <property role="lacIc" value="&lt;Typography sx={{ml: 1, mr: 1, textAlign:&quot;" />
+              </node>
+              <node concept="l9hG8" id="1eZdBFFVAIj" role="lcghm">
+                <node concept="2OqwBi" id="1eZdBFFVAIk" role="lb14g">
+                  <node concept="2OqwBi" id="1eZdBFFVAIl" role="2Oq$k0">
+                    <node concept="117lpO" id="1eZdBFFVAIm" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="1eZdBFFVAIn" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:1eZdBFF$9Fc" resolve="styling" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="1eZdBFFVAIo" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:1eZdBFFVyKj" resolve="alignContactInformations" />
+                  </node>
                 </node>
-                <node concept="3oM_SD" id="1eZdBFFAAJt" role="1PaTwD">
-                  <property role="3oM_SC" value="info" />
+              </node>
+              <node concept="la8eA" id="1eZdBFFVAIp" role="lcghm">
+                <property role="lacIc" value="&quot;}} align={&quot;justify&quot;} variant=&quot;subtitle1&quot; gutterBottom component=&quot;div&quot;&gt;" />
+              </node>
+              <node concept="l8MVK" id="1eZdBFFVAIq" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="1eZdBFFVCMt" role="3cqZAp">
+              <node concept="2BGw6n" id="1eZdBFFVCMu" role="lcghm" />
+              <node concept="l9hG8" id="1eZdBFFVCMv" role="lcghm">
+                <node concept="2YIFZM" id="1eZdBFFVCMw" role="lb14g">
+                  <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
+                  <ref role="37wK5l" node="4ccJuxna$E$" resolve="checkRawJSON" />
+                  <node concept="Xl_RD" id="1eZdBFFVCMx" role="37wK5m">
+                    <property role="Xl_RC" value="contactInformation" />
+                  </node>
+                  <node concept="Xl_RD" id="1eZdBFFVCMy" role="37wK5m">
+                    <property role="Xl_RC" value="phoneNumber" />
+                  </node>
+                  <node concept="2OqwBi" id="1eZdBFFVCMz" role="37wK5m">
+                    <node concept="117lpO" id="1eZdBFFVCM$" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="1eZdBFFVCM_" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:1eZdBFF$9Ff" resolve="phoneNumber" />
+                    </node>
+                  </node>
                 </node>
+              </node>
+              <node concept="l8MVK" id="1eZdBFFVCMA" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="1eZdBFFVEsh" role="3cqZAp">
+              <node concept="la8eA" id="1eZdBFFVEsi" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+            </node>
+            <node concept="lc7rE" id="1eZdBFFVC6h" role="3cqZAp">
+              <node concept="la8eA" id="1eZdBFFVC6i" role="lcghm">
+                <property role="lacIc" value="&lt;Typography sx={{ml: 1, mr: 1, textAlign:&quot;" />
+              </node>
+              <node concept="l9hG8" id="1eZdBFFVC6j" role="lcghm">
+                <node concept="2OqwBi" id="1eZdBFFVC6k" role="lb14g">
+                  <node concept="2OqwBi" id="1eZdBFFVC6l" role="2Oq$k0">
+                    <node concept="117lpO" id="1eZdBFFVC6m" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="1eZdBFFVC6n" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:1eZdBFF$9Fc" resolve="styling" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="1eZdBFFVC6o" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:1eZdBFFVyKj" resolve="alignContactInformations" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="1eZdBFFVC6p" role="lcghm">
+                <property role="lacIc" value="&quot;}} align={&quot;justify&quot;} variant=&quot;subtitle1&quot; gutterBottom component=&quot;div&quot;&gt;" />
+              </node>
+              <node concept="l8MVK" id="1eZdBFFVC6q" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="1eZdBFFVDFg" role="3cqZAp">
+              <node concept="2BGw6n" id="1eZdBFFVDFh" role="lcghm" />
+              <node concept="l9hG8" id="1eZdBFFVDFi" role="lcghm">
+                <node concept="2YIFZM" id="1eZdBFFVDFj" role="lb14g">
+                  <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
+                  <ref role="37wK5l" node="4ccJuxna$E$" resolve="checkRawJSON" />
+                  <node concept="Xl_RD" id="1eZdBFFVDFk" role="37wK5m">
+                    <property role="Xl_RC" value="contactInformation" />
+                  </node>
+                  <node concept="Xl_RD" id="1eZdBFFVDFl" role="37wK5m">
+                    <property role="Xl_RC" value="email" />
+                  </node>
+                  <node concept="2OqwBi" id="1eZdBFFVDFm" role="37wK5m">
+                    <node concept="117lpO" id="1eZdBFFVDFn" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="1eZdBFFVDFo" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:1eZdBFF$9Fi" resolve="email" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="l8MVK" id="1eZdBFFVDFp" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="1eZdBFFVEF1" role="3cqZAp">
+              <node concept="la8eA" id="1eZdBFFVEF2" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
               </node>
             </node>
             <node concept="3clFbH" id="1eZdBFFAAJH" role="3cqZAp" />
@@ -6006,7 +6072,23 @@
                 <node concept="lc7rE" id="1eZdBFFAORl" role="3cqZAp">
                   <node concept="2BGw6n" id="1eZdBFFAPEA" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFAORm" role="lcghm">
-                    <property role="lacIc" value="&lt;Box sx={{ lineHeight:0, display: &quot;flex&quot;, flexWrap:&quot;wrap&quot;, alignItems: &quot;center&quot;, width: &quot;fit-content&quot;, bgcolor: &quot;" />
+                    <property role="lacIc" value="&lt;Box sx={{ alignSelf:&quot;" />
+                  </node>
+                  <node concept="l9hG8" id="1eZdBFFY1o7" role="lcghm">
+                    <node concept="2OqwBi" id="1eZdBFFY1Z2" role="lb14g">
+                      <node concept="2OqwBi" id="1eZdBFFY1zo" role="2Oq$k0">
+                        <node concept="117lpO" id="1eZdBFFY1q7" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="1eZdBFFY1P5" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:1eZdBFF$9Fc" resolve="styling" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="1eZdBFFY2n_" role="2OqNvi">
+                        <ref role="3TsBF5" to="wi2d:1eZdBFFXZ8I" resolve="alignSocialNetwork" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="1eZdBFFY1bK" role="lcghm">
+                    <property role="lacIc" value="&quot;, justifyContent:&quot;center&quot;, lineHeight:0, display: &quot;flex&quot;, flexWrap:&quot;wrap&quot;, alignItems: &quot;center&quot;, width: &quot;fit-content&quot;, bgcolor: &quot;" />
                   </node>
                   <node concept="l9hG8" id="1eZdBFFMNSN" role="lcghm">
                     <node concept="2OqwBi" id="1eZdBFFMO_6" role="lb14g">
@@ -6047,7 +6129,7 @@
                   <node concept="3clFbS" id="1eZdBFFMTym" role="3clFbx">
                     <node concept="lc7rE" id="1eZdBFFMUPA" role="3cqZAp">
                       <node concept="la8eA" id="1eZdBFFMUPW" role="lcghm">
-                        <property role="lacIc" value="borderRadius: 1, border: (theme) =&gt; `1px solid ${theme.palette.divider}`" />
+                        <property role="lacIc" value="borderRadius: 1, border: (theme) =&gt; `1px solid ${theme.palette.divider}`," />
                       </node>
                     </node>
                   </node>

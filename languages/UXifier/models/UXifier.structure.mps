@@ -541,15 +541,15 @@
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="1eZdBFFmBcl" role="M5hS2">
       <property role="1uS6qo" value="LEFT" />
-      <property role="1uS6qv" value="align={&quot;left&quot;}" />
+      <property role="1uS6qv" value="left" />
     </node>
     <node concept="M4N5e" id="1eZdBFFmBcm" role="M5hS2">
       <property role="1uS6qo" value="CENTER" />
-      <property role="1uS6qv" value="align={&quot;center&quot;}" />
+      <property role="1uS6qv" value="center" />
     </node>
     <node concept="M4N5e" id="1eZdBFFmBcp" role="M5hS2">
       <property role="1uS6qo" value="RIGHT" />
-      <property role="1uS6qv" value="align={&quot;right&quot;}" />
+      <property role="1uS6qv" value="right" />
     </node>
   </node>
   <node concept="PlHQZ" id="3bkuCYRAqUs">
@@ -811,6 +811,11 @@
       <property role="TrG5h" value="showSocialNetworks" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="1eZdBFFVyKj" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908844530707" />
+      <property role="TrG5h" value="alignContactInformations" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
     <node concept="1TJgyi" id="1eZdBFFHLeu" role="1TKVEl">
       <property role="IQ2nx" value="1422915908840919966" />
       <property role="TrG5h" value="socialNetworksColor" />
@@ -825,6 +830,11 @@
       <property role="IQ2nx" value="1422915908840928928" />
       <property role="TrG5h" value="socialNetworkBackGroundColor" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFXZ8I" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908845171246" />
+      <property role="TrG5h" value="alignSocialNetwork" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
     </node>
   </node>
 </model>

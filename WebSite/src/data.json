@@ -68,7 +68,12 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ],
-  "SocialNetworkItems": [
+  "contactInformation": {
+    "address" : "1675 East Altadena Drive, Altadena, CA 91001",
+    "phoneNumber": "55.51.56.88.11",
+    "email" : "leo.burette@golang.com"
+  },
+  "socialNetworkItems": [
     {
       "icon":"INSTAGRAM",
       "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
