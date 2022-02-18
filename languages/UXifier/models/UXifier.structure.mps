@@ -224,15 +224,15 @@
     <property role="TrG5h" value="SimpleLayout" />
     <property role="34LRSv" value="single page" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2dFAI0jC1de" role="1TKVEi">
-      <property role="IQ2ns" value="2552303901028127566" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="sections" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="2dFAI0jBY80" resolve="ISection" />
-    </node>
     <node concept="PrWs8" id="2dFAI0jBY8d" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY88" resolve="ILayout" />
+    </node>
+    <node concept="1TJgyj" id="3bkuCYRAqUt" role="1TKVEi">
+      <property role="IQ2ns" value="3662687154638270109" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="pages" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3bkuCYRAqUs" resolve="IPage" />
     </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY8t">
@@ -263,17 +263,17 @@
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyj" id="2dFAI0jBY8x" role="1TKVEi">
-      <property role="IQ2ns" value="2552303901028114977" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="sections" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="2dFAI0jBY80" resolve="ISection" />
-    </node>
     <node concept="1TJgyi" id="7MJjWP4_CWL" role="1TKVEl">
       <property role="IQ2nx" value="8984487524665036593" />
       <property role="TrG5h" value="icon" />
       <ref role="AX2Wp" node="7MJjWP4_CRF" resolve="Icon" />
+    </node>
+    <node concept="1TJgyj" id="3bkuCYRAqUv" role="1TKVEi">
+      <property role="IQ2ns" value="3662687154638270111" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="pages" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3bkuCYRAqUs" resolve="IPage" />
     </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY8B">
@@ -552,28 +552,59 @@
       <property role="1uS6qv" value="align={&quot;right&quot;}" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1eZdBFFr7q_">
-    <property role="EcuMT" value="1422915908836030117" />
-    <property role="3GE5qa" value="section" />
-    <property role="TrG5h" value="SkillSection" />
-    <property role="34LRSv" value="skills" />
+  <node concept="PlHQZ" id="3bkuCYRAqUs">
+    <property role="EcuMT" value="3662687154638270108" />
+    <property role="TrG5h" value="IPage" />
+    <property role="3GE5qa" value="page" />
+  </node>
+  <node concept="1TIwiD" id="3bkuCYRAqUx">
+    <property role="EcuMT" value="3662687154638270113" />
+    <property role="3GE5qa" value="page" />
+    <property role="TrG5h" value="SimplePage" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="1eZdBFFr7qB" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+    <node concept="PrWs8" id="3bkuCYRAqUy" role="PzmwI">
+      <ref role="PrY4T" node="3bkuCYRAqUs" resolve="IPage" />
     </node>
-    <node concept="1TJgyj" id="1eZdBFFr7qD" role="1TKVEi">
-      <property role="IQ2ns" value="1422915908836030121" />
+    <node concept="1TJgyj" id="3bkuCYRAqU$" role="1TKVEi">
+      <property role="IQ2ns" value="3662687154638270116" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="items" />
+      <property role="20kJfa" value="sections" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="1eZdBFFr7qF" resolve="SkillItem" />
+      <ref role="20lvS9" node="2dFAI0jBY80" resolve="ISection" />
     </node>
-    <node concept="1TJgyj" id="1eZdBFFrenm" role="1TKVEi">
-      <property role="IQ2ns" value="1422915908836058582" />
+  </node>
+  <node concept="1TIwiD" id="3bkuCYRAqUA">
+    <property role="EcuMT" value="3662687154638270118" />
+    <property role="3GE5qa" value="page" />
+    <property role="TrG5h" value="GridPage" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="3bkuCYRAqUB" role="PzmwI">
+      <ref role="PrY4T" node="3bkuCYRAqUs" resolve="IPage" />
+    </node>
+    <node concept="1TJgyj" id="3bkuCYRAqUG" role="1TKVEi">
+      <property role="IQ2ns" value="3662687154638270124" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="styling" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1eZdBFFrbj6" resolve="SkillStyling" />
+      <property role="20kJfa" value="gridElements" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3bkuCYRAqUD" resolve="GridElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3bkuCYRAqUD">
+    <property role="EcuMT" value="3662687154638270121" />
+    <property role="3GE5qa" value="page" />
+    <property role="TrG5h" value="GridElement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3bkuCYRAqUE" role="1TKVEi">
+      <property role="IQ2ns" value="3662687154638270122" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="sections" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="2dFAI0jBY80" resolve="ISection" />
+    </node>
+    <node concept="1TJgyi" id="3bkuCYRBdOl" role="1TKVEl">
+      <property role="IQ2nx" value="3662687154638478613" />
+      <property role="TrG5h" value="size" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="1eZdBFFr7qF">
@@ -600,6 +631,30 @@
       <property role="IQ2nx" value="1422915908836034063" />
       <property role="TrG5h" value="icon" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFFr7q_">
+    <property role="EcuMT" value="1422915908836030117" />
+    <property role="3GE5qa" value="section" />
+    <property role="TrG5h" value="SkillSection" />
+    <property role="34LRSv" value="skills" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="1eZdBFFr7qB" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+    </node>
+    <node concept="1TJgyj" id="1eZdBFFr7qD" role="1TKVEi">
+      <property role="IQ2ns" value="1422915908836030121" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1eZdBFFr7qF" resolve="SkillItem" />
+    </node>
+    <node concept="1TJgyj" id="1eZdBFFrenm" role="1TKVEi">
+      <property role="IQ2ns" value="1422915908836058582" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="styling" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1eZdBFFrbj6" resolve="SkillStyling" />
     </node>
   </node>
   <node concept="1TIwiD" id="1eZdBFFrbj6">
