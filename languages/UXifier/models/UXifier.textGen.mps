@@ -1166,8 +1166,23 @@
     <ref role="WuzLi" to="wi2d:2dFAI0jBY7Z" resolve="PresentationSection" />
     <node concept="11bSqf" id="58tSxDcs1nk" role="11c4hB">
       <node concept="3clFbS" id="58tSxDcs1nl" role="2VODD2">
+        <node concept="lc7rE" id="4ccJuxn4Tn9" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn4Tn_" role="lcghm">
+            <property role="lacIc" value="&lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:&quot;100%&quot;}}&gt;" />
+          </node>
+          <node concept="l8MVK" id="1eZdBFEPHab" role="lcghm" />
+        </node>
         <node concept="lc7rE" id="3bkuCYRFuiO" role="3cqZAp">
+          <node concept="2BGw6n" id="4VHwwBJrX3e" role="lcghm" />
           <node concept="la8eA" id="3bkuCYRFupF" role="lcghm">
+            <property role="lacIc" value="&lt;Grid container&gt;" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4VHwwBJrXoD" role="3cqZAp" />
+        <node concept="lc7rE" id="4VHwwBJrWMc" role="3cqZAp">
+          <node concept="2BGw6n" id="4VHwwBJrXWi" role="lcghm" />
+          <node concept="2BGw6n" id="4VHwwBJrY0z" role="lcghm" />
+          <node concept="la8eA" id="4VHwwBJrWMd" role="lcghm">
             <property role="lacIc" value="&lt;Grid item md={12}" />
           </node>
         </node>
@@ -1198,13 +1213,6 @@
           <node concept="l8MVK" id="3bkuCYRFwR5" role="lcghm" />
         </node>
         <node concept="3clFbH" id="3bkuCYRFx6O" role="3cqZAp" />
-        <node concept="lc7rE" id="4ccJuxn4Tn9" role="3cqZAp">
-          <node concept="2BGw6n" id="3bkuCYRFxg6" role="lcghm" />
-          <node concept="la8eA" id="4ccJuxn4Tn_" role="lcghm">
-            <property role="lacIc" value="&lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:&quot;100%&quot;}}&gt;" />
-          </node>
-          <node concept="l8MVK" id="1eZdBFEPHab" role="lcghm" />
-        </node>
         <node concept="3clFbJ" id="3bkuCYRIsZw" role="3cqZAp">
           <node concept="3clFbS" id="3bkuCYRIsZx" role="3clFbx">
             <node concept="lc7rE" id="3bkuCYRIsZy" role="3cqZAp">
@@ -1248,6 +1256,7 @@
         <node concept="lc7rE" id="4ccJuxnassZ" role="3cqZAp">
           <node concept="2BGw6n" id="3bkuCYRFxku" role="lcghm" />
           <node concept="2BGw6n" id="1c5gsjF6TuR" role="lcghm" />
+          <node concept="2BGw6n" id="4VHwwBJrY4M" role="lcghm" />
           <node concept="l9hG8" id="4ccJuxnasH2" role="lcghm">
             <node concept="2YIFZM" id="4ccJuxnb8cx" role="lb14g">
               <ref role="37wK5l" node="4ccJuxna$E$" resolve="checkRawJSON" />
@@ -1274,6 +1283,7 @@
         <node concept="lc7rE" id="4ccJuxn6bCU" role="3cqZAp">
           <node concept="2BGw6n" id="3bkuCYRFxoR" role="lcghm" />
           <node concept="2BGw6n" id="1c5gsjF6TzC" role="lcghm" />
+          <node concept="2BGw6n" id="4VHwwBJrYfM" role="lcghm" />
           <node concept="l9hG8" id="4ccJuxn6bFG" role="lcghm">
             <node concept="2YIFZM" id="4ccJuxna_ly" role="lb14g">
               <ref role="37wK5l" node="4ccJuxna$E$" resolve="checkRawJSON" />
@@ -1320,14 +1330,9 @@
           </node>
           <node concept="l8MVK" id="1eZdBFEPHz7" role="lcghm" />
         </node>
-        <node concept="lc7rE" id="4ccJuxn6boc" role="3cqZAp">
-          <node concept="2BGw6n" id="3bkuCYRFxtR" role="lcghm" />
-          <node concept="la8eA" id="4ccJuxn6bpE" role="lcghm">
-            <property role="lacIc" value="&lt;/Paper&gt;" />
-          </node>
-          <node concept="l8MVK" id="1eZdBFEPHQl" role="lcghm" />
-        </node>
         <node concept="lc7rE" id="3bkuCYRFyao" role="3cqZAp">
+          <node concept="2BGw6n" id="4VHwwBJrYl7" role="lcghm" />
+          <node concept="2BGw6n" id="4VHwwBJrYlc" role="lcghm" />
           <node concept="la8eA" id="3bkuCYRFyio" role="lcghm">
             <property role="lacIc" value="&lt;/Grid&gt;" />
           </node>
@@ -1337,26 +1342,25 @@
         <node concept="3clFbJ" id="1eZdBFF4vwQ" role="3cqZAp">
           <node concept="3clFbS" id="1eZdBFF4vwS" role="3clFbx">
             <node concept="lc7rE" id="3bkuCYRFx$s" role="3cqZAp">
+              <node concept="2BGw6n" id="4VHwwBJrYpv" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJrYp$" role="lcghm" />
               <node concept="la8eA" id="3bkuCYRFx$t" role="lcghm">
-                <property role="lacIc" value="&lt;Grid item md={12} lg={4} &gt;" />
+                <property role="lacIc" value="&lt;Grid item md={12} lg={4} sx={{flex:'auto'}}&gt;" />
               </node>
               <node concept="l8MVK" id="3bkuCYRFz4Q" role="lcghm" />
             </node>
             <node concept="lc7rE" id="3bkuCYRH4v5" role="3cqZAp">
+              <node concept="2BGw6n" id="4VHwwBJrYpW" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJrYq1" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJrYqp" role="lcghm" />
               <node concept="la8eA" id="3bkuCYRH4v6" role="lcghm">
-                <property role="lacIc" value="&lt;Grid margin={2} &gt;" />
+                <property role="lacIc" value="&lt;Grid margin={2} sx={{display:'flex'}}&gt;" />
               </node>
               <node concept="l8MVK" id="3bkuCYRH4v7" role="lcghm" />
             </node>
-            <node concept="3clFbH" id="3bkuCYRFx$4" role="3cqZAp" />
-            <node concept="lc7rE" id="4ccJuxn4TwQ" role="3cqZAp">
-              <node concept="2BGw6n" id="3bkuCYRFxxU" role="lcghm" />
-              <node concept="la8eA" id="4ccJuxn4Txs" role="lcghm">
-                <property role="lacIc" value="&lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:&quot;100%&quot;}}&gt;" />
-              </node>
-              <node concept="l8MVK" id="1eZdBFEPIdN" role="lcghm" />
-            </node>
             <node concept="lc7rE" id="4ccJuxn6wSo" role="3cqZAp">
+              <node concept="2BGw6n" id="4VHwwBJrYqJ" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJrYso" role="lcghm" />
               <node concept="2BGw6n" id="3bkuCYRFxye" role="lcghm" />
               <node concept="2BGw6n" id="1c5gsjF6U75" role="lcghm" />
               <node concept="la8eA" id="4ccJuxn6wVo" role="lcghm">
@@ -1381,24 +1385,22 @@
                 </node>
               </node>
               <node concept="la8eA" id="4ccJuxn6xtc" role="lcghm">
-                <property role="lacIc" value=" sx={{height:'auto'}}/&gt;" />
+                <property role="lacIc" value=" sx={{height:'auto', flex:'auto'}}/&gt;" />
               </node>
               <node concept="l8MVK" id="1eZdBFEPIm4" role="lcghm" />
             </node>
-            <node concept="lc7rE" id="4ccJuxn5ue5" role="3cqZAp">
-              <node concept="2BGw6n" id="3bkuCYRFxzK" role="lcghm" />
-              <node concept="la8eA" id="4ccJuxn5ueV" role="lcghm">
-                <property role="lacIc" value="&lt;/Paper&gt;" />
-              </node>
-              <node concept="l8MVK" id="1eZdBFEPICC" role="lcghm" />
-            </node>
             <node concept="lc7rE" id="3bkuCYRFxSJ" role="3cqZAp">
+              <node concept="2BGw6n" id="4VHwwBJrYu2" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJrYu7" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJrYuv" role="lcghm" />
               <node concept="la8eA" id="3bkuCYRFxUY" role="lcghm">
                 <property role="lacIc" value="&lt;/Grid&gt;" />
               </node>
               <node concept="l8MVK" id="3bkuCYRFxWw" role="lcghm" />
             </node>
             <node concept="lc7rE" id="3bkuCYRH4z6" role="3cqZAp">
+              <node concept="2BGw6n" id="4VHwwBJrYuP" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJrYuU" role="lcghm" />
               <node concept="la8eA" id="3bkuCYRH4z7" role="lcghm">
                 <property role="lacIc" value="&lt;/Grid&gt;" />
               </node>
@@ -1416,6 +1418,19 @@
               <ref role="3TsBF5" to="wi2d:2dFAI0jC1dA" resolve="showImage" />
             </node>
           </node>
+        </node>
+        <node concept="lc7rE" id="4VHwwBJrYvi" role="3cqZAp">
+          <node concept="2BGw6n" id="4VHwwBJrYvj" role="lcghm" />
+          <node concept="la8eA" id="4VHwwBJrYvl" role="lcghm">
+            <property role="lacIc" value="&lt;/Grid&gt;" />
+          </node>
+          <node concept="l8MVK" id="4VHwwBJrYvm" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="4ccJuxn5ue5" role="3cqZAp">
+          <node concept="la8eA" id="4ccJuxn5ueV" role="lcghm">
+            <property role="lacIc" value="&lt;/Paper&gt;" />
+          </node>
+          <node concept="l8MVK" id="1eZdBFEPICC" role="lcghm" />
         </node>
       </node>
     </node>
