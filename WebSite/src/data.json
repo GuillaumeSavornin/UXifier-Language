@@ -68,6 +68,36 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ],
+  "SocialNetworkItems": [
+    {
+      "icon":"INSTAGRAM",
+      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },{
+      "icon":"FACEBOOK",
+      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },{
+      "icon":"LINKEDIN",
+      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },{
+      "icon":"PINTEREST",
+      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },{
+      "icon":"TWITTER",
+      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },{
+      "icon":"YOUTUBE",
+      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },{
+      "icon":"REDDIT",
+      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },{
+      "icon":"GITHUB",
+      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },{
+      "icon":"ANY-LINK",
+      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    }
+  ],
   "additionalInformation": {
     "driverLicense" : "Class D license",
     "age": "22",

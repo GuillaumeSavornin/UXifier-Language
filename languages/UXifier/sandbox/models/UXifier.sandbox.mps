@@ -28,10 +28,10 @@
         <child id="2552303901028114968" name="layout" index="KX7zS" />
       </concept>
       <concept id="2552303901028114953" name="UXifier.structure.WebSiteFormat" flags="ng" index="KX7zD" />
-      <concept id="2552303901028114956" name="UXifier.structure.SinglePageLayout" flags="ng" index="KX7zG">
+      <concept id="2552303901028114956" name="UXifier.structure.SimpleLayout" flags="ng" index="KX7zG">
         <child id="2552303901028127566" name="sections" index="KMSAI" />
       </concept>
-      <concept id="2552303901028114973" name="UXifier.structure.MultiPageLayout" flags="ng" index="KX7zX">
+      <concept id="2552303901028114973" name="UXifier.structure.MenuLayout" flags="ng" index="KX7zX">
         <child id="2552303901028114981" name="tabs" index="KX7z5" />
       </concept>
       <concept id="2552303901028114942" name="UXifier.structure.Theme" flags="ng" index="KX7Gu">
@@ -90,6 +90,23 @@
         <property id="1422915908831962114" name="levelDisplayMethod" index="3S$l9S" />
         <property id="1422915908830251866" name="separator" index="3SEROw" />
       </concept>
+      <concept id="1422915908838449950" name="UXifier.structure.ContactStyling" flags="ng" index="3Sb_l$">
+        <property id="1422915908840928928" name="socialNetworkBackGroundColor" index="3S203q" />
+        <property id="1422915908840919966" name="socialNetworksColor" index="3S22n$" />
+        <property id="1422915908839026400" name="separator" index="3S9hyq" />
+        <property id="1422915908839036257" name="showSocialNetworks" index="3S9mcr" />
+        <property id="1422915908838449954" name="numberSocialNetworkItems" index="3Sb_lo" />
+      </concept>
+      <concept id="1422915908838398686" name="UXifier.structure.SocialNetworkItem" flags="ng" index="3SbUM$">
+        <property id="1422915908838398688" name="url" index="3SbUMq" />
+      </concept>
+      <concept id="1422915908838398665" name="UXifier.structure.ContactSection" flags="ng" index="3SbUMN">
+        <property id="1422915908838398674" name="email" index="3SbUMC" />
+        <property id="1422915908838398671" name="phoneNumber" index="3SbUMP" />
+        <property id="1422915908838398669" name="address" index="3SbUMR" />
+        <child id="1422915908838398667" name="items" index="3SbUML" />
+        <child id="1422915908838398668" name="styling" index="3SbUMQ" />
+      </concept>
       <concept id="1422915908836030123" name="UXifier.structure.SkillItem" flags="ng" index="3SOO3h">
         <property id="1422915908836030129" name="level" index="3SOO3b" />
         <property id="1422915908836030126" name="description" index="3SOO3k" />
@@ -141,6 +158,22 @@
             <property role="2LRsXT" value="list of countries" />
             <node concept="2LRsXN" id="1eZdBFFpig5" role="2LRsXX">
               <property role="2LRsXQ" value="true" />
+            </node>
+          </node>
+          <node concept="3SbUMN" id="1eZdBFFArxW" role="KX7z1">
+            <property role="3SbUMR" value="Number Address, Country" />
+            <property role="3SbUMP" value="00.00.00.00.00" />
+            <property role="3SbUMC" value="Email@address.com" />
+            <node concept="3SbUM$" id="1eZdBFFArxX" role="3SbUML">
+              <property role="3SbUMq" value="http://google.fr" />
+            </node>
+            <node concept="3Sb_l$" id="1eZdBFFArxZ" role="3SbUMQ">
+              <property role="3Sb_lo" value="8" />
+              <property role="3S9hyq" value="true" />
+              <property role="3STkkY" value="true" />
+              <property role="3S9mcr" value="true" />
+              <property role="3S22n$" value="red" />
+              <property role="3S203q" value="background.paper" />
             </node>
           </node>
           <node concept="3S1VyK" id="3bkuCYRy4A4" role="KX7z1">

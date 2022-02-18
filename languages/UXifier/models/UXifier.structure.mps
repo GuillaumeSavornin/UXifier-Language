@@ -636,5 +636,141 @@
       <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1eZdBFF$9F9">
+    <property role="EcuMT" value="1422915908838398665" />
+    <property role="3GE5qa" value="section" />
+    <property role="TrG5h" value="ContactSection" />
+    <property role="34LRSv" value="contact" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1eZdBFF$9Fa" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+    </node>
+    <node concept="1TJgyj" id="1eZdBFF$9Fb" role="1TKVEi">
+      <property role="IQ2ns" value="1422915908838398667" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1eZdBFF$9Fu" resolve="SocialNetworkItem" />
+    </node>
+    <node concept="1TJgyj" id="1eZdBFF$9Fc" role="1TKVEi">
+      <property role="IQ2ns" value="1422915908838398668" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="styling" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1eZdBFF$mcu" resolve="ContactStyling" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFF$9Fd" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908838398669" />
+      <property role="TrG5h" value="address" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFF$9Ff" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908838398671" />
+      <property role="TrG5h" value="phoneNumber" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFF$9Fi" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908838398674" />
+      <property role="TrG5h" value="email" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFF$9Fu">
+    <property role="EcuMT" value="1422915908838398686" />
+    <property role="TrG5h" value="SocialNetworkItem" />
+    <property role="3GE5qa" value="section.item" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1eZdBFF$9Fv" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908838398687" />
+      <property role="TrG5h" value="icon" />
+      <ref role="AX2Wp" node="1eZdBFF$9F$" resolve="SOCIAL_NETWORK_ICON" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFF$9Fw" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908838398688" />
+      <property role="TrG5h" value="url" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1eZdBFF$9F$">
+    <property role="3F6X1D" value="8984487524665036267" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="SOCIAL_NETWORK_ICON" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1eZdBFF$maH" role="M5hS2">
+      <property role="1uS6qv" value="&lt;LinkIcon /&gt;" />
+      <property role="1uS6qo" value="ANY-LINK" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFF$9F_" role="M5hS2">
+      <property role="1uS6qv" value="&lt;InstagramIcon /&gt;" />
+      <property role="1uS6qo" value="INSTAGRAM" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFF$9FA" role="M5hS2">
+      <property role="1uS6qv" value="&lt;FacebookIcon /&gt;" />
+      <property role="1uS6qo" value="FACEBOOK" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFF$9FB" role="M5hS2">
+      <property role="1uS6qv" value="&lt;LinkedInIcon /&gt;" />
+      <property role="1uS6qo" value="LINKEDIN" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFF$9FC" role="M5hS2">
+      <property role="1uS6qv" value="&lt;PinterestIcon /&gt;" />
+      <property role="1uS6qo" value="PINTEREST" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFF$maf" role="M5hS2">
+      <property role="1uS6qv" value="&lt;TwitterIcon /&gt;" />
+      <property role="1uS6qo" value="TWITTER" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFF$mal" role="M5hS2">
+      <property role="1uS6qv" value="&lt;YouTubeIcon /&gt;" />
+      <property role="1uS6qo" value="YOUTUBE" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFF$mas" role="M5hS2">
+      <property role="1uS6qv" value="&lt;RedditIcon /&gt;" />
+      <property role="1uS6qo" value="REDDIT" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFF$ma$" role="M5hS2">
+      <property role="1uS6qv" value="&lt;GitHubIcon /&gt;" />
+      <property role="1uS6qo" value="GITHUB" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFF$mcu">
+    <property role="EcuMT" value="1422915908838449950" />
+    <property role="3GE5qa" value="styling" />
+    <property role="TrG5h" value="ContactStyling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1eZdBFF$mcv" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFF$mcy" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908838449954" />
+      <property role="TrG5h" value="numberSocialNetworkItems" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFAyVw" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908839026400" />
+      <property role="TrG5h" value="separator" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFA_lx" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908839036257" />
+      <property role="TrG5h" value="showSocialNetworks" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFHLeu" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908840919966" />
+      <property role="TrG5h" value="socialNetworksColor" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFHLez" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908840919971" />
+      <property role="TrG5h" value="socialNetworkBorder" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFHNqw" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908840928928" />
+      <property role="TrG5h" value="socialNetworkBackGroundColor" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

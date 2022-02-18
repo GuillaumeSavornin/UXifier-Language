@@ -1,3 +1,12 @@
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import RedditIcon from '@mui/icons-material/Reddit';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkIcon from '@mui/icons-material/Link';
 import data from "./data.json";
 import {Rating} from "@mui/material";
 import * as React from 'react';
@@ -29,6 +38,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { useParams, useRouteMatch, Switch, Route, Link } from "react-router-dom";
+import { Link as Linkk } from '@mui/material';
 import PeopleIcon from '@mui/icons-material/People';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import LayersIcon from '@mui/icons-material/Layers';
@@ -156,6 +166,100 @@ function WebSiteFormat(){
                                         }
                                         return "list of countries"
                                     })()}<br/>
+                                    </Paper>
+                                </Grid>
+                            </Grid>
+                        </Container>
+
+                        <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+                            <Grid container spacing={3}>
+                                <Grid item xs={12} md={8} lg={9}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column',}}>
+                                        <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Contact</Typography>
+                                        <Box sx={{ lineHeight:0, display: "flex", alignItems: "center", width: "fit-content", bgcolor: "background.paper", color: "text.secondary", borderRadius: 1, border: (theme) => `1px solid ${theme.palette.divider}`, "& svg": { m: 1.5 }, "& hr": { mx: 0.5 }}}>
+                                            {(()=>{
+                                                let array = [];
+                                                for(let i = 0; i < 8; i++){
+                                                    array.push(                        (() => {
+                                                            switch((()=>{
+                                                                if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].icon){
+                                                                    return data.SocialNetworkItems[i].icon
+                                                                }
+                                                                return "ANY-LINK"
+                                                            })()) {
+                                                                case "INSTAGRAM":
+                                                                    return <Linkk href={(()=>{
+                                                                        if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].url){
+                                                                            return data.SocialNetworkItems[i].url
+                                                                        }
+                                                                        return "http://google.fr"
+                                                                    })()} target="_blank"><InstagramIcon/></Linkk>
+                                                                case "FACEBOOK":
+                                                                    return <Linkk href={(()=>{
+                                                                        if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].url){
+                                                                            return data.SocialNetworkItems[i].url
+                                                                        }
+                                                                        return "http://google.fr"
+                                                                    })()} target="_blank"><FacebookIcon/></Linkk>
+                                                                case "LINKEDIN":
+                                                                    return <Linkk href={(()=>{
+                                                                        if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].url){
+                                                                            return data.SocialNetworkItems[i].url
+                                                                        }
+                                                                        return "http://google.fr"
+                                                                    })()} target="_blank"><LinkedInIcon/></Linkk>
+                                                                case "PINTEREST":
+                                                                    return <Linkk href={(()=>{
+                                                                        if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].url){
+                                                                            return data.SocialNetworkItems[i].url
+                                                                        }
+                                                                        return "http://google.fr"
+                                                                    })()} target="_blank"><PinterestIcon/></Linkk>
+                                                                case "TWITTER":
+                                                                    return <Linkk href={(()=>{
+                                                                        if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].url){
+                                                                            return data.SocialNetworkItems[i].url
+                                                                        }
+                                                                        return "http://google.fr"
+                                                                    })()} target="_blank"><TwitterIcon/></Linkk>
+                                                                case "YOUTUBE":
+                                                                    return <Linkk href={(()=>{
+                                                                        if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].url){
+                                                                            return data.SocialNetworkItems[i].url
+                                                                        }
+                                                                        return "http://google.fr"
+                                                                    })()} target="_blank"><YouTubeIcon/></Linkk>
+                                                                case "REDDIT":
+                                                                    return <Linkk href={(()=>{
+                                                                        if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].url){
+                                                                            return data.SocialNetworkItems[i].url
+                                                                        }
+                                                                        return "http://google.fr"
+                                                                    })()} target="_blank"><RedditIcon/></Linkk>
+                                                                case "GITHUB":
+                                                                    return <Linkk href={(()=>{
+                                                                        if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].url){
+                                                                            return data.SocialNetworkItems[i].url
+                                                                        }
+                                                                        return "http://google.fr"
+                                                                    })()} target="_blank"><GitHubIcon/></Linkk>
+                                                                default:
+                                                                    return <Linkk href={(()=>{
+                                                                        if(data.SocialNetworkItems && data.SocialNetworkItems[i] && data.SocialNetworkItems[i].url){
+                                                                            return data.SocialNetworkItems[i].url
+                                                                        }
+                                                                        return "http://google.fr"
+                                                                    })()} target="_blank"><LinkIcon/></Linkk>
+                                                            }
+                                                        })()
+                                                    )
+                                                    if(i <8-1){
+                                                        array.push(<Divider sx={{lineHeight:0}} orientation="vertical" variant="middle" flexItem/>)
+                                                    }
+                                                }
+                                                return array;
+                                            })()}
+                                        </Box>
                                     </Paper>
                                 </Grid>
                             </Grid>
@@ -327,6 +431,9 @@ function WebSiteFormat(){
                                                         </Grid>
                                                     </Grid>
                                                 )
+                                                if(i <8-1){
+                                                    array.push(<Divider sx={{ mb: 1 }} variant="middle"/>)
+                                                }
                                             }
                                             return array;
                                         })()}
@@ -643,14 +750,7 @@ function WebSiteFormat(){
                                                         </p>
                                                     </Grid>
                                                 </Grid>
-                                                    ,<Typography sx={{ml: 3, mr: 3}} align={"justify"} variant="subtitle1" gutterBottom component="div">
-                                                        {(()=>{
-                                                            if(data.skillItems && data.skillItems[i] && data.skillItems[i].description){
-                                                                return data.skillItems[i].description
-                                                            }
-                                                            return "Skill description"
-                                                        })()}
-                                                    </Typography>])
+                                                ])
                                                 if(i <8-1){
                                                     array.push(<Divider sx={{ mb: 1 }} variant="middle"/>)
                                                 }
@@ -716,7 +816,14 @@ function WebSiteFormat(){
                                                         </p>
                                                     </Grid>
                                                 </Grid>
-                                                ])
+                                                    ,<Typography sx={{ml: 3, mr: 3}} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                                        {(()=>{
+                                                            if(data.skillItems && data.skillItems[i] && data.skillItems[i].description){
+                                                                return data.skillItems[i].description
+                                                            }
+                                                            return "Skill description"
+                                                        })()}
+                                                    </Typography>])
                                                 if(i <5-1){
                                                     array.push(<Divider sx={{ mb: 1 }} variant="middle"/>)
                                                 }

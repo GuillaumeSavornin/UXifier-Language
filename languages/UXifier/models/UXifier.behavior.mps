@@ -579,5 +579,95 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="1eZdBFF$n0y">
+    <property role="3GE5qa" value="section.item" />
+    <ref role="13h7C2" to="wi2d:1eZdBFF$9Fu" resolve="SocialNetworkItem" />
+    <node concept="13hLZK" id="1eZdBFF$n0z" role="13h7CW">
+      <node concept="3clFbS" id="1eZdBFF$n0$" role="2VODD2">
+        <node concept="3clFbF" id="1eZdBFF$n0_" role="3cqZAp">
+          <node concept="37vLTI" id="1eZdBFF$n0A" role="3clFbG">
+            <node concept="2OqwBi" id="1eZdBFF$nGt" role="37vLTJ">
+              <node concept="13iPFW" id="1eZdBFF$n0C" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1eZdBFF$nWI" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:1eZdBFF$9Fw" resolve="url" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="1eZdBFF$n0E" role="37vLTx">
+              <property role="Xl_RC" value="http://google.fr" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1eZdBFF$orx">
+    <property role="3GE5qa" value="section" />
+    <ref role="13h7C2" to="wi2d:1eZdBFF$9F9" resolve="ContactSection" />
+    <node concept="13hLZK" id="1eZdBFF$ory" role="13h7CW">
+      <node concept="3clFbS" id="1eZdBFF$orz" role="2VODD2">
+        <node concept="3clFbF" id="1eZdBFF$pfT" role="3cqZAp">
+          <node concept="37vLTI" id="1eZdBFF$q4Y" role="3clFbG">
+            <node concept="Xl_RD" id="1eZdBFF$qeh" role="37vLTx">
+              <property role="Xl_RC" value="Number Address, Country" />
+            </node>
+            <node concept="2OqwBi" id="1eZdBFF$ppd" role="37vLTJ">
+              <node concept="13iPFW" id="1eZdBFF$pfR" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1eZdBFF$pFS" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:1eZdBFF$9Fd" resolve="address" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eZdBFF$qmf" role="3cqZAp">
+          <node concept="37vLTI" id="1eZdBFF$rhE" role="3clFbG">
+            <node concept="Xl_RD" id="1eZdBFF$rhW" role="37vLTx">
+              <property role="Xl_RC" value="00.00.00.00.00" />
+            </node>
+            <node concept="2OqwBi" id="1eZdBFF$qyC" role="37vLTJ">
+              <node concept="13iPFW" id="1eZdBFF$qmd" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1eZdBFF$qOd" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:1eZdBFF$9Ff" resolve="phoneNumber" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eZdBFF$rrq" role="3cqZAp">
+          <node concept="37vLTI" id="1eZdBFF$s9Y" role="3clFbG">
+            <node concept="Xl_RD" id="1eZdBFF$say" role="37vLTx">
+              <property role="Xl_RC" value="Email@address.com" />
+            </node>
+            <node concept="2OqwBi" id="1eZdBFF$r_w" role="37vLTJ">
+              <node concept="13iPFW" id="1eZdBFF$rro" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1eZdBFF$rR5" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:1eZdBFF$9Fi" resolve="email" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eZdBFF$or$" role="3cqZAp">
+          <node concept="2OqwBi" id="1eZdBFF$or_" role="3clFbG">
+            <node concept="2OqwBi" id="1eZdBFF$pai" role="2Oq$k0">
+              <node concept="13iPFW" id="1eZdBFF$orB" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1eZdBFF$pde" role="2OqNvi">
+                <ref role="3TtcxE" to="wi2d:1eZdBFF$9Fb" resolve="items" />
+              </node>
+            </node>
+            <node concept="1sK_Qi" id="1eZdBFF$orD" role="2OqNvi">
+              <node concept="3cmrfG" id="1eZdBFF$orE" role="1sKJu8">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2ShNRf" id="1eZdBFF$orF" role="1sKFgg">
+                <node concept="3zrR0B" id="1eZdBFF$orG" role="2ShVmc">
+                  <node concept="3Tqbb2" id="1eZdBFF$orH" role="3zrR0E">
+                    <ref role="ehGHo" to="wi2d:1eZdBFF$9Fu" resolve="SocialNetworkItem" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
