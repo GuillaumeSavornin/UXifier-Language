@@ -1496,28 +1496,40 @@ function TextFormat(){
                     <Grid container maxWidth="'100%'" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                         <Grid container margin={1}>
                             <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
-                                <Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
-                                    {(()=>{
-                                        if(data.contactInformation){
-                                            return data.contactInformation.address
-                                        }
-                                        return "Number Address, Country"
-                                    })()}
-                                </Typography><Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
-                                {(()=>{
-                                    if(data.contactInformation){
-                                        return data.contactInformation.phoneNumber
-                                    }
-                                    return "00.00.00.00.00"
-                                })()}
-                            </Typography><Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
-                                {(()=>{
-                                    if(data.contactInformation){
-                                        return data.contactInformation.email
-                                    }
-                                    return "Email@address.com"
-                                })()}
-                            </Typography></Paper>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <HomeIcon sx={{color:""}} />
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        {(()=>{
+                                            if(data.contactInformation){
+                                                return data.contactInformation.address
+                                            }
+                                            return "Number Address, Country"
+                                        })()}
+                                    </Typography>
+                                </div>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <PhoneIcon sx={{color:""}} />
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        {(()=>{
+                                            if(data.contactInformation){
+                                                return data.contactInformation.phoneNumber
+                                            }
+                                            return "00.00.00.00.00"
+                                        })()}
+                                    </Typography>
+                                </div>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <EmailIcon sx={{color:""}} />
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        {(()=>{
+                                            if(data.contactInformation){
+                                                return data.contactInformation.email
+                                            }
+                                            return "Email@address.com"
+                                        })()}
+                                    </Typography>
+                                </div>
+                            </Paper>
 
                         </Grid>
                     </Grid>

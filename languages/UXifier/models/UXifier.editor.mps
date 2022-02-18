@@ -1317,7 +1317,7 @@
       <node concept="3EZMnI" id="1eZdBFG4CT7" role="3EZMnx">
         <node concept="VPM3Z" id="1eZdBFG4CT8" role="3F10Kt" />
         <node concept="3F0ifn" id="1eZdBFG4CT9" role="3EZMnx">
-          <property role="3F0ifm" value="- Image filter porcentage" />
+          <property role="3F0ifm" value="- Image filter percentage:" />
         </node>
         <node concept="3F0A7n" id="1eZdBFG4CTa" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
