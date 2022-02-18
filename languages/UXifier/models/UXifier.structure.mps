@@ -381,6 +381,42 @@
       <property role="1uS6qv" value="&lt;AssignmentIcon /&gt;" />
       <property role="1uS6qo" value="ASSIGNEMENT" />
     </node>
+    <node concept="M4N5e" id="1eZdBFGbW5O" role="M5hS2">
+      <property role="1uS6qv" value="&lt;ArrowForwardIosIcon /&gt;" />
+      <property role="1uS6qo" value="ARROW-RIGHT-1" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW5U" role="M5hS2">
+      <property role="1uS6qv" value="&lt;ArrowRightIcon /&gt;" />
+      <property role="1uS6qo" value="ARROW-RIGHT-2" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW61" role="M5hS2">
+      <property role="1uS6qv" value="&lt;FaceIcon /&gt;" />
+      <property role="1uS6qo" value="FACE" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW69" role="M5hS2">
+      <property role="1uS6qv" value="&lt;FilePresentIcon /&gt;" />
+      <property role="1uS6qo" value="FILE" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW6i" role="M5hS2">
+      <property role="1uS6qv" value="&lt;LocalFloristIcon /&gt;" />
+      <property role="1uS6qo" value="FLOWER" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW6s" role="M5hS2">
+      <property role="1uS6qv" value="&lt;PhotoIcon /&gt;" />
+      <property role="1uS6qo" value="PICTURE" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW6B" role="M5hS2">
+      <property role="1uS6qv" value="&lt;SportsBasketballIcon /&gt;" />
+      <property role="1uS6qo" value="SPORT" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW6N" role="M5hS2">
+      <property role="1uS6qv" value="&lt;WorkIcon /&gt;" />
+      <property role="1uS6qo" value="WORK" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW70" role="M5hS2">
+      <property role="1uS6qv" value="&lt;StarIcon /&gt;" />
+      <property role="1uS6qo" value="STAR" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3QvgIEcgCBZ">
     <property role="EcuMT" value="4440341332753549823" />

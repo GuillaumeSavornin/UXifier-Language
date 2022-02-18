@@ -431,7 +431,7 @@
         </node>
         <node concept="KX7z0" id="7ytgQgx_ecz" role="KX7z5">
           <property role="KX7z3" value="Test" />
-          <property role="Ses3W" value="7MJjWP4_CRO/&lt;AssignmentIcon /&gt;" />
+          <property role="Ses3W" value="1eZdBFGbW6B/&lt;SportsBasketballIcon /&gt;" />
           <node concept="25jtgD" id="7ytgQgxAAE9" role="25jtgg">
             <node concept="25jtgA" id="7ytgQgxAC2l" role="25jtgz">
               <property role="25iauq" value="6" />

@@ -52,6 +52,15 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import HomeIcon from '@mui/icons-material/Home';
 import EmailIcon from '@mui/icons-material/Email';
 import CircleIcon from '@mui/icons-material/Circle';
+import StarIcon from '@mui/icons-material/Star';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import FaceIcon from '@mui/icons-material/Face';
+import FilePresentIcon from '@mui/icons-material/FilePresent';
+import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
+import PhotoIcon from '@mui/icons-material/Photo';
+import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
+import WorkIcon from '@mui/icons-material/Work';
 import LinearProgress, {
     linearProgressClasses
 } from "@mui/material/LinearProgress";
@@ -95,7 +104,7 @@ function WebSiteFormat(){
                     <Link to="/Test">
                         <ListItemButton>
                             <ListItemIcon>
-                                <AssignmentIcon />
+                                <SportsBasketballIcon />
                             </ListItemIcon>
                             <ListItemText primary="Test" />
                         </ListItemButton>
@@ -1496,28 +1505,40 @@ function TextFormat(){
                     <Grid container maxWidth="'100%'" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                         <Grid container margin={1}>
                             <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
-                                <Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
-                                    {(()=>{
-                                        if(data.contactInformation){
-                                            return data.contactInformation.address
-                                        }
-                                        return "Number Address, Country"
-                                    })()}
-                                </Typography><Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
-                                {(()=>{
-                                    if(data.contactInformation){
-                                        return data.contactInformation.phoneNumber
-                                    }
-                                    return "00.00.00.00.00"
-                                })()}
-                            </Typography><Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
-                                {(()=>{
-                                    if(data.contactInformation){
-                                        return data.contactInformation.email
-                                    }
-                                    return "Email@address.com"
-                                })()}
-                            </Typography></Paper>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <HomeIcon sx={{color:""}} />
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        {(()=>{
+                                            if(data.contactInformation){
+                                                return data.contactInformation.address
+                                            }
+                                            return "Number Address, Country"
+                                        })()}
+                                    </Typography>
+                                </div>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <PhoneIcon sx={{color:""}} />
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        {(()=>{
+                                            if(data.contactInformation){
+                                                return data.contactInformation.phoneNumber
+                                            }
+                                            return "00.00.00.00.00"
+                                        })()}
+                                    </Typography>
+                                </div>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <EmailIcon sx={{color:""}} />
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        {(()=>{
+                                            if(data.contactInformation){
+                                                return data.contactInformation.email
+                                            }
+                                            return "Email@address.com"
+                                        })()}
+                                    </Typography>
+                                </div>
+                            </Paper>
 
                         </Grid>
                     </Grid>
