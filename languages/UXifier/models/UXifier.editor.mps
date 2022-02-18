@@ -377,8 +377,20 @@
       <node concept="3EZMnI" id="3ksNkQL1ceP" role="3EZMnx">
         <node concept="2iRkQZ" id="3ksNkQL1ceQ" role="2iSdaV" />
         <node concept="VPM3Z" id="3ksNkQL1ceR" role="3F10Kt" />
-        <node concept="3F0ifn" id="3ksNkQL1ceX" role="3EZMnx">
-          <property role="3F0ifm" value="Menu layout:" />
+        <node concept="3EZMnI" id="4VHwwBJqb3M" role="3EZMnx">
+          <node concept="2iRfu4" id="4VHwwBJqb3N" role="2iSdaV" />
+          <node concept="3F0ifn" id="3ksNkQL1ceX" role="3EZMnx">
+            <property role="3F0ifm" value="Menu layout:" />
+          </node>
+          <node concept="3XFhqQ" id="4VHwwBJqb47" role="3EZMnx" />
+          <node concept="3XFhqQ" id="4VHwwBJqb4f" role="3EZMnx" />
+          <node concept="3F0ifn" id="4VHwwBJqb4_" role="3EZMnx">
+            <property role="3F0ifm" value="menu open:" />
+          </node>
+          <node concept="2yq9I_" id="4VHwwBJqb4L" role="3EZMnx">
+            <ref role="225u1j" to="wi2d:4VHwwBJqaWK" resolve="isMenuOpen" />
+            <node concept="jv8YD" id="4VHwwBJrah_" role="1563LE" />
+          </node>
         </node>
         <node concept="3EZMnI" id="3ksNkQL1s4g" role="3EZMnx">
           <node concept="3XFhqQ" id="3ksNkQL2IBG" role="3EZMnx" />

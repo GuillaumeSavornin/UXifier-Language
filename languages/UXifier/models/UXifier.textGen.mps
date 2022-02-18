@@ -445,7 +445,7 @@
         <node concept="3clFbH" id="58tSxDctiTw" role="3cqZAp" />
         <node concept="lc7rE" id="7MJjWP4_eDi" role="3cqZAp">
           <node concept="la8eA" id="7MJjWP4_eM4" role="lcghm">
-            <property role="lacIc" value="const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) =&gt; prop !== 'open' })(\n    ({ theme, open }) =&gt; ({\n        '&amp; .MuiDrawer-paper': {\n            position: 'relative',\n            whiteSpace: 'nowrap',\n            width: drawerWidth,\n            boxSizing: 'border-box',\n            ...(!open &amp;&amp; {\n                overflowX: 'hidden',\n                transition: theme.transitions.create('width', {\n                    easing: theme.transitions.easing.sharp,\n                    duration: theme.transitions.duration.leavingScreen,\n                }),\n                width: theme.spacing(7),\n                [theme.breakpoints.up('sm')]: {\n                    width: theme.spacing(9),\n                },\n            }),\n        },\n    }),\n);" />
+            <property role="lacIc" value="const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) =&gt; prop !== 'open' })(\n    ({ theme, open }) =&gt; ({\n        '&amp; .MuiDrawer-paper': {\n            position: 'relative',\n            whiteSpace: 'nowrap',\n            width: drawerWidth,\n            transition: theme.transitions.create('width', {\n                easing: theme.transitions.easing.sharp,\n                duration: theme.transitions.duration.enteringScreen,\n            }),\n            boxSizing: 'border-box',\n            ...(!open &amp;&amp; {\n                overflowX: 'hidden',\n                transition: theme.transitions.create('width', {\n                    easing: theme.transitions.easing.sharp,\n                    duration: theme.transitions.duration.leavingScreen,\n                }),\n                width: theme.spacing(0),\n                [theme.breakpoints.up('sm')]: {\n                    width: theme.spacing(0),\n                },\n            }),\n        },\n    }),\n);" />
           </node>
           <node concept="l8MVK" id="7MJjWP4_eQl" role="lcghm" />
           <node concept="l8MVK" id="7MJjWP4_eUp" role="lcghm" />
@@ -1502,7 +1502,22 @@
       <node concept="3clFbS" id="58tSxDctH_O" role="2VODD2">
         <node concept="lc7rE" id="58tSxDctHOD" role="3cqZAp">
           <node concept="la8eA" id="58tSxDctHOE" role="lcghm">
-            <property role="lacIc" value="const [open, setOpen] = React.useState(false);" />
+            <property role="lacIc" value="const [open, setOpen] = React.useState(" />
+          </node>
+          <node concept="l9hG8" id="4VHwwBJqbMP" role="lcghm">
+            <node concept="2YIFZM" id="4VHwwBJqclu" role="lb14g">
+              <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+              <ref role="37wK5l" to="wyt6:~String.valueOf(boolean)" resolve="valueOf" />
+              <node concept="2OqwBi" id="4VHwwBJqbWg" role="37wK5m">
+                <node concept="117lpO" id="4VHwwBJqbOM" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4VHwwBJqc5O" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:4VHwwBJqaWK" resolve="isMenuOpen" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4VHwwBJqbzb" role="lcghm">
+            <property role="lacIc" value=");\n    const toggleDrawer = () =&gt; {\n        setOpen(!open);\n    };" />
           </node>
           <node concept="l8MVK" id="58tSxDctHOF" role="lcghm" />
         </node>
@@ -1528,7 +1543,7 @@
               <node concept="2BGw6n" id="58tSxDctHY2" role="lcghm" />
               <node concept="2BGw6n" id="58tSxDctHYC" role="lcghm" />
               <node concept="la8eA" id="58tSxDctHZg" role="lcghm">
-                <property role="lacIc" value="&lt;AppBar position=&quot;absolute&quot; open={false}&gt;" />
+                <property role="lacIc" value="&lt;AppBar position=&quot;absolute&quot; open={open}&gt;" />
               </node>
               <node concept="l8MVK" id="58tSxDctIco" role="lcghm" />
             </node>
@@ -1546,38 +1561,48 @@
               <node concept="2BGw6n" id="3bkuCYR_vqk" role="lcghm" />
               <node concept="2BGw6n" id="3bkuCYR_vql" role="lcghm" />
               <node concept="2BGw6n" id="3bkuCYR_vqm" role="lcghm" />
-              <node concept="la8eA" id="3bkuCYR_vqn" role="lcghm">
+              <node concept="la8eA" id="4VHwwBJpdI3" role="lcghm">
+                <property role="lacIc" value="&lt;IconButton edge=&quot;start&quot; color=&quot;inherit&quot; aria-label=&quot;open drawer&quot;  onClick={toggleDrawer} sx={{marginRight: '36px', ...(open &amp;&amp; { display: 'none' }),}}&gt;\n                        &lt;MenuIcon /&gt;\n                    &lt;/IconButton&gt;" />
+              </node>
+              <node concept="l8MVK" id="3bkuCYR_vq_" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="4VHwwBJpdst" role="3cqZAp">
+              <node concept="2BGw6n" id="4VHwwBJpdsu" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJpdsv" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJpdsw" role="lcghm" />
+              <node concept="2BGw6n" id="4VHwwBJpdsx" role="lcghm" />
+              <node concept="la8eA" id="4VHwwBJpdsy" role="lcghm">
                 <property role="lacIc" value="&lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1 }}&gt;" />
               </node>
-              <node concept="l9hG8" id="3bkuCYR_vqo" role="lcghm">
-                <node concept="2OqwBi" id="3bkuCYR_vqp" role="lb14g">
-                  <node concept="2OqwBi" id="3bkuCYR_vqq" role="2Oq$k0">
-                    <node concept="1PxgMI" id="3bkuCYR_vqr" role="2Oq$k0">
+              <node concept="l9hG8" id="4VHwwBJpdsz" role="lcghm">
+                <node concept="2OqwBi" id="4VHwwBJpds$" role="lb14g">
+                  <node concept="2OqwBi" id="4VHwwBJpds_" role="2Oq$k0">
+                    <node concept="1PxgMI" id="4VHwwBJpdsA" role="2Oq$k0">
                       <property role="1BlNFB" value="true" />
-                      <node concept="chp4Y" id="3bkuCYR_vqs" role="3oSUPX">
+                      <node concept="chp4Y" id="4VHwwBJpdsB" role="3oSUPX">
                         <ref role="cht4Q" to="wi2d:1DHNIAI0daV" resolve="App" />
                       </node>
-                      <node concept="2OqwBi" id="3bkuCYR_vqt" role="1m5AlR">
-                        <node concept="2OqwBi" id="3bkuCYR_vqu" role="2Oq$k0">
-                          <node concept="117lpO" id="3bkuCYR_vqv" role="2Oq$k0" />
-                          <node concept="1mfA1w" id="3bkuCYR_vqw" role="2OqNvi" />
+                      <node concept="2OqwBi" id="4VHwwBJpdsC" role="1m5AlR">
+                        <node concept="2OqwBi" id="4VHwwBJpdsD" role="2Oq$k0">
+                          <node concept="117lpO" id="4VHwwBJpdsE" role="2Oq$k0" />
+                          <node concept="1mfA1w" id="4VHwwBJpdsF" role="2OqNvi" />
                         </node>
-                        <node concept="1mfA1w" id="3bkuCYR_vqx" role="2OqNvi" />
+                        <node concept="1mfA1w" id="4VHwwBJpdsG" role="2OqNvi" />
                       </node>
                     </node>
-                    <node concept="3TrcHB" id="3bkuCYR_vqy" role="2OqNvi">
+                    <node concept="3TrcHB" id="4VHwwBJpdsH" role="2OqNvi">
                       <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="3bkuCYR_vqz" role="2OqNvi">
+                  <node concept="liA8E" id="4VHwwBJpdsI" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
                   </node>
                 </node>
               </node>
-              <node concept="la8eA" id="3bkuCYR_vq$" role="lcghm">
+              <node concept="la8eA" id="4VHwwBJpdsJ" role="lcghm">
                 <property role="lacIc" value="&lt;/Typography&gt;" />
               </node>
-              <node concept="l8MVK" id="3bkuCYR_vq_" role="lcghm" />
+              <node concept="l8MVK" id="4VHwwBJpdsK" role="lcghm" />
             </node>
             <node concept="lc7rE" id="58tSxDctI6V" role="3cqZAp">
               <node concept="2BGw6n" id="58tSxDctI6W" role="lcghm" />
@@ -1604,7 +1629,7 @@
             <node concept="lc7rE" id="58tSxDcuaLA" role="3cqZAp">
               <node concept="2BGw6n" id="58tSxDcuaOl" role="lcghm" />
               <node concept="la8eA" id="58tSxDcuaOV" role="lcghm">
-                <property role="lacIc" value="&lt;Drawer variant=&quot;permanent&quot; open={true}&gt;" />
+                <property role="lacIc" value="&lt;Drawer variant=&quot;permanent&quot; open={open}&gt;" />
               </node>
               <node concept="l8MVK" id="58tSxDcuaPM" role="lcghm" />
             </node>
@@ -1612,10 +1637,11 @@
               <node concept="2BGw6n" id="58tSxDcubN2" role="lcghm" />
               <node concept="2BGw6n" id="58tSxDcubNC" role="lcghm" />
               <node concept="la8eA" id="58tSxDcubOg" role="lcghm">
-                <property role="lacIc" value="&lt;Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end', px: [1],}}&gt;&lt;/Toolbar&gt;" />
+                <property role="lacIc" value="&lt;Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', px: [1], backgroundColor: 'primary.main'}}&gt;\n                    &lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1, color:'primary.contrastText', fontWeight:400 }} paddingLeft={8}&gt;Menu&lt;/Typography&gt;\n                    &lt;IconButton onClick={toggleDrawer} &gt;\n                        &lt;ChevronLeftIcon sx={{color: theme.palette.primary.contrastText}} /&gt;\n                    &lt;/IconButton&gt;\n                &lt;/Toolbar&gt;" />
               </node>
               <node concept="l8MVK" id="58tSxDcubP9" role="lcghm" />
             </node>
+            <node concept="3clFbH" id="4VHwwBJoI6h" role="3cqZAp" />
             <node concept="lc7rE" id="58tSxDcubV2" role="3cqZAp">
               <node concept="2BGw6n" id="58tSxDcuc3W" role="lcghm" />
               <node concept="2BGw6n" id="58tSxDcuc4L" role="lcghm" />
