@@ -251,6 +251,11 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="2dFAI0jBY8w" resolve="TabLayout" />
     </node>
+    <node concept="1TJgyi" id="4VHwwBJqaWK" role="1TKVEl">
+      <property role="IQ2nx" value="5687344883621736240" />
+      <property role="TrG5h" value="isMenuOpen" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY8w">
     <property role="EcuMT" value="2552303901028114976" />
