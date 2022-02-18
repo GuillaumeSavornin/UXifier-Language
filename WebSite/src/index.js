@@ -78,12 +78,12 @@ function WebSiteFormat(){
         setOpen(!open);
     };
 
-    const [selectedCollapseIndex, setSelectedIndex] = React.useState("")
+    const [selectedCollapseIndex, setSelectedIndex] = React.useState([])
     const handleClickCollapse = index => {
-        if (selectedCollapseIndex === index) {
-            setSelectedIndex("")
+        if (selectedCollapseIndex.includes(index)) {
+            setSelectedIndex(selectedCollapseIndex.filter(function(item) {return item !== index}))
         } else {
-            setSelectedIndex(index)
+            setSelectedIndex([...selectedCollapseIndex, index])
         }
     }
 
@@ -412,14 +412,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"center" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={0+i === selectedCollapseIndex}
+                                                                        expand={selectedCollapseIndex.includes(0+i)}
                                                                         onClick={() => {handleClickCollapse(0+i)}}
-                                                                        aria-expanded={0+i === selectedCollapseIndex}
+                                                                        aria-expanded={selectedCollapseIndex.includes(0+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={0+i === selectedCollapseIndex} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(0+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3 }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
@@ -465,14 +465,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"right" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={5+i === selectedCollapseIndex}
+                                                                        expand={!selectedCollapseIndex.includes(5+i)}
                                                                         onClick={() => {handleClickCollapse(5+i)}}
-                                                                        aria-expanded={5+i === selectedCollapseIndex}
+                                                                        aria-expanded={!selectedCollapseIndex.includes(5+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={5+i === selectedCollapseIndex} timeout="auto" unmountOnExit>
+                                                        <Collapse in={!selectedCollapseIndex.includes(5+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3 }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
@@ -1014,14 +1014,14 @@ function WebSiteFormat(){
                                                     </Typography>
                                                     <div style={{ textAlign:"left" }}>
                                                         <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                    expand={11+i === selectedCollapseIndex}
+                                                                    expand={selectedCollapseIndex.includes(11+i)}
                                                                     onClick={() => {handleClickCollapse(11+i)}}
-                                                                    aria-expanded={11+i === selectedCollapseIndex}
+                                                                    aria-expanded={selectedCollapseIndex.includes(11+i)}
                                                                     aria-label="show more">
                                                             <ExpandMoreIcon/>
                                                         </ExpandMore>
                                                     </div>
-                                                    <Collapse in={11+i === selectedCollapseIndex} timeout="auto" unmountOnExit>
+                                                    <Collapse in={selectedCollapseIndex.includes(11+i)} timeout="auto" unmountOnExit>
                                                         <Typography paragraph sx={{ ml: 3, mr: 3 }} align={"justify"} gutterBottom component="div">
                                                             {(()=>{
                                                                 if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
@@ -1499,12 +1499,12 @@ function MobileFormat(){
     const [open, setOpen] = React.useState(false);
     const toggleDrawer = () => {setOpen(!open);};
 
-    const [selectedCollapseIndex, setSelectedIndex] = React.useState("")
+    const [selectedCollapseIndex, setSelectedIndex] = React.useState([])
     const handleClickCollapse = index => {
-        if (selectedCollapseIndex === index) {
-            setSelectedIndex("")
+        if (selectedCollapseIndex.includes(index)) {
+            setSelectedIndex(selectedCollapseIndex.filter(function(item) {return item !== index}))
         } else {
-            setSelectedIndex(index)
+            setSelectedIndex([...selectedCollapseIndex, index])
         }
     }
 
@@ -1721,12 +1721,12 @@ function TestFormat(){
     const [open, setOpen] = React.useState(false);
     const toggleDrawer = () => {setOpen(!open);};
 
-    const [selectedCollapseIndex, setSelectedIndex] = React.useState("")
+    const [selectedCollapseIndex, setSelectedIndex] = React.useState([])
     const handleClickCollapse = index => {
-        if (selectedCollapseIndex === index) {
-            setSelectedIndex("")
+        if (selectedCollapseIndex.includes(index)) {
+            setSelectedIndex(selectedCollapseIndex.filter(function(item) {return item !== index}))
         } else {
-            setSelectedIndex(index)
+            setSelectedIndex([...selectedCollapseIndex, index])
         }
     }
 
@@ -1795,12 +1795,12 @@ function Test2Format(){
         setOpen(!open);
     };
 
-    const [selectedCollapseIndex, setSelectedIndex] = React.useState("")
+    const [selectedCollapseIndex, setSelectedIndex] = React.useState([])
     const handleClickCollapse = index => {
-        if (selectedCollapseIndex === index) {
-            setSelectedIndex("")
+        if (selectedCollapseIndex.includes(index)) {
+            setSelectedIndex(selectedCollapseIndex.filter(function(item) {return item !== index}))
         } else {
-            setSelectedIndex(index)
+            setSelectedIndex([...selectedCollapseIndex, index])
         }
     }
 
@@ -2071,7 +2071,7 @@ ReactDOM.render(
         <ViewportProvider>
             <CssBaseline />
             <Router>
-                <App/>
+                <App />
             </Router>
         </ViewportProvider>
     </ThemeProvider>,

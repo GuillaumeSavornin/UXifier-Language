@@ -1012,7 +1012,7 @@
         <node concept="3clFbH" id="6_RkYJebm_b" role="3cqZAp" />
         <node concept="lc7rE" id="6_RkYJebn0X" role="3cqZAp">
           <node concept="la8eA" id="6_RkYJebnd2" role="lcghm">
-            <property role="lacIc" value="const [selectedCollapseIndex, setSelectedIndex] = React.useState(&quot;&quot;)" />
+            <property role="lacIc" value="const [selectedCollapseIndex, setSelectedIndex] = React.useState([])" />
           </node>
           <node concept="l8MVK" id="6_RkYJebnfV" role="lcghm" />
         </node>
@@ -1025,7 +1025,7 @@
         <node concept="lc7rE" id="6_RkYJeboSM" role="3cqZAp">
           <node concept="2BGw6n" id="6_RkYJeboWV" role="lcghm" />
           <node concept="la8eA" id="6_RkYJeboZ_" role="lcghm">
-            <property role="lacIc" value="if (selectedCollapseIndex === index) {" />
+            <property role="lacIc" value="if (selectedCollapseIndex.includes(index)) {" />
           </node>
           <node concept="l8MVK" id="6_RkYJebpVc" role="lcghm" />
         </node>
@@ -1033,7 +1033,7 @@
           <node concept="2BGw6n" id="6_RkYJebp5w" role="lcghm" />
           <node concept="2BGw6n" id="6_RkYJebpzI" role="lcghm" />
           <node concept="la8eA" id="6_RkYJebp5x" role="lcghm">
-            <property role="lacIc" value="setSelectedIndex(&quot;&quot;)" />
+            <property role="lacIc" value="setSelectedIndex(selectedCollapseIndex.filter(function(item) {return item !== index}))" />
           </node>
           <node concept="l8MVK" id="6_RkYJebpTN" role="lcghm" />
         </node>
@@ -1048,7 +1048,7 @@
           <node concept="2BGw6n" id="6_RkYJebphK" role="lcghm" />
           <node concept="2BGw6n" id="6_RkYJebpDp" role="lcghm" />
           <node concept="la8eA" id="6_RkYJebphL" role="lcghm">
-            <property role="lacIc" value="setSelectedIndex(index)" />
+            <property role="lacIc" value="setSelectedIndex([...selectedCollapseIndex, index])" />
           </node>
           <node concept="l8MVK" id="6_RkYJebpMJ" role="lcghm" />
         </node>
@@ -1621,7 +1621,7 @@
         <node concept="3clFbH" id="6_RkYJebnhx" role="3cqZAp" />
         <node concept="lc7rE" id="6_RkYJebnEx" role="3cqZAp">
           <node concept="la8eA" id="6_RkYJebnEy" role="lcghm">
-            <property role="lacIc" value="const [selectedCollapseIndex, setSelectedIndex] = React.useState(&quot;&quot;)" />
+            <property role="lacIc" value="const [selectedCollapseIndex, setSelectedIndex] = React.useState([])" />
           </node>
           <node concept="l8MVK" id="6_RkYJebnEz" role="lcghm" />
         </node>
@@ -1634,7 +1634,7 @@
         <node concept="lc7rE" id="6_RkYJebpX5" role="3cqZAp">
           <node concept="2BGw6n" id="6_RkYJebpX6" role="lcghm" />
           <node concept="la8eA" id="6_RkYJebpX7" role="lcghm">
-            <property role="lacIc" value="if (selectedCollapseIndex === index) {" />
+            <property role="lacIc" value="if (selectedCollapseIndex.includes(index)) {" />
           </node>
           <node concept="l8MVK" id="6_RkYJebpX8" role="lcghm" />
         </node>
@@ -1642,7 +1642,7 @@
           <node concept="2BGw6n" id="6_RkYJebqrM" role="lcghm" />
           <node concept="2BGw6n" id="6_RkYJebqrN" role="lcghm" />
           <node concept="la8eA" id="6_RkYJebqrO" role="lcghm">
-            <property role="lacIc" value="setSelectedIndex(&quot;&quot;)" />
+            <property role="lacIc" value="setSelectedIndex(selectedCollapseIndex.filter(function(item) {return item !== index}))" />
           </node>
           <node concept="l8MVK" id="6_RkYJebqrP" role="lcghm" />
         </node>
@@ -1657,7 +1657,7 @@
           <node concept="2BGw6n" id="6_RkYJebqQm" role="lcghm" />
           <node concept="2BGw6n" id="6_RkYJebqQn" role="lcghm" />
           <node concept="la8eA" id="6_RkYJebqQo" role="lcghm">
-            <property role="lacIc" value="setSelectedIndex(index)" />
+            <property role="lacIc" value="setSelectedIndex([...selectedCollapseIndex, index])" />
           </node>
           <node concept="l8MVK" id="6_RkYJebqQp" role="lcghm" />
         </node>
@@ -8219,6 +8219,49 @@
             </node>
             <node concept="3clFbJ" id="6_RkYJe8TnH" role="3cqZAp">
               <node concept="3clFbS" id="6_RkYJe8TnI" role="3clFbx">
+                <node concept="3cpWs8" id="6_RkYJeoRSP" role="3cqZAp">
+                  <node concept="3cpWsn" id="6_RkYJeoRSS" role="3cpWs9">
+                    <property role="TrG5h" value="close" />
+                    <node concept="17QB3L" id="6_RkYJeoRSN" role="1tU5fm" />
+                    <node concept="Xl_RD" id="6_RkYJeoSQl" role="33vP2m">
+                      <property role="Xl_RC" value="" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="6_RkYJeoURZ" role="3cqZAp">
+                  <node concept="3clFbS" id="6_RkYJeoUS1" role="3clFbx">
+                    <node concept="3clFbF" id="6_RkYJeoV$6" role="3cqZAp">
+                      <node concept="37vLTI" id="6_RkYJeoVZk" role="3clFbG">
+                        <node concept="Xl_RD" id="6_RkYJeoVZK" role="37vLTx">
+                          <property role="Xl_RC" value="!" />
+                        </node>
+                        <node concept="37vLTw" id="6_RkYJeoV$4" role="37vLTJ">
+                          <ref role="3cqZAo" node="6_RkYJeoRSS" resolve="close" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="6_RkYJeoV1O" role="3clFbw">
+                    <node concept="2OqwBi" id="6_RkYJeoV1P" role="2Oq$k0">
+                      <node concept="1PxgMI" id="6_RkYJeoV1Q" role="2Oq$k0">
+                        <node concept="chp4Y" id="6_RkYJeoV1R" role="3oSUPX">
+                          <ref role="cht4Q" to="wi2d:6_RkYJe8_QY" resolve="ProjectSection" />
+                        </node>
+                        <node concept="2OqwBi" id="6_RkYJeoV1S" role="1m5AlR">
+                          <node concept="117lpO" id="6_RkYJeoV1T" role="2Oq$k0" />
+                          <node concept="1mfA1w" id="6_RkYJeoV1U" role="2OqNvi" />
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="6_RkYJeoV1V" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="6_RkYJeoVx0" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:6_RkYJeoPun" resolve="openCollapseDescriptions" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="6_RkYJeoR_o" role="3cqZAp" />
                 <node concept="lc7rE" id="6_RkYJek3XP" role="3cqZAp">
                   <node concept="2BGw6n" id="6_RkYJek4eJ" role="lcghm" />
                   <node concept="2BGw6n" id="6_RkYJek4f3" role="lcghm" />
@@ -8268,6 +8311,14 @@
                   <node concept="la8eA" id="6_RkYJe9nc4" role="lcghm">
                     <property role="lacIc" value="expand={" />
                   </node>
+                  <node concept="l9hG8" id="6_RkYJeoWS9" role="lcghm">
+                    <node concept="37vLTw" id="6_RkYJeoWSa" role="lb14g">
+                      <ref role="3cqZAo" node="6_RkYJeoRSS" resolve="close" />
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJepUld" role="lcghm">
+                    <property role="lacIc" value="selectedCollapseIndex.includes(" />
+                  </node>
                   <node concept="l9hG8" id="6_RkYJe9kn2" role="lcghm">
                     <node concept="2YIFZM" id="6_RkYJe9lZi" role="lb14g">
                       <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
@@ -8279,7 +8330,7 @@
                     </node>
                   </node>
                   <node concept="la8eA" id="6_RkYJe9khv" role="lcghm">
-                    <property role="lacIc" value="+i === selectedCollapseIndex}" />
+                    <property role="lacIc" value="+i)}" />
                   </node>
                   <node concept="l8MVK" id="6_RkYJe9klU" role="lcghm" />
                 </node>
@@ -8314,6 +8365,14 @@
                   <node concept="la8eA" id="6_RkYJe9o7L" role="lcghm">
                     <property role="lacIc" value="aria-expanded={" />
                   </node>
+                  <node concept="l9hG8" id="6_RkYJepVPo" role="lcghm">
+                    <node concept="37vLTw" id="6_RkYJepVPp" role="lb14g">
+                      <ref role="3cqZAo" node="6_RkYJeoRSS" resolve="close" />
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJepV6d" role="lcghm">
+                    <property role="lacIc" value="selectedCollapseIndex.includes(" />
+                  </node>
                   <node concept="l9hG8" id="6_RkYJe9o7M" role="lcghm">
                     <node concept="2YIFZM" id="6_RkYJe9o7N" role="lb14g">
                       <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
@@ -8325,7 +8384,7 @@
                     </node>
                   </node>
                   <node concept="la8eA" id="6_RkYJe9o7P" role="lcghm">
-                    <property role="lacIc" value="+i === selectedCollapseIndex}" />
+                    <property role="lacIc" value="+i)}" />
                   </node>
                   <node concept="l8MVK" id="6_RkYJe9o7Q" role="lcghm" />
                 </node>
@@ -8372,6 +8431,14 @@
                   <node concept="la8eA" id="6_RkYJe9u_R" role="lcghm">
                     <property role="lacIc" value="&lt;Collapse in={" />
                   </node>
+                  <node concept="l9hG8" id="6_RkYJepW_F" role="lcghm">
+                    <node concept="37vLTw" id="6_RkYJepW_G" role="lb14g">
+                      <ref role="3cqZAo" node="6_RkYJeoRSS" resolve="close" />
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJepWzT" role="lcghm">
+                    <property role="lacIc" value="selectedCollapseIndex.includes(" />
+                  </node>
                   <node concept="l9hG8" id="6_RkYJe9vqH" role="lcghm">
                     <node concept="2YIFZM" id="6_RkYJe9vqI" role="lb14g">
                       <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
@@ -8383,7 +8450,7 @@
                     </node>
                   </node>
                   <node concept="la8eA" id="6_RkYJe9vqp" role="lcghm">
-                    <property role="lacIc" value="+i === selectedCollapseIndex} timeout=&quot;auto&quot; unmountOnExit&gt;" />
+                    <property role="lacIc" value="+i)} timeout=&quot;auto&quot; unmountOnExit&gt;" />
                   </node>
                   <node concept="l8MVK" id="6_RkYJebrTr" role="lcghm" />
                 </node>

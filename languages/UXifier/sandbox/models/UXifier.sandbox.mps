@@ -27,6 +27,7 @@
         <property id="7599635168451780050" name="url" index="2BlgST" />
       </concept>
       <concept id="7599635168451780055" name="UXifier.structure.ProjectStyling" flags="ng" index="2BlgSW">
+        <property id="7599635168456038295" name="openCollapseDescriptions" index="2B50hW" />
         <property id="7599635168454175706" name="collapseButtonAlign" index="2BcrwL" />
         <property id="7599635168451780073" name="collapseDescription" index="2BlgS2" />
         <property id="7599635168451780085" name="showUrl" index="2BlgSu" />
@@ -326,6 +327,7 @@
                   <property role="3STkkY" value="true" />
                   <property role="2BlgSK" value="3" />
                   <property role="2BcrwL" value="1eZdBFFmBcp/right" />
+                  <property role="2B50hW" value="true" />
                 </node>
               </node>
               <node concept="2BlgTl" id="6_RkYJegzVa" role="25jtg_">

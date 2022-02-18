@@ -1467,6 +1467,29 @@
           <node concept="jv8YD" id="6_RkYJe8F$n" role="1563LE" />
         </node>
       </node>
+      <node concept="3EZMnI" id="6_RkYJeoP_k" role="3EZMnx">
+        <node concept="VPM3Z" id="6_RkYJeoP_l" role="3F10Kt" />
+        <node concept="3F0ifn" id="6_RkYJeoP_m" role="3EZMnx">
+          <property role="3F0ifm" value="- Open all collapsed descriptions:" />
+        </node>
+        <node concept="2iRfu4" id="6_RkYJeoP_n" role="2iSdaV" />
+        <node concept="2yq9I_" id="6_RkYJeoP_o" role="3EZMnx">
+          <ref role="225u1j" to="wi2d:6_RkYJeoPun" resolve="openCollapseDescriptions" />
+          <node concept="jv8YD" id="6_RkYJeoP_p" role="1563LE" />
+        </node>
+        <node concept="pkWqt" id="6_RkYJeoPBk" role="pqm2j">
+          <node concept="3clFbS" id="6_RkYJeoPBl" role="2VODD2">
+            <node concept="3cpWs6" id="6_RkYJeoPBm" role="3cqZAp">
+              <node concept="2OqwBi" id="6_RkYJeoPBn" role="3cqZAk">
+                <node concept="pncrf" id="6_RkYJeoPBo" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6_RkYJeoPBp" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:6_RkYJe8_RD" resolve="collapseDescription" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3EZMnI" id="6_RkYJehSgn" role="3EZMnx">
         <node concept="VPM3Z" id="6_RkYJehSgo" role="3F10Kt" />
         <node concept="3F0ifn" id="6_RkYJehSgp" role="3EZMnx">

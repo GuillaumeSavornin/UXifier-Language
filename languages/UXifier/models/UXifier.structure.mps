@@ -1100,6 +1100,11 @@
       <property role="TrG5h" value="collapseButtonAlign" />
       <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
     </node>
+    <node concept="1TJgyi" id="6_RkYJeoPun" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168456038295" />
+      <property role="TrG5h" value="openCollapseDescriptions" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
 </model>
 
