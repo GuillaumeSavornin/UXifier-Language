@@ -912,6 +912,40 @@
         </node>
         <node concept="2iRfu4" id="1eZdBFFVz5z" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="1eZdBFFZk5f" role="3EZMnx">
+        <node concept="VPM3Z" id="1eZdBFFZk5g" role="3F10Kt" />
+        <node concept="3F0ifn" id="1eZdBFG1I88" role="3EZMnx">
+          <property role="3F0ifm" value="- Show contact icons:" />
+        </node>
+        <node concept="2yq9I_" id="1eZdBFG1I8e" role="3EZMnx">
+          <ref role="225u1j" to="wi2d:1eZdBFFZjVX" resolve="showContactIcons" />
+          <node concept="jv8YD" id="1eZdBFG1I8k" role="1563LE" />
+        </node>
+        <node concept="2iRfu4" id="1eZdBFFZk5j" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="1eZdBFG0PLO" role="3EZMnx">
+        <node concept="VPM3Z" id="1eZdBFG0PLP" role="3F10Kt" />
+        <node concept="3F0ifn" id="1eZdBFG0PLQ" role="3EZMnx">
+          <property role="3F0ifm" value="- Contact icon color:" />
+        </node>
+        <node concept="3F0A7n" id="1eZdBFG0PLR" role="3EZMnx">
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+          <ref role="1NtTu8" to="wi2d:1eZdBFG0ORK" resolve="contactIconColor" />
+        </node>
+        <node concept="2iRfu4" id="1eZdBFG0PLS" role="2iSdaV" />
+        <node concept="pkWqt" id="1eZdBFG0PQ5" role="pqm2j">
+          <node concept="3clFbS" id="1eZdBFG0PQ6" role="2VODD2">
+            <node concept="3cpWs6" id="1eZdBFG0PU4" role="3cqZAp">
+              <node concept="2OqwBi" id="1eZdBFG0Q8j" role="3cqZAk">
+                <node concept="pncrf" id="1eZdBFG0PUA" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1eZdBFG0Q$1" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:1eZdBFFZjVX" resolve="showContactIcons" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3EZMnI" id="1eZdBFFA_sM" role="3EZMnx">
         <node concept="VPM3Z" id="1eZdBFFA_sN" role="3F10Kt" />
         <node concept="3F0ifn" id="1eZdBFFA_sO" role="3EZMnx">
