@@ -529,9 +529,13 @@
       <property role="1uS6qo" value="BAR" />
       <property role="1uS6qv" value="3" />
     </node>
+    <node concept="M4N5e" id="1eZdBFG2CHs" role="M5hS2">
+      <property role="1uS6qv" value="4" />
+      <property role="1uS6qo" value="CIRCLE" />
+    </node>
     <node concept="M4N5e" id="1eZdBFFrbj$" role="M5hS2">
       <property role="1uS6qo" value="NONE" />
-      <property role="1uS6qv" value="4" />
+      <property role="1uS6qv" value="5" />
     </node>
   </node>
   <node concept="AxPO7" id="1eZdBFFmBck">
@@ -840,6 +844,16 @@
       <property role="IQ2nx" value="1422915908845171246" />
       <property role="TrG5h" value="alignSocialNetwork" />
       <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFFZjVX" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908845518589" />
+      <property role="TrG5h" value="showContactIcons" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFG0ORK" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908845915632" />
+      <property role="TrG5h" value="contactIconColor" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="AxPO7" id="7ytgQgx_ecx">
