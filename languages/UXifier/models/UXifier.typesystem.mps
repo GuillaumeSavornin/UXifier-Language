@@ -600,5 +600,84 @@
       </node>
     </node>
   </node>
+  <node concept="18kY7G" id="6hY3O8TUO4r">
+    <property role="TrG5h" value="OnlyOneMobileSiteFormatAllowed" />
+    <node concept="3clFbS" id="6hY3O8TUO4s" role="18ibNy">
+      <node concept="3clFbJ" id="6hY3O8TUOiG" role="3cqZAp">
+        <node concept="3clFbS" id="6hY3O8TUOiH" role="3clFbx">
+          <node concept="2MkqsV" id="6hY3O8TUP1x" role="3cqZAp">
+            <node concept="3Cnw8n" id="6hY3O8TUPpc" role="1urrFz">
+              <ref role="QpYPw" node="6hY3O8TUvs2" resolve="ReplaceDefaultFormatWithCustomFormat" />
+              <node concept="3CnSsL" id="6hY3O8TUPtD" role="3Coj4f">
+                <ref role="QkamJ" node="6hY3O8TUvsl" resolve="defaultFormat" />
+                <node concept="1YBJjd" id="6hY3O8TUPxp" role="3CoRuB">
+                  <ref role="1YBMHb" node="6hY3O8TUO4u" resolve="mobileFormat" />
+                </node>
+              </node>
+            </node>
+            <node concept="1YBJjd" id="6hY3O8TUP21" role="1urrMF">
+              <ref role="1YBMHb" node="6hY3O8TUO4u" resolve="mobileFormat" />
+            </node>
+            <node concept="Xl_RD" id="6hY3O8TUP1Q" role="2MkJ7o">
+              <property role="Xl_RC" value="Only one Mobile Format is allowed" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="6hY3O8TUOiO" role="3clFbw">
+          <node concept="3cmrfG" id="6hY3O8TUOiP" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="6hY3O8TUOiQ" role="3uHU7B">
+            <node concept="2OqwBi" id="6hY3O8TUOiR" role="2Oq$k0">
+              <node concept="2OqwBi" id="6hY3O8TUOiS" role="2Oq$k0">
+                <node concept="1PxgMI" id="6hY3O8TUOiT" role="2Oq$k0">
+                  <property role="1BlNFB" value="true" />
+                  <node concept="chp4Y" id="6hY3O8TUOiU" role="3oSUPX">
+                    <ref role="cht4Q" to="wi2d:1DHNIAI0daV" resolve="App" />
+                  </node>
+                  <node concept="2OqwBi" id="6hY3O8TUOiV" role="1m5AlR">
+                    <node concept="1YBJjd" id="6hY3O8TUOiW" role="2Oq$k0">
+                      <ref role="1YBMHb" node="6hY3O8TUO4u" resolve="mobileFormat" />
+                    </node>
+                    <node concept="1mfA1w" id="6hY3O8TUOiX" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="6hY3O8TUOiY" role="2OqNvi">
+                  <ref role="3TtcxE" to="wi2d:2dFAI0jBY8f" resolve="formats" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="6hY3O8TUOiZ" role="2OqNvi">
+                <node concept="1bVj0M" id="6hY3O8TUOj0" role="23t8la">
+                  <node concept="3clFbS" id="6hY3O8TUOj1" role="1bW5cS">
+                    <node concept="3clFbF" id="6hY3O8TUOj2" role="3cqZAp">
+                      <node concept="2OqwBi" id="6hY3O8TUOj3" role="3clFbG">
+                        <node concept="37vLTw" id="6hY3O8TUOj4" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6hY3O8TUOj7" resolve="node" />
+                        </node>
+                        <node concept="1mIQ4w" id="6hY3O8TUOj5" role="2OqNvi">
+                          <node concept="chp4Y" id="6hY3O8TUOj6" role="cj9EA">
+                            <ref role="cht4Q" to="wi2d:2dFAI0jBY8B" resolve="MobileFormat" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="6hY3O8TUOj7" role="1bW2Oz">
+                    <property role="TrG5h" value="node" />
+                    <node concept="2jxLKc" id="6hY3O8TUOj8" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="6hY3O8TUOj9" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6hY3O8TUO4u" role="1YuTPh">
+      <property role="TrG5h" value="mobileFormat" />
+      <ref role="1YaFvo" to="wi2d:2dFAI0jBY8B" resolve="MobileFormat" />
+    </node>
+  </node>
 </model>
 
