@@ -556,6 +556,11 @@
     <property role="EcuMT" value="3662687154638270108" />
     <property role="TrG5h" value="IPage" />
     <property role="3GE5qa" value="page" />
+    <node concept="1TJgyi" id="7ytgQgx_ecv" role="1TKVEl">
+      <property role="IQ2nx" value="8691176953234121503" />
+      <property role="TrG5h" value="pageSize" />
+      <ref role="AX2Wp" node="7ytgQgx_ecx" resolve="PAGE_SIZE" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3bkuCYRAqUx">
     <property role="EcuMT" value="3662687154638270113" />
@@ -598,7 +603,7 @@
       <property role="IQ2ns" value="3662687154638270122" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="sections" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2dFAI0jBY80" resolve="ISection" />
     </node>
     <node concept="1TJgyi" id="3bkuCYRBdOl" role="1TKVEl">
@@ -825,6 +830,36 @@
       <property role="IQ2nx" value="1422915908840928928" />
       <property role="TrG5h" value="socialNetworkBackGroundColor" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="7ytgQgx_ecx">
+    <property role="3F6X1D" value="8691176953234121505" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="PAGE_SIZE" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="7ytgQgxA_i9" role="M5hS2">
+      <property role="1uS6qo" value="FULL-SCREEN" />
+      <property role="1uS6qv" value="'100%'" />
+    </node>
+    <node concept="M4N5e" id="7ytgQgx_ecy" role="M5hS2">
+      <property role="1uS6qv" value="xs" />
+      <property role="1uS6qo" value="EXTRA-SMALL" />
+    </node>
+    <node concept="M4N5e" id="7ytgQgxA_hJ" role="M5hS2">
+      <property role="1uS6qo" value="SMALL" />
+      <property role="1uS6qv" value="sm" />
+    </node>
+    <node concept="M4N5e" id="7ytgQgxA_hM" role="M5hS2">
+      <property role="1uS6qo" value="MEDIUM" />
+      <property role="1uS6qv" value="md" />
+    </node>
+    <node concept="M4N5e" id="7ytgQgxA_hY" role="M5hS2">
+      <property role="1uS6qo" value="LARGE" />
+      <property role="1uS6qv" value="lg" />
+    </node>
+    <node concept="M4N5e" id="7ytgQgxA_i3" role="M5hS2">
+      <property role="1uS6qo" value="EXTRA-LARGE" />
+      <property role="1uS6qv" value="xl" />
     </node>
   </node>
 </model>
