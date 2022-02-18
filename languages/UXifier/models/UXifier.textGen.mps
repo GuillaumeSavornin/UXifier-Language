@@ -6969,11 +6969,22 @@
     <ref role="WuzLi" to="wi2d:3bkuCYRAqUA" resolve="GridPage" />
     <node concept="11bSqf" id="3bkuCYRBRyC" role="11c4hB">
       <node concept="3clFbS" id="3bkuCYRBRyD" role="2VODD2">
-        <node concept="lc7rE" id="3bkuCYRBRyU" role="3cqZAp">
-          <node concept="la8eA" id="3bkuCYRBRyV" role="lcghm">
-            <property role="lacIc" value="&lt;Grid container maxWidth=&quot;100%&quot; sx={{ p:2, alignItems:'start'}}&gt;" />
+        <node concept="lc7rE" id="7ytgQgxAF_9" role="3cqZAp">
+          <node concept="la8eA" id="7ytgQgxAF_a" role="lcghm">
+            <property role="lacIc" value="&lt;Grid container maxWidth=&quot;" />
           </node>
-          <node concept="l8MVK" id="3bkuCYRBRyW" role="lcghm" />
+          <node concept="l9hG8" id="7ytgQgxAFOG" role="lcghm">
+            <node concept="2OqwBi" id="7ytgQgxAFX3" role="lb14g">
+              <node concept="117lpO" id="7ytgQgxAFP_" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7ytgQgxAG6R" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:7ytgQgx_ecv" resolve="pageSize" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="7ytgQgxAFLf" role="lcghm">
+            <property role="lacIc" value="&quot; sx={{ p:2, alignItems:'start', margin:'auto'}}&gt;" />
+          </node>
+          <node concept="l8MVK" id="7ytgQgxAF_b" role="lcghm" />
         </node>
         <node concept="3izx1p" id="3bkuCYRBRyX" role="3cqZAp">
           <node concept="3clFbS" id="3bkuCYRBRyY" role="3izTki">
@@ -7092,11 +7103,22 @@
     <ref role="WuzLi" to="wi2d:3bkuCYRAqUx" resolve="SimplePage" />
     <node concept="11bSqf" id="3bkuCYRBQhU" role="11c4hB">
       <node concept="3clFbS" id="3bkuCYRBQhV" role="2VODD2">
-        <node concept="lc7rE" id="3bkuCYRBQiN" role="3cqZAp">
-          <node concept="la8eA" id="3bkuCYRBQiO" role="lcghm">
-            <property role="lacIc" value="&lt;Grid container maxWidth=&quot;100%&quot; sx={{ p:2 }}&gt;" />
+        <node concept="lc7rE" id="6hY3O8THB7l" role="3cqZAp">
+          <node concept="la8eA" id="6hY3O8THB7m" role="lcghm">
+            <property role="lacIc" value="&lt;Grid container maxWidth=&quot;" />
           </node>
-          <node concept="l8MVK" id="3bkuCYRBQiP" role="lcghm" />
+          <node concept="l9hG8" id="6hY3O8THB7n" role="lcghm">
+            <node concept="2OqwBi" id="6hY3O8THB7o" role="lb14g">
+              <node concept="117lpO" id="6hY3O8THB7p" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6hY3O8THB7q" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:7ytgQgx_ecv" resolve="pageSize" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="6hY3O8THB7r" role="lcghm">
+            <property role="lacIc" value="&quot; sx={{ p:2, alignItems:'start', margin:'auto'}}&gt;" />
+          </node>
+          <node concept="l8MVK" id="6hY3O8THB7s" role="lcghm" />
         </node>
         <node concept="3izx1p" id="3bkuCYRBQlw" role="3cqZAp">
           <node concept="3clFbS" id="3bkuCYRBQly" role="3izTki">

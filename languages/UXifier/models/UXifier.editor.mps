@@ -1127,8 +1127,19 @@
     <property role="3GE5qa" value="page" />
     <ref role="1XX52x" to="wi2d:3bkuCYRAqUx" resolve="SimplePage" />
     <node concept="3EZMnI" id="3bkuCYRAqUR" role="2wV5jI">
-      <node concept="3F0ifn" id="3bkuCYRAqV1" role="3EZMnx">
-        <property role="3F0ifm" value="Simple page:" />
+      <node concept="3EZMnI" id="6hY3O8THGS9" role="3EZMnx">
+        <node concept="2iRfu4" id="6hY3O8THGSa" role="2iSdaV" />
+        <node concept="3F0ifn" id="3bkuCYRAqV1" role="3EZMnx">
+          <property role="3F0ifm" value="Simple page:" />
+        </node>
+        <node concept="3XFhqQ" id="6hY3O8THGSq" role="3EZMnx" />
+        <node concept="3XFhqQ" id="6hY3O8THGSy" role="3EZMnx" />
+        <node concept="3F0ifn" id="6hY3O8THGSR" role="3EZMnx">
+          <property role="3F0ifm" value="Width:" />
+        </node>
+        <node concept="3F0A7n" id="6hY3O8THGSG" role="3EZMnx">
+          <ref role="1NtTu8" to="wi2d:7ytgQgx_ecv" resolve="pageSize" />
+        </node>
       </node>
       <node concept="3EZMnI" id="3bkuCYRAqV7" role="3EZMnx">
         <node concept="VPM3Z" id="3bkuCYRAqV9" role="3F10Kt" />
@@ -1152,8 +1163,19 @@
     <property role="3GE5qa" value="page" />
     <ref role="1XX52x" to="wi2d:3bkuCYRAqUA" resolve="GridPage" />
     <node concept="3EZMnI" id="3bkuCYRAqVX" role="2wV5jI">
-      <node concept="3F0ifn" id="3bkuCYRAqW4" role="3EZMnx">
-        <property role="3F0ifm" value="Grid page:" />
+      <node concept="3EZMnI" id="7ytgQgxAG9S" role="3EZMnx">
+        <node concept="2iRfu4" id="7ytgQgxAG9T" role="2iSdaV" />
+        <node concept="3F0ifn" id="3bkuCYRAqW4" role="3EZMnx">
+          <property role="3F0ifm" value="Grid page:" />
+        </node>
+        <node concept="3XFhqQ" id="7ytgQgxALQk" role="3EZMnx" />
+        <node concept="3XFhqQ" id="7ytgQgxALQs" role="3EZMnx" />
+        <node concept="3F0ifn" id="7ytgQgxALQM" role="3EZMnx">
+          <property role="3F0ifm" value="Width:" />
+        </node>
+        <node concept="3F0A7n" id="7ytgQgxALQA" role="3EZMnx">
+          <ref role="1NtTu8" to="wi2d:7ytgQgx_ecv" resolve="pageSize" />
+        </node>
       </node>
       <node concept="3EZMnI" id="3bkuCYRAqWa" role="3EZMnx">
         <node concept="VPM3Z" id="3bkuCYRAqWc" role="3F10Kt" />
