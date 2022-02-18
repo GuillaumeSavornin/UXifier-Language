@@ -221,7 +221,7 @@
   <node concept="1TIwiD" id="2dFAI0jBY8c">
     <property role="EcuMT" value="2552303901028114956" />
     <property role="3GE5qa" value="layout" />
-    <property role="TrG5h" value="SinglePageLayout" />
+    <property role="TrG5h" value="SimpleLayout" />
     <property role="34LRSv" value="single page" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2dFAI0jC1de" role="1TKVEi">
@@ -238,8 +238,8 @@
   <node concept="1TIwiD" id="2dFAI0jBY8t">
     <property role="EcuMT" value="2552303901028114973" />
     <property role="3GE5qa" value="layout" />
-    <property role="TrG5h" value="MultiPageLayout" />
-    <property role="34LRSv" value="multi page" />
+    <property role="TrG5h" value="MenuLayout" />
+    <property role="34LRSv" value="menu layout" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8u" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY88" resolve="ILayout" />
