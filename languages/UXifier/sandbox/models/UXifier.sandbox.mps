@@ -100,6 +100,23 @@
         <property id="1422915908831962114" name="levelDisplayMethod" index="3S$l9S" />
         <property id="1422915908830251866" name="separator" index="3SEROw" />
       </concept>
+      <concept id="1422915908838449950" name="UXifier.structure.ContactStyling" flags="ng" index="3Sb_l$">
+        <property id="1422915908840928928" name="socialNetworkBackGroundColor" index="3S203q" />
+        <property id="1422915908840919966" name="socialNetworksColor" index="3S22n$" />
+        <property id="1422915908839026400" name="separator" index="3S9hyq" />
+        <property id="1422915908839036257" name="showSocialNetworks" index="3S9mcr" />
+        <property id="1422915908838449954" name="numberSocialNetworkItems" index="3Sb_lo" />
+      </concept>
+      <concept id="1422915908838398686" name="UXifier.structure.SocialNetworkItem" flags="ng" index="3SbUM$">
+        <property id="1422915908838398688" name="url" index="3SbUMq" />
+      </concept>
+      <concept id="1422915908838398665" name="UXifier.structure.ContactSection" flags="ng" index="3SbUMN">
+        <property id="1422915908838398674" name="email" index="3SbUMC" />
+        <property id="1422915908838398671" name="phoneNumber" index="3SbUMP" />
+        <property id="1422915908838398669" name="address" index="3SbUMR" />
+        <child id="1422915908838398667" name="items" index="3SbUML" />
+        <child id="1422915908838398668" name="styling" index="3SbUMQ" />
+      </concept>
       <concept id="1422915908836030123" name="UXifier.structure.SkillItem" flags="ng" index="3SOO3h">
         <property id="1422915908836030129" name="level" index="3SOO3b" />
         <property id="1422915908836030126" name="description" index="3SOO3k" />
@@ -255,6 +272,22 @@
                   <property role="144wZw" value="2" />
                   <property role="3T1lIf" value="true" />
                   <property role="3STkkY" value="true" />
+                </node>
+              </node>
+              <node concept="3SbUMN" id="3bkuCYRMGZ$" role="25jtg_">
+                <property role="3SbUMR" value="Number Address, Country" />
+                <property role="3SbUMP" value="00.00.00.00.00" />
+                <property role="3SbUMC" value="Email@address.com" />
+                <node concept="3SbUM$" id="3bkuCYRMGZ_" role="3SbUML">
+                  <property role="3SbUMq" value="http://google.fr" />
+                </node>
+                <node concept="3Sb_l$" id="3bkuCYRMGZB" role="3SbUMQ">
+                  <property role="3Sb_lo" value="30" />
+                  <property role="3S9hyq" value="true" />
+                  <property role="3S9mcr" value="true" />
+                  <property role="3STkkY" value="true" />
+                  <property role="3S22n$" value="red" />
+                  <property role="3S203q" value="red" />
                 </node>
               </node>
             </node>
