@@ -703,5 +703,65 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="6_RkYJe8JH0">
+    <property role="3GE5qa" value="section.item" />
+    <ref role="13h7C2" to="wi2d:6_RkYJe8_R2" resolve="ProjectItem" />
+    <node concept="13hLZK" id="6_RkYJe8JH1" role="13h7CW">
+      <node concept="3clFbS" id="6_RkYJe8JH2" role="2VODD2">
+        <node concept="3clFbF" id="6_RkYJe8JH3" role="3cqZAp">
+          <node concept="37vLTI" id="6_RkYJe8JH4" role="3clFbG">
+            <node concept="2OqwBi" id="6_RkYJe8JH5" role="37vLTJ">
+              <node concept="13iPFW" id="6_RkYJe8JH6" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6_RkYJe8JH7" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:6_RkYJe8_R9" resolve="title" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="6_RkYJe8JH8" role="37vLTx">
+              <property role="Xl_RC" value="Project title" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6_RkYJe8JH9" role="3cqZAp">
+          <node concept="37vLTI" id="6_RkYJe8JHa" role="3clFbG">
+            <node concept="2OqwBi" id="6_RkYJe8JHc" role="37vLTJ">
+              <node concept="13iPFW" id="6_RkYJe8JHd" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6_RkYJe8JHe" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:6_RkYJe8_Rb" resolve="date" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="6_RkYJe8Kd6" role="37vLTx">
+              <property role="Xl_RC" value="September 14, 2016 - September 14, 2017" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6_RkYJe8JHf" role="3cqZAp">
+          <node concept="37vLTI" id="6_RkYJe8JHg" role="3clFbG">
+            <node concept="2OqwBi" id="6_RkYJe8JHi" role="37vLTJ">
+              <node concept="13iPFW" id="6_RkYJe8JHj" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6_RkYJe8JHk" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:6_RkYJe8_Re" resolve="description" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="6_RkYJe8KYS" role="37vLTx">
+              <property role="Xl_RC" value="Project description" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6_RkYJe8L1d" role="3cqZAp">
+          <node concept="37vLTI" id="6_RkYJe8L1e" role="3clFbG">
+            <node concept="2OqwBi" id="6_RkYJe8L1f" role="37vLTJ">
+              <node concept="13iPFW" id="6_RkYJe8L1g" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6_RkYJe8L1h" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:6_RkYJe8_Ri" resolve="url" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="6_RkYJe8L1i" role="37vLTx">
+              <property role="Xl_RC" value="https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

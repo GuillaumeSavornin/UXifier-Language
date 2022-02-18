@@ -8,7 +8,7 @@ import RedditIcon from '@mui/icons-material/Reddit';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
 import data from "./data.json";
-import {Rating} from "@mui/material";
+import {Button, Rating} from "@mui/material";
 import * as React from 'react';
 import { Fragment } from "react";
 import ReactDOM from 'react-dom';
@@ -61,6 +61,8 @@ import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
 import PhotoIcon from '@mui/icons-material/Photo';
 import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
 import WorkIcon from '@mui/icons-material/Work';
+import Collapse from "@mui/material/Collapse";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import LinearProgress, {
     linearProgressClasses
 } from "@mui/material/LinearProgress";
@@ -72,6 +74,15 @@ import LinearProgress, {
 
 function WebSiteFormat(){
     const [open, setOpen] = React.useState(false);
+
+    const [selectedCollapseIndex, setSelectedIndex] = React.useState("")
+    const handleClickCollapse = index => {
+        if (selectedCollapseIndex === index) {
+            setSelectedIndex("")
+        } else {
+            setSelectedIndex(index)
+        }
+    }
 
     return (
         <Box sx={{ display: 'flex' }}>
@@ -360,6 +371,154 @@ function WebSiteFormat(){
                                                     }
                                                     return "Short description"
                                                 })()}<br/></p>)
+                                            }
+                                            return array;
+                                        })()}
+                                    </Paper>
+
+                                </Grid>
+                                <Grid container margin={1}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                        <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Projects</Typography>
+                                        {(()=>{
+                                            let array = [];
+                                            for(let i = 0; i < 5; i++){
+                                                array.push(<div sx={{p: 2, display: "flex", flexDirection: "column", width: "100%"}}>
+                                                        <Typography sx={{ ml: 3, mr: 3 }} variant="h6" gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].title){
+                                                                    return data.projectItems[i].title
+                                                                }
+                                                                return "Project title"
+                                                            })()}
+                                                        </Typography>
+                                                        <Typography sx={{ ml: 3, mr: 3 }} variant="body2" gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].date){
+                                                                    return data.projectItems[i].date
+                                                                }
+                                                                return "September 14, 2016 - September 14, 2017"
+                                                            })()}
+                                                        </Typography>
+                                                        <div style={{ textAlign:"center" }}>
+                                                            <ExpandMore sx={{ ml: 3, mr: 3}}
+                                                                        expand={0+i === selectedCollapseIndex}
+                                                                        onClick={() => {handleClickCollapse(0+i)}}
+                                                                        aria-expanded={0+i === selectedCollapseIndex}
+                                                                        aria-label="show more">
+                                                                <ExpandMoreIcon/>
+                                                            </ExpandMore>
+                                                        </div>
+                                                        <Collapse in={0+i === selectedCollapseIndex} timeout="auto" unmountOnExit>
+                                                            <Typography paragraph sx={{ ml: 3, mr: 3 }} align={"justify"} gutterBottom component="div">
+                                                                {(()=>{
+                                                                    if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
+                                                                        return data.projectItems[i].description
+                                                                    }
+                                                                    return "Project description"
+                                                                })()}
+                                                            </Typography>
+                                                        </Collapse>
+                                                    </div>
+                                                )
+                                                if(i <5-1){
+                                                    array.push(<Divider sx={{ mb: 1 }} variant="middle"/>)
+                                                }
+                                            }
+                                            return array;
+                                        })()}
+                                    </Paper>
+
+                                </Grid>
+                                <Grid container margin={1}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                        <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Projects</Typography>
+                                        {(()=>{
+                                            let array = [];
+                                            for(let i = 0; i < 3; i++){
+                                                array.push(<div sx={{p: 2, display: "flex", flexDirection: "column", width: "100%"}}>
+                                                        <Typography sx={{ ml: 3, mr: 3 }} variant="h6" gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].title){
+                                                                    return data.projectItems[i].title
+                                                                }
+                                                                return "Project title"
+                                                            })()}
+                                                        </Typography>
+                                                        <Typography sx={{ ml: 3, mr: 3 }} variant="body2" gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].date){
+                                                                    return data.projectItems[i].date
+                                                                }
+                                                                return "September 14, 2016 - September 14, 2017"
+                                                            })()}
+                                                        </Typography>
+                                                        <div style={{ textAlign:"right" }}>
+                                                            <ExpandMore sx={{ ml: 3, mr: 3}}
+                                                                        expand={5+i === selectedCollapseIndex}
+                                                                        onClick={() => {handleClickCollapse(5+i)}}
+                                                                        aria-expanded={5+i === selectedCollapseIndex}
+                                                                        aria-label="show more">
+                                                                <ExpandMoreIcon/>
+                                                            </ExpandMore>
+                                                        </div>
+                                                        <Collapse in={5+i === selectedCollapseIndex} timeout="auto" unmountOnExit>
+                                                            <Typography paragraph sx={{ ml: 3, mr: 3 }} align={"justify"} gutterBottom component="div">
+                                                                {(()=>{
+                                                                    if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
+                                                                        return data.projectItems[i].description
+                                                                    }
+                                                                    return "Project description"
+                                                                })()}
+                                                            </Typography>
+                                                        </Collapse>
+                                                    </div>
+                                                )
+                                                if(i <3-1){
+                                                    array.push(<Divider sx={{ mb: 1 }} variant="middle"/>)
+                                                }
+                                            }
+                                            return array;
+                                        })()}
+                                    </Paper>
+
+                                </Grid>
+                                <Grid container margin={1}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                        <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Projects</Typography>
+                                        {(()=>{
+                                            let array = [];
+                                            for(let i = 0; i < 3; i++){
+                                                array.push(<div sx={{p: 2, display: "flex", flexDirection: "column", width: "100%"}}>
+                                                        <Typography sx={{ ml: 3, mr: 3 }} variant="h6" gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].title){
+                                                                    return data.projectItems[i].title
+                                                                }
+                                                                return "Project title"
+                                                            })()}
+                                                        </Typography>
+                                                        <Typography sx={{ ml: 3, mr: 3 }} variant="body2" gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].date){
+                                                                    return data.projectItems[i].date
+                                                                }
+                                                                return "September 14, 2016 - September 14, 2017"
+                                                            })()}
+                                                        </Typography>
+                                                        <Typography paragraph sx={{ ml: 3, mr: 3 }} align={"justify"} gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
+                                                                    return data.projectItems[i].description
+                                                                }
+                                                                return "Project description"
+                                                            })()}
+                                                        </Typography>
+                                                    </div>
+                                                )
+                                                if(i <3-1){
+                                                    array.push(<Divider sx={{ mb: 1 }} variant="middle"/>)
+                                                }
                                             }
                                             return array;
                                         })()}
@@ -821,6 +980,59 @@ function WebSiteFormat(){
 
                             </Grid>
                             <Grid container margin={1}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Projects</Typography>
+                                    {(()=>{
+                                        let array = [];
+                                        for(let i = 0; i < 5; i++){
+                                            array.push(<div sx={{p: 2, display: "flex", flexDirection: "column", width: "100%"}}>
+                                                    <Typography sx={{ ml: 3, mr: 3 }} variant="h6" gutterBottom component="div">
+                                                        {(()=>{
+                                                            if(data.projectItems && data.projectItems[i] && data.projectItems[i].title){
+                                                                return data.projectItems[i].title
+                                                            }
+                                                            return "Project title"
+                                                        })()}
+                                                    </Typography>
+                                                    <Typography sx={{ ml: 3, mr: 3 }} variant="body2" gutterBottom component="div">
+                                                        {(()=>{
+                                                            if(data.projectItems && data.projectItems[i] && data.projectItems[i].date){
+                                                                return data.projectItems[i].date
+                                                            }
+                                                            return "September 14, 2016 - September 14, 2017"
+                                                        })()}
+                                                    </Typography>
+                                                    <div style={{ textAlign:"left" }}>
+                                                        <ExpandMore sx={{ ml: 3, mr: 3}}
+                                                                    expand={11+i === selectedCollapseIndex}
+                                                                    onClick={() => {handleClickCollapse(11+i)}}
+                                                                    aria-expanded={11+i === selectedCollapseIndex}
+                                                                    aria-label="show more">
+                                                            <ExpandMoreIcon/>
+                                                        </ExpandMore>
+                                                    </div>
+                                                    <Collapse in={11+i === selectedCollapseIndex} timeout="auto" unmountOnExit>
+                                                        <Typography paragraph sx={{ ml: 3, mr: 3 }} align={"justify"} gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
+                                                                    return data.projectItems[i].description
+                                                                }
+                                                                return "Project description"
+                                                            })()}
+                                                        </Typography>
+                                                    </Collapse>
+                                                </div>
+                                            )
+                                            if(i <5-1){
+                                                array.push(<Divider sx={{ mb: 1 }} variant="middle"/>)
+                                            }
+                                        }
+                                        return array;
+                                    })()}
+                                </Paper>
+
+                            </Grid>
+                            <Grid container margin={1}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                     <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Skills</Typography>
                                     {(()=>{
@@ -1277,6 +1489,15 @@ function MobileFormat(){
     const [open, setOpen] = React.useState(false);
     const toggleDrawer = () => {setOpen(!open);};
 
+    const [selectedCollapseIndex, setSelectedIndex] = React.useState("")
+    const handleClickCollapse = index => {
+        if (selectedCollapseIndex === index) {
+            setSelectedIndex("")
+        } else {
+            setSelectedIndex(index)
+        }
+    }
+
     return (
         <Box sx={{ display: 'flex', width:'100%' }}>
             <AppBar position="absolute" open={false}>
@@ -1490,6 +1711,15 @@ function TextFormat(){
     const [open, setOpen] = React.useState(false);
     const toggleDrawer = () => {setOpen(!open);};
 
+    const [selectedCollapseIndex, setSelectedIndex] = React.useState("")
+    const handleClickCollapse = index => {
+        if (selectedCollapseIndex === index) {
+            setSelectedIndex("")
+        } else {
+            setSelectedIndex(index)
+        }
+    }
+
     return (
         <Box sx={{ display: 'flex', width:'100%' }}>
             <AppBar position="absolute" open={false}>
@@ -1551,6 +1781,15 @@ function TextFormat(){
 
 function Test2Format(){
     const [open, setOpen] = React.useState(false);
+
+    const [selectedCollapseIndex, setSelectedIndex] = React.useState("")
+    const handleClickCollapse = index => {
+        if (selectedCollapseIndex === index) {
+            setSelectedIndex("")
+        } else {
+            setSelectedIndex(index)
+        }
+    }
 
     return (
         <Box sx={{ display: 'flex' }}>
@@ -1676,6 +1915,17 @@ const StyledRatingCircle = styled(Rating)({
         color: '#adadad',
     },
 });
+
+const ExpandMore = styled((props) => {
+    const { expand, ...other } = props;
+    return <IconButton {...other} />;
+})(({ theme, expand }) => ({
+    transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
+    marginLeft: "auto",
+    transition: theme.transitions.create("transform", {
+        duration: theme.transitions.duration.shortest
+    })
+}));
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     height: 15,

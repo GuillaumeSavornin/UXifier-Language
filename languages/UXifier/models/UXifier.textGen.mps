@@ -19,6 +19,7 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
@@ -278,10 +279,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6_RkYJe9bMh" role="3cqZAp">
+          <node concept="37vLTI" id="6_RkYJe9bMi" role="3clFbG">
+            <node concept="10M0yZ" id="6_RkYJe9er3" role="37vLTJ">
+              <ref role="3cqZAo" node="6_RkYJe9cJy" resolve="colapseCount" />
+              <ref role="1PxDUh" node="4ccJuxnam4K" resolve="JSONLoader" />
+            </node>
+            <node concept="3cmrfG" id="6_RkYJe9eNI" role="37vLTx">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="1eZdBFFeRro" role="3cqZAp" />
         <node concept="lc7rE" id="2dFAI0jCyjY" role="3cqZAp">
           <node concept="la8eA" id="2dFAI0jCymI" role="lcghm">
-            <property role="lacIc" value="import InstagramIcon from '@mui/icons-material/Instagram';\nimport FacebookIcon from '@mui/icons-material/Facebook';\nimport LinkedInIcon from '@mui/icons-material/LinkedIn';\nimport PinterestIcon from '@mui/icons-material/Pinterest';\nimport TwitterIcon from '@mui/icons-material/Twitter';\nimport YouTubeIcon from '@mui/icons-material/YouTube';\nimport RedditIcon from '@mui/icons-material/Reddit';\nimport GitHubIcon from '@mui/icons-material/GitHub';\nimport LinkIcon from '@mui/icons-material/Link';\nimport data from &quot;./data.json&quot;;\nimport {Rating} from &quot;@mui/material&quot;;\nimport * as React from 'react';\nimport { Fragment } from &quot;react&quot;;\nimport ReactDOM from 'react-dom';\nimport CssBaseline from '@mui/material/CssBaseline';\nimport Container from &quot;@mui/material/Container&quot;;\nimport Box from &quot;@mui/material/Box&quot;;\nimport Typography from &quot;@mui/material/Typography&quot;;\nimport SvgIcon from &quot;@mui/material/SvgIcon&quot;;\nimport { red } from '@mui/material/colors';\nimport { BrowserRouter as Router} from &quot;react-router-dom&quot;;\nimport { styled, createTheme, ThemeProvider } from '@mui/material/styles';\nimport MuiDrawer from '@mui/material/Drawer';\nimport MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';\nimport Toolbar from '@mui/material/Toolbar';\nimport List from '@mui/material/List';\nimport Divider from '@mui/material/Divider';\nimport IconButton from '@mui/material/IconButton';\nimport ListItemButton from '@mui/material/ListItemButton';\nimport ListItemIcon from '@mui/material/ListItemIcon';\nimport ListItemText from '@mui/material/ListItemText';\nimport ListSubheader from '@mui/material/ListSubheader';\nimport Badge from '@mui/material/Badge';\nimport Grid from '@mui/material/Grid';\nimport Paper from '@mui/material/Paper';\nimport MenuIcon from '@mui/icons-material/Menu';\nimport ChevronLeftIcon from '@mui/icons-material/ChevronLeft';\nimport DashboardIcon from '@mui/icons-material/Dashboard';\nimport ShoppingCartIcon from '@mui/icons-material/ShoppingCart';\nimport { useParams, useRouteMatch, Switch, Route, Link } from &quot;react-router-dom&quot;;\nimport { Link as Linkk } from '@mui/material';\nimport PeopleIcon from '@mui/icons-material/People';\nimport BarChartIcon from '@mui/icons-material/BarChart';\nimport LayersIcon from '@mui/icons-material/Layers';\nimport AssignmentIcon from '@mui/icons-material/Assignment';\nimport NotificationsIcon from '@mui/icons-material/Notifications';\nimport { css } from &quot;aphrodite/no-important&quot;;import Card from '@mui/material/Card';\nimport CardContent from '@mui/material/CardContent';\nimport FavoriteIcon from '@mui/icons-material/Favorite';\nimport FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';\nimport PhoneIcon from '@mui/icons-material/Phone';\nimport HomeIcon from '@mui/icons-material/Home';\nimport EmailIcon from '@mui/icons-material/Email';\nimport CircleIcon from '@mui/icons-material/Circle';\nimport StarIcon from '@mui/icons-material/Star';\nimport ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';\nimport ArrowRightIcon from '@mui/icons-material/ArrowRight';\nimport FaceIcon from '@mui/icons-material/Face';\nimport FilePresentIcon from '@mui/icons-material/FilePresent';\nimport LocalFloristIcon from '@mui/icons-material/LocalFlorist';\nimport PhotoIcon from '@mui/icons-material/Photo';\nimport SportsBasketballIcon from '@mui/icons-material/SportsBasketball';\nimport WorkIcon from '@mui/icons-material/Work';\nimport LinearProgress, {\n    linearProgressClasses\n} from &quot;@mui/material/LinearProgress&quot;;" />
+            <property role="lacIc" value="import InstagramIcon from '@mui/icons-material/Instagram';\nimport FacebookIcon from '@mui/icons-material/Facebook';\nimport LinkedInIcon from '@mui/icons-material/LinkedIn';\nimport PinterestIcon from '@mui/icons-material/Pinterest';\nimport TwitterIcon from '@mui/icons-material/Twitter';\nimport YouTubeIcon from '@mui/icons-material/YouTube';\nimport RedditIcon from '@mui/icons-material/Reddit';\nimport GitHubIcon from '@mui/icons-material/GitHub';\nimport LinkIcon from '@mui/icons-material/Link';\nimport data from &quot;./data.json&quot;;\nimport {Button, Rating} from &quot;@mui/material&quot;;\nimport * as React from 'react';\nimport { Fragment } from &quot;react&quot;;\nimport ReactDOM from 'react-dom';\nimport CssBaseline from '@mui/material/CssBaseline';\nimport Container from &quot;@mui/material/Container&quot;;\nimport Box from &quot;@mui/material/Box&quot;;\nimport Typography from &quot;@mui/material/Typography&quot;;\nimport SvgIcon from &quot;@mui/material/SvgIcon&quot;;\nimport { red } from '@mui/material/colors';\nimport { BrowserRouter as Router} from &quot;react-router-dom&quot;;\nimport { styled, createTheme, ThemeProvider } from '@mui/material/styles';\nimport MuiDrawer from '@mui/material/Drawer';\nimport MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';\nimport Toolbar from '@mui/material/Toolbar';\nimport List from '@mui/material/List';\nimport Divider from '@mui/material/Divider';\nimport IconButton from '@mui/material/IconButton';\nimport ListItemButton from '@mui/material/ListItemButton';\nimport ListItemIcon from '@mui/material/ListItemIcon';\nimport ListItemText from '@mui/material/ListItemText';\nimport ListSubheader from '@mui/material/ListSubheader';\nimport Badge from '@mui/material/Badge';\nimport Grid from '@mui/material/Grid';\nimport Paper from '@mui/material/Paper';\nimport MenuIcon from '@mui/icons-material/Menu';\nimport ChevronLeftIcon from '@mui/icons-material/ChevronLeft';\nimport DashboardIcon from '@mui/icons-material/Dashboard';\nimport ShoppingCartIcon from '@mui/icons-material/ShoppingCart';\nimport { useParams, useRouteMatch, Switch, Route, Link } from &quot;react-router-dom&quot;;\nimport { Link as Linkk } from '@mui/material';\nimport PeopleIcon from '@mui/icons-material/People';\nimport BarChartIcon from '@mui/icons-material/BarChart';\nimport LayersIcon from '@mui/icons-material/Layers';\nimport AssignmentIcon from '@mui/icons-material/Assignment';\nimport NotificationsIcon from '@mui/icons-material/Notifications';\nimport { css } from &quot;aphrodite/no-important&quot;;import Card from '@mui/material/Card';\nimport CardContent from '@mui/material/CardContent';\nimport FavoriteIcon from '@mui/icons-material/Favorite';\nimport FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';\nimport PhoneIcon from '@mui/icons-material/Phone';\nimport HomeIcon from '@mui/icons-material/Home';\nimport EmailIcon from '@mui/icons-material/Email';\nimport CircleIcon from '@mui/icons-material/Circle';\nimport StarIcon from '@mui/icons-material/Star';\nimport ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';\nimport ArrowRightIcon from '@mui/icons-material/ArrowRight';\nimport FaceIcon from '@mui/icons-material/Face';\nimport FilePresentIcon from '@mui/icons-material/FilePresent';\nimport LocalFloristIcon from '@mui/icons-material/LocalFlorist';\nimport PhotoIcon from '@mui/icons-material/Photo';\nimport SportsBasketballIcon from '@mui/icons-material/SportsBasketball';\nimport WorkIcon from '@mui/icons-material/Work';\nimport Collapse from &quot;@mui/material/Collapse&quot;;\nimport ExpandMoreIcon from &quot;@mui/icons-material/ExpandMore&quot;;\nimport LinearProgress, {\n    linearProgressClasses\n} from &quot;@mui/material/LinearProgress&quot;;" />
           </node>
           <node concept="l8MVK" id="2dFAI0jC$2X" role="lcghm" />
           <node concept="l8MVK" id="2dFAI0jCFEZ" role="lcghm" />
@@ -368,6 +380,13 @@
           </node>
           <node concept="l8MVK" id="1eZdBFG2B$l" role="lcghm" />
           <node concept="l8MVK" id="1eZdBFG2B$m" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJe9anS" role="3cqZAp">
+          <node concept="la8eA" id="6_RkYJe9anT" role="lcghm">
+            <property role="lacIc" value="const ExpandMore = styled((props) =&gt; {\n    const { expand, ...other } = props;\n    return &lt;IconButton {...other} /&gt;;\n})(({ theme, expand }) =&gt; ({\n    transform: !expand ? &quot;rotate(0deg)&quot; : &quot;rotate(180deg)&quot;,\n    marginLeft: &quot;auto&quot;,\n    transition: theme.transitions.create(&quot;transform&quot;, {\n        duration: theme.transitions.duration.shortest\n    })\n}));" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJe9anU" role="lcghm" />
+          <node concept="l8MVK" id="6_RkYJe9anV" role="lcghm" />
         </node>
         <node concept="lc7rE" id="1eZdBFFfybD" role="3cqZAp">
           <node concept="la8eA" id="1eZdBFFfybE" role="lcghm">
@@ -990,6 +1009,66 @@
         <node concept="lc7rE" id="2dFAI0jGRX0" role="3cqZAp">
           <node concept="l8MVK" id="2dFAI0jGRXx" role="lcghm" />
         </node>
+        <node concept="3clFbH" id="6_RkYJebm_b" role="3cqZAp" />
+        <node concept="lc7rE" id="6_RkYJebn0X" role="3cqZAp">
+          <node concept="la8eA" id="6_RkYJebnd2" role="lcghm">
+            <property role="lacIc" value="const [selectedCollapseIndex, setSelectedIndex] = React.useState(&quot;&quot;)" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebnfV" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebo$E" role="3cqZAp">
+          <node concept="la8eA" id="6_RkYJebo$F" role="lcghm">
+            <property role="lacIc" value="const handleClickCollapse = index =&gt; {" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebo$G" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJeboSM" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJeboWV" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJeboZ_" role="lcghm">
+            <property role="lacIc" value="if (selectedCollapseIndex === index) {" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebpVc" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebp5v" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJebp5w" role="lcghm" />
+          <node concept="2BGw6n" id="6_RkYJebpzI" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJebp5x" role="lcghm">
+            <property role="lacIc" value="setSelectedIndex(&quot;&quot;)" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebpTN" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebpdt" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJebpdu" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJebpdv" role="lcghm">
+            <property role="lacIc" value="} else {" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebpSr" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebphJ" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJebphK" role="lcghm" />
+          <node concept="2BGw6n" id="6_RkYJebpDp" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJebphL" role="lcghm">
+            <property role="lacIc" value="setSelectedIndex(index)" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebpMJ" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebpu6" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJec$TO" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJebpu8" role="lcghm">
+            <property role="lacIc" value="}" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebpLn" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJec$NV" role="3cqZAp">
+          <node concept="la8eA" id="6_RkYJec$NW" role="lcghm">
+            <property role="lacIc" value="}" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJec$NX" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebr6Y" role="3cqZAp">
+          <node concept="l8MVK" id="6_RkYJebr6Z" role="lcghm" />
+        </node>
+        <node concept="3clFbH" id="6_RkYJebmL5" role="3cqZAp" />
         <node concept="lc7rE" id="2dFAI0jGRJC" role="3cqZAp">
           <node concept="la8eA" id="2dFAI0jGRJW" role="lcghm">
             <property role="lacIc" value="return (" />
@@ -1509,6 +1588,66 @@
         <node concept="lc7rE" id="58tSxDctHRh" role="3cqZAp">
           <node concept="l8MVK" id="58tSxDctHRG" role="lcghm" />
         </node>
+        <node concept="3clFbH" id="6_RkYJebnhx" role="3cqZAp" />
+        <node concept="lc7rE" id="6_RkYJebnEx" role="3cqZAp">
+          <node concept="la8eA" id="6_RkYJebnEy" role="lcghm">
+            <property role="lacIc" value="const [selectedCollapseIndex, setSelectedIndex] = React.useState(&quot;&quot;)" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebnEz" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebnUe" role="3cqZAp">
+          <node concept="la8eA" id="6_RkYJebo28" role="lcghm">
+            <property role="lacIc" value="const handleClickCollapse = index =&gt; {" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJeboz4" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebpX5" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJebpX6" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJebpX7" role="lcghm">
+            <property role="lacIc" value="if (selectedCollapseIndex === index) {" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebpX8" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebqrL" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJebqrM" role="lcghm" />
+          <node concept="2BGw6n" id="6_RkYJebqrN" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJebqrO" role="lcghm">
+            <property role="lacIc" value="setSelectedIndex(&quot;&quot;)" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebqrP" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebqzZ" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJebq$0" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJebq$1" role="lcghm">
+            <property role="lacIc" value="} else {" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebq$2" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebqQl" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJebqQm" role="lcghm" />
+          <node concept="2BGw6n" id="6_RkYJebqQn" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJebqQo" role="lcghm">
+            <property role="lacIc" value="setSelectedIndex(index)" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebqQp" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebqYG" role="3cqZAp">
+          <node concept="2BGw6n" id="6_RkYJec$gs" role="lcghm" />
+          <node concept="la8eA" id="6_RkYJebqYH" role="lcghm">
+            <property role="lacIc" value="}" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJebqYI" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJec$m7" role="3cqZAp">
+          <node concept="la8eA" id="6_RkYJec$m9" role="lcghm">
+            <property role="lacIc" value="}" />
+          </node>
+          <node concept="l8MVK" id="6_RkYJec$ma" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6_RkYJebrjd" role="3cqZAp">
+          <node concept="l8MVK" id="6_RkYJebrje" role="lcghm" />
+        </node>
+        <node concept="3clFbH" id="6_RkYJebnl6" role="3cqZAp" />
         <node concept="lc7rE" id="58tSxDctHSB" role="3cqZAp">
           <node concept="la8eA" id="58tSxDctHT3" role="lcghm">
             <property role="lacIc" value="return (" />
@@ -3966,6 +4105,24 @@
   </node>
   <node concept="312cEu" id="4ccJuxnam4K">
     <property role="TrG5h" value="JSONLoader" />
+    <node concept="2tJIrI" id="6_RkYJe9dD4" role="jymVt" />
+    <node concept="Wx3nA" id="6_RkYJe9cJy" role="jymVt">
+      <property role="TrG5h" value="colapseCount" />
+      <node concept="10Oyi0" id="6_RkYJe9cJz" role="1tU5fm" />
+      <node concept="3Tm1VV" id="6_RkYJe9cJ$" role="1B3o_S" />
+      <node concept="3cmrfG" id="6_RkYJe9cJ_" role="33vP2m">
+        <property role="3cmrfH" value="-1" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="1eZdBFG4P6x" role="jymVt">
+      <property role="TrG5h" value="imageCount" />
+      <node concept="10Oyi0" id="1eZdBFG4P9F" role="1tU5fm" />
+      <node concept="3Tm1VV" id="1eZdBFG8kbu" role="1B3o_S" />
+      <node concept="3cmrfG" id="1eZdBFG4Pd_" role="33vP2m">
+        <property role="3cmrfH" value="-1" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6_RkYJe9d8$" role="jymVt" />
     <node concept="2YIFZL" id="4ccJuxnam66" role="jymVt">
       <property role="TrG5h" value="checkJSON" />
       <node concept="3clFbS" id="4ccJuxnam69" role="3clF47">
@@ -4096,14 +4253,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1eZdBFG4OU0" role="jymVt" />
-    <node concept="Wx3nA" id="1eZdBFG4P6x" role="jymVt">
-      <property role="TrG5h" value="imageCount" />
-      <node concept="10Oyi0" id="1eZdBFG4P9F" role="1tU5fm" />
-      <node concept="3Tm1VV" id="1eZdBFG8kbu" role="1B3o_S" />
-      <node concept="3cmrfG" id="1eZdBFG4Pd_" role="33vP2m">
-        <property role="3cmrfH" value="-1" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="1eZdBFG4P0f" role="jymVt" />
     <node concept="2YIFZL" id="1eZdBFG4OIo" role="jymVt">
       <property role="TrG5h" value="checkRawJSONImageSection" />
@@ -7675,6 +7824,651 @@
             <property role="lacIc" value="}" />
           </node>
           <node concept="l8MVK" id="6hY3O8TRsST" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="6_RkYJe8LAr">
+    <property role="3GE5qa" value="section" />
+    <ref role="WuzLi" to="wi2d:6_RkYJe8_QY" resolve="ProjectSection" />
+    <node concept="11bSqf" id="6_RkYJe8LAs" role="11c4hB">
+      <node concept="3clFbS" id="6_RkYJe8LAt" role="2VODD2">
+        <node concept="3izx1p" id="6_RkYJe8LAu" role="3cqZAp">
+          <node concept="3clFbS" id="6_RkYJe8LAv" role="3izTki">
+            <node concept="lc7rE" id="6_RkYJe8LAw" role="3cqZAp">
+              <node concept="la8eA" id="6_RkYJe8LAx" role="lcghm">
+                <property role="lacIc" value="&lt;Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:&quot;100%&quot;}}&gt;" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe8LAy" role="lcghm" />
+            </node>
+            <node concept="3clFbJ" id="6_RkYJe8LAz" role="3cqZAp">
+              <node concept="3clFbS" id="6_RkYJe8LA$" role="3clFbx">
+                <node concept="lc7rE" id="6_RkYJe8LA_" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe8LAA" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe8LAB" role="lcghm">
+                    <property role="lacIc" value="&lt;Typography gutterBottom sx={{ mb: 3 }} align={&quot;" />
+                  </node>
+                  <node concept="l9hG8" id="6_RkYJe8LAC" role="lcghm">
+                    <node concept="2OqwBi" id="6_RkYJe8LAD" role="lb14g">
+                      <node concept="2OqwBi" id="6_RkYJe8LAE" role="2Oq$k0">
+                        <node concept="117lpO" id="6_RkYJe8LAF" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="6_RkYJe8LAG" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="6_RkYJe8LAH" role="2OqNvi">
+                        <ref role="3TsBF5" to="wi2d:1eZdBFFnokT" resolve="alignTitle" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJe8LAI" role="lcghm">
+                    <property role="lacIc" value="&quot;} variant=&quot;h5&quot; component=&quot;div&quot;&gt;Projects&lt;/Typography&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe8LAJ" role="lcghm" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6_RkYJe8LAK" role="3clFbw">
+                <node concept="2OqwBi" id="6_RkYJe8LAL" role="2Oq$k0">
+                  <node concept="117lpO" id="6_RkYJe8LAM" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6_RkYJe8LAN" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="6_RkYJe8LAO" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:1eZdBFFmBd4" resolve="showTitle" />
+                </node>
+              </node>
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8LAP" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe8LAQ" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8LAR" role="lcghm">
+                <property role="lacIc" value="{(()=&gt;{" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe8LAS" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8LAT" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe8LAU" role="lcghm" />
+              <node concept="2BGw6n" id="6_RkYJe8LAV" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8LAW" role="lcghm">
+                <property role="lacIc" value="let array = [];" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe8LAX" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8LAY" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe8LAZ" role="lcghm" />
+              <node concept="2BGw6n" id="6_RkYJe8LB0" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8LB1" role="lcghm">
+                <property role="lacIc" value="for(let i = 0; i &lt; " />
+              </node>
+              <node concept="l9hG8" id="6_RkYJe8LB2" role="lcghm">
+                <node concept="2YIFZM" id="6_RkYJe8LB3" role="lb14g">
+                  <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                  <node concept="2OqwBi" id="6_RkYJe8LB4" role="37wK5m">
+                    <node concept="2OqwBi" id="6_RkYJe8LB5" role="2Oq$k0">
+                      <node concept="117lpO" id="6_RkYJe8LB6" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6_RkYJe8LB7" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="6_RkYJe8LB8" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:6_RkYJe8_Rr" resolve="numberItems" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="6_RkYJe8LB9" role="lcghm">
+                <property role="lacIc" value="; i++){" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe8LBa" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8LBb" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe8LBc" role="lcghm" />
+              <node concept="2BGw6n" id="6_RkYJe8LBd" role="lcghm" />
+              <node concept="2BGw6n" id="6_RkYJe8LBe" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8LBf" role="lcghm">
+                <property role="lacIc" value="array.push(" />
+              </node>
+              <node concept="l9hG8" id="6_RkYJe8LBg" role="lcghm">
+                <node concept="2OqwBi" id="6_RkYJe8LBh" role="lb14g">
+                  <node concept="2OqwBi" id="6_RkYJe8LBi" role="2Oq$k0">
+                    <node concept="117lpO" id="6_RkYJe8LBj" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="6_RkYJe8LBk" role="2OqNvi">
+                      <ref role="3TtcxE" to="wi2d:6_RkYJe8_R0" resolve="items" />
+                    </node>
+                  </node>
+                  <node concept="34jXtK" id="6_RkYJe8LBl" role="2OqNvi">
+                    <node concept="3cmrfG" id="6_RkYJe8LBm" role="25WWJ7">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="6_RkYJe8LBn" role="lcghm">
+                <property role="lacIc" value=")" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe8LBo" role="lcghm" />
+            </node>
+            <node concept="3clFbJ" id="6_RkYJe8LBp" role="3cqZAp">
+              <node concept="3clFbS" id="6_RkYJe8LBq" role="3clFbx">
+                <node concept="lc7rE" id="6_RkYJe8LBr" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe8LBs" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe8LBt" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe8LBu" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe8LBv" role="lcghm">
+                    <property role="lacIc" value="if(i &lt;" />
+                  </node>
+                  <node concept="l9hG8" id="6_RkYJe8LBw" role="lcghm">
+                    <node concept="2YIFZM" id="6_RkYJe8LBx" role="lb14g">
+                      <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                      <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                      <node concept="2OqwBi" id="6_RkYJe8LBy" role="37wK5m">
+                        <node concept="2OqwBi" id="6_RkYJe8LBz" role="2Oq$k0">
+                          <node concept="117lpO" id="6_RkYJe8LB$" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6_RkYJe8LB_" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6_RkYJe8LBA" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:6_RkYJe8_Rr" resolve="numberItems" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJe8LBB" role="lcghm">
+                    <property role="lacIc" value="-1){" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe8LBC" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe8LBD" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe8LBE" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe8LBF" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe8LBG" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe8LBH" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe8LBI" role="lcghm">
+                    <property role="lacIc" value="array.push(&lt;Divider sx={{ mb: 1 }} variant=&quot;middle&quot;/&gt;)" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe8LBJ" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe8LBK" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe8LBL" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe8LBM" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe8LBN" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe8LBO" role="lcghm">
+                    <property role="lacIc" value="}" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe8LBP" role="lcghm" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6_RkYJe8LBQ" role="3clFbw">
+                <node concept="2OqwBi" id="6_RkYJe8LBR" role="2Oq$k0">
+                  <node concept="117lpO" id="6_RkYJe8LBS" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6_RkYJe8LBT" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="6_RkYJe8LBU" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:6_RkYJe8_Rq" resolve="separator" />
+                </node>
+              </node>
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8LBV" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe8LBW" role="lcghm" />
+              <node concept="2BGw6n" id="6_RkYJe8LBX" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8LBY" role="lcghm">
+                <property role="lacIc" value="}" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe8LBZ" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8LC0" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe8LC1" role="lcghm" />
+              <node concept="2BGw6n" id="6_RkYJe8LC2" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8LC3" role="lcghm">
+                <property role="lacIc" value="return array;" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe8LC4" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8LC5" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe8LC6" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8LC7" role="lcghm">
+                <property role="lacIc" value="})()}" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe8LC8" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8LC9" role="3cqZAp">
+              <node concept="la8eA" id="6_RkYJe8LCa" role="lcghm">
+                <property role="lacIc" value="&lt;/Paper&gt;" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe8LCb" role="lcghm" />
+            </node>
+            <node concept="3clFbF" id="6_RkYJed6_H" role="3cqZAp">
+              <node concept="d57v9" id="6_RkYJed8j1" role="3clFbG">
+                <node concept="2OqwBi" id="6_RkYJed9r6" role="37vLTx">
+                  <node concept="2OqwBi" id="6_RkYJed8HO" role="2Oq$k0">
+                    <node concept="117lpO" id="6_RkYJed8k1" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6_RkYJed90B" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="6_RkYJed9L4" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:6_RkYJe8_Rr" resolve="numberItems" />
+                  </node>
+                </node>
+                <node concept="10M0yZ" id="6_RkYJed7zR" role="37vLTJ">
+                  <ref role="3cqZAo" node="6_RkYJe9cJy" resolve="colapseCount" />
+                  <ref role="1PxDUh" node="4ccJuxnam4K" resolve="JSONLoader" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="6_RkYJe8Tac">
+    <property role="3GE5qa" value="section.item" />
+    <ref role="WuzLi" to="wi2d:6_RkYJe8_R2" resolve="ProjectItem" />
+    <node concept="11bSqf" id="6_RkYJe8Tad" role="11c4hB">
+      <node concept="3clFbS" id="6_RkYJe8Tae" role="2VODD2">
+        <node concept="3izx1p" id="6_RkYJe8Taf" role="3cqZAp">
+          <node concept="3clFbS" id="6_RkYJe8Tag" role="3izTki">
+            <node concept="lc7rE" id="6_RkYJe9j3_" role="3cqZAp">
+              <node concept="la8eA" id="6_RkYJe9j6C" role="lcghm">
+                <property role="lacIc" value="&lt;div sx={{p: 2, display: &quot;flex&quot;, flexDirection: &quot;column&quot;, width: &quot;100%&quot;}}&gt;" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJe9j7M" role="lcghm" />
+            </node>
+            <node concept="3clFbH" id="6_RkYJe8ULS" role="3cqZAp" />
+            <node concept="3SKdUt" id="6_RkYJe8ZH$" role="3cqZAp">
+              <node concept="1PaTwC" id="6_RkYJe8ZH_" role="1aUNEU">
+                <node concept="3oM_SD" id="6_RkYJe8ZZr" role="1PaTwD">
+                  <property role="3oM_SC" value="Title" />
+                </node>
+              </node>
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8V3t" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe9Dom" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8Vh2" role="lcghm">
+                <property role="lacIc" value="&lt;Typography sx={{ ml: 3, mr: 3 }} variant=&quot;h6&quot; gutterBottom component=&quot;div&quot;&gt;" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJebrK_" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8VMe" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe9DoG" role="lcghm" />
+              <node concept="2BGw6n" id="6_RkYJe8VUs" role="lcghm" />
+              <node concept="l9hG8" id="6_RkYJe8Wfp" role="lcghm">
+                <node concept="2YIFZM" id="6_RkYJe8Wfq" role="lb14g">
+                  <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
+                  <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
+                  <node concept="Xl_RD" id="6_RkYJe8Wfr" role="37wK5m">
+                    <property role="Xl_RC" value="projectItems" />
+                  </node>
+                  <node concept="Xl_RD" id="6_RkYJe8Wfs" role="37wK5m">
+                    <property role="Xl_RC" value="title" />
+                  </node>
+                  <node concept="2OqwBi" id="6_RkYJe8Wft" role="37wK5m">
+                    <node concept="117lpO" id="6_RkYJe8Wfu" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="6_RkYJe8Wfv" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:6_RkYJe8_R9" resolve="title" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="l8MVK" id="6_RkYJebrKT" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8ViY" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe9Ds6" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8ViZ" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJeeiXd" role="lcghm" />
+            </node>
+            <node concept="3clFbH" id="6_RkYJe8UPx" role="3cqZAp" />
+            <node concept="3SKdUt" id="6_RkYJe90dd" role="3cqZAp">
+              <node concept="1PaTwC" id="6_RkYJe90de" role="1aUNEU">
+                <node concept="3oM_SD" id="6_RkYJe90w_" role="1PaTwD">
+                  <property role="3oM_SC" value="Date" />
+                </node>
+              </node>
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8Y7l" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe9Dsp" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8Yhw" role="lcghm">
+                <property role="lacIc" value="&lt;Typography sx={{ ml: 3, mr: 3 }} variant=&quot;body2&quot; gutterBottom component=&quot;div&quot;&gt;" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJebrOk" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8YUP" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe9DsG" role="lcghm" />
+              <node concept="2BGw6n" id="6_RkYJe8YUQ" role="lcghm" />
+              <node concept="l9hG8" id="6_RkYJe8YUR" role="lcghm">
+                <node concept="2YIFZM" id="6_RkYJe8YUS" role="lb14g">
+                  <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
+                  <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
+                  <node concept="Xl_RD" id="6_RkYJe8YUT" role="37wK5m">
+                    <property role="Xl_RC" value="projectItems" />
+                  </node>
+                  <node concept="Xl_RD" id="6_RkYJe8YUU" role="37wK5m">
+                    <property role="Xl_RC" value="date" />
+                  </node>
+                  <node concept="2OqwBi" id="6_RkYJe8YUV" role="37wK5m">
+                    <node concept="117lpO" id="6_RkYJe8YUW" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="6_RkYJe8YUX" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:6_RkYJe8_Rb" resolve="date" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="l8MVK" id="6_RkYJebrOC" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6_RkYJe8Yts" role="3cqZAp">
+              <node concept="2BGw6n" id="6_RkYJe9Duh" role="lcghm" />
+              <node concept="la8eA" id="6_RkYJe8Ytt" role="lcghm">
+                <property role="lacIc" value="&lt;/Typography&gt;" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJebrQe" role="lcghm" />
+            </node>
+            <node concept="3clFbH" id="6_RkYJe8XvK" role="3cqZAp" />
+            <node concept="3SKdUt" id="6_RkYJe90NB" role="3cqZAp">
+              <node concept="1PaTwC" id="6_RkYJe90NC" role="1aUNEU">
+                <node concept="3oM_SD" id="6_RkYJe90Q2" role="1PaTwD">
+                  <property role="3oM_SC" value="Description" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6_RkYJe8TnH" role="3cqZAp">
+              <node concept="3clFbS" id="6_RkYJe8TnI" role="3clFbx">
+                <node concept="lc7rE" id="6_RkYJek3XP" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJek4eJ" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJek4f3" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJek4ah" role="lcghm">
+                    <property role="lacIc" value="&lt;div style={{ textAlign:&quot;" />
+                  </node>
+                  <node concept="l9hG8" id="6_RkYJek7Yx" role="lcghm">
+                    <node concept="2OqwBi" id="6_RkYJek7Zs" role="lb14g">
+                      <node concept="2OqwBi" id="6_RkYJek7Zt" role="2Oq$k0">
+                        <node concept="1PxgMI" id="6_RkYJek7Zu" role="2Oq$k0">
+                          <node concept="chp4Y" id="6_RkYJek7Zv" role="3oSUPX">
+                            <ref role="cht4Q" to="wi2d:6_RkYJe8_QY" resolve="ProjectSection" />
+                          </node>
+                          <node concept="2OqwBi" id="6_RkYJek7Zw" role="1m5AlR">
+                            <node concept="117lpO" id="6_RkYJek7Zx" role="2Oq$k0" />
+                            <node concept="1mfA1w" id="6_RkYJek7Zy" role="2OqNvi" />
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="6_RkYJek7Zz" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="6_RkYJek7Z$" role="2OqNvi">
+                        <ref role="3TsBF5" to="wi2d:6_RkYJehIJq" resolve="collapseButtonAlign" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJek7V9" role="lcghm">
+                    <property role="lacIc" value="&quot; }}&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJek4b6" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9jbM" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9Du$" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJek4fo" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9jd5" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9kgU" role="lcghm">
+                    <property role="lacIc" value="&lt;ExpandMore sx={{ ml: 3, mr: 3}}" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe9kl6" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9kht" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9khu" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJek4gq" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9Ed6" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9sTL" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9nc4" role="lcghm">
+                    <property role="lacIc" value="expand={" />
+                  </node>
+                  <node concept="l9hG8" id="6_RkYJe9kn2" role="lcghm">
+                    <node concept="2YIFZM" id="6_RkYJe9lZi" role="lb14g">
+                      <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                      <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                      <node concept="10M0yZ" id="6_RkYJe9mlX" role="37wK5m">
+                        <ref role="3cqZAo" node="6_RkYJe9cJy" resolve="colapseCount" />
+                        <ref role="1PxDUh" node="4ccJuxnam4K" resolve="JSONLoader" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJe9khv" role="lcghm">
+                    <property role="lacIc" value="+i === selectedCollapseIndex}" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe9klU" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9niq" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9DuT" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJek4YC" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9nir" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9tBX" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9nis" role="lcghm">
+                    <property role="lacIc" value="onClick={() =&gt; {handleClickCollapse(" />
+                  </node>
+                  <node concept="l9hG8" id="6_RkYJe9nit" role="lcghm">
+                    <node concept="2YIFZM" id="6_RkYJe9niu" role="lb14g">
+                      <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                      <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                      <node concept="10M0yZ" id="6_RkYJe9niv" role="37wK5m">
+                        <ref role="3cqZAo" node="6_RkYJe9cJy" resolve="colapseCount" />
+                        <ref role="1PxDUh" node="4ccJuxnam4K" resolve="JSONLoader" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJe9niw" role="lcghm">
+                    <property role="lacIc" value="+i)}}" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe9nix" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9o7J" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9o7K" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJek4Zt" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9EeS" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9tDI" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9o7L" role="lcghm">
+                    <property role="lacIc" value="aria-expanded={" />
+                  </node>
+                  <node concept="l9hG8" id="6_RkYJe9o7M" role="lcghm">
+                    <node concept="2YIFZM" id="6_RkYJe9o7N" role="lb14g">
+                      <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                      <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                      <node concept="10M0yZ" id="6_RkYJe9o7O" role="37wK5m">
+                        <ref role="3cqZAo" node="6_RkYJe9cJy" resolve="colapseCount" />
+                        <ref role="1PxDUh" node="4ccJuxnam4K" resolve="JSONLoader" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJe9o7P" role="lcghm">
+                    <property role="lacIc" value="+i === selectedCollapseIndex}" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe9o7Q" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9quE" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9quF" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJek4ZD" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9EgE" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9unU" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9quG" role="lcghm">
+                    <property role="lacIc" value="aria-label=&quot;show more&quot;&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJebrQy" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9s3Z" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9EgZ" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJek52p" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9s40" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9uqu" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9s41" role="lcghm">
+                    <property role="lacIc" value="&lt;ExpandMoreIcon/&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJebrQS" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9uqM" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9Ehk" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJek52K" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9uqN" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9uqP" role="lcghm">
+                    <property role="lacIc" value="&lt;/ExpandMore&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJebrRe" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJek55r" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJek55s" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJek55t" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJek55v" role="lcghm">
+                    <property role="lacIc" value="&lt;/div&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJek55w" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9u_P" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9EhC" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9u_Q" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9u_R" role="lcghm">
+                    <property role="lacIc" value="&lt;Collapse in={" />
+                  </node>
+                  <node concept="l9hG8" id="6_RkYJe9vqH" role="lcghm">
+                    <node concept="2YIFZM" id="6_RkYJe9vqI" role="lb14g">
+                      <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                      <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                      <node concept="10M0yZ" id="6_RkYJe9vqJ" role="37wK5m">
+                        <ref role="3cqZAo" node="6_RkYJe9cJy" resolve="colapseCount" />
+                        <ref role="1PxDUh" node="4ccJuxnam4K" resolve="JSONLoader" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6_RkYJe9vqp" role="lcghm">
+                    <property role="lacIc" value="+i === selectedCollapseIndex} timeout=&quot;auto&quot; unmountOnExit&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJebrTr" role="lcghm" />
+                </node>
+                <node concept="3clFbH" id="6_RkYJe9_6T" role="3cqZAp" />
+                <node concept="lc7rE" id="6_RkYJe9By9" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9DdQ" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9EZN" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9Dea" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9Bya" role="lcghm">
+                    <property role="lacIc" value="&lt;Typography paragraph sx={{ ml: 3, mr: 3 }} align={&quot;justify&quot;} gutterBottom component=&quot;div&quot;&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe9Byb" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9BF6" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9BF7" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9F09" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9Dev" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9DhU" role="lcghm" />
+                  <node concept="l9hG8" id="6_RkYJe9BF8" role="lcghm">
+                    <node concept="2YIFZM" id="6_RkYJe9BF9" role="lb14g">
+                      <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
+                      <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
+                      <node concept="Xl_RD" id="6_RkYJe9BFa" role="37wK5m">
+                        <property role="Xl_RC" value="projectItems" />
+                      </node>
+                      <node concept="Xl_RD" id="6_RkYJe9BFb" role="37wK5m">
+                        <property role="Xl_RC" value="description" />
+                      </node>
+                      <node concept="2OqwBi" id="6_RkYJe9BFc" role="37wK5m">
+                        <node concept="117lpO" id="6_RkYJe9BFd" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="6_RkYJe9BFe" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:6_RkYJe8_Re" resolve="description" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJe9BFf" role="lcghm" />
+                </node>
+                <node concept="lc7rE" id="6_RkYJe9BRY" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9Djx" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9F3A" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9Dj_" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9BRZ" role="lcghm">
+                    <property role="lacIc" value="&lt;/Typography&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJebsDw" role="lcghm" />
+                </node>
+                <node concept="3clFbH" id="6_RkYJe9_7K" role="3cqZAp" />
+                <node concept="lc7rE" id="6_RkYJe9vxe" role="3cqZAp">
+                  <node concept="2BGw6n" id="6_RkYJe9vxf" role="lcghm" />
+                  <node concept="2BGw6n" id="6_RkYJe9F4H" role="lcghm" />
+                  <node concept="la8eA" id="6_RkYJe9vxg" role="lcghm">
+                    <property role="lacIc" value="&lt;/Collapse&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6_RkYJebsIo" role="lcghm" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6_RkYJe9iz5" role="3clFbw">
+                <node concept="2OqwBi" id="6_RkYJe9iz6" role="2Oq$k0">
+                  <node concept="1PxgMI" id="6_RkYJe9iz7" role="2Oq$k0">
+                    <node concept="chp4Y" id="6_RkYJe9iz8" role="3oSUPX">
+                      <ref role="cht4Q" to="wi2d:6_RkYJe8_QY" resolve="ProjectSection" />
+                    </node>
+                    <node concept="2OqwBi" id="6_RkYJe9iz9" role="1m5AlR">
+                      <node concept="117lpO" id="6_RkYJe9iza" role="2Oq$k0" />
+                      <node concept="1mfA1w" id="6_RkYJe9izb" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="6_RkYJe9izc" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="6_RkYJe9izd" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:6_RkYJe8_RD" resolve="collapseDescription" />
+                </node>
+              </node>
+              <node concept="9aQIb" id="6_RkYJe95GA" role="9aQIa">
+                <node concept="3clFbS" id="6_RkYJe95GB" role="9aQI4">
+                  <node concept="lc7rE" id="6_RkYJe8TnJ" role="3cqZAp">
+                    <node concept="2BGw6n" id="6_RkYJe9F51" role="lcghm" />
+                    <node concept="la8eA" id="6_RkYJe8TnK" role="lcghm">
+                      <property role="lacIc" value="&lt;Typography paragraph sx={{ ml: 3, mr: 3 }} align={&quot;justify&quot;} gutterBottom component=&quot;div&quot;&gt;" />
+                    </node>
+                    <node concept="l8MVK" id="6_RkYJe8TnL" role="lcghm" />
+                  </node>
+                  <node concept="lc7rE" id="6_RkYJe8TnM" role="3cqZAp">
+                    <node concept="2BGw6n" id="6_RkYJe8TnN" role="lcghm" />
+                    <node concept="2BGw6n" id="6_RkYJe9F5l" role="lcghm" />
+                    <node concept="l9hG8" id="6_RkYJe8TnO" role="lcghm">
+                      <node concept="2YIFZM" id="6_RkYJe8TnP" role="lb14g">
+                        <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
+                        <ref role="37wK5l" node="1eZdBFERaO1" resolve="checkRawJSONItem" />
+                        <node concept="Xl_RD" id="6_RkYJe8TnQ" role="37wK5m">
+                          <property role="Xl_RC" value="projectItems" />
+                        </node>
+                        <node concept="Xl_RD" id="6_RkYJe8TnR" role="37wK5m">
+                          <property role="Xl_RC" value="description" />
+                        </node>
+                        <node concept="2OqwBi" id="6_RkYJe8TnS" role="37wK5m">
+                          <node concept="117lpO" id="6_RkYJe8TnT" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="6_RkYJe8TnU" role="2OqNvi">
+                            <ref role="3TsBF5" to="wi2d:6_RkYJe8_Re" resolve="description" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="l8MVK" id="6_RkYJe8TnV" role="lcghm" />
+                  </node>
+                  <node concept="lc7rE" id="6_RkYJe8TnW" role="3cqZAp">
+                    <node concept="2BGw6n" id="6_RkYJe9F6V" role="lcghm" />
+                    <node concept="la8eA" id="6_RkYJe8TnX" role="lcghm">
+                      <property role="lacIc" value="&lt;/Typography&gt;" />
+                    </node>
+                    <node concept="l8MVK" id="6_RkYJebsKD" role="lcghm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6_RkYJe91cl" role="3cqZAp" />
+            <node concept="lc7rE" id="6_RkYJe9zvA" role="3cqZAp">
+              <node concept="la8eA" id="6_RkYJe9zGG" role="lcghm">
+                <property role="lacIc" value="&lt;/div&gt;" />
+              </node>
+              <node concept="l8MVK" id="6_RkYJebsNz" role="lcghm" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

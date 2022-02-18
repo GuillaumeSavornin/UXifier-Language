@@ -1409,5 +1409,122 @@
       <node concept="2iRkQZ" id="6hY3O8TM26r" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6_RkYJe8_RU">
+    <property role="3GE5qa" value="section" />
+    <ref role="1XX52x" to="wi2d:6_RkYJe8_QY" resolve="ProjectSection" />
+    <node concept="3EZMnI" id="6_RkYJe8_RV" role="2wV5jI">
+      <node concept="VPM3Z" id="6_RkYJe8_RW" role="3F10Kt" />
+      <node concept="3F0ifn" id="6_RkYJe8_RX" role="3EZMnx">
+        <property role="3F0ifm" value="Project section:" />
+      </node>
+      <node concept="3EZMnI" id="6_RkYJe8_RY" role="3EZMnx">
+        <node concept="VPM3Z" id="6_RkYJe8_RZ" role="3F10Kt" />
+        <node concept="3XFhqQ" id="6_RkYJe8_S0" role="3EZMnx" />
+        <node concept="3F1sOY" id="6_RkYJe8_S1" role="3EZMnx">
+          <ref role="1NtTu8" to="wi2d:6_RkYJe8_R1" resolve="styling" />
+        </node>
+        <node concept="l2Vlx" id="6_RkYJe8_S2" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="6_RkYJe8_S3" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6_RkYJe8F$f">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1XX52x" to="wi2d:6_RkYJe8_Rn" resolve="ProjectStyling" />
+    <node concept="3EZMnI" id="6_RkYJe8F$g" role="2wV5jI">
+      <node concept="VPM3Z" id="6_RkYJe8F$h" role="3F10Kt" />
+      <node concept="3EZMnI" id="6_RkYJe8F$o" role="3EZMnx">
+        <node concept="VPM3Z" id="6_RkYJe8F$p" role="3F10Kt" />
+        <node concept="3F0ifn" id="6_RkYJe8F$q" role="3EZMnx">
+          <property role="3F0ifm" value="- Show separator:" />
+        </node>
+        <node concept="2iRfu4" id="6_RkYJe8F$r" role="2iSdaV" />
+        <node concept="2yq9I_" id="6_RkYJe8F$s" role="3EZMnx">
+          <ref role="225u1j" to="wi2d:6_RkYJe8_Rq" resolve="separator" />
+          <node concept="jv8YD" id="6_RkYJe8F$t" role="1563LE" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="6_RkYJe8F$i" role="3EZMnx">
+        <node concept="VPM3Z" id="6_RkYJe8F$j" role="3F10Kt" />
+        <node concept="3F0ifn" id="6_RkYJe8F$k" role="3EZMnx">
+          <property role="3F0ifm" value="- Collapse description:" />
+        </node>
+        <node concept="2iRfu4" id="6_RkYJe8F$l" role="2iSdaV" />
+        <node concept="2yq9I_" id="6_RkYJe8F$m" role="3EZMnx">
+          <ref role="225u1j" to="wi2d:6_RkYJe8_RD" resolve="collapseDescription" />
+          <node concept="jv8YD" id="6_RkYJe8F$n" role="1563LE" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="6_RkYJehSgn" role="3EZMnx">
+        <node concept="VPM3Z" id="6_RkYJehSgo" role="3F10Kt" />
+        <node concept="3F0ifn" id="6_RkYJehSgp" role="3EZMnx">
+          <property role="3F0ifm" value="- Align collapse button:" />
+        </node>
+        <node concept="3F0A7n" id="6_RkYJehSgq" role="3EZMnx">
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+          <ref role="1NtTu8" to="wi2d:6_RkYJehIJq" resolve="collapseButtonAlign" />
+        </node>
+        <node concept="2iRfu4" id="6_RkYJehSgr" role="2iSdaV" />
+        <node concept="pkWqt" id="6_RkYJehSuf" role="pqm2j">
+          <node concept="3clFbS" id="6_RkYJehSug" role="2VODD2">
+            <node concept="3cpWs6" id="6_RkYJehSIj" role="3cqZAp">
+              <node concept="2OqwBi" id="6_RkYJehSWy" role="3cqZAk">
+                <node concept="pncrf" id="6_RkYJehSIP" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6_RkYJehTis" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:6_RkYJe8_RD" resolve="collapseDescription" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="6_RkYJe8F$u" role="3EZMnx">
+        <node concept="VPM3Z" id="6_RkYJe8F$v" role="3F10Kt" />
+        <node concept="3F0ifn" id="6_RkYJe8F$w" role="3EZMnx">
+          <property role="3F0ifm" value="- Show title:" />
+        </node>
+        <node concept="2iRfu4" id="6_RkYJe8F$x" role="2iSdaV" />
+        <node concept="2yq9I_" id="6_RkYJe8F$y" role="3EZMnx">
+          <ref role="225u1j" to="wi2d:1eZdBFFmBd4" resolve="showTitle" />
+          <node concept="jv8YD" id="6_RkYJe8F$z" role="1563LE" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="6_RkYJe8F$$" role="3EZMnx">
+        <node concept="VPM3Z" id="6_RkYJe8F$_" role="3F10Kt" />
+        <node concept="3F0ifn" id="6_RkYJe8F$A" role="3EZMnx">
+          <property role="3F0ifm" value="- Align title:" />
+        </node>
+        <node concept="3F0A7n" id="6_RkYJe8F$B" role="3EZMnx">
+          <ref role="1NtTu8" to="wi2d:1eZdBFFnokT" resolve="alignTitle" />
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+        </node>
+        <node concept="2iRfu4" id="6_RkYJe8F$C" role="2iSdaV" />
+        <node concept="pkWqt" id="6_RkYJe8F$D" role="pqm2j">
+          <node concept="3clFbS" id="6_RkYJe8F$E" role="2VODD2">
+            <node concept="3cpWs6" id="6_RkYJe8F$F" role="3cqZAp">
+              <node concept="2OqwBi" id="6_RkYJe8F$G" role="3cqZAk">
+                <node concept="pncrf" id="6_RkYJe8F$H" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6_RkYJe8F$I" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:1eZdBFFmBd4" resolve="showTitle" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="6_RkYJe8F$O" role="3EZMnx">
+        <node concept="VPM3Z" id="6_RkYJe8F$P" role="3F10Kt" />
+        <node concept="3F0ifn" id="6_RkYJe8F$Q" role="3EZMnx">
+          <property role="3F0ifm" value="- Number of projects:" />
+        </node>
+        <node concept="3F0A7n" id="6_RkYJe8F$R" role="3EZMnx">
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+          <ref role="1NtTu8" to="wi2d:6_RkYJe8_Rr" resolve="numberItems" />
+        </node>
+        <node concept="2iRfu4" id="6_RkYJe8F$S" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="6_RkYJe8F$T" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

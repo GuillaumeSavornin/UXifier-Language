@@ -20,6 +20,23 @@
       <concept id="3662687154638270113" name="UXifier.structure.SimplePage" flags="ng" index="25jtgI">
         <child id="3662687154638270116" name="sections" index="25jtgF" />
       </concept>
+      <concept id="7599635168451780034" name="UXifier.structure.ProjectItem" flags="ng" index="2BlgSD">
+        <property id="7599635168451780043" name="date" index="2BlgSw" />
+        <property id="7599635168451780041" name="title" index="2BlgSy" />
+        <property id="7599635168451780046" name="description" index="2BlgS_" />
+        <property id="7599635168451780050" name="url" index="2BlgST" />
+      </concept>
+      <concept id="7599635168451780055" name="UXifier.structure.ProjectStyling" flags="ng" index="2BlgSW">
+        <property id="7599635168454175706" name="collapseButtonAlign" index="2BcrwL" />
+        <property id="7599635168451780073" name="collapseDescription" index="2BlgS2" />
+        <property id="7599635168451780085" name="showUrl" index="2BlgSu" />
+        <property id="7599635168451780059" name="numberItems" index="2BlgSK" />
+        <property id="7599635168451780058" name="separator" index="2BlgSL" />
+      </concept>
+      <concept id="7599635168451780030" name="UXifier.structure.ProjectSection" flags="ng" index="2BlgTl">
+        <child id="7599635168451780033" name="styling" index="2BlgSE" />
+        <child id="7599635168451780032" name="items" index="2BlgSF" />
+      </concept>
       <concept id="2552303901028114976" name="UXifier.structure.TabLayout" flags="ng" index="KX7z0">
         <property id="2552303901028114979" name="name" index="KX7z3" />
         <property id="8984487524665036593" name="icon" index="Ses3W" />
@@ -279,6 +296,49 @@
                   <property role="3STkkY" value="true" />
                 </node>
               </node>
+              <node concept="2BlgTl" id="6_RkYJej06P" role="25jtg_">
+                <node concept="2BlgSD" id="6_RkYJej06R" role="2BlgSF">
+                  <property role="2BlgSy" value="Project title" />
+                  <property role="2BlgSw" value="September 14, 2016 - September 14, 2017" />
+                  <property role="2BlgS_" value="Project description" />
+                  <property role="2BlgST" value="https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png" />
+                </node>
+                <node concept="2BlgSW" id="6_RkYJej06T" role="2BlgSE">
+                  <property role="2BlgSK" value="5" />
+                  <property role="2BlgSL" value="true" />
+                  <property role="2BlgS2" value="true" />
+                  <property role="3STkkY" value="true" />
+                  <property role="2BcrwL" value="1eZdBFFmBcm/center" />
+                </node>
+              </node>
+              <node concept="2BlgTl" id="6_RkYJegzUQ" role="25jtg_">
+                <node concept="2BlgSD" id="6_RkYJegzUR" role="2BlgSF">
+                  <property role="2BlgSy" value="Project title" />
+                  <property role="2BlgSw" value="September 14, 2016 - September 14, 2017" />
+                  <property role="2BlgS_" value="Project description" />
+                  <property role="2BlgST" value="https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png" />
+                </node>
+                <node concept="2BlgSW" id="6_RkYJegzUS" role="2BlgSE">
+                  <property role="2BlgSL" value="true" />
+                  <property role="2BlgS2" value="true" />
+                  <property role="3STkkY" value="true" />
+                  <property role="2BlgSK" value="3" />
+                  <property role="2BcrwL" value="1eZdBFFmBcp/right" />
+                </node>
+              </node>
+              <node concept="2BlgTl" id="6_RkYJegzVa" role="25jtg_">
+                <node concept="2BlgSD" id="6_RkYJegzVb" role="2BlgSF">
+                  <property role="2BlgSy" value="Project title" />
+                  <property role="2BlgSw" value="September 14, 2016 - September 14, 2017" />
+                  <property role="2BlgS_" value="Project description" />
+                  <property role="2BlgST" value="https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png" />
+                </node>
+                <node concept="2BlgSW" id="6_RkYJegzVc" role="2BlgSE">
+                  <property role="2BlgSL" value="true" />
+                  <property role="3STkkY" value="true" />
+                  <property role="2BlgSK" value="3" />
+                </node>
+              </node>
             </node>
             <node concept="25jtgA" id="3bkuCYRBrBH" role="25jtgz">
               <property role="25iauq" value="4" />
@@ -410,6 +470,21 @@
                 <property role="2LRsXQ" value="true" />
                 <property role="3STkkY" value="true" />
                 <property role="3SSFd3" value="1eZdBFFmBcm/align={&quot;center&quot;}" />
+              </node>
+            </node>
+            <node concept="2BlgTl" id="6_RkYJegzTe" role="25jtgF">
+              <node concept="2BlgSD" id="6_RkYJegzTg" role="2BlgSF">
+                <property role="2BlgSy" value="Project title" />
+                <property role="2BlgSw" value="September 14, 2016 - September 14, 2017" />
+                <property role="2BlgS_" value="Project description" />
+                <property role="2BlgST" value="https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png" />
+              </node>
+              <node concept="2BlgSW" id="6_RkYJegzTi" role="2BlgSE">
+                <property role="2BlgSK" value="5" />
+                <property role="3STkkY" value="true" />
+                <property role="2BlgSL" value="true" />
+                <property role="2BlgS2" value="true" />
+                <property role="2BlgSu" value="true" />
               </node>
             </node>
             <node concept="3SOO3v" id="3bkuCYRJLe3" role="25jtgF">
