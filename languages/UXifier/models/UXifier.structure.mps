@@ -886,5 +886,90 @@
       <property role="1uS6qv" value="xl" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1eZdBFG4yzg">
+    <property role="EcuMT" value="1422915908846889168" />
+    <property role="TrG5h" value="ImageSection" />
+    <property role="3GE5qa" value="section" />
+    <property role="34LRSv" value="image" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1eZdBFG4yzy" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889186" />
+      <property role="TrG5h" value="url" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFG4yz$" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889188" />
+      <property role="TrG5h" value="legend" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="1eZdBFG4yzh" role="1TKVEi">
+      <property role="IQ2ns" value="1422915908846889169" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="styling" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1eZdBFG4yzH" resolve="ImageStyling" />
+    </node>
+    <node concept="PrWs8" id="1eZdBFG4yzi" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFG4yzH">
+    <property role="EcuMT" value="1422915908846889197" />
+    <property role="TrG5h" value="ImageStyling" />
+    <property role="3GE5qa" value="styling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1eZdBFG4yzM" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889202" />
+      <property role="TrG5h" value="showLegend" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFG4yzO" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889204" />
+      <property role="TrG5h" value="imageFilter" />
+      <ref role="AX2Wp" node="1eZdBFG4yzS" resolve="IMAGE_FILTER" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFG4CT2" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846915138" />
+      <property role="TrG5h" value="filterPorcentage" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="1eZdBFG4yzK" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1eZdBFG4yzS">
+    <property role="3F6X1D" value="1422915908846889208" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="IMAGE_FILTER" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1eZdBFG4yzT" role="M5hS2">
+      <property role="1uS6qo" value="NONE" />
+      <property role="1uS6qv" value="none" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4yzU" role="M5hS2">
+      <property role="1uS6qo" value="BRIGHTNESS" />
+      <property role="1uS6qv" value="brightness" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4yzX" role="M5hS2">
+      <property role="1uS6qo" value="CONTRAST" />
+      <property role="1uS6qv" value="contrast" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4y$1" role="M5hS2">
+      <property role="1uS6qo" value="GRAYSCALE" />
+      <property role="1uS6qv" value="grayscale" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4y$c" role="M5hS2">
+      <property role="1uS6qo" value="INVERT" />
+      <property role="1uS6qv" value="invert" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4y$j" role="M5hS2">
+      <property role="1uS6qo" value="OPACITY" />
+      <property role="1uS6qv" value="opacity" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4y$$" role="M5hS2">
+      <property role="1uS6qo" value="SEPIA" />
+      <property role="1uS6qv" value="sepia" />
+    </node>
+  </node>
 </model>
 

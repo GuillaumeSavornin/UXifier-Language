@@ -103,6 +103,39 @@
       "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
     }
   ],
+  "images": [
+    {
+      "url":"https://png.pngitem.com/pimgs/s/424-4242818_golang-logo-golang-gopher-hd-png-download.png",
+      "legend":"GoDragon"
+    },{
+      "url":"https://ih1.redbubble.net/image.610280941.5895/pp,504x498-pad,600x600,f8f8f8.u1.jpg",
+      "legend":"GoGamer"
+    },{
+      "url":"https://upload.wikimedia.org/wikipedia/commons/a/ac/Gogophercolor.png",
+      "legend":"GoPatato"
+    },{
+      "url":"https://preview.redd.it/tcmyd3n69ng41.jpg?width=1999&format=pjpg&auto=webp&s=b79cf22d3e2adcaf52a2d22bcb0568e42eff8bc2",
+      "legend":"The Gopher family picture"
+    },{
+      "url":"https://cdn.dribbble.com/users/530731/screenshots/14709504/media/3f755fc2ccb8bcf3239c18caae532b68.png",
+      "legend":"GoKube"
+    },{
+      "url":"https://uilicious.com/blog/content/images/size/w2000/2019/08/53pghgra05e674dgnkqq.png",
+      "legend":"GoKids"
+    },{
+      "url":"https://cx-discourse-user-uploads.s3.dualstack.us-east-1.amazonaws.com/original/1X/db01fe15c49f1d7e7be45aa6149f08cb261a279b.png",
+      "legend":"GoGirl"
+    },{
+      "url":"https://qph.fs.quoracdn.net/main-qimg-b6d2313527e44ef5ec51e5d6523ec4d0-pjlq",
+      "legend":"GoPhd"
+    },{
+      "url":"https://storage.googleapis.com/gopherizeme.appspot.com/gophers/30c621a657fb4a0bf4234e1f20f7ce91333fd712.png",
+      "legend":"GoDumb"
+    },{
+      "url":"https://www.clipartkey.com/mpngs/b/198-1980581_gopher-clip-art.png",
+      "legend":"GoWizard"
+    }
+  ],
   "additionalInformation": {
     "driverLicense" : "Class D license",
     "age": "22",
