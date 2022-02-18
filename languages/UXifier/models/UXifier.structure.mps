@@ -212,7 +212,7 @@
     <property role="EcuMT" value="2552303901028114953" />
     <property role="3GE5qa" value="format" />
     <property role="TrG5h" value="WebSiteFormat" />
-    <property role="34LRSv" value="website" />
+    <property role="34LRSv" value="website format" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8a" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
@@ -280,7 +280,7 @@
     <property role="EcuMT" value="2552303901028114983" />
     <property role="3GE5qa" value="format" />
     <property role="TrG5h" value="MobileFormat" />
-    <property role="34LRSv" value="mobile" />
+    <property role="34LRSv" value="mobile format" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8C" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
@@ -870,6 +870,16 @@
     <node concept="M4N5e" id="7ytgQgxA_i3" role="M5hS2">
       <property role="1uS6qo" value="EXTRA-LARGE" />
       <property role="1uS6qv" value="xl" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6hY3O8TM25D">
+    <property role="EcuMT" value="7241242027970011497" />
+    <property role="3GE5qa" value="format" />
+    <property role="TrG5h" value="CustomFormat" />
+    <property role="34LRSv" value="custom format" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6hY3O8TM25E" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
     </node>
   </node>
 </model>
