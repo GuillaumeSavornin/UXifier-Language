@@ -640,7 +640,7 @@
     <node concept="1tHySF" id="6hY3O8TO8x$" role="KX7zJ">
       <property role="KX7zc" value="1400" />
       <property role="KX7za" value="600" />
-      <property role="KN0Jt" value="Text" />
+      <property role="KN0Jt" value="Test" />
       <node concept="KX7zG" id="6hY3O8TSnUY" role="KX7zS">
         <node concept="25jtgI" id="6hY3O8TSnV3" role="25jtgi">
           <node concept="3SbUMN" id="6hY3O8TSnV8" role="25jtgF">
