@@ -1145,63 +1145,6 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
-  <node concept="AxPO7" id="7XyC30UCuRM">
-    <property role="3F6X1D" value="9179075119537057266" />
-    <property role="3GE5qa" value="enumeration" />
-    <property role="TrG5h" value="COLOR" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="7XyC30UCuRN" role="M5hS2">
-      <property role="1uS6qo" value="PRIMARY-COLOR" />
-      <property role="1uS6qv" value="themePrimaryColor" />
-    </node>
-    <node concept="M4N5e" id="7XyC30UCuRO" role="M5hS2">
-      <property role="1uS6qo" value="SECONDARY-COLOR" />
-      <property role="1uS6qv" value="themeSecondaryColor" />
-    </node>
-    <node concept="M4N5e" id="7XyC30UCuRR" role="M5hS2">
-      <property role="1uS6qo" value="TERTIARY-COLOR" />
-      <property role="1uS6qv" value="themeTertiaryColor" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="7XyC30UCuS3">
-    <property role="3F6X1D" value="9179075119537057283" />
-    <property role="3GE5qa" value="enumeration" />
-    <property role="TrG5h" value="FONT" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="7XyC30UCuS4" role="M5hS2">
-      <property role="1uS6qv" value="themePrimaryFont" />
-      <property role="1uS6qo" value="PRIMARY-FONT" />
-    </node>
-    <node concept="M4N5e" id="7XyC30UCuS5" role="M5hS2">
-      <property role="1uS6qo" value="SECONDARY-FONT" />
-      <property role="1uS6qv" value="themeSecondaryFont" />
-    </node>
-    <node concept="M4N5e" id="7XyC30UCuS8" role="M5hS2">
-      <property role="1uS6qo" value="TERTIARY-FONT" />
-      <property role="1uS6qv" value="themeTertiaryFont" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="7XyC30UCuSc">
-    <property role="3F6X1D" value="9179075119537057292" />
-    <property role="3GE5qa" value="enumeration" />
-    <property role="TrG5h" value="FONT_COLOR" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="7XyC30UCuSp" role="M5hS2">
-      <property role="1uS6qo" value="AUTO" />
-    </node>
-    <node concept="M4N5e" id="7XyC30UCuSd" role="M5hS2">
-      <property role="1uS6qo" value="PRIMARY-FONT-COLOR" />
-      <property role="1uS6qv" value="themePrimaryFontColor" />
-    </node>
-    <node concept="M4N5e" id="7XyC30UCuSm" role="M5hS2">
-      <property role="1uS6qo" value="SECONDARY-FONT-COLOR" />
-      <property role="1uS6qv" value="themeSecondaryFontColor" />
-    </node>
-    <node concept="M4N5e" id="7XyC30UCuSt" role="M5hS2">
-      <property role="1uS6qo" value="TERTIARY-FONT-COLOR" />
-      <property role="1uS6qv" value="themeTertiaryFontColor" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="7XyC30UC_lj">
     <property role="EcuMT" value="9179075119537083731" />
     <property role="TrG5h" value="ThemeColor" />

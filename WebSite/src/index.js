@@ -154,7 +154,7 @@ function WebSiteFormat(){
                             <Grid container margin={1}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_secondary}}>
                                     <Grid container>            <Grid item md={12} lg={8}>
-                                        <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Presentation</Typography>
+                                        <Typography gutterBottom sx={{ mb: 3, color:theme.palette.getContrastText(themeColor_secondary), }} align={"left"} variant="h5" component="div">Presentation</Typography>
                                         {(()=>{
                                             if(data.presentation){
                                                 return data.presentation.catchPhrase
@@ -194,7 +194,7 @@ function WebSiteFormat(){
                                 <Grid container margin={1}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_primary}}>
                                         <Grid container>                <Grid item md={12} lg={8}>
-                                            <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Presentation</Typography>
+                                            <Typography gutterBottom sx={{ mb: 3, color:theme.palette.getContrastText(themeColor_primary), }} align={"left"} variant="h5" component="div">Presentation</Typography>
                                             {(()=>{
                                                 if(data.presentation){
                                                     return data.presentation.catchPhrase
@@ -229,7 +229,7 @@ function WebSiteFormat(){
                                 </Grid>
                                 <Grid container margin={1}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_niceColor}}>
-                                        <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Contact</Typography>
+                                        <Typography gutterBottom sx={{ mb: 3, color:theme.palette.getContrastText(themeColor_niceColor), }} align={"left"} variant="h5" component="div">Contact</Typography>
                                         <div style={{alignSelf:"center", display:"flex"}}>
                                             <HomeIcon sx={{color:""}} />
                                             <Typography sx={{ml: 1, mr: 1, textAlign:"center"}} align={"justify"} variant="subtitle1" gutterBottom component="div">
@@ -481,7 +481,7 @@ function WebSiteFormat(){
                                 </Grid>
                                 <Grid container margin={1}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_secondary}}>
-                                        <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Projects</Typography>
+                                        <Typography gutterBottom sx={{ mb: 3, color:theme.palette.getContrastText(themeColor_secondary), }} align={"left"} variant="h5" component="div">Projects</Typography>
                                         {(()=>{
                                             let array = [];
                                             for(let i = 0; i < 3; i++){
@@ -534,7 +534,7 @@ function WebSiteFormat(){
                                 </Grid>
                                 <Grid container margin={1}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_primary}}>
-                                        <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Projects</Typography>
+                                        <Typography gutterBottom sx={{ mb: 3, color:theme.palette.getContrastText(themeColor_primary), }} align={"left"} variant="h5" component="div">Projects</Typography>
                                         {(()=>{
                                             let array = [];
                                             for(let i = 0; i < 3; i++){
@@ -641,7 +641,7 @@ function WebSiteFormat(){
                                 </Grid>
                                 <Grid container margin={1}>
                                     <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_secondary}}>
-                                        <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Skills</Typography>
+                                        <Typography gutterBottom sx={{ mb: 3, color:theme.palette.getContrastText(themeColor_secondary), }} align={"left"} variant="h5" component="div">Skills</Typography>
                                         {(()=>{
                                             let array = [];
                                             for(let i = 0; i < 4; i++){
@@ -2003,7 +2003,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 const themeColor_primary="#000080"
 const themeColor_secondary="#800000"
-const themeColor_niceColor="yellow"
+const themeColor_niceColor="#212345"
 
 
 const themeFont_CourierNew="Courier New"

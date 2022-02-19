@@ -833,7 +833,7 @@
       </node>
       <node concept="15Kflz" id="3Sngu6_skvu" role="15KflD">
         <property role="15Kfl$" value="niceColor" />
-        <property role="15KflA" value="yellow" />
+        <property role="15KflA" value="#212345" />
       </node>
     </node>
   </node>
