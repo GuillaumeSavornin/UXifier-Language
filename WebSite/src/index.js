@@ -152,7 +152,7 @@ function WebSiteFormat(){
                     <Route path="/Menu">
                         <Grid container maxWidth="'100%'" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                             <Grid container margin={1}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_secondary}}>
                                     <Grid container>            <Grid item md={12} lg={8}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Presentation</Typography>
                                         {(()=>{
@@ -192,7 +192,7 @@ function WebSiteFormat(){
                         <Grid container maxWidth="'100%'" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                             <Grid container xs={8}>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_primary}}>
                                         <Grid container>                <Grid item md={12} lg={8}>
                                             <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Presentation</Typography>
                                             {(()=>{
@@ -228,7 +228,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_niceColor}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Contact</Typography>
                                         <div style={{alignSelf:"center", display:"flex"}}>
                                             <HomeIcon sx={{color:""}} />
@@ -351,7 +351,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Experiences</Typography>
                                         {(()=>{
                                             let array = [];
@@ -389,7 +389,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_primary}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Experiences</Typography>
                                         {(()=>{
                                             let array = [];
@@ -427,7 +427,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_niceColor}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Projects</Typography>
                                         {(()=>{
                                             let array = [];
@@ -480,7 +480,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_secondary}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Projects</Typography>
                                         {(()=>{
                                             let array = [];
@@ -533,7 +533,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_primary}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Projects</Typography>
                                         {(()=>{
                                             let array = [];
@@ -578,7 +578,7 @@ function WebSiteFormat(){
 
                             <Grid container xs={4}>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Languages</Typography>
                                         {(()=>{
                                             let array = [];
@@ -640,7 +640,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_secondary}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Skills</Typography>
                                         {(()=>{
                                             let array = [];
@@ -748,7 +748,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_secondary}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[2] && data.images[2].url){
@@ -759,7 +759,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Languages</Typography>
                                         {(()=>{
                                             let array = [];
@@ -821,7 +821,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_niceColor}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[3] && data.images[3].url){
@@ -914,7 +914,7 @@ function WebSiteFormat(){
 
                         <Grid container maxWidth="sm" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                             <Grid container margin={1}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                     Driver's license: {(()=>{
                                     if(data.additionalInformation){
                                         return data.additionalInformation.driverLicense
@@ -943,7 +943,7 @@ function WebSiteFormat(){
                     <Route path="/Personal">
                         <Grid container maxWidth="lg" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                             <Grid container margin={1}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                     <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Languages</Typography>
                                     {(()=>{
                                         let array = [];
@@ -1005,7 +1005,7 @@ function WebSiteFormat(){
 
                             </Grid>
                             <Grid container margin={1}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                     <Typography gutterBottom sx={{ mb: 3 }} align={"center"} variant="h5" component="div">Additional Informations</Typography>
                                     Driver's license: {(()=>{
                                     if(data.additionalInformation){
@@ -1029,7 +1029,7 @@ function WebSiteFormat(){
 
                             </Grid>
                             <Grid container margin={1}>
-                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                     <Typography gutterBottom sx={{ mb: 3 }} align={"center"} variant="h5" component="div">Projects</Typography>
                                     {(()=>{
                                         let array = [];
@@ -1161,7 +1161,7 @@ function WebSiteFormat(){
 
                             <Grid container xs={6}>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Typography gutterBottom sx={{ mb: 3 }} align={"left"} variant="h5" component="div">Languages</Typography>
                                         {(()=>{
                                             let array = [];
@@ -1232,7 +1232,7 @@ function WebSiteFormat(){
                         <Grid container maxWidth="'100%'" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                             <Grid container xs={4}>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[4] && data.images[4].url){
@@ -1251,7 +1251,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[5] && data.images[5].url){
@@ -1270,7 +1270,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[6] && data.images[6].url){
@@ -1289,7 +1289,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[7] && data.images[7].url){
@@ -1308,7 +1308,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[8] && data.images[8].url){
@@ -1330,7 +1330,7 @@ function WebSiteFormat(){
 
                             <Grid container xs={4}>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[9] && data.images[9].url){
@@ -1349,7 +1349,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[10] && data.images[10].url){
@@ -1368,7 +1368,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[11] && data.images[11].url){
@@ -1387,7 +1387,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[12] && data.images[12].url){
@@ -1406,7 +1406,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[13] && data.images[13].url){
@@ -1428,7 +1428,7 @@ function WebSiteFormat(){
 
                             <Grid container xs={4}>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[14] && data.images[14].url){
@@ -1447,7 +1447,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[15] && data.images[15].url){
@@ -1466,7 +1466,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[16] && data.images[16].url){
@@ -1485,7 +1485,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[17] && data.images[17].url){
@@ -1504,7 +1504,7 @@ function WebSiteFormat(){
 
                                 </Grid>
                                 <Grid container margin={1}>
-                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                                    <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Box component="img" src=
                                             {(()=>{
                                                 if(data.images && data.images[18] && data.images[18].url){
@@ -1561,7 +1561,7 @@ function MobileFormat(){
                 <Box flexDirection={"column"}>
                     <Grid container maxWidth="'100%'" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                         <Grid container margin={1}>
-                            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                 {(()=>{
                                     let array = [];
                                     for(let i = 0; i < 5; i++){
@@ -1609,7 +1609,7 @@ function MobileFormat(){
 
                         </Grid>
                         <Grid container margin={1}>
-                            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:"100%"}}>
+                            <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                 Driver's license: {(()=>{
                                 if(data.additionalInformation){
                                     return data.additionalInformation.driverLicense
@@ -2000,9 +2000,15 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     }
 }));
 
+const themeColor_primary="#000080"
+const themeColor_secondary="#800000"
+const themeColor_niceColor="yellow"
+
+
+const themeFont_CourierNew="Courier New"
+
+
 const theme = createTheme({
-    palette: {
-    },
 });
 
 
