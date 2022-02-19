@@ -27,6 +27,7 @@
         <property id="7599635168451780050" name="url" index="2BlgST" />
       </concept>
       <concept id="7599635168451780055" name="UXifier.structure.ProjectStyling" flags="ng" index="2BlgSW">
+        <property id="4474117192227311174" name="showUrl" index="2oewYB" />
         <property id="7599635168456038295" name="openCollapseDescriptions" index="2B50hW" />
         <property id="7599635168454175706" name="collapseButtonAlign" index="2BcrwL" />
         <property id="7599635168451780073" name="collapseDescription" index="2BlgS2" />
@@ -98,8 +99,15 @@
         <child id="2552303901028114963" name="theme" index="KX7zN" />
       </concept>
       <concept id="8547335200240841715" name="UXifier.structure.ExperienceItemStyling" flags="ng" index="144wZB">
+        <property id="4474117192225549050" name="separator" index="2o1iGr" />
         <property id="8547335200240841716" name="numberItems" index="144wZw" />
         <property id="1422915908824362485" name="usesShortDescription" index="3T1lIf" />
+        <reference id="4474117192225549040" name="collapseColor" index="2o1iGh" />
+        <reference id="4474117192225549054" name="separatorColor" index="2o1iGv" />
+        <reference id="4474117192225548998" name="dateColor" index="2o1iGB" />
+        <reference id="4474117192225549001" name="experienceTitleFont" index="2o1iGC" />
+        <reference id="4474117192225549010" name="corporationFont" index="2o1iGN" />
+        <reference id="4474117192225549016" name="corporationColor" index="2o1iGT" />
       </concept>
       <concept id="8547335200240829084" name="UXifier.structure.ExperienceItem" flags="ng" index="144zU8">
         <property id="8547335200240829087" name="startDate" index="144zUb" />
@@ -268,8 +276,16 @@
                   <property role="144wZw" value="5" />
                   <property role="3T1lIf" value="true" />
                   <property role="3STkkY" value="true" />
+                  <property role="2o1iGr" value="true" />
                   <ref role="15NFqM" node="77VjBUE9HNV" resolve="Courier New" />
                   <ref role="15NFpf" node="77VjBUE9HML" resolve="primary" />
+                  <ref role="2o1iGN" node="3Sngu6_n64r" />
+                  <ref role="2o1iGh" node="7XyC30UDXDD" />
+                  <ref role="2o1iGC" node="3Sngu6_HDJD" />
+                  <ref role="2o1iGB" node="7XyC30UDXDB" />
+                  <ref role="2o1iGv" node="7XyC30UDXDD" />
+                  <ref role="2o1iGT" node="3Sngu6_skvu" />
+                  <ref role="15LnD2" node="3Sngu6_HDJ$" />
                 </node>
               </node>
               <node concept="144zUK" id="3bkuCYRBBJC" role="25jtg_">
@@ -283,11 +299,10 @@
                 </node>
                 <node concept="144wZB" id="3bkuCYRBBJF" role="144zUy">
                   <property role="144wZw" value="2" />
-                  <property role="3T1lIf" value="true" />
                   <property role="3STkkY" value="true" />
                   <ref role="15NFqM" node="77VjBUE9HNV" resolve="Courier New" />
-                  <ref role="15LnD2" node="77VjBUE9HMY" resolve="other" />
                   <ref role="15NFpf" node="77VjBUE9HMT" resolve="secondary" />
+                  <ref role="15LnD2" node="77VjBUE9HMY" resolve="other" />
                 </node>
               </node>
               <node concept="2BlgTl" id="6_RkYJegzUQ" role="25jtg_">
@@ -304,6 +319,7 @@
                   <property role="2BlgSK" value="3" />
                   <property role="2BcrwL" value="1eZdBFFmBcp/right" />
                   <property role="2B50hW" value="true" />
+                  <property role="2oewYB" value="true" />
                   <ref role="15LnD2" node="77VjBUE9HML" resolve="primary" />
                 </node>
               </node>
@@ -383,8 +399,8 @@
               <node concept="2LRsXN" id="3bkuCYRBrDG" role="2LRsXX">
                 <property role="2LRsXQ" value="true" />
                 <property role="3STkkY" value="true" />
-                <ref role="15NFqM" node="77VjBUE9HNV" resolve="Courier New" />
                 <ref role="15LnD2" node="77VjBUE9HNQ" resolve="rgb color" />
+                <ref role="15NFqM" node="77VjBUE9HNV" resolve="Courier New" />
                 <ref role="15NFpf" node="77VjBUE9HML" resolve="primary" />
               </node>
             </node>
@@ -705,16 +721,8 @@
     <node concept="KX7Gu" id="7XyC30UDXD_" role="KX7zN">
       <property role="15KOQd" value="#FFFFFF" />
       <property role="15KOR_" value="20" />
-      <property role="15KORi" value="true" />
       <property role="15KOQ1" value="https://cdn.dribbble.com/users/1691370/screenshots/14681612/media/550470cd1eb1cfa5fc74a1ddec2c0bf8.png" />
-      <node concept="15NFqT" id="77VjBUE9HNV" role="15NP1W">
-        <property role="TrG5h" value="Courier New" />
-        <property role="15NFqV" value="Courier New" />
-      </node>
-      <node concept="15NFqT" id="77VjBUE9HO7" role="15NP1W">
-        <property role="TrG5h" value="Times New Roman" />
-        <property role="15NFqV" value="Times New Roman" />
-      </node>
+      <property role="15KORi" value="true" />
       <node concept="15Kflz" id="77VjBUE9HML" role="15KflD">
         <property role="TrG5h" value="primary" />
         <property role="15KflA" value="#000080" />
@@ -730,6 +738,14 @@
       <node concept="15Kflz" id="77VjBUE9HNQ" role="15KflD">
         <property role="TrG5h" value="rgb color" />
         <property role="15KflA" value="rgb(50, 168, 82)" />
+      </node>
+      <node concept="15NFqT" id="77VjBUE9HNV" role="15NP1W">
+        <property role="TrG5h" value="Courier New" />
+        <property role="15NFqV" value="Courier New" />
+      </node>
+      <node concept="15NFqT" id="77VjBUE9HO7" role="15NP1W">
+        <property role="TrG5h" value="Times New Roman" />
+        <property role="15NFqV" value="Times New Roman" />
       </node>
     </node>
   </node>
