@@ -663,7 +663,7 @@
     </node>
     <node concept="KX7Gu" id="7XyC30UDXD_" role="KX7zN">
       <property role="15KOQd" value="#FFFFFF" />
-      <property role="15KOR_" value="20" />
+      <property role="15KOR_" value="2" />
       <property role="15KOQ1" value="https://cdn.dribbble.com/users/1691370/screenshots/14681612/media/550470cd1eb1cfa5fc74a1ddec2c0bf8.png" />
       <property role="15KORi" value="true" />
       <node concept="15Kflz" id="77VjBUE9HML" role="15KflD">
