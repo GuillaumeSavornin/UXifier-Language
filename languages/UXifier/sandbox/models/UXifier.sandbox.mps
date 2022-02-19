@@ -679,8 +679,8 @@
         <property role="15KflA" value="#212345" />
       </node>
       <node concept="15Kflz" id="77VjBUE9HNQ" role="15KflD">
-        <property role="TrG5h" value="rgb color" />
-        <property role="15KflA" value="rgb(50, 168, 82)" />
+        <property role="TrG5h" value="hex color" />
+        <property role="15KflA" value="#55555ff5" />
       </node>
       <node concept="15NFqT" id="77VjBUE9HNV" role="15NP1W">
         <property role="TrG5h" value="Courier New" />
@@ -881,7 +881,7 @@
       <property role="15KOR_" value="4" />
       <node concept="15Kflz" id="77VjBUE60tw" role="15KflD">
         <property role="TrG5h" value="azeazezzzzzz" />
-        <property role="15KflA" value="4" />
+        <property role="15KflA" value="#ffffff" />
       </node>
       <node concept="15NFqT" id="77VjBUE60ty" role="15NP1W">
         <property role="TrG5h" value="ffffffffffont" />
@@ -916,11 +916,15 @@
       <property role="15KOR_" value="2" />
       <node concept="15Kflz" id="77VjBUE66o5" role="15KflD">
         <property role="TrG5h" value="color1" />
-        <property role="15KflA" value="aze" />
+        <property role="15KflA" value="#ffffff" />
       </node>
       <node concept="15NFqT" id="77VjBUE66o7" role="15NP1W">
         <property role="TrG5h" value="font1" />
-        <property role="15NFqV" value="aze" />
+        <property role="15NFqV" value="font1" />
+      </node>
+      <node concept="15NFqT" id="77VjBUEyL37" role="15NP1W">
+        <property role="TrG5h" value="H" />
+        <property role="15NFqV" value="H" />
       </node>
     </node>
   </node>
@@ -945,6 +949,7 @@
               <property role="3SOXet" value="true" />
               <property role="3SOSaN" value="true" />
               <property role="3STkkY" value="true" />
+              <ref role="15NFpf" node="77VjBUEtC74" resolve="primary" />
             </node>
           </node>
           <node concept="2BlgTl" id="77VjBUEt_$r" role="25jtgF">
@@ -960,6 +965,7 @@
               <property role="2oewYB" value="true" />
               <property role="2BlgS2" value="true" />
               <property role="3STkkY" value="true" />
+              <ref role="15NFpf" node="77VjBUEtC74" resolve="primary" />
             </node>
           </node>
           <node concept="KX7Gv" id="77VjBUEt_zR" role="25jtgF">

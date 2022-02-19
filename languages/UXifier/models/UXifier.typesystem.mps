@@ -189,6 +189,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -1431,6 +1434,7 @@
   </node>
   <node concept="18kY7G" id="3Sngu6AkTOU">
     <property role="TrG5h" value="check_Theme" />
+    <property role="3GE5qa" value="theme" />
     <node concept="3clFbS" id="3Sngu6AkTOV" role="18ibNy">
       <node concept="3clFbJ" id="3Sngu6AkTP1" role="3cqZAp">
         <node concept="22lmx$" id="3Sngu6AkX17" role="3clFbw">
@@ -1476,6 +1480,46 @@
     <node concept="1YaCAy" id="3Sngu6AkTOX" role="1YuTPh">
       <property role="TrG5h" value="theme" />
       <ref role="1YaFvo" to="wi2d:2dFAI0jBY7Y" resolve="Theme" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="77VjBUEuBGM">
+    <property role="TrG5h" value="Error_ColorFormat" />
+    <property role="3GE5qa" value="theme" />
+    <node concept="3clFbS" id="77VjBUEuBGN" role="18ibNy">
+      <node concept="3clFbJ" id="77VjBUEuBGY" role="3cqZAp">
+        <node concept="3fqX7Q" id="77VjBUEuDD9" role="3clFbw">
+          <node concept="2OqwBi" id="77VjBUEuDDb" role="3fr31v">
+            <node concept="2OqwBi" id="77VjBUEuDDc" role="2Oq$k0">
+              <node concept="1YBJjd" id="77VjBUEuDDd" role="2Oq$k0">
+                <ref role="1YBMHb" node="77VjBUEuBGP" resolve="themeColor" />
+              </node>
+              <node concept="3TrcHB" id="77VjBUEuDDe" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+              </node>
+            </node>
+            <node concept="liA8E" id="77VjBUEuDDf" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+              <node concept="Xl_RD" id="77VjBUEuDDg" role="37wK5m">
+                <property role="Xl_RC" value="^#[0-9ABCDEFabcdef]{8}|#[0-9ABCDEFabcdef]{6}" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="77VjBUEuBH0" role="3clFbx">
+          <node concept="2MkqsV" id="77VjBUEuDEm" role="3cqZAp">
+            <node concept="Xl_RD" id="77VjBUEuDEs" role="2MkJ7o">
+              <property role="Xl_RC" value="The color doesn't match the hexadecimal format (#xxxxxx or #xxxxxxxx)" />
+            </node>
+            <node concept="1YBJjd" id="77VjBUEuDIP" role="1urrMF">
+              <ref role="1YBMHb" node="77VjBUEuBGP" resolve="themeColor" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="77VjBUEuBGP" role="1YuTPh">
+      <property role="TrG5h" value="themeColor" />
+      <ref role="1YaFvo" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
     </node>
   </node>
 </model>
