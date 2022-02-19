@@ -2002,8 +2002,6 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 const theme = createTheme({
     palette: {
-        primary: {main: '#123456',},
-        secondary: {main: '#654321',},
     },
 });
 
