@@ -28,7 +28,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -78,6 +80,9 @@
     </node>
     <node concept="PrWs8" id="1DHNIAI0daW" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="77VjBUDWJfr" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY7Y">
@@ -165,6 +170,9 @@
     <property role="EcuMT" value="2552303901028114944" />
     <property role="TrG5h" value="ISection" />
     <property role="3GE5qa" value="section" />
+    <node concept="PrWs8" id="77VjBUE25r$" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="PlHQZ" id="2dFAI0jBY83">
     <property role="EcuMT" value="2552303901028114947" />
@@ -1044,7 +1052,7 @@
     </node>
     <node concept="1TJgyi" id="1eZdBFG4CT2" role="1TKVEl">
       <property role="IQ2nx" value="1422915908846915138" />
-      <property role="TrG5h" value="filterPorcentage" />
+      <property role="TrG5h" value="filterPercentage" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="PrWs8" id="1eZdBFG4yzK" role="PzmwI">
@@ -1206,30 +1214,26 @@
     <property role="EcuMT" value="9179075119537083731" />
     <property role="TrG5h" value="ThemeColor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="7XyC30UC_lk" role="1TKVEl">
-      <property role="IQ2nx" value="9179075119537083732" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="7XyC30UC_lm" role="1TKVEl">
       <property role="IQ2nx" value="9179075119537083734" />
       <property role="TrG5h" value="color" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="77VjBUDWReA" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="7XyC30UF1q9">
     <property role="EcuMT" value="9179075119537723017" />
     <property role="TrG5h" value="ThemeFont" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="7XyC30UF1qa" role="1TKVEl">
-      <property role="IQ2nx" value="9179075119537723018" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="7XyC30UF1qb" role="1TKVEl">
       <property role="IQ2nx" value="9179075119537723019" />
       <property role="TrG5h" value="font" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="77VjBUE4Qnr" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

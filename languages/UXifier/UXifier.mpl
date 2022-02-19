@@ -60,6 +60,7 @@
     <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
     <dependency reexport="false">e34fbf8c-3d0b-4a52-a145-9d424984fcad(jetbrains.mps.lang.editor.forms#6176463657922286645)</dependency>
     <dependency reexport="false">602c36ad-cc55-47ff-8c40-73d7f12f035c(jetbrains.mps.lang.editor.forms)</dependency>
+    <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />

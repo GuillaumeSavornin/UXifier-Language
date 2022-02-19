@@ -7737,7 +7737,7 @@
                       </node>
                     </node>
                     <node concept="3TrcHB" id="1eZdBFG545_" role="2OqNvi">
-                      <ref role="3TsBF5" to="wi2d:1eZdBFG4CT2" resolve="filterPorcentage" />
+                      <ref role="3TsBF5" to="wi2d:1eZdBFG4CT2" resolve="filterPercentage" />
                     </node>
                   </node>
                 </node>
