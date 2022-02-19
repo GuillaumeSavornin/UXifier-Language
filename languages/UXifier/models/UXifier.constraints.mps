@@ -177,5 +177,21 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="77VjBUEe6yg">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:1eZdBFG4yzH" resolve="ImageStyling" />
+    <node concept="1N5Pfh" id="77VjBUEe6yh" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_QWWJ" resolve="legendColor" />
+      <node concept="1dDu$B" id="77VjBUEe6$b" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEedX1" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_QWWH" resolve="legendFont" />
+      <node concept="1dDu$B" id="77VjBUEedYX" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+  </node>
 </model>
 
