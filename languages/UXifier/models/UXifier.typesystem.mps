@@ -11,6 +11,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -1426,6 +1427,55 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="3Sngu6AkTOU">
+    <property role="TrG5h" value="check_Theme" />
+    <node concept="3clFbS" id="3Sngu6AkTOV" role="18ibNy">
+      <node concept="3clFbJ" id="3Sngu6AkTP1" role="3cqZAp">
+        <node concept="22lmx$" id="3Sngu6AkX17" role="3clFbw">
+          <node concept="3eOSWO" id="3Sngu6AkZfw" role="3uHU7w">
+            <node concept="3cmrfG" id="3Sngu6AkZgE" role="3uHU7w">
+              <property role="3cmrfH" value="24" />
+            </node>
+            <node concept="2OqwBi" id="3Sngu6AkXgz" role="3uHU7B">
+              <node concept="1YBJjd" id="3Sngu6AkX6N" role="2Oq$k0">
+                <ref role="1YBMHb" node="3Sngu6AkTOX" resolve="theme" />
+              </node>
+              <node concept="3TrcHB" id="3Sngu6AkXAb" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:7XyC30UCuRl" resolve="sectionShadowLevel" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eOVzh" id="3Sngu6AkVU6" role="3uHU7B">
+            <node concept="2OqwBi" id="3Sngu6AkTYg" role="3uHU7B">
+              <node concept="1YBJjd" id="3Sngu6AkTPd" role="2Oq$k0">
+                <ref role="1YBMHb" node="3Sngu6AkTOX" resolve="theme" />
+              </node>
+              <node concept="3TrcHB" id="3Sngu6AkUcO" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:7XyC30UCuRl" resolve="sectionShadowLevel" />
+              </node>
+            </node>
+            <node concept="3cmrfG" id="3Sngu6AkVWn" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="3Sngu6AkTP3" role="3clFbx">
+          <node concept="2MkqsV" id="3Sngu6AkW1m" role="3cqZAp">
+            <node concept="Xl_RD" id="3Sngu6AkW1y" role="2MkJ7o">
+              <property role="Xl_RC" value="The shadow level must be between 0 and 24 (both included)" />
+            </node>
+            <node concept="1YBJjd" id="3Sngu6AkW2Y" role="1urrMF">
+              <ref role="1YBMHb" node="3Sngu6AkTOX" resolve="theme" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3Sngu6AkTOX" role="1YuTPh">
+      <property role="TrG5h" value="theme" />
+      <ref role="1YaFvo" to="wi2d:2dFAI0jBY7Y" resolve="Theme" />
     </node>
   </node>
 </model>
