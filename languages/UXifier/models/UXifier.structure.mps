@@ -957,7 +957,7 @@
     </node>
     <node concept="1TJgyi" id="1eZdBFFAyVw" role="1TKVEl">
       <property role="IQ2nx" value="1422915908839026400" />
-      <property role="TrG5h" value="separator" />
+      <property role="TrG5h" value="socialNetworkSeparator" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="1eZdBFFA_lx" role="1TKVEl">
@@ -970,20 +970,10 @@
       <property role="TrG5h" value="alignContactInformations" />
       <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
     </node>
-    <node concept="1TJgyi" id="1eZdBFFHLeu" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908840919966" />
-      <property role="TrG5h" value="socialNetworksColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="1eZdBFFHLez" role="1TKVEl">
       <property role="IQ2nx" value="1422915908840919971" />
       <property role="TrG5h" value="socialNetworkBorder" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="1eZdBFFHNqw" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908840928928" />
-      <property role="TrG5h" value="socialNetworkBackGroundColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="1eZdBFFXZ8I" role="1TKVEl">
       <property role="IQ2nx" value="1422915908845171246" />
@@ -995,10 +985,35 @@
       <property role="TrG5h" value="showContactIcons" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="1eZdBFG0ORK" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908845915632" />
-      <property role="TrG5h" value="contactIconColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="3Sngu6_TpcR" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610231" />
+      <property role="20kJfa" value="contactElementsFont" />
+      <ref role="20lvS9" node="7XyC30UF1q9" resolve="ThemeFont" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_TpcT" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610233" />
+      <property role="20kJfa" value="contactElementColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_TpcW" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610236" />
+      <property role="20kJfa" value="contactIconColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_Tpda" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610250" />
+      <property role="20kJfa" value="socialNetworkColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_Tpdp" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610265" />
+      <property role="20kJfa" value="socialNetworkBackgroundColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_TpdB" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610279" />
+      <property role="20kJfa" value="socialNetworkSeparatorColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
     </node>
   </node>
   <node concept="AxPO7" id="7ytgQgx_ecx">
