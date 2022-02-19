@@ -71,6 +71,7 @@
       <concept id="2552303901028114942" name="UXifier.structure.Theme" flags="ng" index="KX7Gu">
         <property id="5917134088014282175" name="secondaryColor" index="urXY_" />
         <property id="5917134088014282173" name="primaryColor" index="urXYB" />
+        <property id="9179075119537057201" name="backgroundImage" index="15KOQ1" />
         <property id="9179075119537057213" name="backgroundColor" index="15KOQd" />
         <property id="9179075119537057250" name="sectionRoundedCorners" index="15KORi" />
         <property id="9179075119537057237" name="sectionShadowLevel" index="15KOR_" />
@@ -174,6 +175,10 @@
         <property id="1422915908836046028" name="separator" index="3SOSaQ" />
         <property id="1422915908836046023" name="numberItems" index="3SOSaX" />
         <property id="1422915908836058599" name="showDescription" index="3SOXet" />
+        <reference id="4474117192219115082" name="textualLevelFont" index="2rDRYF" />
+        <reference id="4474117192219115088" name="textualLevelColor" index="2rDRYL" />
+        <reference id="4474117192218386631" name="descriptionFont" index="2rGA4A" />
+        <reference id="4474117192218386633" name="descriptionColor" index="2rGA4C" />
       </concept>
       <concept id="1422915908846889197" name="UXifier.structure.ImageStyling" flags="ng" index="3ZFhUn">
         <property id="1422915908846889202" name="showLegend" index="3ZFhU8" />
@@ -411,10 +416,16 @@
                 <node concept="3SOSaW" id="6hY3O8TJ6q0" role="3SOXeG">
                   <property role="3SOSaX" value="4" />
                   <property role="3SOSaN" value="true" />
-                  <property role="3SOXet" value="true" />
                   <property role="3SOSaQ" value="true" />
+                  <property role="3SOXet" value="true" />
                   <property role="3STkkY" value="true" />
                   <ref role="15LnD2" node="7XyC30UDXDD" />
+                  <ref role="2rGA4A" node="3Sngu6_HDJD" />
+                  <ref role="15NFqM" node="3Sngu6_HDJD" />
+                  <ref role="2rDRYF" node="3Sngu6_HDJD" />
+                  <ref role="2rGA4C" node="3Sngu6_HDJ$" />
+                  <ref role="15NFpf" node="3Sngu6_HDJ$" />
+                  <ref role="2rDRYL" node="3Sngu6_HDJ$" />
                 </node>
               </node>
               <node concept="3SbUMN" id="3bkuCYRMGZ$" role="25jtg_">
@@ -817,11 +828,16 @@
     </node>
     <node concept="KX7Gu" id="7XyC30UDXD_" role="KX7zN">
       <property role="15KOQd" value="#FFFFFF" />
-      <property role="15KOR_" value="2" />
+      <property role="15KOR_" value="20" />
+      <property role="15KOQ1" value="https://cdn.dribbble.com/users/1691370/screenshots/14681612/media/550470cd1eb1cfa5fc74a1ddec2c0bf8.png" />
       <property role="15KORi" value="true" />
       <node concept="15NFqT" id="3Sngu6_n64r" role="15NP1W">
         <property role="15NFqV" value="Courier New" />
         <property role="15NFqU" value="Courier New" />
+      </node>
+      <node concept="15NFqT" id="3Sngu6_HDJD" role="15NP1W">
+        <property role="15NFqU" value="Best font ever for reports" />
+        <property role="15NFqV" value="Times New Roman" />
       </node>
       <node concept="15Kflz" id="7XyC30UDXDB" role="15KflD">
         <property role="15Kfl$" value="primary" />
@@ -834,6 +850,10 @@
       <node concept="15Kflz" id="3Sngu6_skvu" role="15KflD">
         <property role="15Kfl$" value="niceColor" />
         <property role="15KflA" value="#212345" />
+      </node>
+      <node concept="15Kflz" id="3Sngu6_HDJ$" role="15KflD">
+        <property role="15Kfl$" value="Green custom color" />
+        <property role="15KflA" value="rgb(50, 168, 82)" />
       </node>
     </node>
   </node>

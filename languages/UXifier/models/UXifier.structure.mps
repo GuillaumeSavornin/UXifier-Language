@@ -779,6 +779,41 @@
     <node concept="PrWs8" id="1eZdBFFreCq" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
     </node>
+    <node concept="1TJgyj" id="3Sngu6_Di37" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192218386631" />
+      <property role="20kJfa" value="descriptionFont" />
+      <ref role="20lvS9" node="7XyC30UF1q9" resolve="ThemeFont" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_Di39" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192218386633" />
+      <property role="20kJfa" value="descriptionColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_Di3g" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192218386640" />
+      <property role="20kJfa" value="skillNameColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_Di3c" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192218386636" />
+      <property role="20kJfa" value="skillNameFont" />
+      <ref role="20lvS9" node="7XyC30UF1q9" resolve="ThemeFont" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_G3Ta" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192219115082" />
+      <property role="20kJfa" value="textualLevelFont" />
+      <ref role="20lvS9" node="7XyC30UF1q9" resolve="ThemeFont" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_G3Tg" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192219115088" />
+      <property role="20kJfa" value="textualLevelColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_Jl_a" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192219973962" />
+      <property role="20kJfa" value="separatorColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1eZdBFF$9F9">
     <property role="EcuMT" value="1422915908838398665" />
