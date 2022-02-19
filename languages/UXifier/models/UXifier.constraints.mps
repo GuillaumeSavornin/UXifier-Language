@@ -193,5 +193,189 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="77VjBUEeJhI">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:1eZdBFF$mcu" resolve="ContactStyling" />
+    <node concept="1N5Pfh" id="77VjBUEeJhJ" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_TpcT" resolve="contactElementColor" />
+      <node concept="1dDu$B" id="77VjBUEeJiI" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEeKF6" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_TpcR" resolve="contactElementsFont" />
+      <node concept="1dDu$B" id="77VjBUEeKH2" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEeKI0" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_TpcW" resolve="contactIconColor" />
+      <node concept="1dDu$B" id="77VjBUEeKK8" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEeKL5" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Tpdp" resolve="socialNetworkBackgroundColor" />
+      <node concept="1dDu$B" id="77VjBUEeKMa" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEeKN8" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Tpda" resolve="socialNetworkColor" />
+      <node concept="1dDu$B" id="77VjBUEeKOf" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEeKPd" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_TpdB" resolve="socialNetworkSeparatorColor" />
+      <node concept="1dDu$B" id="77VjBUEeKQm" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="77VjBUEhxQV">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:3QvgIEcgCQp" resolve="AdditionalInformationStyling" />
+  </node>
+  <node concept="1M2fIO" id="77VjBUEhxRV">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:7quf1gMz3fN" resolve="ExperienceItemStyling" />
+  </node>
+  <node concept="1M2fIO" id="77VjBUEhxW2">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:1c5gsjF0J_T" resolve="LanguageStyling" />
+    <node concept="1N5Pfh" id="77VjBUEhxW3" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_P3Ot" resolve="languageNameColor" />
+      <node concept="1dDu$B" id="77VjBUEhxXV" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhxZT" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_P3Or" resolve="languageNameFont" />
+      <node concept="1dDu$B" id="77VjBUEhy1P" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhy2N" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_P3OD" resolve="separatorColor" />
+      <node concept="1dDu$B" id="77VjBUEhy4L" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhy5J" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_P3O$" resolve="textualLevelColor" />
+      <node concept="1dDu$B" id="77VjBUEhy8E" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhy9B" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_P3Ow" resolve="textualLevelFont" />
+      <node concept="1dDu$B" id="77VjBUEhyaI" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="77VjBUEhycD">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:2dFAI0jBY84" resolve="PresentationStyling" />
+  </node>
+  <node concept="1M2fIO" id="77VjBUEhydD">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:6_RkYJe8_Rn" resolve="ProjectStyling" />
+    <node concept="1N5Pfh" id="77VjBUEhydE" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_LdfU" resolve="collapseColor" />
+      <node concept="1dDu$B" id="77VjBUEhyeB" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhygv" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_LdfF" resolve="dateColor" />
+      <node concept="1dDu$B" id="77VjBUEhyhw" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhyiu" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Ldf_" resolve="dateFont" />
+      <node concept="1dDu$B" id="77VjBUEhyjx" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhykv" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Ldfw" resolve="descriptionColor" />
+      <node concept="1dDu$B" id="77VjBUEhyly" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhynq" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Ldfs" resolve="descriptionFont" />
+      <node concept="1dDu$B" id="77VjBUEhyov" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhyps" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Ldfp" resolve="projectTitleColor" />
+      <node concept="1dDu$B" id="77VjBUEhyqz" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhyrw" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Ldfn" resolve="projectTitleFont" />
+      <node concept="1dDu$B" id="77VjBUEhysD" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhytA" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_LdfM" resolve="separatorColor" />
+      <node concept="1dDu$B" id="77VjBUEhyuL" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="77VjBUEhywF">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:1eZdBFFrbj6" resolve="SkillStyling" />
+    <node concept="1N5Pfh" id="77VjBUEhywG" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Di39" resolve="descriptionColor" />
+      <node concept="1dDu$B" id="77VjBUEhywI" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhyxF" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Di37" resolve="descriptionFont" />
+      <node concept="1dDu$B" id="77VjBUEhyyG" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhyzE" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Jl_a" resolve="separatorColor" />
+      <node concept="1dDu$B" id="77VjBUEhy_A" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhyAz" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Di3g" resolve="skillNameColor" />
+      <node concept="1dDu$B" id="77VjBUEhyCx" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhyDu" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_Di3c" resolve="skillNameFont" />
+      <node concept="1dDu$B" id="77VjBUEhyEz" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhyGr" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_G3Tg" resolve="textualLevelColor" />
+      <node concept="1dDu$B" id="77VjBUEhyHy" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="77VjBUEhyIv" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:3Sngu6_G3Ta" resolve="textualLevelFont" />
+      <node concept="1dDu$B" id="77VjBUEhyJC" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
+      </node>
+    </node>
+  </node>
 </model>
 

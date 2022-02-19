@@ -140,6 +140,7 @@
         <property id="1422915908839036257" name="showSocialNetworks" index="3S9mcr" />
         <property id="1422915908838449954" name="numberSocialNetworkItems" index="3Sb_lo" />
         <property id="1422915908845518589" name="showContactIcons" index="3Sgwy7" />
+        <reference id="4474117192222610233" name="contactElementColor" index="2rWHbo" />
       </concept>
       <concept id="1422915908838398686" name="UXifier.structure.SocialNetworkItem" flags="ng" index="3SbUM$">
         <property id="1422915908838398688" name="url" index="3SbUMq" />
@@ -357,6 +358,18 @@
                   <property role="3SOXet" value="true" />
                   <property role="3SOSaQ" value="true" />
                   <property role="3STkkY" value="true" />
+                </node>
+              </node>
+              <node concept="3SbUMN" id="77VjBUEeKD0" role="25jtg_">
+                <property role="3SbUMR" value="Number Address, Country" />
+                <property role="3SbUMP" value="00.00.00.00.00" />
+                <property role="3SbUMC" value="Email@address.com" />
+                <node concept="3SbUM$" id="77VjBUEeKD1" role="3SbUML">
+                  <property role="3SbUMq" value="http://google.fr" />
+                </node>
+                <node concept="3Sb_l$" id="77VjBUEeKD3" role="3SbUMQ">
+                  <property role="3STkkY" value="true" />
+                  <ref role="2rWHbo" node="77VjBUE9HMY" resolve="other" />
                 </node>
               </node>
             </node>
