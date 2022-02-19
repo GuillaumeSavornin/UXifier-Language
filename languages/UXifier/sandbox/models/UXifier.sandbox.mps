@@ -32,6 +32,12 @@
         <property id="7599635168451780073" name="collapseDescription" index="2BlgS2" />
         <property id="7599635168451780059" name="numberItems" index="2BlgSK" />
         <property id="7599635168451780058" name="separator" index="2BlgSL" />
+        <reference id="4474117192220464096" name="descriptionColor" index="2rOT81" />
+        <reference id="4474117192220464101" name="dateFont" index="2rOT84" />
+        <reference id="4474117192220464122" name="collapseColor" index="2rOT8r" />
+        <reference id="4474117192220464087" name="projectTitleFont" index="2rOT8Q" />
+        <reference id="4474117192220464089" name="projectTitleColor" index="2rOT8S" />
+        <reference id="4474117192220464092" name="descriptionFont" index="2rOT8X" />
       </concept>
       <concept id="7599635168451780030" name="UXifier.structure.ProjectSection" flags="ng" index="2BlgTl">
         <child id="7599635168451780033" name="styling" index="2BlgSE" />
@@ -72,6 +78,7 @@
       <concept id="2552303901028114942" name="UXifier.structure.Theme" flags="ng" index="KX7Gu">
         <property id="5917134088014282175" name="secondaryColor" index="urXY_" />
         <property id="5917134088014282173" name="primaryColor" index="urXYB" />
+        <property id="9179075119537057201" name="backgroundImage" index="15KOQ1" />
         <property id="9179075119537057213" name="backgroundColor" index="15KOQd" />
         <property id="9179075119537057250" name="sectionRoundedCorners" index="15KORi" />
         <property id="9179075119537057237" name="sectionShadowLevel" index="15KOR_" />
@@ -138,16 +145,20 @@
         <property id="1370573975616475720" name="numberItems" index="3S1Dec" />
         <property id="1422915908831962114" name="levelDisplayMethod" index="3S$l9S" />
         <property id="1422915908830251866" name="separator" index="3SEROw" />
+        <reference id="4474117192221474089" name="separatorColor" index="2rKRN8" />
+        <reference id="4474117192221474075" name="languageNameFont" index="2rKRNU" />
+        <reference id="4474117192221474077" name="languageNameColor" index="2rKRNW" />
       </concept>
       <concept id="1422915908838449950" name="UXifier.structure.ContactStyling" flags="ng" index="3Sb_l$">
-        <property id="1422915908840928928" name="socialNetworkBackGroundColor" index="3S203q" />
-        <property id="1422915908840919971" name="socialNetworkBorder" index="3S22np" />
-        <property id="1422915908840919966" name="socialNetworksColor" index="3S22n$" />
-        <property id="1422915908839026400" name="separator" index="3S9hyq" />
+        <property id="1422915908839026400" name="socialNetworkSeparator" index="3S9hyq" />
         <property id="1422915908839036257" name="showSocialNetworks" index="3S9mcr" />
         <property id="1422915908838449954" name="numberSocialNetworkItems" index="3Sb_lo" />
-        <property id="1422915908845171246" name="alignSocialNetwork" index="3Sichk" />
-        <property id="1422915908844530707" name="alignContactInformations" index="3SkhDD" />
+        <property id="1422915908845518589" name="showContactIcons" index="3Sgwy7" />
+        <reference id="4474117192222610250" name="socialNetworkColor" index="2rWHaF" />
+        <reference id="4474117192222610265" name="socialNetworkBackgroundColor" index="2rWHaS" />
+        <reference id="4474117192222610231" name="contactElementsFont" index="2rWHbm" />
+        <reference id="4474117192222610233" name="contactElementColor" index="2rWHbo" />
+        <reference id="4474117192222610236" name="contactIconColor" index="2rWHbt" />
       </concept>
       <concept id="1422915908838398686" name="UXifier.structure.SocialNetworkItem" flags="ng" index="3SbUM$">
         <property id="1422915908838398688" name="url" index="3SbUMq" />
@@ -175,11 +186,16 @@
         <property id="1422915908836046028" name="separator" index="3SOSaQ" />
         <property id="1422915908836046023" name="numberItems" index="3SOSaX" />
         <property id="1422915908836058599" name="showDescription" index="3SOXet" />
+        <reference id="4474117192219115082" name="textualLevelFont" index="2rDRYF" />
+        <reference id="4474117192219115088" name="textualLevelColor" index="2rDRYL" />
+        <reference id="4474117192218386631" name="descriptionFont" index="2rGA4A" />
+        <reference id="4474117192218386633" name="descriptionColor" index="2rGA4C" />
       </concept>
       <concept id="1422915908846889197" name="UXifier.structure.ImageStyling" flags="ng" index="3ZFhUn">
         <property id="1422915908846889202" name="showLegend" index="3ZFhU8" />
         <property id="1422915908846889204" name="imageFilter" index="3ZFhUe" />
         <property id="1422915908846915138" name="filterPorcentage" index="3ZFrwS" />
+        <reference id="4474117192221970221" name="legendFont" index="2rN8Vc" />
       </concept>
       <concept id="1422915908846889168" name="UXifier.structure.ImageSection" flags="ng" index="3ZFhUE">
         <property id="1422915908846889186" name="url" index="3ZFhUo" />
@@ -282,24 +298,24 @@
                   <ref role="15LnD2" node="7XyC30UDXDB" />
                 </node>
               </node>
-              <node concept="3SbUMN" id="1eZdBFFLRFP" role="25jtg_">
+              <node concept="3SbUMN" id="3Sngu6_X2AD" role="25jtg_">
                 <property role="3SbUMR" value="Number Address, Country" />
                 <property role="3SbUMP" value="00.00.00.00.00" />
                 <property role="3SbUMC" value="Email@address.com" />
-                <node concept="3SbUM$" id="1eZdBFFLRFQ" role="3SbUML">
+                <node concept="3SbUM$" id="3Sngu6_X2AE" role="3SbUML">
                   <property role="3SbUMq" value="http://google.fr" />
                 </node>
-                <node concept="3Sb_l$" id="1eZdBFFLRFS" role="3SbUMQ">
-                  <property role="3Sb_lo" value="9" />
-                  <property role="3S9hyq" value="true" />
+                <node concept="3Sb_l$" id="3Sngu6_X2AG" role="3SbUMQ">
+                  <property role="3Sgwy7" value="true" />
                   <property role="3S9mcr" value="true" />
+                  <property role="3Sb_lo" value="9" />
                   <property role="3STkkY" value="true" />
-                  <property role="3S22n$" value="red" />
-                  <property role="3S203q" value="background.paper" />
-                  <property role="3S22np" value="true" />
-                  <property role="3Sichk" value="1eZdBFFmBcm/center" />
-                  <property role="3SkhDD" value="1eZdBFFmBcm/center" />
-                  <ref role="15LnD2" node="3Sngu6_skvu" />
+                  <ref role="15LnD2" node="7XyC30UDXDB" />
+                  <ref role="2rWHbm" node="3Sngu6_HDJD" />
+                  <ref role="2rWHbo" node="3Sngu6_HDJ$" />
+                  <ref role="2rWHbt" node="7XyC30UDXDD" />
+                  <ref role="2rWHaF" node="3Sngu6_skvu" />
+                  <ref role="2rWHaS" node="3Sngu6_HDJ$" />
                 </node>
               </node>
               <node concept="144zUK" id="3bkuCYRBrBN" role="25jtg_">
@@ -352,6 +368,13 @@
                   <property role="2BcrwL" value="1eZdBFFmBcm/center" />
                   <ref role="15LnD2" node="3Sngu6_skvu" />
                   <ref role="15NFpf" node="3Sngu6_skvu" />
+                  <ref role="15NFqM" node="3Sngu6_HDJD" />
+                  <ref role="2rOT8Q" node="3Sngu6_HDJD" />
+                  <ref role="2rOT8S" node="3Sngu6_HDJ$" />
+                  <ref role="2rOT81" node="3Sngu6_HDJ$" />
+                  <ref role="2rOT84" node="3Sngu6_HDJD" />
+                  <ref role="2rOT8X" node="3Sngu6_n64r" />
+                  <ref role="2rOT8r" node="7XyC30UDXDD" />
                 </node>
               </node>
               <node concept="2BlgTl" id="6_RkYJegzUQ" role="25jtg_">
@@ -412,27 +435,31 @@
                 <node concept="3SOSaW" id="6hY3O8TJ6q0" role="3SOXeG">
                   <property role="3SOSaX" value="4" />
                   <property role="3SOSaN" value="true" />
-                  <property role="3SOXet" value="true" />
                   <property role="3SOSaQ" value="true" />
+                  <property role="3SOXet" value="true" />
                   <property role="3STkkY" value="true" />
                   <ref role="15LnD2" node="7XyC30UDXDD" />
+                  <ref role="2rGA4A" node="3Sngu6_HDJD" />
+                  <ref role="15NFqM" node="3Sngu6_HDJD" />
+                  <ref role="2rDRYF" node="3Sngu6_HDJD" />
+                  <ref role="2rGA4C" node="3Sngu6_HDJ$" />
+                  <ref role="15NFpf" node="3Sngu6_HDJ$" />
+                  <ref role="2rDRYL" node="3Sngu6_HDJ$" />
                 </node>
               </node>
-              <node concept="3SbUMN" id="3bkuCYRMGZ$" role="25jtg_">
+              <node concept="3SbUMN" id="3Sngu6_X2B$" role="25jtg_">
                 <property role="3SbUMR" value="Number Address, Country" />
                 <property role="3SbUMP" value="00.00.00.00.00" />
                 <property role="3SbUMC" value="Email@address.com" />
-                <node concept="3SbUM$" id="3bkuCYRMGZ_" role="3SbUML">
+                <node concept="3SbUM$" id="3Sngu6_X2B_" role="3SbUML">
                   <property role="3SbUMq" value="http://google.fr" />
                 </node>
-                <node concept="3Sb_l$" id="3bkuCYRMGZB" role="3SbUMQ">
-                  <property role="3Sb_lo" value="30" />
-                  <property role="3S9hyq" value="true" />
+                <node concept="3Sb_l$" id="3Sngu6_X2BB" role="3SbUMQ">
                   <property role="3STkkY" value="true" />
-                  <property role="3S22n$" value="#FFFFFF" />
-                  <property role="3S203q" value="red" />
-                  <property role="3SSFd3" value="1eZdBFFmBcp/right" />
-                  <ref role="15NFqM" node="3Sngu6_n64r" />
+                  <property role="3Sgwy7" value="true" />
+                  <property role="3S9mcr" value="true" />
+                  <property role="3Sb_lo" value="5" />
+                  <ref role="15LnD2" node="7XyC30UDXDD" />
                 </node>
               </node>
               <node concept="3ZFhUE" id="1eZdBFG6dWs" role="25jtg_">
@@ -454,7 +481,10 @@
                   <property role="3STkkY" value="true" />
                   <property role="3S$l9S" value="1eZdBFFf2Ba/2" />
                   <property role="3S1Dec" value="4" />
-                  <ref role="15NFpf" node="7XyC30UDXDD" />
+                  <ref role="15LnD2" node="7XyC30UDXDD" />
+                  <ref role="2rKRNU" node="3Sngu6_HDJD" />
+                  <ref role="2rKRNW" node="3Sngu6_HDJ$" />
+                  <ref role="2rKRN8" node="7XyC30UDXDB" />
                 </node>
               </node>
               <node concept="3ZFhUE" id="1eZdBFG6fGe" role="25jtg_">
@@ -465,6 +495,7 @@
                   <property role="3ZFrwS" value="100" />
                   <property role="3ZFhU8" value="true" />
                   <ref role="15LnD2" node="3Sngu6_skvu" />
+                  <ref role="2rN8Vc" node="3Sngu6_HDJD" />
                 </node>
               </node>
               <node concept="3SOO3v" id="3bkuCYRJ56K" role="25jtg_">
@@ -747,23 +778,19 @@
             <property role="2LRsXT" value="list of countries" />
             <node concept="2LRsXN" id="3bkuCYRBCDu" role="2LRsXX" />
           </node>
-          <node concept="3SbUMN" id="1eZdBFFZ4f4" role="25jtgF">
+          <node concept="3SbUMN" id="3Sngu6_X2Cs" role="25jtgF">
             <property role="3SbUMR" value="Number Address, Country" />
             <property role="3SbUMP" value="00.00.00.00.00" />
             <property role="3SbUMC" value="Email@address.com" />
-            <node concept="3SbUM$" id="1eZdBFFZ4f5" role="3SbUML">
+            <node concept="3SbUM$" id="3Sngu6_X2Ct" role="3SbUML">
               <property role="3SbUMq" value="http://google.fr" />
             </node>
-            <node concept="3Sb_l$" id="1eZdBFFZ4f7" role="3SbUMQ">
-              <property role="3S9hyq" value="true" />
-              <property role="3S9mcr" value="true" />
+            <node concept="3Sb_l$" id="3Sngu6_X2Cv" role="3SbUMQ">
               <property role="3STkkY" value="true" />
-              <property role="3SSFd3" value="1eZdBFFmBcp/right" />
-              <property role="3S22n$" value="#123456" />
-              <property role="3S203q" value="#654321" />
-              <property role="3Sb_lo" value="5" />
-              <property role="3SkhDD" value="1eZdBFFmBcp/right" />
-              <property role="3Sichk" value="1eZdBFFmBcm/center" />
+              <property role="3Sgwy7" value="true" />
+              <property role="3S9mcr" value="true" />
+              <property role="3S9hyq" value="true" />
+              <property role="3Sb_lo" value="3" />
             </node>
           </node>
         </node>
@@ -818,11 +845,16 @@
     </node>
     <node concept="KX7Gu" id="7XyC30UDXD_" role="KX7zN">
       <property role="15KOQd" value="#FFFFFF" />
-      <property role="15KOR_" value="2" />
+      <property role="15KOR_" value="20" />
+      <property role="15KOQ1" value="https://cdn.dribbble.com/users/1691370/screenshots/14681612/media/550470cd1eb1cfa5fc74a1ddec2c0bf8.png" />
       <property role="15KORi" value="true" />
       <node concept="15NFqT" id="3Sngu6_n64r" role="15NP1W">
         <property role="15NFqV" value="Courier New" />
         <property role="15NFqU" value="Courier New" />
+      </node>
+      <node concept="15NFqT" id="3Sngu6_HDJD" role="15NP1W">
+        <property role="15NFqU" value="Best font ever for reports" />
+        <property role="15NFqV" value="Times New Roman" />
       </node>
       <node concept="15Kflz" id="7XyC30UDXDB" role="15KflD">
         <property role="15Kfl$" value="primary" />
@@ -835,6 +867,10 @@
       <node concept="15Kflz" id="3Sngu6_skvu" role="15KflD">
         <property role="15Kfl$" value="niceColor" />
         <property role="15KflA" value="#212345" />
+      </node>
+      <node concept="15Kflz" id="3Sngu6_HDJ$" role="15KflD">
+        <property role="15Kfl$" value="Green custom color" />
+        <property role="15KflA" value="rgb(50, 168, 82)" />
       </node>
     </node>
   </node>
