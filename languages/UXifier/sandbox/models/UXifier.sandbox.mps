@@ -47,6 +47,8 @@
         <property id="1422915908835050809" name="alignTitle" index="3SSFd3" />
         <property id="1422915908834849604" name="showTitle" index="3STkkY" />
         <reference id="9179075119537445490" name="backgroundColor" index="15LnD2" />
+        <reference id="9179075119537723007" name="titleColor" index="15NFpf" />
+        <reference id="9179075119537723010" name="titleFont" index="15NFqM" />
       </concept>
       <concept id="2552303901028114948" name="UXifier.structure.PresentationStyling" flags="ng" index="KX7z$">
         <property id="2552303901028127590" name="showImage" index="KMSA6" />
@@ -312,6 +314,8 @@
                   <property role="144wZw" value="5" />
                   <property role="3T1lIf" value="true" />
                   <property role="3STkkY" value="true" />
+                  <ref role="15NFqM" node="3Sngu6_n64r" />
+                  <ref role="15NFpf" node="3Sngu6_skvu" />
                 </node>
               </node>
               <node concept="144zUK" id="3bkuCYRBBJC" role="25jtg_">
@@ -328,6 +332,8 @@
                   <property role="3T1lIf" value="true" />
                   <property role="3STkkY" value="true" />
                   <ref role="15LnD2" node="7XyC30UDXDB" />
+                  <ref role="15NFqM" node="3Sngu6_n64r" />
+                  <ref role="15NFpf" node="7XyC30UDXDD" />
                 </node>
               </node>
               <node concept="2BlgTl" id="6_RkYJej06P" role="25jtg_">
@@ -344,6 +350,7 @@
                   <property role="3STkkY" value="true" />
                   <property role="2BcrwL" value="1eZdBFFmBcm/center" />
                   <ref role="15LnD2" node="3Sngu6_skvu" />
+                  <ref role="15NFpf" node="3Sngu6_skvu" />
                 </node>
               </node>
               <node concept="2BlgTl" id="6_RkYJegzUQ" role="25jtg_">
@@ -424,6 +431,7 @@
                   <property role="3S22n$" value="#FFFFFF" />
                   <property role="3S203q" value="red" />
                   <property role="3SSFd3" value="1eZdBFFmBcp/right" />
+                  <ref role="15NFqM" node="3Sngu6_n64r" />
                 </node>
               </node>
               <node concept="3ZFhUE" id="1eZdBFG6dWs" role="25jtg_">
@@ -445,6 +453,7 @@
                   <property role="3STkkY" value="true" />
                   <property role="3S$l9S" value="1eZdBFFf2Ba/2" />
                   <property role="3S1Dec" value="4" />
+                  <ref role="15NFpf" node="7XyC30UDXDD" />
                 </node>
               </node>
               <node concept="3ZFhUE" id="1eZdBFG6fGe" role="25jtg_">
@@ -482,6 +491,10 @@
               <property role="2LRsXT" value="list of countries" />
               <node concept="2LRsXN" id="3bkuCYRBrDG" role="2LRsXX">
                 <property role="2LRsXQ" value="true" />
+                <property role="3STkkY" value="true" />
+                <ref role="15LnD2" node="7XyC30UDXDD" />
+                <ref role="15NFqM" node="3Sngu6_n64r" />
+                <ref role="15NFpf" node="7XyC30UDXDB" />
               </node>
             </node>
           </node>
