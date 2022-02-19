@@ -1329,6 +1329,16 @@
       <property role="TrG5h" value="openCollapseDescriptions" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="3Sngu6AbkT6" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192227311174" />
+      <property role="TrG5h" value="showUrl" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6Agatd" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192228579149" />
+      <property role="TrG5h" value="urlAlign" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
     <node concept="1TJgyj" id="3Sngu6_Ldfn" role="1TKVEi">
       <property role="IQ2ns" value="4474117192220464087" />
       <property role="20kJfa" value="projectTitleFont" />
@@ -1368,6 +1378,16 @@
       <property role="IQ2ns" value="4474117192220464122" />
       <property role="20kJfa" value="collapseColor" />
       <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AbkJF" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192227310571" />
+      <property role="20kJfa" value="urlColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AbkJP" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192227310581" />
+      <property role="20kJfa" value="urlFont" />
+      <ref role="20lvS9" node="7XyC30UF1q9" resolve="ThemeFont" />
     </node>
   </node>
   <node concept="1TIwiD" id="7XyC30UC_lj">

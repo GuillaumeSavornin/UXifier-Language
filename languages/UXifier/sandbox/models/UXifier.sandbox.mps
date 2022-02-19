@@ -27,11 +27,15 @@
         <property id="7599635168451780050" name="url" index="2BlgST" />
       </concept>
       <concept id="7599635168451780055" name="UXifier.structure.ProjectStyling" flags="ng" index="2BlgSW">
+        <property id="4474117192227311174" name="showUrl" index="2oewYB" />
+        <property id="4474117192228579149" name="urlAlign" index="2olYqG" />
         <property id="7599635168456038295" name="openCollapseDescriptions" index="2B50hW" />
         <property id="7599635168454175706" name="collapseButtonAlign" index="2BcrwL" />
         <property id="7599635168451780073" name="collapseDescription" index="2BlgS2" />
         <property id="7599635168451780059" name="numberItems" index="2BlgSK" />
         <property id="7599635168451780058" name="separator" index="2BlgSL" />
+        <reference id="4474117192227310571" name="urlColor" index="2oewCa" />
+        <reference id="4474117192227310581" name="urlFont" index="2oewCk" />
         <reference id="4474117192220464096" name="descriptionColor" index="2rOT81" />
         <reference id="4474117192220464101" name="dateFont" index="2rOT84" />
         <reference id="4474117192220464122" name="collapseColor" index="2rOT8r" />
@@ -383,6 +387,8 @@
                   <property role="2BlgS2" value="true" />
                   <property role="3STkkY" value="true" />
                   <property role="2BcrwL" value="1eZdBFFmBcm/center" />
+                  <property role="2oewYB" value="true" />
+                  <property role="2olYqG" value="1eZdBFFmBcm/center" />
                   <ref role="15LnD2" node="3Sngu6_skvu" />
                   <ref role="15NFpf" node="3Sngu6_skvu" />
                   <ref role="15NFqM" node="3Sngu6_HDJD" />
@@ -392,6 +398,8 @@
                   <ref role="2rOT84" node="3Sngu6_HDJD" />
                   <ref role="2rOT8X" node="3Sngu6_n64r" />
                   <ref role="2rOT8r" node="7XyC30UDXDD" />
+                  <ref role="2oewCk" node="3Sngu6_n64r" />
+                  <ref role="2oewCa" node="7XyC30UDXDD" />
                 </node>
               </node>
               <node concept="2BlgTl" id="6_RkYJegzUQ" role="25jtg_">
@@ -408,6 +416,7 @@
                   <property role="2BlgSK" value="3" />
                   <property role="2BcrwL" value="1eZdBFFmBcp/right" />
                   <property role="2B50hW" value="true" />
+                  <property role="2oewYB" value="true" />
                   <ref role="15LnD2" node="7XyC30UDXDD" />
                 </node>
               </node>

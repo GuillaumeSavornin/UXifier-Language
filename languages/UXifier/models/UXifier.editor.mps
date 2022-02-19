@@ -3257,6 +3257,88 @@
           </node>
         </node>
       </node>
+      <node concept="3EZMnI" id="3Sngu6Abl88" role="3EZMnx">
+        <node concept="VPM3Z" id="3Sngu6Abl89" role="3F10Kt" />
+        <node concept="3F0ifn" id="3Sngu6Abl8a" role="3EZMnx">
+          <property role="3F0ifm" value="-" />
+        </node>
+        <node concept="3F0ifn" id="3Sngu6Abl8b" role="3EZMnx">
+          <property role="3F0ifm" value="show button &quot;go to project&quot;:" />
+        </node>
+        <node concept="2iRfu4" id="3Sngu6Abl8c" role="2iSdaV" />
+        <node concept="2yq9I_" id="3Sngu6Abl8d" role="3EZMnx">
+          <ref role="225u1j" to="wi2d:3Sngu6AbkT6" resolve="showUrl" />
+          <node concept="jv8YD" id="3Sngu6Abl8e" role="1563LE" />
+        </node>
+        <node concept="3EZMnI" id="3Sngu6Abl8f" role="3EZMnx">
+          <node concept="VPM3Z" id="3Sngu6Abl8g" role="3F10Kt" />
+          <node concept="3XFhqQ" id="3Sngu6Abl8h" role="3EZMnx" />
+          <node concept="3F0ifn" id="3Sngu6Abl8i" role="3EZMnx">
+            <property role="3F0ifm" value="[F]:" />
+          </node>
+          <node concept="1iCGBv" id="3Sngu6AblGc" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:3Sngu6AbkJP" resolve="urlFont" />
+            <node concept="1sVBvm" id="3Sngu6AblGd" role="1sWHZn">
+              <node concept="3F0A7n" id="3Sngu6AblGe" role="2wV5jI">
+                <property role="1Intyy" value="true" />
+                <ref role="1NtTu8" to="wi2d:7XyC30UF1qa" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="3F0ifn" id="3Sngu6AblA0" role="3EZMnx">
+            <property role="3F0ifm" value="[C]:" />
+          </node>
+          <node concept="1iCGBv" id="3Sngu6Abl8j" role="3EZMnx">
+            <ref role="1NtTu8" to="wi2d:3Sngu6AbkJF" resolve="urlColor" />
+            <node concept="1sVBvm" id="3Sngu6Abl8k" role="1sWHZn">
+              <node concept="3F0A7n" id="3Sngu6Abl8l" role="2wV5jI">
+                <property role="1Intyy" value="true" />
+                <ref role="1NtTu8" to="wi2d:7XyC30UC_lk" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="2iRfu4" id="3Sngu6Abl8m" role="2iSdaV" />
+          <node concept="pkWqt" id="3Sngu6Abl8n" role="pqm2j">
+            <node concept="3clFbS" id="3Sngu6Abl8o" role="2VODD2">
+              <node concept="3cpWs6" id="3Sngu6Abl8p" role="3cqZAp">
+                <node concept="2OqwBi" id="3Sngu6Abl8q" role="3cqZAk">
+                  <node concept="pncrf" id="3Sngu6Abl8r" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3Sngu6Abl8s" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:3Sngu6AbkT6" resolve="showUrl" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3Sngu6Agert" role="3EZMnx">
+        <node concept="VPM3Z" id="3Sngu6Ageru" role="3F10Kt" />
+        <node concept="3XFhqQ" id="3Sngu6Agerv" role="3EZMnx" />
+        <node concept="3F0ifn" id="3Sngu6Agerw" role="3EZMnx">
+          <property role="3F0ifm" value="-" />
+        </node>
+        <node concept="3F0ifn" id="3Sngu6Agerx" role="3EZMnx">
+          <property role="3F0ifm" value="align &quot;go to project&quot; button:" />
+        </node>
+        <node concept="3F0A7n" id="3Sngu6Agery" role="3EZMnx">
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+          <ref role="1NtTu8" to="wi2d:3Sngu6Agatd" resolve="urlAlign" />
+        </node>
+        <node concept="2iRfu4" id="3Sngu6Agerz" role="2iSdaV" />
+        <node concept="pkWqt" id="3Sngu6Ager$" role="pqm2j">
+          <node concept="3clFbS" id="3Sngu6Ager_" role="2VODD2">
+            <node concept="3cpWs6" id="3Sngu6AgerA" role="3cqZAp">
+              <node concept="2OqwBi" id="3Sngu6AgerB" role="3cqZAk">
+                <node concept="pncrf" id="3Sngu6AgerC" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3Sngu6AgerD" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:3Sngu6AbkT6" resolve="showUrl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3EZMnI" id="3Sngu6_LjCu" role="3EZMnx">
         <node concept="VPM3Z" id="3Sngu6_LjCv" role="3F10Kt" />
         <node concept="2iRfu4" id="3Sngu6_LjCx" role="2iSdaV" />

@@ -388,14 +388,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"left" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={selectedCollapseIndex.includes(7+i)}
-                                                                        onClick={() => {handleClickCollapse(7+i)}}
-                                                                        aria-expanded={selectedCollapseIndex.includes(7+i)}
+                                                                        expand={selectedCollapseIndex.includes(12+i)}
+                                                                        onClick={() => {handleClickCollapse(12+i)}}
+                                                                        aria-expanded={selectedCollapseIndex.includes(12+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{ color:themeColor_secondary,  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={selectedCollapseIndex.includes(7+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(12+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3, color:theme.palette.getContrastText(themeColor_Greencustomcolor),  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
@@ -489,14 +489,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"center" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={selectedCollapseIndex.includes(14+i)}
-                                                                        onClick={() => {handleClickCollapse(14+i)}}
-                                                                        aria-expanded={selectedCollapseIndex.includes(14+i)}
+                                                                        expand={selectedCollapseIndex.includes(19+i)}
+                                                                        onClick={() => {handleClickCollapse(19+i)}}
+                                                                        aria-expanded={selectedCollapseIndex.includes(19+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{ color:themeColor_secondary,  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={selectedCollapseIndex.includes(14+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(19+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3, color:themeColor_Greencustomcolor, fontFamily:themeFont_CourierNew,  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
@@ -505,6 +505,14 @@ function WebSiteFormat(){
                                                                     return "Project description"
                                                                 })()}
                                                             </Typography>
+                                                            <div style={{ textAlign:"center" }}>
+                                                                <Button target="_blank" style={{marginBottom : '10px', color:themeColor_secondary, borderColor:themeColor_secondary, fontFamily:themeFont_CourierNew,                          }} variant="outlined" href={(()=>{
+                                                                    if(data.projectItems && data.projectItems[i] && data.projectItems[i].url){
+                                                                        return data.projectItems[i].url
+                                                                    }
+                                                                    return "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+                                                                })()}> Go to project </Button>
+                                                            </div>
                                                         </Collapse>
                                                     </div>
                                                 )
@@ -543,14 +551,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"right" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={!selectedCollapseIndex.includes(19+i)}
-                                                                        onClick={() => {handleClickCollapse(19+i)}}
-                                                                        aria-expanded={!selectedCollapseIndex.includes(19+i)}
+                                                                        expand={!selectedCollapseIndex.includes(24+i)}
+                                                                        onClick={() => {handleClickCollapse(24+i)}}
+                                                                        aria-expanded={!selectedCollapseIndex.includes(24+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{ color:theme.palette.getContrastText(themeColor_secondary),  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={!selectedCollapseIndex.includes(19+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={!selectedCollapseIndex.includes(24+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3, color:theme.palette.getContrastText(themeColor_secondary),  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
@@ -559,6 +567,14 @@ function WebSiteFormat(){
                                                                     return "Project description"
                                                                 })()}
                                                             </Typography>
+                                                            <div style={{ textAlign:"left" }}>
+                                                                <Button target="_blank" style={{marginBottom : '10px', color:theme.palette.getContrastText(themeColor_secondary), borderColor:theme.palette.getContrastText(themeColor_secondary),                          }} variant="outlined" href={(()=>{
+                                                                    if(data.projectItems && data.projectItems[i] && data.projectItems[i].url){
+                                                                        return data.projectItems[i].url
+                                                                    }
+                                                                    return "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+                                                                })()}> Go to project </Button>
+                                                            </div>
                                                         </Collapse>
                                                     </div>
                                                 )
@@ -1178,14 +1194,14 @@ function WebSiteFormat(){
                                                     </Typography>
                                                     <div style={{ textAlign:"left" }}>
                                                         <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                    expand={!selectedCollapseIndex.includes(25+i)}
-                                                                    onClick={() => {handleClickCollapse(25+i)}}
-                                                                    aria-expanded={!selectedCollapseIndex.includes(25+i)}
+                                                                    expand={!selectedCollapseIndex.includes(30+i)}
+                                                                    onClick={() => {handleClickCollapse(30+i)}}
+                                                                    aria-expanded={!selectedCollapseIndex.includes(30+i)}
                                                                     aria-label="show more">
                                                             <ExpandMoreIcon sx={{  }}/>
                                                         </ExpandMore>
                                                     </div>
-                                                    <Collapse in={!selectedCollapseIndex.includes(25+i)} timeout="auto" unmountOnExit>
+                                                    <Collapse in={!selectedCollapseIndex.includes(30+i)} timeout="auto" unmountOnExit>
                                                         <Typography paragraph sx={{ ml: 3, mr: 3,  }} align={"justify"} gutterBottom component="div">
                                                             {(()=>{
                                                                 if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
