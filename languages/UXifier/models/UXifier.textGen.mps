@@ -1464,7 +1464,7 @@
                 </node>
               </node>
               <node concept="la8eA" id="4ccJuxn6xtc" role="lcghm">
-                <property role="lacIc" value=" sx={{height:'auto', flex:'auto'}}/&gt;" />
+                <property role="lacIc" value=" sx={{width:&quot;auto&quot;, maxWidth:&quot;100%&quot;, height:&quot;auto&quot;, maxHeight:&quot;100%&quot;, flex:'auto'}}/&gt;" />
               </node>
               <node concept="l8MVK" id="1eZdBFEPIm4" role="lcghm" />
             </node>
