@@ -391,7 +391,7 @@
           <node concept="3cpWsn" id="3bkuCYRLw0u" role="3cpWs9">
             <property role="TrG5h" value="sections" />
             <node concept="2I9FWS" id="3bkuCYRLw0p" role="1tU5fm">
-              <ref role="2I9WkF" to="wi2d:2dFAI0jBY80" resolve="ISection" />
+              <ref role="2I9WkF" to="wi2d:2dFAI0jBY80" resolve="ITextualSection" />
             </node>
             <node concept="2OqwBi" id="3bkuCYRLw1Z" role="33vP2m">
               <node concept="1y4W85" id="3bkuCYRLw20" role="2Oq$k0">
