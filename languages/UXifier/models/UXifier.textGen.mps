@@ -2287,6 +2287,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="58tSxDct4Tf">
+    <property role="3GE5qa" value="theme" />
     <ref role="WuzLi" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
     <node concept="11bSqf" id="58tSxDct4Tg" role="11c4hB">
       <node concept="3clFbS" id="58tSxDct4Th" role="2VODD2">
@@ -18874,6 +18875,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="3Sngu6_n4bI">
+    <property role="3GE5qa" value="theme" />
     <ref role="WuzLi" to="wi2d:2dFAI0jBY7Y" resolve="Theme" />
     <node concept="11bSqf" id="3Sngu6_n4bJ" role="11c4hB">
       <node concept="3clFbS" id="3Sngu6_n4bK" role="2VODD2">
@@ -19014,6 +19016,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="3Sngu6_n4cX">
+    <property role="3GE5qa" value="theme" />
     <ref role="WuzLi" to="wi2d:7XyC30UF1q9" resolve="ThemeFont" />
     <node concept="11bSqf" id="3Sngu6_n4cY" role="11c4hB">
       <node concept="3clFbS" id="3Sngu6_n4cZ" role="2VODD2">

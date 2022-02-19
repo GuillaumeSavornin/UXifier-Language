@@ -143,7 +143,6 @@
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
-      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF" />
       <concept id="1174648085619" name="jetbrains.mps.lang.typesystem.structure.AbstractRule" flags="ng" index="1YuPPy">
         <child id="1174648101952" name="applicableNode" index="1YuTPh" />
       </concept>
@@ -189,6 +188,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -220,7 +222,8 @@
     </language>
   </registry>
   <node concept="18kY7G" id="3bkuCYRKQHK">
-    <property role="TrG5h" value="NoGridWithTotalAbove12" />
+    <property role="TrG5h" value="check_GridPage" />
+    <property role="3GE5qa" value="check" />
     <node concept="3clFbS" id="3bkuCYRKQHL" role="18ibNy">
       <node concept="3cpWs8" id="3bkuCYRKRwa" role="3cqZAp">
         <node concept="3cpWsn" id="3bkuCYRKRwd" role="3cpWs9">
@@ -300,15 +303,38 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="1YaCAy" id="3bkuCYRKQHN" role="1YuTPh">
-      <property role="TrG5h" value="gridPage" />
-      <ref role="1YaFvo" to="wi2d:3bkuCYRAqUA" resolve="GridPage" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="3bkuCYRL4Lb">
-    <property role="TrG5h" value="typeof_GridPage" />
-    <node concept="3clFbS" id="3bkuCYRL4Lc" role="18ibNy">
+      <node concept="3clFbH" id="77VjBUEHN5G" role="3cqZAp" />
+      <node concept="3clFbJ" id="77VjBUEHN3K" role="3cqZAp">
+        <node concept="3eOVzh" id="77VjBUEHN3L" role="3clFbw">
+          <node concept="3cmrfG" id="77VjBUEHN3M" role="3uHU7w">
+            <property role="3cmrfH" value="12" />
+          </node>
+          <node concept="37vLTw" id="77VjBUEHN3N" role="3uHU7B">
+            <ref role="3cqZAo" node="3bkuCYRKRwd" resolve="totalSize" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="77VjBUEHN3O" role="3clFbx">
+          <node concept="a7r0C" id="77VjBUEHN3P" role="3cqZAp">
+            <node concept="3cpWs3" id="77VjBUEHN3Q" role="a7wSD">
+              <node concept="Xl_RD" id="77VjBUEHN3R" role="3uHU7w">
+                <property role="Xl_RC" value="; a total size below 12 won't take the whole space" />
+              </node>
+              <node concept="3cpWs3" id="77VjBUEHN3S" role="3uHU7B">
+                <node concept="Xl_RD" id="77VjBUEHN3T" role="3uHU7B">
+                  <property role="Xl_RC" value="The grid page total size is " />
+                </node>
+                <node concept="37vLTw" id="77VjBUEHN3U" role="3uHU7w">
+                  <ref role="3cqZAo" node="3bkuCYRKRwd" resolve="totalSize" />
+                </node>
+              </node>
+            </node>
+            <node concept="1YBJjd" id="77VjBUEHN3V" role="1urrMF">
+              <ref role="1YBMHb" node="3bkuCYRKQHN" resolve="gridPage" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="77VjBUEHN33" role="3cqZAp" />
       <node concept="3clFbJ" id="3bkuCYRL4Lq" role="3cqZAp">
         <node concept="3clFbS" id="3bkuCYRL4Ls" role="3clFbx">
           <node concept="a7r0C" id="3bkuCYRLnqw" role="3cqZAp">
@@ -316,14 +342,14 @@
               <property role="Xl_RC" value="The grid is useless for an element of size 12" />
             </node>
             <node concept="1YBJjd" id="3bkuCYRLnyk" role="1urrMF">
-              <ref role="1YBMHb" node="3bkuCYRL4Le" resolve="gridPage" />
+              <ref role="1YBMHb" node="3bkuCYRKQHN" resolve="gridPage" />
             </node>
             <node concept="3Cnw8n" id="3bkuCYRLnyT" role="1urrFz">
               <ref role="QpYPw" node="3bkuCYRLgVF" resolve="GridIsUseless" />
               <node concept="3CnSsL" id="3bkuCYRLo48" role="3Coj4f">
                 <ref role="QkamJ" node="3bkuCYRLh0O" resolve="gridPage" />
                 <node concept="1YBJjd" id="3bkuCYRLo4o" role="3CoRuB">
-                  <ref role="1YBMHb" node="3bkuCYRL4Le" resolve="gridPage" />
+                  <ref role="1YBMHb" node="3bkuCYRKQHN" resolve="gridPage" />
                 </node>
               </node>
             </node>
@@ -341,7 +367,7 @@
                 </node>
                 <node concept="2OqwBi" id="3bkuCYRLbza" role="1y566C">
                   <node concept="1YBJjd" id="3bkuCYRLboU" role="2Oq$k0">
-                    <ref role="1YBMHb" node="3bkuCYRL4Le" resolve="gridPage" />
+                    <ref role="1YBMHb" node="3bkuCYRKQHN" resolve="gridPage" />
                   </node>
                   <node concept="3Tsc0h" id="3bkuCYRLbMS" role="2OqNvi">
                     <ref role="3TtcxE" to="wi2d:3bkuCYRAqUG" resolve="gridElements" />
@@ -357,7 +383,7 @@
             <node concept="2OqwBi" id="3bkuCYRL6qc" role="3uHU7B">
               <node concept="2OqwBi" id="3bkuCYRL4UG" role="2Oq$k0">
                 <node concept="1YBJjd" id="3bkuCYRL4LD" role="2Oq$k0">
-                  <ref role="1YBMHb" node="3bkuCYRL4Le" resolve="gridElement" />
+                  <ref role="1YBMHb" node="3bkuCYRKQHN" resolve="gridPage" />
                 </node>
                 <node concept="3Tsc0h" id="3bkuCYRL51T" role="2OqNvi">
                   <ref role="3TtcxE" to="wi2d:3bkuCYRAqUG" resolve="gridElements" />
@@ -371,14 +397,16 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="77VjBUEHXdo" role="3cqZAp" />
     </node>
-    <node concept="1YaCAy" id="3bkuCYRL4Le" role="1YuTPh">
+    <node concept="1YaCAy" id="3bkuCYRKQHN" role="1YuTPh">
       <property role="TrG5h" value="gridPage" />
       <ref role="1YaFvo" to="wi2d:3bkuCYRAqUA" resolve="GridPage" />
     </node>
   </node>
   <node concept="Q5z_Y" id="3bkuCYRLgVF">
     <property role="TrG5h" value="GridIsUseless" />
+    <property role="3GE5qa" value="quick-fix" />
     <node concept="Q6JDH" id="3bkuCYRLh0O" role="Q6Id_">
       <property role="TrG5h" value="gridPage" />
       <node concept="3Tqbb2" id="3bkuCYRLh0U" role="Q6QK4">
@@ -480,7 +508,8 @@
     </node>
   </node>
   <node concept="18kY7G" id="6hY3O8TTUiP">
-    <property role="TrG5h" value="OnlyOneWebSiteFormatAllowed" />
+    <property role="TrG5h" value="check_WebSiteFormat" />
+    <property role="3GE5qa" value="check.format" />
     <node concept="3clFbS" id="6hY3O8TTUiQ" role="18ibNy">
       <node concept="3clFbJ" id="6hY3O8TTUj1" role="3cqZAp">
         <node concept="3clFbS" id="6hY3O8TTUj3" role="3clFbx">
@@ -560,6 +589,7 @@
   </node>
   <node concept="Q5z_Y" id="6hY3O8TUvs2">
     <property role="TrG5h" value="ReplaceDefaultFormatWithCustomFormat" />
+    <property role="3GE5qa" value="quick-fix" />
     <node concept="Q6JDH" id="6hY3O8TUvsl" role="Q6Id_">
       <property role="TrG5h" value="defaultFormat" />
       <node concept="3Tqbb2" id="6hY3O8TUvsr" role="Q6QK4">
@@ -629,7 +659,8 @@
     </node>
   </node>
   <node concept="18kY7G" id="6hY3O8TUO4r">
-    <property role="TrG5h" value="OnlyOneMobileSiteFormatAllowed" />
+    <property role="TrG5h" value="check_MobileFormat" />
+    <property role="3GE5qa" value="check.format" />
     <node concept="3clFbS" id="6hY3O8TUO4s" role="18ibNy">
       <node concept="3clFbJ" id="6hY3O8TUOiG" role="3cqZAp">
         <node concept="3clFbS" id="6hY3O8TUOiH" role="3clFbx">
@@ -707,95 +738,9 @@
       <ref role="1YaFvo" to="wi2d:2dFAI0jBY8B" resolve="MobileFormat" />
     </node>
   </node>
-  <node concept="18kY7G" id="6hY3O8TV0M0">
-    <property role="TrG5h" value="Warning_GridPageNotFull" />
-    <node concept="3clFbS" id="6hY3O8TV0M1" role="18ibNy">
-      <node concept="3cpWs8" id="6hY3O8TV0Mv" role="3cqZAp">
-        <node concept="3cpWsn" id="6hY3O8TV0My" role="3cpWs9">
-          <property role="TrG5h" value="totalGridElementSize" />
-          <node concept="10Oyi0" id="6hY3O8TV0Mt" role="1tU5fm" />
-          <node concept="3cmrfG" id="6hY3O8TV0MY" role="33vP2m">
-            <property role="3cmrfH" value="0" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="6hY3O8TV0N9" role="3cqZAp" />
-      <node concept="3clFbF" id="6hY3O8TV0ND" role="3cqZAp">
-        <node concept="2OqwBi" id="6hY3O8TV5w_" role="3clFbG">
-          <node concept="2OqwBi" id="6hY3O8TV0X_" role="2Oq$k0">
-            <node concept="1YBJjd" id="6hY3O8TV0NB" role="2Oq$k0">
-              <ref role="1YBMHb" node="6hY3O8TV0M3" resolve="gridPage" />
-            </node>
-            <node concept="3Tsc0h" id="6hY3O8TV16b" role="2OqNvi">
-              <ref role="3TtcxE" to="wi2d:3bkuCYRAqUG" resolve="gridElements" />
-            </node>
-          </node>
-          <node concept="2es0OD" id="6hY3O8TV8M5" role="2OqNvi">
-            <node concept="1bVj0M" id="6hY3O8TV8M7" role="23t8la">
-              <node concept="3clFbS" id="6hY3O8TV8M8" role="1bW5cS">
-                <node concept="3clFbF" id="6hY3O8TV8Rp" role="3cqZAp">
-                  <node concept="d57v9" id="6hY3O8TVarV" role="3clFbG">
-                    <node concept="2OqwBi" id="6hY3O8TVaHW" role="37vLTx">
-                      <node concept="37vLTw" id="6hY3O8TVau1" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6hY3O8TV8M9" resolve="element" />
-                      </node>
-                      <node concept="3TrcHB" id="6hY3O8TVaUN" role="2OqNvi">
-                        <ref role="3TsBF5" to="wi2d:3bkuCYRBdOl" resolve="size" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="6hY3O8TV8Ro" role="37vLTJ">
-                      <ref role="3cqZAo" node="6hY3O8TV0My" resolve="totalGridElementSize" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="Rh6nW" id="6hY3O8TV8M9" role="1bW2Oz">
-                <property role="TrG5h" value="element" />
-                <node concept="2jxLKc" id="6hY3O8TV8Ma" role="1tU5fm" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="6hY3O8TV0Ns" role="3cqZAp" />
-      <node concept="3clFbJ" id="6hY3O8TV0Mc" role="3cqZAp">
-        <node concept="3eOVzh" id="6hY3O8TVdgE" role="3clFbw">
-          <node concept="3cmrfG" id="6hY3O8TVdh4" role="3uHU7w">
-            <property role="3cmrfH" value="12" />
-          </node>
-          <node concept="37vLTw" id="6hY3O8TVbhJ" role="3uHU7B">
-            <ref role="3cqZAo" node="6hY3O8TV0My" resolve="totalGridElementSize" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="6hY3O8TV0Me" role="3clFbx">
-          <node concept="a7r0C" id="6hY3O8TVdmd" role="3cqZAp">
-            <node concept="3cpWs3" id="6hY3O8TVfQb" role="a7wSD">
-              <node concept="Xl_RD" id="6hY3O8TVfQn" role="3uHU7w">
-                <property role="Xl_RC" value="; a total size below 12 won't take the whole space" />
-              </node>
-              <node concept="3cpWs3" id="6hY3O8TVdFN" role="3uHU7B">
-                <node concept="Xl_RD" id="6hY3O8TVdmw" role="3uHU7B">
-                  <property role="Xl_RC" value="The grid page total size is " />
-                </node>
-                <node concept="37vLTw" id="6hY3O8TVdKv" role="3uHU7w">
-                  <ref role="3cqZAo" node="6hY3O8TV0My" resolve="totalGridElementSize" />
-                </node>
-              </node>
-            </node>
-            <node concept="1YBJjd" id="6hY3O8TVdPZ" role="1urrMF">
-              <ref role="1YBMHb" node="6hY3O8TV0M3" resolve="gridPage" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="6hY3O8TV0M3" role="1YuTPh">
-      <property role="TrG5h" value="gridPage" />
-      <ref role="1YaFvo" to="wi2d:3bkuCYRAqUA" resolve="GridPage" />
-    </node>
-  </node>
   <node concept="18kY7G" id="6hY3O8TVw10">
-    <property role="TrG5h" value="Error_CustomFormatAreOverlapping" />
+    <property role="TrG5h" value="check_CustomFormat" />
+    <property role="3GE5qa" value="check.format" />
     <node concept="3clFbS" id="6hY3O8TVw11" role="18ibNy">
       <node concept="3cpWs8" id="4VHwwBJk1iT" role="3cqZAp">
         <node concept="3cpWsn" id="4VHwwBJk1iW" role="3cpWs9">
@@ -1205,7 +1150,8 @@
     </node>
   </node>
   <node concept="18kY7G" id="4VHwwBJmGQW">
-    <property role="TrG5h" value="Error_IFormat" />
+    <property role="TrG5h" value="check_IFormat" />
+    <property role="3GE5qa" value="check.format" />
     <node concept="3clFbS" id="4VHwwBJmGQX" role="18ibNy">
       <node concept="3clFbJ" id="4VHwwBJmpTH" role="3cqZAp">
         <node concept="3clFbS" id="4VHwwBJmpTJ" role="3clFbx">
@@ -1364,6 +1310,7 @@
   </node>
   <node concept="Q5z_Y" id="4VHwwBJmI49">
     <property role="TrG5h" value="ChangeFirstLetterToUppercase" />
+    <property role="3GE5qa" value="quick-fix" />
     <node concept="Q6JDH" id="4VHwwBJmIaB" role="Q6Id_">
       <property role="TrG5h" value="iFormat" />
       <node concept="3Tqbb2" id="4VHwwBJmIaH" role="Q6QK4">
@@ -1431,6 +1378,7 @@
   </node>
   <node concept="18kY7G" id="3Sngu6AkTOU">
     <property role="TrG5h" value="check_Theme" />
+    <property role="3GE5qa" value="check.theme" />
     <node concept="3clFbS" id="3Sngu6AkTOV" role="18ibNy">
       <node concept="3clFbJ" id="3Sngu6AkTP1" role="3cqZAp">
         <node concept="22lmx$" id="3Sngu6AkX17" role="3clFbw">
@@ -1476,6 +1424,84 @@
     <node concept="1YaCAy" id="3Sngu6AkTOX" role="1YuTPh">
       <property role="TrG5h" value="theme" />
       <ref role="1YaFvo" to="wi2d:2dFAI0jBY7Y" resolve="Theme" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="77VjBUEuBGM">
+    <property role="TrG5h" value="check_ThemeColor" />
+    <property role="3GE5qa" value="check.theme" />
+    <node concept="3clFbS" id="77VjBUEuBGN" role="18ibNy">
+      <node concept="3clFbJ" id="77VjBUEuBGY" role="3cqZAp">
+        <node concept="3fqX7Q" id="77VjBUEuDD9" role="3clFbw">
+          <node concept="2OqwBi" id="77VjBUEuDDb" role="3fr31v">
+            <node concept="2OqwBi" id="77VjBUEuDDc" role="2Oq$k0">
+              <node concept="1YBJjd" id="77VjBUEuDDd" role="2Oq$k0">
+                <ref role="1YBMHb" node="77VjBUEuBGP" resolve="themeColor" />
+              </node>
+              <node concept="3TrcHB" id="77VjBUEuDDe" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+              </node>
+            </node>
+            <node concept="liA8E" id="77VjBUEuDDf" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+              <node concept="Xl_RD" id="77VjBUEuDDg" role="37wK5m">
+                <property role="Xl_RC" value="^#[0-9ABCDEFabcdef]{8}|#[0-9ABCDEFabcdef]{6}" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="77VjBUEuBH0" role="3clFbx">
+          <node concept="2MkqsV" id="77VjBUEuDEm" role="3cqZAp">
+            <node concept="Xl_RD" id="77VjBUEuDEs" role="2MkJ7o">
+              <property role="Xl_RC" value="The color doesn't match the hexadecimal format (#xxxxxx or #xxxxxxxx)" />
+            </node>
+            <node concept="1YBJjd" id="77VjBUEuDIP" role="1urrMF">
+              <ref role="1YBMHb" node="77VjBUEuBGP" resolve="themeColor" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="77VjBUEuBGP" role="1YuTPh">
+      <property role="TrG5h" value="themeColor" />
+      <ref role="1YaFvo" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="77VjBUEIczJ">
+    <property role="3GE5qa" value="check.format" />
+    <property role="TrG5h" value="check_MenuLayout" />
+    <node concept="3clFbS" id="77VjBUEIczK" role="18ibNy">
+      <node concept="3clFbJ" id="77VjBUEIc$3" role="3cqZAp">
+        <node concept="3clFbS" id="77VjBUEIc$5" role="3clFbx">
+          <node concept="a7r0C" id="77VjBUEIiH0" role="3cqZAp">
+            <node concept="Xl_RD" id="77VjBUEIiHl" role="a7wSD">
+              <property role="Xl_RC" value="There are lot of tabs, consider grouping some sections" />
+            </node>
+            <node concept="1YBJjd" id="77VjBUEIiJZ" role="1urrMF">
+              <ref role="1YBMHb" node="77VjBUEIczS" resolve="menuLayout" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="77VjBUEIg9L" role="3clFbw">
+          <node concept="3cmrfG" id="77VjBUEIgah" role="3uHU7w">
+            <property role="3cmrfH" value="6" />
+          </node>
+          <node concept="2OqwBi" id="77VjBUEIgQJ" role="3uHU7B">
+            <node concept="2OqwBi" id="77VjBUEIcI7" role="2Oq$k0">
+              <node concept="1YBJjd" id="77VjBUEIc$i" role="2Oq$k0">
+                <ref role="1YBMHb" node="77VjBUEIczS" resolve="menuLayout" />
+              </node>
+              <node concept="3Tsc0h" id="77VjBUEIcQJ" role="2OqNvi">
+                <ref role="3TtcxE" to="wi2d:2dFAI0jBY8_" resolve="tabs" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="77VjBUEIi_R" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="77VjBUEIczS" role="1YuTPh">
+      <property role="TrG5h" value="menuLayout" />
+      <ref role="1YaFvo" to="wi2d:2dFAI0jBY8t" resolve="MenuLayout" />
     </node>
   </node>
 </model>
