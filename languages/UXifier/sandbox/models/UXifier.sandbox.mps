@@ -53,6 +53,7 @@
       <concept id="2552303901028114948" name="UXifier.structure.PresentationStyling" flags="ng" index="KX7z$">
         <property id="2552303901028127590" name="showImage" index="KMSA6" />
         <property id="2552303901028127592" name="imageLocation" index="KMSA8" />
+        <property id="2224790047665647928" name="sizeName" index="3k3RJU" />
       </concept>
       <concept id="2552303901028114951" name="UXifier.structure.IFormat" flags="ng" index="KX7zB">
         <property id="2552303901028618557" name="name" index="KN0Jt" />
@@ -261,6 +262,7 @@
                 <property role="KMSA8" value="4" />
                 <property role="3STkkY" value="true" />
                 <property role="KMSA6" value="true" />
+                <property role="3k3RJU" value="1Vw2GbaZ2ZG/xx-small" />
                 <ref role="15LnD2" node="7XyC30UDXDD" />
               </node>
             </node>

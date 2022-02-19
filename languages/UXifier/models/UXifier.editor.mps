@@ -513,6 +513,17 @@
           <node concept="jv8YD" id="1eZdBFFiTqI" role="1563LE" />
         </node>
       </node>
+      <node concept="3EZMnI" id="1Vw2GbaVYv7" role="3EZMnx">
+        <node concept="VPM3Z" id="1Vw2GbaVYv9" role="3F10Kt" />
+        <node concept="3F0ifn" id="1Vw2GbaVYBy" role="3EZMnx">
+          <property role="3F0ifm" value="- Name size:" />
+        </node>
+        <node concept="3F0A7n" id="1Vw2GbaVYBs" role="3EZMnx">
+          <ref role="1NtTu8" to="wi2d:1Vw2GbaVR4S" resolve="sizeName" />
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+        </node>
+        <node concept="2iRfu4" id="1Vw2GbaVYvc" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="1eZdBFFnJde" role="3EZMnx">
         <node concept="VPM3Z" id="1eZdBFFnJdf" role="3F10Kt" />
         <node concept="3F0ifn" id="1eZdBFFnJdg" role="3EZMnx">

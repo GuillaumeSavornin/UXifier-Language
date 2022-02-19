@@ -211,6 +211,11 @@
       <property role="TrG5h" value="imageLocation" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="1Vw2GbaVR4S" role="1TKVEl">
+      <property role="IQ2nx" value="2224790047665647928" />
+      <property role="TrG5h" value="sizeName" />
+      <ref role="AX2Wp" node="1Vw2GbaVR50" resolve="NAME_SIZE" />
+    </node>
     <node concept="PrWs8" id="2dFAI0jBY85" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
     </node>
@@ -1173,6 +1178,40 @@
       <property role="IQ2nx" value="9179075119537723019" />
       <property role="TrG5h" value="font" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1Vw2GbaVR50">
+    <property role="3F6X1D" value="2224790047665647936" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="NAME_SIZE" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1Vw2GbaVR55" role="M5hS2">
+      <property role="1uS6qo" value="NORMAL" />
+      <property role="1uS6qv" value="medium " />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaZ2ZG" role="M5hS2">
+      <property role="1uS6qv" value="xx-small" />
+      <property role="1uS6qo" value="MICRO" />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaVR51" role="M5hS2">
+      <property role="1uS6qo" value="TINY" />
+      <property role="1uS6qv" value="x-small" />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaVR52" role="M5hS2">
+      <property role="1uS6qo" value="SMALL" />
+      <property role="1uS6qv" value="small " />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaVR59" role="M5hS2">
+      <property role="1uS6qo" value="LARGE" />
+      <property role="1uS6qv" value="large " />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaVR5e" role="M5hS2">
+      <property role="1uS6qo" value="HUGE" />
+      <property role="1uS6qv" value="x-large" />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaZ2ZN" role="M5hS2">
+      <property role="1uS6qv" value="xx-large" />
+      <property role="1uS6qo" value="LIKEYOURMOMY" />
     </node>
   </node>
 </model>
