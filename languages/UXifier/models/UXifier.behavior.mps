@@ -236,19 +236,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2dFAI0jCVwA" role="3cqZAp">
-          <node concept="37vLTI" id="2dFAI0jCVTb" role="3clFbG">
-            <node concept="Xl_RD" id="2dFAI0jCVZW" role="37vLTx">
-              <property role="Xl_RC" value="https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&amp;v=beta&amp;t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y" />
-            </node>
-            <node concept="2OqwBi" id="2dFAI0jCVDL" role="37vLTJ">
-              <node concept="13iPFW" id="2dFAI0jCVw$" role="2Oq$k0" />
-              <node concept="3TrcHB" id="2dFAI0jCVNR" role="2OqNvi">
-                <ref role="3TsBF5" to="wi2d:2dFAI0jC1du" resolve="backgroundImage" />
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>
@@ -307,25 +294,12 @@
         <node concept="3clFbF" id="hFPhRNLiMd" role="3cqZAp">
           <node concept="37vLTI" id="hFPhRNLiMe" role="3clFbG">
             <node concept="Xl_RD" id="hFPhRNLiMf" role="37vLTx">
-              <property role="Xl_RC" value="01/01/2020" />
+              <property role="Xl_RC" value="September 14, 2016 - September 14, 2017" />
             </node>
             <node concept="2OqwBi" id="hFPhRNLiMg" role="37vLTJ">
               <node concept="13iPFW" id="hFPhRNLiMh" role="2Oq$k0" />
               <node concept="3TrcHB" id="hFPhRNLiMi" role="2OqNvi">
-                <ref role="3TsBF5" to="wi2d:7quf1gMz0av" resolve="startDate" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="hFPhRNLiMj" role="3cqZAp">
-          <node concept="37vLTI" id="hFPhRNLiMk" role="3clFbG">
-            <node concept="Xl_RD" id="hFPhRNLiMl" role="37vLTx">
-              <property role="Xl_RC" value="01/01/2022" />
-            </node>
-            <node concept="2OqwBi" id="hFPhRNLiMm" role="37vLTJ">
-              <node concept="13iPFW" id="hFPhRNLiMn" role="2Oq$k0" />
-              <node concept="3TrcHB" id="hFPhRNLiMo" role="2OqNvi">
-                <ref role="3TsBF5" to="wi2d:7quf1gMz0aw" resolve="endDate" />
+                <ref role="3TsBF5" to="wi2d:7quf1gMz0av" resolve="date" />
               </node>
             </node>
           </node>
@@ -365,19 +339,6 @@
               <node concept="13iPFW" id="hFPhRNLiMD" role="2Oq$k0" />
               <node concept="3TrcHB" id="hFPhRNLiME" role="2OqNvi">
                 <ref role="3TsBF5" to="wi2d:7quf1gMz0az" resolve="description" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="hFPhRNLiMF" role="3cqZAp">
-          <node concept="37vLTI" id="hFPhRNLiMG" role="3clFbG">
-            <node concept="Xl_RD" id="hFPhRNLiMH" role="37vLTx">
-              <property role="Xl_RC" value="Short description" />
-            </node>
-            <node concept="2OqwBi" id="hFPhRNLiMI" role="37vLTJ">
-              <node concept="13iPFW" id="hFPhRNLiMJ" role="2Oq$k0" />
-              <node concept="3TrcHB" id="hFPhRNLiMK" role="2OqNvi">
-                <ref role="3TsBF5" to="wi2d:7quf1gMz4R4" resolve="summary" />
               </node>
             </node>
           </node>
@@ -464,7 +425,7 @@
   </node>
   <node concept="13h7C7" id="1eZdBFEKKn_">
     <property role="3GE5qa" value="section" />
-    <ref role="13h7C2" to="wi2d:7quf1gMz0a$" resolve="ExperiencesSection" />
+    <ref role="13h7C2" to="wi2d:7quf1gMz0a$" resolve="ExperienceItem" />
     <node concept="13hLZK" id="1eZdBFEKKnA" role="13h7CW">
       <node concept="3clFbS" id="1eZdBFEKKnB" role="2VODD2">
         <node concept="3clFbF" id="1eZdBFEKK_V" role="3cqZAp">
@@ -472,7 +433,7 @@
             <node concept="2OqwBi" id="1eZdBFEKL5B" role="2Oq$k0">
               <node concept="13iPFW" id="1eZdBFEKK_Z" role="2Oq$k0" />
               <node concept="3Tsc0h" id="1eZdBFEKM1c" role="2OqNvi">
-                <ref role="3TtcxE" to="wi2d:7quf1gMz0a_" resolve="experiences" />
+                <ref role="3TtcxE" to="wi2d:7quf1gMz0a_" resolve="items" />
               </node>
             </node>
             <node concept="TSZUe" id="1eZdBFEKKA1" role="2OqNvi">
