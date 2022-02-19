@@ -209,7 +209,7 @@
     <node concept="1TJgyi" id="2dFAI0jC1dC" role="1TKVEl">
       <property role="IQ2nx" value="2552303901028127592" />
       <property role="TrG5h" value="imageLocation" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="1Vw2GbaZRhs" resolve="IMAGE_POSITION" />
     </node>
     <node concept="1TJgyi" id="1Vw2GbaVR4S" role="1TKVEl">
       <property role="IQ2nx" value="2224790047665647928" />
@@ -1211,7 +1211,21 @@
     </node>
     <node concept="M4N5e" id="1Vw2GbaZ2ZN" role="M5hS2">
       <property role="1uS6qv" value="xx-large" />
-      <property role="1uS6qo" value="LIKEYOURMOMY" />
+      <property role="1uS6qo" value="BIGGER_THAN_HUGE" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1Vw2GbaZRhs">
+    <property role="3F6X1D" value="2224790047666697308" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="IMAGE_POSITION" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1Vw2GbaZRuL" role="M5hS2">
+      <property role="1uS6qo" value="RIGHT" />
+      <property role="1uS6qv" value="row" />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaZRuH" role="M5hS2">
+      <property role="1uS6qo" value="LEFT" />
+      <property role="1uS6qv" value="row-reverse" />
     </node>
   </node>
 </model>

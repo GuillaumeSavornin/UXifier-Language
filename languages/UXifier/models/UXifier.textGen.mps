@@ -1322,7 +1322,23 @@
         <node concept="lc7rE" id="3bkuCYRFuiO" role="3cqZAp">
           <node concept="2BGw6n" id="4VHwwBJrX3e" role="lcghm" />
           <node concept="la8eA" id="3bkuCYRFupF" role="lcghm">
-            <property role="lacIc" value="&lt;Grid container&gt;" />
+            <property role="lacIc" value="&lt;Grid container sx={{flexDirection: '" />
+          </node>
+          <node concept="l9hG8" id="1Vw2Gbb3hzb" role="lcghm">
+            <node concept="2OqwBi" id="1Vw2Gbb3ii5" role="lb14g">
+              <node concept="2OqwBi" id="1Vw2Gbb3hNG" role="2Oq$k0">
+                <node concept="117lpO" id="1Vw2Gbb3hGs" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1Vw2Gbb3i5p" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wi2d:2dFAI0jC1d$" resolve="styling" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="1Vw2Gbb3it1" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:2dFAI0jC1dC" resolve="imageLocation" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="1Vw2Gbb3iQX" role="lcghm">
+            <property role="lacIc" value="'}}&gt;" />
           </node>
         </node>
         <node concept="3clFbH" id="4VHwwBJrXoD" role="3cqZAp" />

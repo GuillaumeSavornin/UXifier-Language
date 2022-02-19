@@ -153,7 +153,7 @@ return (
             <Grid container maxWidth="'100%'" sx={{ p:2, alignItems:'start', margin:'auto'}}>
       <Grid container margin={1}>
             <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_secondary}}>
-      <Grid container>            <Grid item md={12} lg={8}>
+      <Grid container sx={{flexDirection: 'row'}}>            <Grid item md={12} lg={8}>
                   <Typography gutterBottom sx={{ mb: 3, color:theme.palette.getContrastText(themeColor_secondary), }} align={"left"} variant="h5" component="div">Presentation</Typography>
                   <h1 style={{fontSize: "xx-small"}}>{(()=>{
  if(data.presentation){
@@ -193,7 +193,7 @@ return (
             <Grid container xs={8}>
         <Grid container margin={1}>
                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_primary}}>
-        <Grid container>                <Grid item md={12} lg={8}>
+        <Grid container sx={{flexDirection: 'row-reverse'}}>                <Grid item md={12} lg={8}>
                         <Typography gutterBottom sx={{ mb: 3, color:theme.palette.getContrastText(themeColor_primary), }} align={"left"} variant="h5" component="div">Presentation</Typography>
                         <h1 style={{fontSize: "medium "}}>{(()=>{
  if(data.presentation){
