@@ -1159,6 +1159,7 @@
         <node concept="3F0ifn" id="7XyC30UC$If" role="3EZMnx">
           <property role="3F0ifm" value="- color:" />
         </node>
+        <node concept="l2Vlx" id="7XyC30UC$Ih" role="2iSdaV" />
         <node concept="1iCGBv" id="6lfKmmFhR_W" role="3EZMnx">
           <ref role="1NtTu8" to="wi2d:6lfKmmFhRzL" resolve="backgroundColor" />
           <node concept="1sVBvm" id="6lfKmmFhR_Y" role="1sWHZn">
@@ -1169,7 +1170,6 @@
             </node>
           </node>
         </node>
-        <node concept="l2Vlx" id="7XyC30UC$Ih" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="7XyC30UC$LC" role="3EZMnx">
         <property role="3F0ifm" value="- section:" />
@@ -1177,8 +1177,12 @@
       <node concept="3EZMnI" id="77VjBUE$PpH" role="3EZMnx">
         <node concept="VPM3Z" id="77VjBUE$PpI" role="3F10Kt" />
         <node concept="3XFhqQ" id="77VjBUE$PqL" role="3EZMnx" />
+        <node concept="3F0ifn" id="5DQ6TvlnXv" role="3EZMnx">
+          <property role="3F0ifm" value="🞂" />
+          <node concept="VPM3Z" id="5DQ6TvlnXO" role="3F10Kt" />
+        </node>
         <node concept="3F0ifn" id="77VjBUE$PpK" role="3EZMnx">
-          <property role="3F0ifm" value="- shadow level:" />
+          <property role="3F0ifm" value="shadow level:" />
         </node>
         <node concept="3F0A7n" id="77VjBUE$PpL" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -1189,8 +1193,12 @@
       <node concept="3EZMnI" id="7XyC30UC$MR" role="3EZMnx">
         <node concept="VPM3Z" id="7XyC30UC$MS" role="3F10Kt" />
         <node concept="3XFhqQ" id="77VjBUE$PqY" role="3EZMnx" />
+        <node concept="3F0ifn" id="5DQ6TvlnXF" role="3EZMnx">
+          <property role="3F0ifm" value="🞂" />
+          <node concept="VPM3Z" id="5DQ6TvlnXM" role="3F10Kt" />
+        </node>
         <node concept="3F0ifn" id="7XyC30UC$MU" role="3EZMnx">
-          <property role="3F0ifm" value="- rounded corners:" />
+          <property role="3F0ifm" value="rounded corners:" />
         </node>
         <node concept="2yq9I_" id="7XyC30UC$Ok" role="3EZMnx">
           <ref role="225u1j" to="wi2d:7XyC30UCuRy" resolve="sectionRoundedCorners" />
@@ -3397,7 +3405,8 @@
     <node concept="3EZMnI" id="7XyC30UCBSw" role="2wV5jI">
       <node concept="VPM3Z" id="7XyC30UCBSy" role="3F10Kt" />
       <node concept="3F0ifn" id="7XyC30UCBSI" role="3EZMnx">
-        <property role="3F0ifm" value="-" />
+        <property role="3F0ifm" value="🞂" />
+        <node concept="VPM3Z" id="5DQ6TvlnXU" role="3F10Kt" />
       </node>
       <node concept="3F0ifn" id="7XyC30UCBSQ" role="3EZMnx">
         <property role="3F0ifm" value="name:" />
@@ -3423,7 +3432,8 @@
     <node concept="3EZMnI" id="7XyC30UF1qh" role="2wV5jI">
       <node concept="VPM3Z" id="7XyC30UF1qi" role="3F10Kt" />
       <node concept="3F0ifn" id="7XyC30UF1qj" role="3EZMnx">
-        <property role="3F0ifm" value="-" />
+        <property role="3F0ifm" value="🞂" />
+        <node concept="VPM3Z" id="5DQ6TvlnXW" role="3F10Kt" />
       </node>
       <node concept="3F0ifn" id="7XyC30UF1qk" role="3EZMnx">
         <property role="3F0ifm" value="name:" />
