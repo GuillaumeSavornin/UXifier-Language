@@ -47,6 +47,9 @@
         <child id="3662687154638270111" name="pages" index="25jtgg" />
       </concept>
       <concept id="2552303901028114983" name="UXifier.structure.MobileFormat" flags="ng" index="KX7z7" />
+      <concept id="2552303901028114947" name="UXifier.structure.IStyling" flags="ng" index="KX7zz">
+        <reference id="9179075119537445490" name="backgroundColor" index="15LnD2" />
+      </concept>
       <concept id="2552303901028114948" name="UXifier.structure.PresentationStyling" flags="ng" index="KX7z$">
         <property id="2552303901028127590" name="showImage" index="KMSA6" />
       </concept>
@@ -193,6 +196,12 @@
           <node concept="25jtgD" id="3bkuCYRBrBF" role="25jtgg">
             <node concept="25jtgA" id="3bkuCYRBrCp" role="25jtgz">
               <property role="25iauq" value="8" />
+              <node concept="2LRsGl" id="77VjBUESf43" role="25jtg_">
+                <property role="2LRsX$" value="Type of license" />
+                <property role="2LRsXU" value="XX" />
+                <property role="2LRsXT" value="list of countries" />
+                <node concept="2LRsXN" id="77VjBUESf45" role="2LRsXX" />
+              </node>
               <node concept="KX7Gv" id="zG5F94Yazd" role="25jtg_">
                 <property role="KMSAM" value="Name" />
                 <property role="KMSAP" value="LastName" />
@@ -305,6 +314,14 @@
           </node>
           <node concept="25jtgI" id="3bkuCYRBrDd" role="25jtgg">
             <property role="1p2q1V" value="7ytgQgxA_hJ/sm" />
+            <node concept="2LRsGl" id="77VjBUERApP" role="25jtgF">
+              <property role="2LRsX$" value="Type of license" />
+              <property role="2LRsXU" value="XX" />
+              <property role="2LRsXT" value="list of countries" />
+              <node concept="2LRsXN" id="77VjBUERApR" role="2LRsXX">
+                <ref role="15LnD2" node="77VjBUE9HMY" resolve="other" />
+              </node>
+            </node>
             <node concept="2LRsGl" id="zG5F94YaEB" role="25jtgF">
               <property role="2LRsX$" value="Type of license" />
               <property role="2LRsXU" value="XX" />
@@ -322,16 +339,6 @@
           <property role="Ses3W" value="7MJjWP4_CRK/&lt;PeopleIcon /&gt;" />
           <node concept="25jtgI" id="3bkuCYRBOJF" role="25jtgg">
             <property role="1p2q1V" value="7ytgQgxA_hY/lg" />
-            <node concept="2LRsGl" id="zG5F94YaL6" role="25jtgF">
-              <property role="2LRsX$" value="Type of license" />
-              <property role="2LRsXU" value="XX" />
-              <property role="2LRsXT" value="list of countries" />
-              <node concept="2LRsXN" id="zG5F94YaL8" role="2LRsXX">
-                <property role="2ogUw1" value="true" />
-                <property role="2odeaC" value="true" />
-                <property role="2LRsXQ" value="true" />
-              </node>
-            </node>
             <node concept="2BlgTl" id="zG5F94YaK0" role="25jtgF">
               <node concept="2BlgSD" id="zG5F94YaK2" role="2BlgSF">
                 <property role="2BlgSy" value="Project title" />
@@ -346,6 +353,18 @@
                 <property role="2BlgSL" value="true" />
                 <property role="2BlgSK" value="3" />
               </node>
+            </node>
+            <node concept="2LRsGl" id="77VjBUEURrH" role="25jtgF">
+              <property role="2LRsX$" value="Type of license" />
+              <property role="2LRsXU" value="XX" />
+              <property role="2LRsXT" value="list of countries" />
+              <node concept="2LRsXN" id="77VjBUEURrJ" role="2LRsXX" />
+            </node>
+            <node concept="2LRsGl" id="77VjBUEURs3" role="25jtgF">
+              <property role="2LRsX$" value="Type of license" />
+              <property role="2LRsXU" value="XX" />
+              <property role="2LRsXT" value="list of countries" />
+              <node concept="2LRsXN" id="77VjBUEURs5" role="2LRsXX" />
             </node>
             <node concept="3SOO3v" id="zG5F94YaJd" role="25jtgF">
               <node concept="3SOO3h" id="zG5F94YaJe" role="3SOO3j">
@@ -372,15 +391,17 @@
       <property role="KN0Jt" value="Mobile" />
       <node concept="KX7zG" id="3bkuCYRBeBr" role="KX7zS">
         <node concept="25jtgI" id="3bkuCYRBBIG" role="25jtgi">
-          <node concept="2LRsGl" id="zG5F94YaTu" role="25jtgF">
+          <node concept="2LRsGl" id="77VjBUEVk32" role="25jtgF">
             <property role="2LRsX$" value="Type of license" />
             <property role="2LRsXU" value="XX" />
             <property role="2LRsXT" value="list of countries" />
-            <node concept="2LRsXN" id="zG5F94YaTw" role="2LRsXX">
-              <property role="2LRsXQ" value="true" />
-              <property role="2odeaC" value="true" />
-              <property role="2ogUw1" value="true" />
-            </node>
+            <node concept="2LRsXN" id="77VjBUEVk34" role="2LRsXX" />
+          </node>
+          <node concept="2LRsGl" id="77VjBUEVk2M" role="25jtgF">
+            <property role="2LRsX$" value="Type of license" />
+            <property role="2LRsXU" value="XX" />
+            <property role="2LRsXT" value="list of countries" />
+            <node concept="2LRsXN" id="77VjBUEVk2O" role="2LRsXX" />
           </node>
           <node concept="3SbUMN" id="zG5F94YaUc" role="25jtgF">
             <property role="3SbUMR" value="Number Address, Country" />
