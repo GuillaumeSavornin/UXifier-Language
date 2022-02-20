@@ -1244,6 +1244,11 @@ const themeFont_TimesNewRoman="Times New Roman"
 const theme_squareSections = false
 const theme_shadowLevel = 20
 const theme = createTheme({
+    palette: {
+        background: {
+            default: "#222222"
+        }
+    }
 });
 
 
