@@ -101,8 +101,7 @@ function WebSiteFormat(){
             </AppBar>
 
             <Drawer variant="permanent" open={open} PaperProps={{sx: {}}}>
-                <Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', px: [1], backgroundColor: '#1d77db' }} >
-                    <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1, color:theme.palette.getContrastText('#1d77db'),  fontWeight:400 }} paddingLeft={8}>Menu</Typography>
+                <Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'end', px: [1], backgroundColor: '#1d77db' }} >
                     <IconButton onClick={toggleDrawer} >
                         <ChevronLeftIcon sx={{color:theme.palette.getContrastText('#1d77db'), }} />
                     </IconButton>
