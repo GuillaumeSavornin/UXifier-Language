@@ -75,9 +75,9 @@
       <concept id="2552303901028114973" name="UXifier.structure.MenuLayout" flags="ng" index="KX7zX">
         <property id="5687344883621736240" name="isMenuOpen" index="2xxiOT" />
         <property id="7300266163387021697" name="titleAlignement" index="3fcRz$" />
+        <reference id="7300266163387020064" name="menuColor" index="3fcR95" />
         <reference id="7300266163387020055" name="barColor" index="3fcR9M" />
         <child id="2552303901028114981" name="tabs" index="KX7z5" />
-        <child id="7300266163387020049" name="barTextStyling" index="3fcR9O" />
       </concept>
       <concept id="2552303901028114942" name="UXifier.structure.Theme" flags="ng" index="KX7Gu">
         <property id="9179075119537057201" name="backgroundImage" index="15KOQ1" />
@@ -225,6 +225,7 @@
         <property role="2xxiOT" value="true" />
         <property role="3fcRz$" value="1eZdBFFmBcm/center" />
         <ref role="3fcR9M" node="6lfKmmEotnI" resolve="light green" />
+        <ref role="3fcR95" node="77VjBUE9HML" resolve="primary" />
         <node concept="KX7z0" id="3bkuCYRBrB_" role="KX7z5">
           <property role="KX7z3" value="Menu" />
           <property role="Ses3W" value="7MJjWP4_CRH/&lt;MenuIcon /&gt;" />
@@ -464,7 +465,6 @@
             </node>
           </node>
         </node>
-        <node concept="2ogUwD" id="6lfKmmERt4z" role="3fcR9O" />
       </node>
     </node>
     <node concept="KX7z7" id="3bkuCYRBeBm" role="KX7zJ">
@@ -516,7 +516,7 @@
       <property role="15KORi" value="true" />
       <node concept="15Kflz" id="77VjBUE9HML" role="15KflD">
         <property role="TrG5h" value="primary" />
-        <property role="15KflA" value="#000080" />
+        <property role="15KflA" value="#ff0080" />
       </node>
       <node concept="15Kflz" id="77VjBUE9HMT" role="15KflD">
         <property role="TrG5h" value="secondary" />

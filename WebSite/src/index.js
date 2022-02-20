@@ -100,7 +100,7 @@ function WebSiteFormat(){
                 </Toolbar>
             </AppBar>
 
-            <Drawer variant="permanent" open={open}>
+            <Drawer variant="permanent" open={open} PaperProps={{sx: {}}}>
                 <Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', px: [1], backgroundColor: '#1d77db' }} >
                     <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1, color:theme.palette.getContrastText('#1d77db'),  fontWeight:400 }} paddingLeft={8}>Menu</Typography>
                     <IconButton onClick={toggleDrawer} >
@@ -110,18 +110,20 @@ function WebSiteFormat(){
                 <List component="nav">
                     <Link to="/Menu">
                         <ListItemButton>
-                            <ListItemIcon>
+                            <ListItemIcon sx={{
+                            }}>
                                 <MenuIcon />
                             </ListItemIcon>
-                            <ListItemText primary="Menu" />
+                            <ListItemText sx={{}} primary="Menu" />
                         </ListItemButton>
                     </Link>
                     <Link to="/Personal">
                         <ListItemButton>
-                            <ListItemIcon>
+                            <ListItemIcon sx={{
+                            }}>
                                 <PeopleIcon />
                             </ListItemIcon>
-                            <ListItemText primary="Personal" />
+                            <ListItemText sx={{}} primary="Personal" />
                         </ListItemButton>
                     </Link>
                 </List>
@@ -1229,7 +1231,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     }
 }));
 
-const themeColor_primary="#000080"
+const themeColor_primary="#ff0080"
 const themeColor_secondary="#800000"
 const themeColor_other="#212345"
 const themeColor_rgbcolor="#444444"
