@@ -635,16 +635,6 @@
         </node>
       </node>
     </node>
-    <node concept="KX7z7" id="6lfKmmEQish" role="KX7zJ">
-      <property role="KX7za" value="0" />
-      <property role="KX7zc" value="800" />
-      <property role="KN0Jt" value="Mobile" />
-      <node concept="KX7zX" id="6lfKmmEQiss" role="KX7zS">
-        <node concept="KX7z0" id="6lfKmmEQisu" role="KX7z5">
-          <property role="KX7z3" value="a" />
-        </node>
-      </node>
-    </node>
     <node concept="KX7Gu" id="77VjBUEYs3D" role="KX7zN">
       <property role="15KOQd" value="#555555" />
       <property role="15KOR_" value="5" />
