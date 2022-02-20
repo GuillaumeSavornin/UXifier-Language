@@ -56,6 +56,7 @@
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
+      <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
@@ -180,6 +181,7 @@
         </node>
         <node concept="3F0A7n" id="1DHNIAI0deN" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="6lfKmmF25Ly" resolve="VariableStyle" />
         </node>
       </node>
       <node concept="35HoNQ" id="58tSxDcszY8" role="3EZMnx" />
@@ -198,7 +200,7 @@
       <node concept="3F2HdR" id="2dFAI0jBY9q" role="3EZMnx">
         <ref role="1NtTu8" to="wi2d:2dFAI0jBY8f" resolve="formats" />
         <node concept="3F0ifn" id="2dFAI0jBY9$" role="2czzBI">
-          <property role="3F0ifm" value="[no format defined]" />
+          <property role="3F0ifm" value="[no format]" />
           <ref role="1k5W1q" node="2dFAI0jBY9D" resolve="NotDefinedStyle" />
         </node>
         <node concept="l2Vlx" id="2dFAI0jEzWA" role="2czzBx" />
@@ -297,6 +299,18 @@
       <property role="TrG5h" value="ReferenceStyle" />
       <node concept="VechU" id="77VjBUELHpK" role="3F10Kt">
         <property role="Vb096" value="fLwANPq/yellow" />
+      </node>
+    </node>
+    <node concept="14StLt" id="6lfKmmF25Ly" role="V601i">
+      <property role="TrG5h" value="VariableStyle" />
+      <node concept="VechU" id="6lfKmmF25M5" role="3F10Kt">
+        <property role="Vb096" value="fLwANPs/magenta" />
+      </node>
+    </node>
+    <node concept="14StLt" id="6lfKmmF26de" role="V601i">
+      <property role="TrG5h" value="SectionStyle" />
+      <node concept="30gYXW" id="6lfKmmF52KE" role="3F10Kt">
+        <property role="Vb096" value="hEZAO13/white" />
       </node>
     </node>
   </node>
@@ -720,8 +734,16 @@
     <ref role="1XX52x" to="wi2d:2dFAI0jBY7Z" resolve="PresentationSection" />
     <node concept="3EZMnI" id="3ksNkQL1msp" role="2wV5jI">
       <node concept="VPM3Z" id="3ksNkQL1msr" role="3F10Kt" />
-      <node concept="3F0ifn" id="3ksNkQL1msD" role="3EZMnx">
-        <property role="3F0ifm" value="Presentation section:" />
+      <node concept="3EZMnI" id="6lfKmmF8cUo" role="3EZMnx">
+        <node concept="3F0ifn" id="6lfKmmF8cUA" role="3EZMnx">
+          <property role="3F0ifm" value="👨‍" />
+          <node concept="VPM3Z" id="6lfKmmFcr3j" role="3F10Kt" />
+        </node>
+        <node concept="2iRfu4" id="6lfKmmF8cUp" role="2iSdaV" />
+        <node concept="3F0ifn" id="3ksNkQL1msD" role="3EZMnx">
+          <property role="3F0ifm" value="Presentation section:" />
+          <ref role="1k5W1q" node="6lfKmmF26de" resolve="SectionStyle" />
+        </node>
       </node>
       <node concept="3EZMnI" id="3ksNkQL274V" role="3EZMnx">
         <node concept="VPM3Z" id="3ksNkQL274X" role="3F10Kt" />
@@ -1098,7 +1120,7 @@
           <node concept="2iRkQZ" id="7XyC30UCBRl" role="2czzBx" />
           <node concept="VPM3Z" id="7XyC30UCBRm" role="3F10Kt" />
           <node concept="3F0ifn" id="7XyC30UCBRq" role="2czzBI">
-            <property role="3F0ifm" value="[no color defined]" />
+            <property role="3F0ifm" value="[no coloR]" />
             <ref role="1k5W1q" node="2dFAI0jBY9D" resolve="NotDefinedStyle" />
           </node>
         </node>
@@ -1115,7 +1137,7 @@
           <node concept="2iRkQZ" id="7XyC30UFv15" role="2czzBx" />
           <node concept="VPM3Z" id="7XyC30UFv16" role="3F10Kt" />
           <node concept="3F0ifn" id="3Sngu6_hg6W" role="2czzBI">
-            <property role="3F0ifm" value="[no font defined]" />
+            <property role="3F0ifm" value="[no font]" />
             <ref role="1k5W1q" node="2dFAI0jBY9D" resolve="NotDefinedStyle" />
           </node>
         </node>
@@ -1183,8 +1205,16 @@
     <ref role="1XX52x" to="wi2d:1c5gsjF0J_O" resolve="LanguageSection" />
     <node concept="3EZMnI" id="1c5gsjF0X8f" role="2wV5jI">
       <node concept="VPM3Z" id="1c5gsjF0X8h" role="3F10Kt" />
-      <node concept="3F0ifn" id="1c5gsjF0X8s" role="3EZMnx">
-        <property role="3F0ifm" value="Language section:" />
+      <node concept="3EZMnI" id="6lfKmmF8cU6" role="3EZMnx">
+        <node concept="3F0ifn" id="6lfKmmF8cUk" role="3EZMnx">
+          <property role="3F0ifm" value="🏴" />
+        </node>
+        <node concept="2iRfu4" id="6lfKmmF8cU7" role="2iSdaV" />
+        <node concept="3F0ifn" id="1c5gsjF0X8s" role="3EZMnx">
+          <property role="3F0ifm" value="Language section:" />
+          <ref role="1k5W1q" node="6lfKmmF26de" resolve="SectionStyle" />
+        </node>
+        <node concept="VPM3Z" id="6lfKmmFcr3l" role="3F10Kt" />
       </node>
       <node concept="3EZMnI" id="1c5gsjF0X8y" role="3EZMnx">
         <node concept="VPM3Z" id="1c5gsjF0X8$" role="3F10Kt" />
@@ -1430,8 +1460,16 @@
     <ref role="1XX52x" to="wi2d:3QvgIEcgCBZ" resolve="AdditionalInformationSection" />
     <node concept="3EZMnI" id="3QvgIEcgCRM" role="2wV5jI">
       <node concept="2iRkQZ" id="3QvgIEcgCRN" role="2iSdaV" />
-      <node concept="3F0ifn" id="3QvgIEcgCRl" role="3EZMnx">
-        <property role="3F0ifm" value="Additional Information Section:" />
+      <node concept="3EZMnI" id="6lfKmmF8cS8" role="3EZMnx">
+        <node concept="2iRfu4" id="6lfKmmF8cS9" role="2iSdaV" />
+        <node concept="3F0ifn" id="6lfKmmFcr3T" role="3EZMnx">
+          <property role="3F0ifm" value="👍" />
+          <node concept="VPM3Z" id="6lfKmmFcr3X" role="3F10Kt" />
+        </node>
+        <node concept="3F0ifn" id="3QvgIEcgCRl" role="3EZMnx">
+          <property role="3F0ifm" value="Additional Information Section:" />
+          <ref role="1k5W1q" node="6lfKmmF26de" resolve="SectionStyle" />
+        </node>
       </node>
       <node concept="3EZMnI" id="3QvgIEcgCS5" role="3EZMnx">
         <node concept="VPM3Z" id="3QvgIEcgCS7" role="3F10Kt" />
@@ -1926,8 +1964,16 @@
     <ref role="1XX52x" to="wi2d:7quf1gMz0a$" resolve="ExperienceItem" />
     <node concept="3EZMnI" id="1eZdBFEIAUM" role="2wV5jI">
       <node concept="VPM3Z" id="1eZdBFEIAUO" role="3F10Kt" />
-      <node concept="3F0ifn" id="1eZdBFEIAUZ" role="3EZMnx">
-        <property role="3F0ifm" value="Experience section:" />
+      <node concept="3EZMnI" id="6lfKmmF8cTg" role="3EZMnx">
+        <node concept="3F0ifn" id="6lfKmmF8cTu" role="3EZMnx">
+          <property role="3F0ifm" value="🏭" />
+          <node concept="VPM3Z" id="6lfKmmFcr3t" role="3F10Kt" />
+        </node>
+        <node concept="2iRfu4" id="6lfKmmF8cTh" role="2iSdaV" />
+        <node concept="3F0ifn" id="1eZdBFEIAUZ" role="3EZMnx">
+          <property role="3F0ifm" value="Experience section:" />
+          <ref role="1k5W1q" node="6lfKmmF26de" resolve="SectionStyle" />
+        </node>
       </node>
       <node concept="3EZMnI" id="1eZdBFEIAV5" role="3EZMnx">
         <node concept="VPM3Z" id="1eZdBFEIAV7" role="3F10Kt" />
@@ -2210,8 +2256,16 @@
     <ref role="1XX52x" to="wi2d:1eZdBFFr7q_" resolve="SkillSection" />
     <node concept="3EZMnI" id="1eZdBFFrYle" role="2wV5jI">
       <node concept="VPM3Z" id="1eZdBFFrYlf" role="3F10Kt" />
-      <node concept="3F0ifn" id="1eZdBFFrYlg" role="3EZMnx">
-        <property role="3F0ifm" value="Skill section:" />
+      <node concept="3EZMnI" id="6lfKmmF8cUW" role="3EZMnx">
+        <node concept="3F0ifn" id="6lfKmmFak2a" role="3EZMnx">
+          <property role="3F0ifm" value="🔨" />
+          <node concept="VPM3Z" id="6lfKmmFduAT" role="3F10Kt" />
+        </node>
+        <node concept="2iRfu4" id="6lfKmmF8cUX" role="2iSdaV" />
+        <node concept="3F0ifn" id="1eZdBFFrYlg" role="3EZMnx">
+          <property role="3F0ifm" value="Skill section:" />
+          <ref role="1k5W1q" node="6lfKmmF26de" resolve="SectionStyle" />
+        </node>
       </node>
       <node concept="3EZMnI" id="1eZdBFFrYlh" role="3EZMnx">
         <node concept="VPM3Z" id="1eZdBFFrYli" role="3F10Kt" />
@@ -2229,8 +2283,16 @@
     <ref role="1XX52x" to="wi2d:1eZdBFF$9F9" resolve="ContactSection" />
     <node concept="3EZMnI" id="1eZdBFF$me5" role="2wV5jI">
       <node concept="VPM3Z" id="1eZdBFF$me6" role="3F10Kt" />
-      <node concept="3F0ifn" id="1eZdBFF$me7" role="3EZMnx">
-        <property role="3F0ifm" value="Contact section:" />
+      <node concept="3EZMnI" id="6lfKmmF8cSq" role="3EZMnx">
+        <node concept="2iRfu4" id="6lfKmmF8cSr" role="2iSdaV" />
+        <node concept="3F0ifn" id="6lfKmmFcr3N" role="3EZMnx">
+          <property role="3F0ifm" value="📓" />
+          <node concept="VPM3Z" id="6lfKmmFcr3R" role="3F10Kt" />
+        </node>
+        <node concept="3F0ifn" id="1eZdBFF$me7" role="3EZMnx">
+          <property role="3F0ifm" value="Contact section:" />
+          <ref role="1k5W1q" node="6lfKmmF26de" resolve="SectionStyle" />
+        </node>
       </node>
       <node concept="3EZMnI" id="1eZdBFF$me8" role="3EZMnx">
         <node concept="VPM3Z" id="1eZdBFF$me9" role="3F10Kt" />
@@ -2642,7 +2704,7 @@
         <ref role="1k5W1q" node="1c5gsjEZVPC" resolve="TabBoxStyle" />
         <node concept="2iRkQZ" id="3bkuCYRAqWT" role="2czzBx" />
         <node concept="3F0ifn" id="3bkuCYRAqWW" role="2czzBI">
-          <property role="3F0ifm" value="[no sections]" />
+          <property role="3F0ifm" value="[no section]" />
           <ref role="1k5W1q" node="2dFAI0jBY9D" resolve="NotDefinedStyle" />
         </node>
       </node>
@@ -2661,10 +2723,11 @@
         <node concept="3XFhqQ" id="6hY3O8THGSq" role="3EZMnx" />
         <node concept="3XFhqQ" id="6hY3O8THGSy" role="3EZMnx" />
         <node concept="3F0ifn" id="6hY3O8THGSR" role="3EZMnx">
-          <property role="3F0ifm" value="Width:" />
+          <property role="3F0ifm" value="width:" />
         </node>
         <node concept="3F0A7n" id="6hY3O8THGSG" role="3EZMnx">
           <ref role="1NtTu8" to="wi2d:7ytgQgx_ecv" resolve="pageSize" />
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
         </node>
       </node>
       <node concept="3EZMnI" id="3bkuCYRAqV7" role="3EZMnx">
@@ -2676,7 +2739,7 @@
           <node concept="2iRkQZ" id="3bkuCYRAqVG" role="2czzBx" />
           <node concept="VPM3Z" id="3bkuCYRAqVH" role="3F10Kt" />
           <node concept="3F0ifn" id="3bkuCYRAqVM" role="2czzBI">
-            <property role="3F0ifm" value="[no section defined]" />
+            <property role="3F0ifm" value="[no section]" />
             <ref role="1k5W1q" node="2dFAI0jBY9D" resolve="NotDefinedStyle" />
           </node>
         </node>
@@ -2725,8 +2788,16 @@
     <ref role="1XX52x" to="wi2d:1eZdBFG4yzg" resolve="ImageSection" />
     <node concept="3EZMnI" id="1eZdBFG4zvW" role="2wV5jI">
       <node concept="VPM3Z" id="1eZdBFG4zvX" role="3F10Kt" />
-      <node concept="3F0ifn" id="1eZdBFG4zvY" role="3EZMnx">
-        <property role="3F0ifm" value="Image section:" />
+      <node concept="3EZMnI" id="6lfKmmF8cTy" role="3EZMnx">
+        <node concept="3F0ifn" id="6lfKmmFcr3n" role="3EZMnx">
+          <property role="3F0ifm" value="🎨" />
+          <node concept="VPM3Z" id="6lfKmmFcr3r" role="3F10Kt" />
+        </node>
+        <node concept="2iRfu4" id="6lfKmmF8cTz" role="2iSdaV" />
+        <node concept="3F0ifn" id="1eZdBFG4zvY" role="3EZMnx">
+          <property role="3F0ifm" value="Image section:" />
+          <ref role="1k5W1q" node="6lfKmmF26de" resolve="SectionStyle" />
+        </node>
       </node>
       <node concept="3EZMnI" id="1eZdBFG4zvZ" role="3EZMnx">
         <node concept="VPM3Z" id="1eZdBFG4zw0" role="3F10Kt" />
@@ -2930,8 +3001,16 @@
     <ref role="1XX52x" to="wi2d:6_RkYJe8_QY" resolve="ProjectSection" />
     <node concept="3EZMnI" id="6_RkYJe8_RV" role="2wV5jI">
       <node concept="VPM3Z" id="6_RkYJe8_RW" role="3F10Kt" />
-      <node concept="3F0ifn" id="6_RkYJe8_RX" role="3EZMnx">
-        <property role="3F0ifm" value="Project section:" />
+      <node concept="3EZMnI" id="6lfKmmF8cUE" role="3EZMnx">
+        <node concept="3F0ifn" id="6lfKmmF8cUS" role="3EZMnx">
+          <property role="3F0ifm" value="‍💼" />
+          <node concept="VPM3Z" id="6lfKmmFbny_" role="3F10Kt" />
+        </node>
+        <node concept="2iRfu4" id="6lfKmmF8cUF" role="2iSdaV" />
+        <node concept="3F0ifn" id="6_RkYJe8_RX" role="3EZMnx">
+          <property role="3F0ifm" value="Project section:" />
+          <ref role="1k5W1q" node="6lfKmmF26de" resolve="SectionStyle" />
+        </node>
       </node>
       <node concept="3EZMnI" id="6_RkYJe8_RY" role="3EZMnx">
         <node concept="VPM3Z" id="6_RkYJe8_RZ" role="3F10Kt" />
@@ -3306,7 +3385,7 @@
       </node>
       <node concept="3F0A7n" id="7XyC30UCBSY" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+        <ref role="1k5W1q" node="6lfKmmF25Ly" resolve="VariableStyle" />
       </node>
       <node concept="3XFhqQ" id="77VjBUEuTcU" role="3EZMnx" />
       <node concept="3F0ifn" id="77VjBUEuTdk" role="3EZMnx">
@@ -3332,7 +3411,7 @@
       </node>
       <node concept="3F0A7n" id="7XyC30UF1ql" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+        <ref role="1k5W1q" node="6lfKmmF25Ly" resolve="VariableStyle" />
       </node>
       <node concept="3EZMnI" id="77VjBUEuTee" role="3EZMnx">
         <node concept="VPM3Z" id="77VjBUEuTeg" role="3F10Kt" />
@@ -3385,6 +3464,7 @@
             <node concept="3F0A7n" id="3Sngu6AleYj" role="2wV5jI">
               <property role="1Intyy" value="true" />
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+              <ref role="1k5W1q" node="77VjBUELHpf" resolve="ReferenceStyle" />
             </node>
           </node>
         </node>
@@ -3397,6 +3477,7 @@
             <node concept="3F0A7n" id="3Sngu6AleYH" role="2wV5jI">
               <property role="1Intyy" value="true" />
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+              <ref role="1k5W1q" node="77VjBUELHpf" resolve="ReferenceStyle" />
             </node>
           </node>
         </node>
@@ -3718,8 +3799,16 @@
     <ref role="1XX52x" to="wi2d:zG5F95jTbD" resolve="EducationSection" />
     <node concept="3EZMnI" id="zG5F95jTtL" role="2wV5jI">
       <node concept="VPM3Z" id="zG5F95jTtM" role="3F10Kt" />
-      <node concept="3F0ifn" id="zG5F95jTtN" role="3EZMnx">
-        <property role="3F0ifm" value="Education section:" />
+      <node concept="3EZMnI" id="6lfKmmF8cSU" role="3EZMnx">
+        <node concept="3F0ifn" id="6lfKmmF8cTc" role="3EZMnx">
+          <property role="3F0ifm" value="🎓" />
+          <node concept="VPM3Z" id="6lfKmmF9gr0" role="3F10Kt" />
+        </node>
+        <node concept="2iRfu4" id="6lfKmmF8cSV" role="2iSdaV" />
+        <node concept="3F0ifn" id="zG5F95jTtN" role="3EZMnx">
+          <property role="3F0ifm" value="Education section:" />
+          <ref role="1k5W1q" node="6lfKmmF26de" resolve="SectionStyle" />
+        </node>
       </node>
       <node concept="3EZMnI" id="zG5F95jTtO" role="3EZMnx">
         <node concept="VPM3Z" id="zG5F95jTtP" role="3F10Kt" />
