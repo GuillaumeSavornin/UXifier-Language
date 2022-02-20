@@ -1112,6 +1112,11 @@
       <property role="TrG5h" value="url" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="7DslSX2oaCk" role="1TKVEl">
+      <property role="IQ2nx" value="8817018443290159636" />
+      <property role="TrG5h" value="linkUrl" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyi" id="1eZdBFG4yz$" role="1TKVEl">
       <property role="IQ2nx" value="1422915908846889188" />
       <property role="TrG5h" value="legend" />
@@ -1181,6 +1186,11 @@
       <property role="IQ2nx" value="1422915908846915138" />
       <property role="TrG5h" value="filterPercentage" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="7DslSX2ki$u" role="1TKVEl">
+      <property role="IQ2nx" value="8817018443289143582" />
+      <property role="TrG5h" value="hoverButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="1eZdBFG4yzK" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />

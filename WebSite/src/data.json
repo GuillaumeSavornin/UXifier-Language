@@ -176,59 +176,78 @@
   "images": [
     {
       "url": "https://png.pngitem.com/pimgs/s/424-4242818_golang-logo-golang-gopher-hd-png-download.png",
-      "legend": "GoDragon"
+      "legend": "GoDragon",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://ih1.redbubble.net/image.610280941.5895/pp,504x498-pad,600x600,f8f8f8.u1.jpg",
-      "legend": "GoGamer"
+      "legend": "GoGamer",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gogophercolor.png",
-      "legend": "GoPatato"
+      "legend": "GoPatato",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://preview.redd.it/tcmyd3n69ng41.jpg?width=1999&format=pjpg&auto=webp&s=b79cf22d3e2adcaf52a2d22bcb0568e42eff8bc2",
-      "legend": "The Gopher family picture"
+      "legend": "The Gopher family picture",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://cdn.dribbble.com/users/530731/screenshots/14709504/media/3f755fc2ccb8bcf3239c18caae532b68.png",
-      "legend": "GoKube"
+      "legend": "GoKube",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://uilicious.com/blog/content/images/size/w2000/2019/08/53pghgra05e674dgnkqq.png",
-      "legend": "GoKids"
+      "legend": "GoKids",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://cx-discourse-user-uploads.s3.dualstack.us-east-1.amazonaws.com/original/1X/db01fe15c49f1d7e7be45aa6149f08cb261a279b.png",
-      "legend": "GoGirl"
+      "legend": "GoGirl",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://qph.fs.quoracdn.net/main-qimg-b6d2313527e44ef5ec51e5d6523ec4d0-pjlq",
-      "legend": "GoPhd"
+      "legend": "GoPhd",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/30c621a657fb4a0bf4234e1f20f7ce91333fd712.png",
-      "legend": "GoDumb"
+      "legend": "GoDumb",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://www.clipartkey.com/mpngs/b/198-1980581_gopher-clip-art.png",
-      "legend": "GoWizard"
+      "legend": "GoWizard",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://image.emojipng.com/578/5513578.jpg",
-      "legend": "SuperGo"
+      "legend": "SuperGo",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://miro.medium.com/max/1106/1*z93yvlIYe2kMObUaPxYTCg.png",
-      "legend": "GoRoutines"
+      "legend": "GoRoutines",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://raw.githubusercontent.com/parnurzeal/gorequest/gh-pages/images/Gopher_GoRequest_400x300.jpg",
-      "legend": "GoPanPan"
+      "legend": "GoPanPan",
+      "linkUrl" : "https://go.dev/learn/"
     },
     {
       "url": "https://png.pngitem.com/pimgs/s/424-4242745_gophers-golang-hd-png-download.png",
-      "legend": "GoGeek"
+      "legend": "GoGeek",
+      "linkUrl" : "https://go.dev/learn/"
+    },
+    {
+      "url": "https://go.dev/images/gophers/motorcycle.svg",
+      "legend" : "Go vroom vroom",
+      "linkUrl" : "https://go.dev/learn/"
     }
   ],
   "additionalInformation": {

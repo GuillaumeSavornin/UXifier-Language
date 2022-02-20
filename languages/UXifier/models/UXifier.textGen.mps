@@ -305,7 +305,7 @@
         <node concept="3clFbH" id="1eZdBFFeRro" role="3cqZAp" />
         <node concept="lc7rE" id="2dFAI0jCyjY" role="3cqZAp">
           <node concept="la8eA" id="2dFAI0jCymI" role="lcghm">
-            <property role="lacIc" value="import InstagramIcon from '@mui/icons-material/Instagram';\nimport FacebookIcon from '@mui/icons-material/Facebook';\nimport LinkedInIcon from '@mui/icons-material/LinkedIn';\nimport PinterestIcon from '@mui/icons-material/Pinterest';\nimport TwitterIcon from '@mui/icons-material/Twitter';\nimport YouTubeIcon from '@mui/icons-material/YouTube';\nimport RedditIcon from '@mui/icons-material/Reddit';\nimport GitHubIcon from '@mui/icons-material/GitHub';\nimport LinkIcon from '@mui/icons-material/Link';\nimport data from &quot;./data.json&quot;;\nimport {Button, Rating} from &quot;@mui/material&quot;;\nimport * as React from 'react';\nimport { Fragment } from &quot;react&quot;;\nimport ReactDOM from 'react-dom';\nimport CssBaseline from '@mui/material/CssBaseline';\nimport Container from &quot;@mui/material/Container&quot;;\nimport Box from &quot;@mui/material/Box&quot;;\nimport Typography from &quot;@mui/material/Typography&quot;;\nimport SvgIcon from &quot;@mui/material/SvgIcon&quot;;\nimport { red } from '@mui/material/colors';\nimport { BrowserRouter as Router} from &quot;react-router-dom&quot;;\nimport { styled, createTheme, ThemeProvider } from '@mui/material/styles';\nimport MuiDrawer from '@mui/material/Drawer';\nimport MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';\nimport Toolbar from '@mui/material/Toolbar';\nimport List from '@mui/material/List';\nimport Divider from '@mui/material/Divider';\nimport IconButton from '@mui/material/IconButton';\nimport ListItemButton from '@mui/material/ListItemButton';\nimport ListItemIcon from '@mui/material/ListItemIcon';\nimport ListItemText from '@mui/material/ListItemText';\nimport ListSubheader from '@mui/material/ListSubheader';\nimport Badge from '@mui/material/Badge';\nimport Grid from '@mui/material/Grid';\nimport Paper from '@mui/material/Paper';\nimport MenuIcon from '@mui/icons-material/Menu';\nimport ChevronLeftIcon from '@mui/icons-material/ChevronLeft';\nimport DashboardIcon from '@mui/icons-material/Dashboard';\nimport ShoppingCartIcon from '@mui/icons-material/ShoppingCart';\nimport { useParams, useRouteMatch, Switch, Route, Link } from &quot;react-router-dom&quot;;\nimport { Link as Linkk } from '@mui/material';\nimport PeopleIcon from '@mui/icons-material/People';\nimport BarChartIcon from '@mui/icons-material/BarChart';\nimport LayersIcon from '@mui/icons-material/Layers';\nimport AssignmentIcon from '@mui/icons-material/Assignment';\nimport NotificationsIcon from '@mui/icons-material/Notifications';\nimport { css } from &quot;aphrodite/no-important&quot;;import Card from '@mui/material/Card';\nimport CardContent from '@mui/material/CardContent';\nimport FavoriteIcon from '@mui/icons-material/Favorite';\nimport FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';\nimport PhoneIcon from '@mui/icons-material/Phone';\nimport HomeIcon from '@mui/icons-material/Home';\nimport EmailIcon from '@mui/icons-material/Email';\nimport CircleIcon from '@mui/icons-material/Circle';\nimport StarIcon from '@mui/icons-material/Star';\nimport ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';\nimport ArrowRightIcon from '@mui/icons-material/ArrowRight';\nimport FaceIcon from '@mui/icons-material/Face';\nimport FilePresentIcon from '@mui/icons-material/FilePresent';\nimport LocalFloristIcon from '@mui/icons-material/LocalFlorist';\nimport PhotoIcon from '@mui/icons-material/Photo';\nimport SportsBasketballIcon from '@mui/icons-material/SportsBasketball';\nimport WorkIcon from '@mui/icons-material/Work';\nimport Collapse from &quot;@mui/material/Collapse&quot;;\nimport ExpandMoreIcon from &quot;@mui/icons-material/ExpandMore&quot;;\nimport LinearProgress, {\n    linearProgressClasses\n} from &quot;@mui/material/LinearProgress&quot;;" />
+            <property role="lacIc" value="import InstagramIcon from '@mui/icons-material/Instagram';\nimport FacebookIcon from '@mui/icons-material/Facebook';\nimport LinkedInIcon from '@mui/icons-material/LinkedIn';\nimport PinterestIcon from '@mui/icons-material/Pinterest';\nimport TwitterIcon from '@mui/icons-material/Twitter';\nimport YouTubeIcon from '@mui/icons-material/YouTube';\nimport RedditIcon from '@mui/icons-material/Reddit';\nimport GitHubIcon from '@mui/icons-material/GitHub';\nimport LinkIcon from '@mui/icons-material/Link';\nimport data from &quot;./data.json&quot;;\nimport {Button, Rating} from &quot;@mui/material&quot;;\nimport * as React from 'react';\nimport { Fragment } from &quot;react&quot;;\nimport ReactDOM from 'react-dom';\nimport CssBaseline from '@mui/material/CssBaseline';\nimport Container from &quot;@mui/material/Container&quot;;\nimport Box from &quot;@mui/material/Box&quot;;\nimport Typography from &quot;@mui/material/Typography&quot;;\nimport SvgIcon from &quot;@mui/material/SvgIcon&quot;;\nimport { red } from '@mui/material/colors';\nimport { BrowserRouter as Router} from &quot;react-router-dom&quot;;\nimport { styled, createTheme, ThemeProvider } from '@mui/material/styles';\nimport MuiDrawer from '@mui/material/Drawer';\nimport MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';\nimport Toolbar from '@mui/material/Toolbar';\nimport List from '@mui/material/List';\nimport Divider from '@mui/material/Divider';\nimport IconButton from '@mui/material/IconButton';\nimport ListItemButton from '@mui/material/ListItemButton';\nimport ListItemIcon from '@mui/material/ListItemIcon';\nimport ListItemText from '@mui/material/ListItemText';\nimport ListSubheader from '@mui/material/ListSubheader';\nimport Badge from '@mui/material/Badge';\nimport Grid from '@mui/material/Grid';\nimport Paper from '@mui/material/Paper';\nimport MenuIcon from '@mui/icons-material/Menu';\nimport ChevronLeftIcon from '@mui/icons-material/ChevronLeft';\nimport DashboardIcon from '@mui/icons-material/Dashboard';\nimport ShoppingCartIcon from '@mui/icons-material/ShoppingCart';\nimport { useParams, useRouteMatch, Switch, Route, Link } from &quot;react-router-dom&quot;;\nimport { Link as Linkk } from '@mui/material';\nimport PeopleIcon from '@mui/icons-material/People';\nimport BarChartIcon from '@mui/icons-material/BarChart';\nimport LayersIcon from '@mui/icons-material/Layers';\nimport AssignmentIcon from '@mui/icons-material/Assignment';\nimport NotificationsIcon from '@mui/icons-material/Notifications';\nimport { css } from &quot;aphrodite/no-important&quot;;import Card from '@mui/material/Card';\nimport CardContent from '@mui/material/CardContent';\nimport FavoriteIcon from '@mui/icons-material/Favorite';\nimport FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';\nimport PhoneIcon from '@mui/icons-material/Phone';\nimport HomeIcon from '@mui/icons-material/Home';\nimport EmailIcon from '@mui/icons-material/Email';\nimport CircleIcon from '@mui/icons-material/Circle';\nimport StarIcon from '@mui/icons-material/Star';\nimport ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';\nimport ArrowRightIcon from '@mui/icons-material/ArrowRight';\nimport FaceIcon from '@mui/icons-material/Face';\nimport FilePresentIcon from '@mui/icons-material/FilePresent';\nimport LocalFloristIcon from '@mui/icons-material/LocalFlorist';\nimport PhotoIcon from '@mui/icons-material/Photo';\nimport SportsBasketballIcon from '@mui/icons-material/SportsBasketball';\nimport WorkIcon from '@mui/icons-material/Work';\nimport Collapse from &quot;@mui/material/Collapse&quot;;\nimport ExpandMoreIcon from &quot;@mui/icons-material/ExpandMore&quot;;\nimport LinearProgress, {\n    linearProgressClasses\n} from &quot;@mui/material/LinearProgress&quot;; \nimport &quot;./hover.css&quot;;" />
           </node>
           <node concept="l8MVK" id="2dFAI0jC$2X" role="lcghm" />
           <node concept="l8MVK" id="2dFAI0jCFEZ" role="lcghm" />
@@ -18512,6 +18512,48 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="7DslSX2o4Sw" role="3cqZAp" />
+            <node concept="3clFbJ" id="7DslSX2o72k" role="3cqZAp">
+              <node concept="3clFbS" id="7DslSX2o72m" role="3clFbx">
+                <node concept="lc7rE" id="7DslSX2o9nB" role="3cqZAp">
+                  <node concept="la8eA" id="7DslSX2o9nX" role="lcghm">
+                    <property role="lacIc" value="&lt;a className=&quot;imageContainer&quot; style={{position:&quot;relative&quot;}} href=" />
+                  </node>
+                  <node concept="l9hG8" id="7DslSX2obVI" role="lcghm">
+                    <node concept="2YIFZM" id="7DslSX2ugxP" role="lb14g">
+                      <ref role="37wK5l" node="1eZdBFG4OIo" resolve="checkRawJSONImageSection" />
+                      <ref role="1Pybhc" node="4ccJuxnam4K" resolve="JSONLoader" />
+                      <node concept="Xl_RD" id="7DslSX2ugxQ" role="37wK5m">
+                        <property role="Xl_RC" value="images" />
+                      </node>
+                      <node concept="Xl_RD" id="7DslSX2ugxR" role="37wK5m">
+                        <property role="Xl_RC" value="linkUrl" />
+                      </node>
+                      <node concept="2OqwBi" id="7DslSX2ugxS" role="37wK5m">
+                        <node concept="117lpO" id="7DslSX2ugxT" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="7DslSX2ugxU" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7DslSX2oaCk" resolve="linkUrl" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="7DslSX2qDyB" role="lcghm">
+                    <property role="lacIc" value="&gt;" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7DslSX2o8IA" role="3clFbw">
+                <node concept="2OqwBi" id="7DslSX2o8g7" role="2Oq$k0">
+                  <node concept="117lpO" id="7DslSX2o87r" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7DslSX2o8pV" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wi2d:1eZdBFG4yzh" resolve="styling" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="7DslSX2o9la" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:7DslSX2ki$u" resolve="hoverButton" />
+                </node>
+              </node>
+            </node>
             <node concept="lc7rE" id="1eZdBFG4LJb" role="3cqZAp">
               <node concept="la8eA" id="1eZdBFG4LK2" role="lcghm">
                 <property role="lacIc" value="&lt;Box component=&quot;img&quot; src=" />
@@ -18577,7 +18619,36 @@
                 </node>
               </node>
               <node concept="la8eA" id="1eZdBFG4YVA" role="lcghm">
-                <property role="lacIc" value="%)&quot;}}/&gt;" />
+                <property role="lacIc" value="%)&quot;}}" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="7DslSX2kmis" role="3cqZAp">
+              <node concept="3clFbS" id="7DslSX2kmiu" role="3clFbx">
+                <node concept="lc7rE" id="7DslSX2kpc5" role="3cqZAp">
+                  <node concept="la8eA" id="7DslSX2kpcr" role="lcghm">
+                    <property role="lacIc" value=" className=&quot;hoverImage&quot; /&gt;\n&lt;Button className=&quot;buttonImage&quot; sx={{position:&quot;absolute&quot;, top:&quot;50%&quot;, left:&quot;40%&quot;}}&gt;Visit content&lt;/Button&gt;\n&lt;/a&gt;" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7DslSX2knQi" role="3clFbw">
+                <node concept="2OqwBi" id="7DslSX2knma" role="2Oq$k0">
+                  <node concept="117lpO" id="7DslSX2kndu" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7DslSX2knFl" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wi2d:1eZdBFG4yzh" resolve="styling" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="7DslSX2ko2H" role="2OqNvi">
+                  <ref role="3TsBF5" to="wi2d:7DslSX2ki$u" resolve="hoverButton" />
+                </node>
+              </node>
+              <node concept="9aQIb" id="7DslSX2ko6k" role="9aQIa">
+                <node concept="3clFbS" id="7DslSX2ko6l" role="9aQI4">
+                  <node concept="lc7rE" id="7DslSX2kkPr" role="3cqZAp">
+                    <node concept="la8eA" id="7DslSX2klTY" role="lcghm">
+                      <property role="lacIc" value="/&gt;" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
             <node concept="3clFbJ" id="1eZdBFG6mx4" role="3cqZAp">

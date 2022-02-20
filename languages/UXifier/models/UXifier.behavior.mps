@@ -712,6 +712,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7DslSX2t1wH" role="3cqZAp">
+          <node concept="37vLTI" id="7DslSX2t2lE" role="3clFbG">
+            <node concept="Xl_RD" id="7DslSX2t2_d" role="37vLTx">
+              <property role="Xl_RC" value="https://go.dev/" />
+            </node>
+            <node concept="2OqwBi" id="7DslSX2t1En" role="37vLTJ">
+              <node concept="13iPFW" id="7DslSX2t1wF" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7DslSX2t1Oq" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:7DslSX2oaCk" resolve="linkUrl" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1eZdBFG5bXg" role="3cqZAp">
           <node concept="37vLTI" id="1eZdBFG5bXh" role="3clFbG">
             <node concept="Xl_RD" id="1eZdBFG5bXi" role="37vLTx">
