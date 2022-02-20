@@ -2561,6 +2561,20 @@
           </node>
         </node>
       </node>
+      <node concept="3EZMnI" id="7DslSX2lDJ6" role="3EZMnx">
+        <node concept="VPM3Z" id="7DslSX2lDJ8" role="3F10Kt" />
+        <node concept="3F0ifn" id="7DslSX2lDR5" role="3EZMnx">
+          <property role="3F0ifm" value="-" />
+        </node>
+        <node concept="2iRfu4" id="7DslSX2lDJb" role="2iSdaV" />
+        <node concept="3F0ifn" id="7DslSX2lDRf" role="3EZMnx">
+          <property role="3F0ifm" value="hover image button:" />
+        </node>
+        <node concept="2yq9I_" id="7DslSX2obTm" role="3EZMnx">
+          <ref role="225u1j" to="wi2d:7DslSX2ki$u" resolve="hoverButton" />
+          <node concept="jv8YD" id="7DslSX2obTy" role="1563LE" />
+        </node>
+      </node>
       <node concept="3EZMnI" id="1eZdBFG4y_Z" role="3EZMnx">
         <node concept="VPM3Z" id="1eZdBFG4yA0" role="3F10Kt" />
         <node concept="3F0ifn" id="3Sngu6_YAtd" role="3EZMnx">
@@ -3468,7 +3482,7 @@
     <node concept="3EZMnI" id="zG5F95jTtL" role="2wV5jI">
       <node concept="VPM3Z" id="zG5F95jTtM" role="3F10Kt" />
       <node concept="3F0ifn" id="zG5F95jTtN" role="3EZMnx">
-        <property role="3F0ifm" value="Experience section:" />
+        <property role="3F0ifm" value="Education section:" />
       </node>
       <node concept="3EZMnI" id="zG5F95jTtO" role="3EZMnx">
         <node concept="VPM3Z" id="zG5F95jTtP" role="3F10Kt" />

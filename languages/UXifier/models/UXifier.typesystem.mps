@@ -2007,7 +2007,7 @@
               <ref role="3cqZAo" node="77VjBUESoz3" resolve="warningMoreThanOne" />
             </node>
             <node concept="1YBJjd" id="77VjBUEVM8y" role="1urrMF">
-              <ref role="1YBMHb" node="77VjBUER9rW" resolve="additionalInformationSection" />
+              <ref role="1YBMHb" node="77VjBUESmKj" resolve="languageSection" />
             </node>
           </node>
         </node>
@@ -2474,6 +2474,143 @@
     <node concept="1YaCAy" id="77VjBUESvD1" role="1YuTPh">
       <property role="TrG5h" value="skillSection" />
       <ref role="1YaFvo" to="wi2d:1eZdBFFr7q_" resolve="SkillSection" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6lfKmmE6BXm">
+    <property role="TrG5h" value="check_EducationSection" />
+    <property role="3GE5qa" value="section" />
+    <node concept="3clFbS" id="6lfKmmE6BXn" role="18ibNy">
+      <node concept="3cpWs8" id="6lfKmmE6C9x" role="3cqZAp">
+        <node concept="3cpWsn" id="6lfKmmE6C9y" role="3cpWs9">
+          <property role="TrG5h" value="warningMoreThanOne" />
+          <node concept="17QB3L" id="6lfKmmE6C9z" role="1tU5fm" />
+          <node concept="Xl_RD" id="6lfKmmE6C9$" role="33vP2m">
+            <property role="Xl_RC" value="More than one Education Section, only one is recommended" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6lfKmmE6C9_" role="3cqZAp" />
+      <node concept="3clFbJ" id="6lfKmmE6C9A" role="3cqZAp">
+        <node concept="3clFbS" id="6lfKmmE6C9B" role="3clFbx">
+          <node concept="a7r0C" id="6lfKmmE6C9C" role="3cqZAp">
+            <node concept="37vLTw" id="6lfKmmE6C9D" role="a7wSD">
+              <ref role="3cqZAo" node="6lfKmmE6C9y" resolve="warningMoreThanOne" />
+            </node>
+            <node concept="1YBJjd" id="6lfKmmE6C9E" role="1urrMF">
+              <ref role="1YBMHb" node="6lfKmmE6BXp" resolve="educationSection" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="6lfKmmE6C9F" role="3clFbw">
+          <node concept="17QLQc" id="6lfKmmE6C9G" role="3uHU7B">
+            <node concept="2OqwBi" id="6lfKmmE6C9H" role="3uHU7B">
+              <node concept="1YBJjd" id="6lfKmmE6C9I" role="2Oq$k0">
+                <ref role="1YBMHb" node="6lfKmmE6BXp" resolve="educationSection" />
+              </node>
+              <node concept="2Xjw5R" id="6lfKmmE6C9J" role="2OqNvi">
+                <node concept="1xMEDy" id="6lfKmmE6C9K" role="1xVPHs">
+                  <node concept="chp4Y" id="6lfKmmE6C9L" role="ri$Ld">
+                    <ref role="cht4Q" to="wi2d:2dFAI0jBY8c" resolve="SimpleLayout" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="10Nm6u" id="6lfKmmE6C9M" role="3uHU7w" />
+          </node>
+          <node concept="3eOSWO" id="6lfKmmE6C9N" role="3uHU7w">
+            <node concept="3cmrfG" id="6lfKmmE6C9O" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="6lfKmmE6C9P" role="3uHU7B">
+              <node concept="2OqwBi" id="6lfKmmE6C9Q" role="2Oq$k0">
+                <node concept="2OqwBi" id="6lfKmmE6C9R" role="2Oq$k0">
+                  <node concept="1YBJjd" id="6lfKmmE6C9S" role="2Oq$k0">
+                    <ref role="1YBMHb" node="6lfKmmE6BXp" resolve="educationSection" />
+                  </node>
+                  <node concept="2Xjw5R" id="6lfKmmE6C9T" role="2OqNvi">
+                    <node concept="1xMEDy" id="6lfKmmE6C9U" role="1xVPHs">
+                      <node concept="chp4Y" id="6lfKmmE6C9V" role="ri$Ld">
+                        <ref role="cht4Q" to="wi2d:2dFAI0jBY8c" resolve="SimpleLayout" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2Rf3mk" id="6lfKmmE6C9W" role="2OqNvi">
+                  <node concept="1xMEDy" id="6lfKmmE6C9X" role="1xVPHs">
+                    <node concept="chp4Y" id="6lfKmmE6C9Y" role="ri$Ld">
+                      <ref role="cht4Q" to="wi2d:zG5F95jTbD" resolve="EducationSection" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="34oBXx" id="6lfKmmE6C9Z" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6lfKmmE6Ca0" role="3cqZAp" />
+      <node concept="3clFbJ" id="6lfKmmE6Ca1" role="3cqZAp">
+        <node concept="3clFbS" id="6lfKmmE6Ca2" role="3clFbx">
+          <node concept="a7r0C" id="6lfKmmE6Ca3" role="3cqZAp">
+            <node concept="37vLTw" id="6lfKmmE6Ca4" role="a7wSD">
+              <ref role="3cqZAo" node="6lfKmmE6C9y" resolve="warningMoreThanOne" />
+            </node>
+            <node concept="1YBJjd" id="6lfKmmE6Ca5" role="1urrMF">
+              <ref role="1YBMHb" node="6lfKmmE6BXp" resolve="educationSection" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="6lfKmmE6Ca6" role="3clFbw">
+          <node concept="17QLQc" id="6lfKmmE6Ca7" role="3uHU7B">
+            <node concept="2OqwBi" id="6lfKmmE6Ca8" role="3uHU7B">
+              <node concept="1YBJjd" id="6lfKmmE6Ca9" role="2Oq$k0">
+                <ref role="1YBMHb" node="6lfKmmE6BXp" resolve="educationSection" />
+              </node>
+              <node concept="2Xjw5R" id="6lfKmmE6Caa" role="2OqNvi">
+                <node concept="1xMEDy" id="6lfKmmE6Cab" role="1xVPHs">
+                  <node concept="chp4Y" id="6lfKmmE6Cac" role="ri$Ld">
+                    <ref role="cht4Q" to="wi2d:2dFAI0jBY8t" resolve="MenuLayout" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="10Nm6u" id="6lfKmmE6Cad" role="3uHU7w" />
+          </node>
+          <node concept="3eOSWO" id="6lfKmmE6Cae" role="3uHU7w">
+            <node concept="3cmrfG" id="6lfKmmE6Caf" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="6lfKmmE6Cag" role="3uHU7B">
+              <node concept="2OqwBi" id="6lfKmmE6Cah" role="2Oq$k0">
+                <node concept="2OqwBi" id="6lfKmmE6Cai" role="2Oq$k0">
+                  <node concept="1YBJjd" id="6lfKmmE6Caj" role="2Oq$k0">
+                    <ref role="1YBMHb" node="6lfKmmE6BXp" resolve="educationSection" />
+                  </node>
+                  <node concept="2Xjw5R" id="6lfKmmE6Cak" role="2OqNvi">
+                    <node concept="1xMEDy" id="6lfKmmE6Cal" role="1xVPHs">
+                      <node concept="chp4Y" id="6lfKmmE6Cam" role="ri$Ld">
+                        <ref role="cht4Q" to="wi2d:2dFAI0jBY8t" resolve="MenuLayout" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2Rf3mk" id="6lfKmmE6Can" role="2OqNvi">
+                  <node concept="1xMEDy" id="6lfKmmE6Cao" role="1xVPHs">
+                    <node concept="chp4Y" id="6lfKmmE6Cap" role="ri$Ld">
+                      <ref role="cht4Q" to="wi2d:zG5F95jTbD" resolve="EducationSection" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="34oBXx" id="6lfKmmE6Caq" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6lfKmmE6BXp" role="1YuTPh">
+      <property role="TrG5h" value="educationSection" />
+      <ref role="1YaFvo" to="wi2d:zG5F95jTbD" resolve="EducationSection" />
     </node>
   </node>
 </model>
