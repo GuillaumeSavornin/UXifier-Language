@@ -118,6 +118,21 @@
       <concept id="9179075119537723017" name="UXifier.structure.ThemeFont" flags="ng" index="15NFqT">
         <property id="9179075119537723019" name="font" index="15NFqV" />
       </concept>
+      <concept id="642913801729970938" name="UXifier.structure.EducationItem" flags="ng" index="1dCSh8">
+        <property id="642913801729970939" name="date" index="1dCSh9" />
+        <property id="642913801729970942" name="description" index="1dCShc" />
+        <property id="642913801729970940" name="title" index="1dCShe" />
+        <property id="642913801729970941" name="location" index="1dCShf" />
+      </concept>
+      <concept id="642913801729970921" name="UXifier.structure.EducationSection" flags="ng" index="1dCShr">
+        <child id="642913801729970922" name="items" index="1dCSho" />
+        <child id="642913801729970923" name="styling" index="1dCShp" />
+      </concept>
+      <concept id="642913801729970925" name="UXifier.structure.EducationStyling" flags="ng" index="1dCShv">
+        <property id="642913801729970930" name="separator" index="1dCSh0" />
+        <property id="642913801729970926" name="numberItems" index="1dCShs" />
+        <property id="642913801729970927" name="collapseDescription" index="1dCSht" />
+      </concept>
       <concept id="1370573975616420270" name="UXifier.structure.LanguageItem" flags="ng" index="3S1VxE">
         <property id="1370573975616475709" name="level" index="3S1DfT" />
         <property id="1370573975616475704" name="language" index="3S1DfW" />
@@ -205,6 +220,20 @@
                 <node concept="KX7z$" id="zG5F94Yazf" role="KMSA4">
                   <property role="KMSA6" value="true" />
                   <property role="2ogUw1" value="true" />
+                </node>
+              </node>
+              <node concept="1dCShr" id="zG5F95lRFH" role="25jtg_">
+                <node concept="1dCSh8" id="zG5F95lRFJ" role="1dCSho">
+                  <property role="1dCSh9" value="September 14, 2016 - September 14, 2017" />
+                  <property role="1dCShe" value="Education title" />
+                  <property role="1dCShf" value="School name" />
+                  <property role="1dCShc" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
+                </node>
+                <node concept="1dCShv" id="zG5F95lRFL" role="1dCShp">
+                  <property role="1dCShs" value="3" />
+                  <property role="2ogUw1" value="true" />
+                  <property role="1dCSht" value="true" />
+                  <property role="1dCSh0" value="true" />
                 </node>
               </node>
               <node concept="144zUK" id="zG5F94YazN" role="25jtg_">
