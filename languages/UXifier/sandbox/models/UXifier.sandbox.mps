@@ -22,6 +22,7 @@
       </concept>
       <concept id="4474117192229906888" name="UXifier.structure.TextStyling" flags="ng" index="2ogUwD">
         <property id="4474117192229906900" name="size" index="2ogUwP" />
+        <reference id="4474117192229906891" name="font" index="2ogUwE" />
       </concept>
       <concept id="4474117192229906902" name="UXifier.structure.ITextualStyling" flags="ng" index="2ogUwR">
         <property id="4474117192229906912" name="showTitle" index="2ogUw1" />
@@ -66,11 +67,17 @@
       </concept>
       <concept id="2552303901028114953" name="UXifier.structure.WebSiteFormat" flags="ng" index="KX7zD" />
       <concept id="2552303901028114956" name="UXifier.structure.SimpleLayout" flags="ng" index="KX7zG">
+        <property id="7300266163387021703" name="titleAlignement" index="3fcRzy" />
+        <reference id="7300266163383741249" name="barColor" index="3f1mC$" />
         <child id="3662687154638270109" name="pages" index="25jtgi" />
+        <child id="7300266163383741669" name="barTextStyling" index="3f1mQ0" />
       </concept>
       <concept id="2552303901028114973" name="UXifier.structure.MenuLayout" flags="ng" index="KX7zX">
         <property id="5687344883621736240" name="isMenuOpen" index="2xxiOT" />
+        <property id="7300266163387021697" name="titleAlignement" index="3fcRz$" />
+        <reference id="7300266163387020055" name="barColor" index="3fcR9M" />
         <child id="2552303901028114981" name="tabs" index="KX7z5" />
+        <child id="7300266163387020049" name="barTextStyling" index="3fcR9O" />
       </concept>
       <concept id="2552303901028114942" name="UXifier.structure.Theme" flags="ng" index="KX7Gu">
         <property id="9179075119537057201" name="backgroundImage" index="15KOQ1" />
@@ -216,6 +223,8 @@
       <property role="KN0Jt" value="WebSite" />
       <node concept="KX7zX" id="3bkuCYRBrBz" role="KX7zS">
         <property role="2xxiOT" value="true" />
+        <property role="3fcRz$" value="1eZdBFFmBcm/center" />
+        <ref role="3fcR9M" node="6lfKmmEotnI" resolve="light green" />
         <node concept="KX7z0" id="3bkuCYRBrB_" role="KX7z5">
           <property role="KX7z3" value="Menu" />
           <property role="Ses3W" value="7MJjWP4_CRH/&lt;MenuIcon /&gt;" />
@@ -455,6 +464,7 @@
             </node>
           </node>
         </node>
+        <node concept="2ogUwD" id="6lfKmmERt4z" role="3fcR9O" />
       </node>
     </node>
     <node concept="KX7z7" id="3bkuCYRBeBm" role="KX7zJ">
@@ -462,6 +472,8 @@
       <property role="KX7zc" value="800" />
       <property role="KN0Jt" value="Mobile" />
       <node concept="KX7zG" id="3bkuCYRBeBr" role="KX7zS">
+        <property role="3fcRzy" value="1eZdBFFmBcm/center" />
+        <ref role="3f1mC$" node="6lfKmmEotnI" resolve="light green" />
         <node concept="25jtgI" id="3bkuCYRBBIG" role="25jtgi">
           <node concept="2LRsGl" id="77VjBUEVk32" role="25jtgF">
             <property role="2LRsX$" value="Type of license" />
@@ -491,6 +503,10 @@
             </node>
           </node>
         </node>
+        <node concept="2ogUwD" id="6lfKmmEB022" role="3f1mQ0">
+          <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
+          <ref role="2ogUwE" node="77VjBUE9HO7" resolve="Times New Roman" />
+        </node>
       </node>
     </node>
     <node concept="KX7Gu" id="7XyC30UDXD_" role="KX7zN">
@@ -513,6 +529,10 @@
       <node concept="15Kflz" id="77VjBUE9HNQ" role="15KflD">
         <property role="TrG5h" value="rgb color" />
         <property role="15KflA" value="#444444" />
+      </node>
+      <node concept="15Kflz" id="6lfKmmEotnI" role="15KflD">
+        <property role="TrG5h" value="light green" />
+        <property role="15KflA" value="#bce6d6" />
       </node>
       <node concept="15NFqT" id="77VjBUE9HNV" role="15NP1W">
         <property role="TrG5h" value="Courier New" />
@@ -540,6 +560,16 @@
               <node concept="2ogUwD" id="77VjBUEYs48" role="2oBs6l" />
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KX7z7" id="6lfKmmEQish" role="KX7zJ">
+      <property role="KX7za" value="0" />
+      <property role="KX7zc" value="800" />
+      <property role="KN0Jt" value="Mobile" />
+      <node concept="KX7zX" id="6lfKmmEQiss" role="KX7zS">
+        <node concept="KX7z0" id="6lfKmmEQisu" role="KX7z5">
+          <property role="KX7z3" value="a" />
         </node>
       </node>
     </node>

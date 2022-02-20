@@ -91,22 +91,22 @@ function WebSiteFormat(){
     return (
         <Box sx={{ display: 'flex' }}>
             <AppBar position="absolute" open={open}>
-                <Toolbar sx={{ pr: '24px', }} >
-                    <IconButton edge="start" color="inherit" aria-label="open drawer"  onClick={toggleDrawer} sx={{marginRight: '36px', ...(open && { display: 'none' }),}}>
+                <Toolbar sx={{ pr: '24px', backgroundColor: '#1d77db' }} >
+                    <IconButton edge="start" aria-label="open drawer" onClick={toggleDrawer} sx={{marginRight: '36px', ...(open && { display: 'none' }),
+                        color:theme.palette.getContrastText('#1d77db'),                 }}>
                         <MenuIcon />
                     </IconButton>
-                    <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>GOPHER'S CV</Typography>
+                    <Typography component="h1" variant="h6" noWrap sx={{ flexGrow: 1, color:theme.palette.getContrastText('#1d77db'), }}>GOPHER'S CV</Typography>
                 </Toolbar>
             </AppBar>
 
             <Drawer variant="permanent" open={open}>
-                <Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', px: [1], backgroundColor: 'primary.main'}}>
-                    <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1, color:'primary.contrastText', fontWeight:400 }} paddingLeft={8}>Menu</Typography>
+                <Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', px: [1], backgroundColor: '#1d77db' }} >
+                    <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1, color:theme.palette.getContrastText('#1d77db'),  fontWeight:400 }} paddingLeft={8}>Menu</Typography>
                     <IconButton onClick={toggleDrawer} >
-                        <ChevronLeftIcon sx={{color: theme.palette.primary.contrastText}} />
+                        <ChevronLeftIcon sx={{color:theme.palette.getContrastText('#1d77db'), }} />
                     </IconButton>
-                </Toolbar>
-                <Divider />
+                </Toolbar>        <Divider />
                 <List component="nav">
                     <Link to="/Menu">
                         <ListItemButton>
@@ -1003,8 +1003,8 @@ function MobileFormat(){
     return (
         <Box sx={{ display: 'flex', width:'100%' }}>
             <AppBar position="absolute" open={false}>
-                <Toolbar sx={{ height: '100px', }} >
-                    <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>GOPHER'S CV</Typography>
+                <Toolbar sx={{ height: '100px', backgroundColor: '#bce6d6' }} >
+                    <Typography component="h1" variant="h6" noWrap sx={{ flexGrow: 1, color:theme.palette.getContrastText('#bce6d6'), fontFamily:themeFont_TimesNewRoman, fontSize:"xx-large", textAlign:"center", }}>GOPHER'S CV</Typography>
                 </Toolbar>
             </AppBar>
 
@@ -1233,6 +1233,7 @@ const themeColor_primary="#000080"
 const themeColor_secondary="#800000"
 const themeColor_other="#212345"
 const themeColor_rgbcolor="#444444"
+const themeColor_lightgreen="#bce6d6"
 
 
 const themeFont_CourierNew="Courier New"

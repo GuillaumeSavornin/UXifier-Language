@@ -950,5 +950,26 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="6lfKmmEzwyT">
+    <property role="3GE5qa" value="layout" />
+    <ref role="13h7C2" to="wi2d:2dFAI0jBY8c" resolve="SimpleLayout" />
+    <node concept="13hLZK" id="6lfKmmEzwyU" role="13h7CW">
+      <node concept="3clFbS" id="6lfKmmEzwyV" role="2VODD2">
+        <node concept="3clFbF" id="6lfKmmEzwz5" role="3cqZAp">
+          <node concept="37vLTI" id="6lfKmmEzx8u" role="3clFbG">
+            <node concept="Xl_RD" id="6lfKmmEzxhJ" role="37vLTx">
+              <property role="Xl_RC" value="left" />
+            </node>
+            <node concept="2OqwBi" id="6lfKmmEzwF5" role="37vLTJ">
+              <node concept="13iPFW" id="6lfKmmEzwz4" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6lfKmmEzwNH" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:6lfKmmEvbA7" resolve="titleAlignement" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
