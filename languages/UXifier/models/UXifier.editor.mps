@@ -517,6 +517,7 @@
         </node>
         <node concept="3EZMnI" id="3Sngu6Alhtv" role="3EZMnx">
           <node concept="3F1sOY" id="3Sngu6Alhtw" role="3EZMnx">
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6AleBp" resolve="title" />
           </node>
           <node concept="VPM3Z" id="3Sngu6Alhtx" role="3F10Kt" />
@@ -591,7 +592,7 @@
           <property role="3F0ifm" value="name style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6Ay_Gt" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6Ay_sZ" resolve="nameStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6_ZhbL" role="2iSdaV" />
@@ -605,7 +606,7 @@
           <property role="3F0ifm" value="catch phrase style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6Ay_GM" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6Ay_t5" resolve="catchPhraseStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6_Zhe$" role="2iSdaV" />
@@ -777,6 +778,7 @@
         </node>
         <node concept="3EZMnI" id="3Sngu6AlhwH" role="3EZMnx">
           <node concept="3F1sOY" id="3Sngu6AlhwI" role="3EZMnx">
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6AleBp" resolve="title" />
           </node>
           <node concept="VPM3Z" id="3Sngu6AlhwJ" role="3F10Kt" />
@@ -851,7 +853,7 @@
           <property role="3F0ifm" value="language name style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AyA9Z" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6Ay_Pj" resolve="languageNameStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6_P5jU" role="2iSdaV" />
@@ -962,7 +964,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="3Sngu6AyAqg" role="3EZMnx">
-            <property role="1$x2rV" value="style" />
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6Ay_Pq" resolve="textualLevelStyle" />
           </node>
         </node>
@@ -1021,8 +1023,11 @@
           <node concept="jv8YD" id="3Sngu6AliEX" role="1563LE" />
         </node>
         <node concept="3EZMnI" id="3Sngu6AliEY" role="3EZMnx">
+          <node concept="3F0ifn" id="77VjBUEPVyx" role="3EZMnx">
+            <property role="3F0ifm" value=" " />
+          </node>
           <node concept="3F1sOY" id="3Sngu6AliEZ" role="3EZMnx">
-            <property role="1$x2rV" value="style" />
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6AleBp" resolve="title" />
           </node>
           <node concept="VPM3Z" id="3Sngu6AliF0" role="3F10Kt" />
@@ -1097,6 +1102,7 @@
           <property role="3F0ifm" value="additional informations style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AyC9E" role="3EZMnx">
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6AyC1O" resolve="additionalInformationStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6A7T$l" role="2iSdaV" />
@@ -1195,6 +1201,7 @@
         </node>
         <node concept="3EZMnI" id="3Sngu6Alihz" role="3EZMnx">
           <node concept="3F1sOY" id="3Sngu6Alih$" role="3EZMnx">
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6AleBp" resolve="title" />
           </node>
           <node concept="VPM3Z" id="3Sngu6Alih_" role="3F10Kt" />
@@ -1270,7 +1277,7 @@
           <property role="3F0ifm" value="experience name style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AyBtX" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6AyBiC" resolve="experienceNameStyle" />
         </node>
       </node>
@@ -1284,7 +1291,7 @@
           <property role="3F0ifm" value="date style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AyBui" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6AyBis" resolve="dateStyle" />
         </node>
       </node>
@@ -1298,7 +1305,7 @@
           <property role="3F0ifm" value="corporation name style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AyBuB" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6AyBiP" resolve="corporationStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6A4BLQ" role="2iSdaV" />
@@ -1312,7 +1319,7 @@
           <property role="3F0ifm" value="description style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AyBuW" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6AyBj3" resolve="descriptionStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6A4BUu" role="2iSdaV" />
@@ -1513,6 +1520,7 @@
         </node>
         <node concept="3EZMnI" id="3Sngu6_Djha" role="3EZMnx">
           <node concept="3F1sOY" id="3Sngu6AlfcJ" role="3EZMnx">
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6AleBp" resolve="title" />
           </node>
           <node concept="VPM3Z" id="3Sngu6_Djhc" role="3F10Kt" />
@@ -1588,7 +1596,7 @@
         </node>
         <node concept="3EZMnI" id="3Sngu6Ap4bw" role="3EZMnx">
           <node concept="3F1sOY" id="3Sngu6Ap4X_" role="3EZMnx">
-            <property role="1$x2rV" value="style" />
+            <property role="1$x2rV" value="  style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6Ap4un" resolve="skillStyle" />
           </node>
           <node concept="VPM3Z" id="3Sngu6Ap4by" role="3F10Kt" />
@@ -1639,7 +1647,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="3Sngu6AxDTH" role="3EZMnx">
-            <property role="1$x2rV" value="style" />
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6Ap4u1" resolve="descriptionStyle" />
           </node>
         </node>
@@ -1704,7 +1712,7 @@
         <node concept="3EZMnI" id="3Sngu6_P5G3" role="3EZMnx">
           <node concept="VPM3Z" id="3Sngu6_P5G4" role="3F10Kt" />
           <node concept="3F1sOY" id="3Sngu6Ap5kD" role="3EZMnx">
-            <property role="1$x2rV" value="style" />
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6Ap4uu" resolve="textualLevelStyle" />
           </node>
           <node concept="2iRfu4" id="3Sngu6_P5Ge" role="2iSdaV" />
@@ -1816,6 +1824,7 @@
         </node>
         <node concept="3EZMnI" id="3Sngu6AlirQ" role="3EZMnx">
           <node concept="3F1sOY" id="3Sngu6AlirR" role="3EZMnx">
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6AleBp" resolve="title" />
           </node>
           <node concept="VPM3Z" id="3Sngu6AlirS" role="3F10Kt" />
@@ -1890,7 +1899,7 @@
           <property role="3F0ifm" value="contact elements style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AyBT6" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6AyBGW" resolve="contactInformationStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6_TvE$" role="2iSdaV" />
@@ -2345,7 +2354,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="zG5F94WJzz" role="3EZMnx">
-            <property role="1$x2rV" value="style" />
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6AyAZ2" resolve="legendStyle" />
           </node>
         </node>
@@ -2502,6 +2511,7 @@
         </node>
         <node concept="3EZMnI" id="3Sngu6Alh8Q" role="3EZMnx">
           <node concept="3F1sOY" id="3Sngu6Alh8R" role="3EZMnx">
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6AleBp" resolve="title" />
           </node>
           <node concept="VPM3Z" id="3Sngu6Alh8S" role="3F10Kt" />
@@ -2576,7 +2586,7 @@
           <property role="3F0ifm" value="project name style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AxEC4" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6AxEdI" resolve="projectStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6_LiqJ" role="2iSdaV" />
@@ -2590,7 +2600,7 @@
           <property role="3F0ifm" value="date style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AxEMW" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6AxEe7" resolve="dateStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6_LjRv" role="2iSdaV" />
@@ -2604,7 +2614,7 @@
           <property role="3F0ifm" value="description style:" />
         </node>
         <node concept="3F1sOY" id="3Sngu6AxENg" role="3EZMnx">
-          <property role="1$x2rV" value="style" />
+          <property role="1$x2rV" value=" [no style]" />
           <ref role="1NtTu8" to="wi2d:3Sngu6AxEdU" resolve="descriptionStyle" />
         </node>
         <node concept="3F0ifn" id="3Sngu6_Lk2i" role="3EZMnx" />
@@ -2737,7 +2747,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="3Sngu6AxF0y" role="3EZMnx">
-            <property role="1$x2rV" value="style" />
+            <property role="1$x2rV" value=" [no style]" />
             <ref role="1NtTu8" to="wi2d:3Sngu6AxEel" resolve="urlStyle" />
           </node>
         </node>

@@ -387,14 +387,12 @@
       <property role="IQ2ns" value="4474117192233409875" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="languageNameStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
     </node>
     <node concept="1TJgyj" id="3Sngu6Ay_Pq" role="1TKVEi">
       <property role="IQ2ns" value="4474117192233409882" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="textualLevelStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
     </node>
   </node>
