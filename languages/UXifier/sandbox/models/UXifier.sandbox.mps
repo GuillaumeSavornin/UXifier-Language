@@ -504,7 +504,7 @@
       </node>
       <node concept="15Kflz" id="77VjBUE9HNQ" role="15KflD">
         <property role="TrG5h" value="rgb color" />
-        <property role="15KflA" value="rgb(50, 168, 82)" />
+        <property role="15KflA" value="#444444" />
       </node>
       <node concept="15NFqT" id="77VjBUE9HNV" role="15NP1W">
         <property role="TrG5h" value="Courier New" />
