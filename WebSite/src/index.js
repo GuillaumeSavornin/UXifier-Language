@@ -292,7 +292,7 @@ function WebSiteFormat(){
                                             let array = [];
                                             for(let i = 0; i < 2; i++){
                                                 array.push(<div sx={{p: 2, display: "flex", flexDirection: "column", width: "100%"}}>
-                                                        <Typography sx={{ ml: 3, mr: 3,  }} variant="h6" gutterBottom component="div">
+                                                        <Typography sx={{ ml: 3, mr: 3, fontSize:"xx-large",  }} variant="h6" gutterBottom component="div">
                                                             {(()=>{
                                                                 if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].title){
                                                                     return data.experienceItems[i].title
@@ -517,11 +517,12 @@ function WebSiteFormat(){
                                 </Grid>
                                 <Grid container margin={1}>
                                     <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
+                                        <Typography gutterBottom sx={{ mb: 3, fontSize:"xx-large", }} align={"left"} variant="h5" component="div">Skills</Typography>
                                         {(()=>{
                                             let array = [];
                                             for(let i = 0; i < 5; i++){
                                                 array.push([<Grid container spacing={3}>
-                                                    <Grid item xs={2} md={2} lg={2}>
+                                                    <Grid item xs={2} md={2} lg={2}  sx={{alignSelf:'center', }}>
                                                         <Box component="img" src=
                                                             {(()=>{
                                                                 if(data.skillItems && data.skillItems[i] && data.skillItems[i].icon){
@@ -532,7 +533,7 @@ function WebSiteFormat(){
                                                              sx={{height: '50px'}}/>
                                                     </Grid>
                                                     <Grid item xs={4} md={4} lg={4}>
-                                                        <p style={{  }}>
+                                                        <p style={{ fontSize:"xx-large",  }}>
                                                             <strong>{(()=>{
                                                                 if(data.skillItems && data.skillItems[i] && data.skillItems[i].name){
                                                                     return data.skillItems[i].name
@@ -541,7 +542,7 @@ function WebSiteFormat(){
                                                             })()}</strong>
                                                         </p>
                                                     </Grid>
-                                                    <Grid item xs={6} md={6} lg={6}>
+                                                    <Grid item xs={6} md={6} lg={6}  sx={{alignSelf:'center', }}>
                                                         <p style={{  }}>
                                                             {(() => {
                                                                 switch((()=>{
@@ -600,7 +601,7 @@ function WebSiteFormat(){
                                                             })()}</strong>
                                                         </p>
                                                     </Grid>
-                                                    <Grid item xs={6} md={6} lg={6}>
+                                                    <Grid item xs={6} md={6} lg={6}  sx={{alignSelf:'center', }}>
                                                         <p style={{  }}>
                                                             {(() => {
                                                                 switch((()=>{
@@ -635,10 +636,10 @@ function WebSiteFormat(){
                                 </Grid>
                                 <Grid container margin={1}>
                                     <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
-                                        <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Contact</Typography>
+                                        <Typography gutterBottom sx={{ mb: 3, fontSize:"xx-large", }} align={"left"} variant="h5" component="div">Contact</Typography>
                                         <div style={{alignSelf:"left", display:"flex"}}>
                                             <HomeIcon sx={{  }} />
-                                            <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            <Typography sx={{ml: 1, mr: 1, textAlign:"left", fontSize:"xx-large",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
                                                 {(()=>{
                                                     if(data.contactInformation){
                                                         return data.contactInformation.address
@@ -650,7 +651,7 @@ function WebSiteFormat(){
                                         <div style={{alignSelf:"left", display:"flex"}}>
                                             <PhoneIcon sx={{
                                             }} />
-                                            <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            <Typography sx={{ml: 1, mr: 1, textAlign:"left", fontSize:"xx-large",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
                                                 {(()=>{
                                                     if(data.contactInformation){
                                                         return data.contactInformation.phoneNumber
@@ -662,7 +663,7 @@ function WebSiteFormat(){
                                         <div style={{alignSelf:"left", display:"flex"}}>
                                             <EmailIcon sx={{
                                             }} />
-                                            <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            <Typography sx={{ml: 1, mr: 1, textAlign:"left", fontSize:"xx-large",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
                                                 {(()=>{
                                                     if(data.contactInformation){
                                                         return data.contactInformation.email
@@ -913,7 +914,7 @@ function WebSiteFormat(){
                                         let array = [];
                                         for(let i = 0; i < 3; i++){
                                             array.push([<Grid container spacing={3}>
-                                                <Grid item xs={2} md={2} lg={2}>
+                                                <Grid item xs={2} md={2} lg={2}  sx={{alignSelf:'center', }}>
                                                     <Box component="img" src=
                                                         {(()=>{
                                                             if(data.skillItems && data.skillItems[i] && data.skillItems[i].icon){
@@ -933,7 +934,7 @@ function WebSiteFormat(){
                                                         })()}</strong>
                                                     </p>
                                                 </Grid>
-                                                <Grid item xs={6} md={6} lg={6}>
+                                                <Grid item xs={6} md={6} lg={6}  sx={{alignSelf:'center', }}>
                                                     <p style={{  }}>
                                                         {(() => {
                                                             switch((()=>{

@@ -20,7 +20,9 @@
       <concept id="3662687154638270113" name="UXifier.structure.SimplePage" flags="ng" index="25jtgI">
         <child id="3662687154638270116" name="sections" index="25jtgF" />
       </concept>
-      <concept id="4474117192229906888" name="UXifier.structure.TextStyling" flags="ng" index="2ogUwD" />
+      <concept id="4474117192229906888" name="UXifier.structure.TextStyling" flags="ng" index="2ogUwD">
+        <property id="4474117192229906900" name="size" index="2ogUwP" />
+      </concept>
       <concept id="4474117192229906902" name="UXifier.structure.ITextualStyling" flags="ng" index="2ogUwR">
         <property id="4474117192229906912" name="showTitle" index="2ogUw1" />
         <property id="4474117192229906907" name="alignTitle" index="2ogUwU" />
@@ -104,6 +106,7 @@
         <property id="8547335200240841716" name="numberItems" index="144wZw" />
         <property id="1422915908824362485" name="collapseDescription" index="3T1lIf" />
         <reference id="4474117192225549040" name="collapseColor" index="2o1iGh" />
+        <child id="4474117192233415848" name="experienceNameStyle" index="2oBjl9" />
       </concept>
       <concept id="8547335200240829084" name="UXifier.structure.ExperienceItem" flags="ng" index="144zU8">
         <property id="8547335200240829087" name="date" index="144zUb" />
@@ -158,6 +161,7 @@
         <property id="1422915908839036257" name="showSocialNetworks" index="3S9mcr" />
         <property id="1422915908838449954" name="numberSocialNetworkItems" index="3Sb_lo" />
         <property id="1422915908845518589" name="showContactIcons" index="3Sgwy7" />
+        <child id="4474117192233417532" name="contactInformationStyle" index="2oBjFt" />
       </concept>
       <concept id="1422915908838398686" name="UXifier.structure.SocialNetworkItem" flags="ng" index="3SbUM$">
         <property id="1422915908838398688" name="url" index="3SbUMq" />
@@ -185,6 +189,7 @@
         <property id="1422915908836046023" name="numberItems" index="3SOSaX" />
         <property id="1422915908836058599" name="showDescription" index="3SOXet" />
         <child id="4474117192230913921" name="descriptionStyle" index="2osKpw" />
+        <child id="4474117192230913943" name="skillStyle" index="2osKpQ" />
       </concept>
       <concept id="1422915908846889197" name="UXifier.structure.ImageStyling" flags="ng" index="3ZFhUn">
         <property id="8817018443289143582" name="hoverButton" index="S3nUh" />
@@ -265,6 +270,9 @@
                   <property role="2ogUw1" value="true" />
                   <property role="3T1lIf" value="true" />
                   <ref role="2o1iGh" node="77VjBUE9HML" resolve="primary" />
+                  <node concept="2ogUwD" id="6lfKmmEeXRV" role="2oBjl9">
+                    <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
+                  </node>
                 </node>
               </node>
               <node concept="2BlgTl" id="zG5F94Ya$I" role="25jtg_">
@@ -330,7 +338,13 @@
                   <property role="3SOXet" value="true" />
                   <property role="3SOSaQ" value="true" />
                   <property role="3SOSaX" value="5" />
-                  <node concept="2ogUwD" id="3Sngu6AxDG0" role="2ogUwS" />
+                  <property role="2ogUw1" value="true" />
+                  <node concept="2ogUwD" id="3Sngu6AxDG0" role="2ogUwS">
+                    <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
+                  </node>
+                  <node concept="2ogUwD" id="6lfKmmEeXRP" role="2osKpQ">
+                    <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
+                  </node>
                 </node>
               </node>
               <node concept="3SOO3v" id="3Sngu6AAYIp" role="25jtg_">
@@ -359,6 +373,12 @@
                   <property role="3S9mcr" value="true" />
                   <property role="3S9hyq" value="true" />
                   <property role="3Sb_lo" value="8" />
+                  <node concept="2ogUwD" id="6lfKmmEeXRR" role="2ogUwS">
+                    <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
+                  </node>
+                  <node concept="2ogUwD" id="6lfKmmEeXRT" role="2oBjFt">
+                    <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
+                  </node>
                 </node>
               </node>
             </node>

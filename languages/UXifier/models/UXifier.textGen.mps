@@ -11813,7 +11813,7 @@
                 <node concept="lc7rE" id="1eZdBFFrk43" role="3cqZAp">
                   <node concept="2BGw6n" id="1eZdBFFrk44" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFrk45" role="lcghm">
-                    <property role="lacIc" value="&lt;Grid item xs={2} md={2} lg={2}&gt;" />
+                    <property role="lacIc" value="&lt;Grid item xs={2} md={2} lg={2}  sx={{alignSelf:'center', }}&gt;" />
                   </node>
                   <node concept="l8MVK" id="1eZdBFFrk46" role="lcghm" />
                 </node>
@@ -12343,7 +12343,7 @@
                   <node concept="lc7rE" id="1eZdBFFrk5t" role="3cqZAp">
                     <node concept="2BGw6n" id="1eZdBFFrk5u" role="lcghm" />
                     <node concept="la8eA" id="1eZdBFFrk5v" role="lcghm">
-                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}&gt;" />
+                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}  sx={{alignSelf:'center', }}&gt;" />
                     </node>
                     <node concept="l8MVK" id="1eZdBFFrk5w" role="lcghm" />
                   </node>
@@ -12891,7 +12891,7 @@
                   <node concept="lc7rE" id="1eZdBFFrk7P" role="3cqZAp">
                     <node concept="2BGw6n" id="1eZdBFFrk7Q" role="lcghm" />
                     <node concept="la8eA" id="1eZdBFFrk7R" role="lcghm">
-                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}&gt;" />
+                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}  sx={{alignSelf:'center', }}&gt;" />
                     </node>
                     <node concept="l8MVK" id="1eZdBFFrk7S" role="lcghm" />
                   </node>
@@ -13113,7 +13113,7 @@
                   <node concept="lc7rE" id="1eZdBFFrkae" role="3cqZAp">
                     <node concept="2BGw6n" id="1eZdBFFrkaf" role="lcghm" />
                     <node concept="la8eA" id="1eZdBFFrkag" role="lcghm">
-                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}&gt;" />
+                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}  sx={{alignSelf:'center', }}&gt;" />
                     </node>
                     <node concept="l8MVK" id="1eZdBFFrkah" role="lcghm" />
                   </node>
@@ -13335,7 +13335,7 @@
                   <node concept="lc7rE" id="1eZdBFFrkcB" role="3cqZAp">
                     <node concept="2BGw6n" id="1eZdBFFrkcC" role="lcghm" />
                     <node concept="la8eA" id="1eZdBFFrkcD" role="lcghm">
-                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}&gt;" />
+                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}  sx={{alignSelf:'center', }}&gt;" />
                     </node>
                     <node concept="l8MVK" id="1eZdBFFrkcE" role="lcghm" />
                   </node>
@@ -13557,7 +13557,7 @@
                   <node concept="lc7rE" id="1eZdBFG2CYl" role="3cqZAp">
                     <node concept="2BGw6n" id="1eZdBFG2CYm" role="lcghm" />
                     <node concept="la8eA" id="1eZdBFG2CYn" role="lcghm">
-                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}&gt;" />
+                      <property role="lacIc" value="&lt;Grid item xs={6} md={6} lg={6}  sx={{alignSelf:'center', }}&gt;" />
                     </node>
                     <node concept="l8MVK" id="1eZdBFG2CYo" role="lcghm" />
                   </node>
