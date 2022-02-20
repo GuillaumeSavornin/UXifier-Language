@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -135,6 +136,7 @@
         <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -1110,9 +1112,62 @@
               <node concept="2BGw6n" id="3bkuCYRz1qJ" role="lcghm" />
               <node concept="2BGw6n" id="3bkuCYRz1qK" role="lcghm" />
               <node concept="la8eA" id="3bkuCYRz1qL" role="lcghm">
-                <property role="lacIc" value="&lt;Toolbar sx={{ height: '100px', }} &gt;" />
+                <property role="lacIc" value="&lt;Toolbar sx={{ height: '100px', backgroundColor: '" />
               </node>
-              <node concept="l8MVK" id="3bkuCYRz1qM" role="lcghm" />
+            </node>
+            <node concept="3clFbJ" id="6lfKmmEiFu7" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEiFu9" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEiGex" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEiGeR" role="lcghm">
+                    <property role="lacIc" value="#1d77db" />
+                  </node>
+                </node>
+              </node>
+              <node concept="22lmx$" id="6lfKmmE$IAS" role="3clFbw">
+                <node concept="17R0WA" id="6lfKmmE_Sj9" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmE$HYh" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmE$HPv" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmE$I8u" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmE$IxF" role="3uHU7w" />
+                </node>
+                <node concept="17R0WA" id="6lfKmmEiGbp" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmEiGdY" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmEiFE0" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmEiFxY" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmEiFMu" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEiEH1" resolve="barColor" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="6lfKmmEiGfs" role="9aQIa">
+                <node concept="3clFbS" id="6lfKmmEiGft" role="9aQI4">
+                  <node concept="lc7rE" id="6lfKmmEiGi0" role="3cqZAp">
+                    <node concept="l9hG8" id="6lfKmmEiGik" role="lcghm">
+                      <node concept="2OqwBi" id="6lfKmmEiGP8" role="lb14g">
+                        <node concept="2OqwBi" id="6lfKmmEiGpI" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmEiGja" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6lfKmmEiGz0" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEiEH1" resolve="barColor" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEiH04" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="lc7rE" id="6lfKmmEiF5k" role="3cqZAp">
+              <node concept="la8eA" id="6lfKmmEiF5p" role="lcghm">
+                <property role="lacIc" value="' }} &gt;" />
+              </node>
+              <node concept="l8MVK" id="6lfKmmEiF5q" role="lcghm" />
             </node>
             <node concept="lc7rE" id="3bkuCYRz1Gb" role="3cqZAp">
               <node concept="2BGw6n" id="3bkuCYRz1Gc" role="lcghm" />
@@ -1120,38 +1175,314 @@
               <node concept="2BGw6n" id="3bkuCYRz1Ge" role="lcghm" />
               <node concept="2BGw6n" id="3bkuCYRz1Wh" role="lcghm" />
               <node concept="la8eA" id="3bkuCYRz1Gf" role="lcghm">
-                <property role="lacIc" value="&lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1 }}&gt;" />
+                <property role="lacIc" value="&lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; noWrap sx={{ flexGrow: 1, " />
               </node>
-              <node concept="l9hG8" id="3bkuCYRz1Gg" role="lcghm">
-                <node concept="2OqwBi" id="3bkuCYRz1Gh" role="lb14g">
-                  <node concept="2OqwBi" id="3bkuCYRz1Gi" role="2Oq$k0">
-                    <node concept="1PxgMI" id="3bkuCYRz1Gj" role="2Oq$k0">
-                      <property role="1BlNFB" value="true" />
-                      <node concept="chp4Y" id="3bkuCYRz1Gk" role="3oSUPX">
-                        <ref role="cht4Q" to="wi2d:1DHNIAI0daV" resolve="App" />
-                      </node>
-                      <node concept="2OqwBi" id="3bkuCYRz1Gl" role="1m5AlR">
-                        <node concept="2OqwBi" id="3bkuCYRz1Gm" role="2Oq$k0">
-                          <node concept="117lpO" id="3bkuCYRz1Gn" role="2Oq$k0" />
-                          <node concept="1mfA1w" id="3bkuCYRz1Go" role="2OqNvi" />
+            </node>
+            <node concept="3clFbH" id="6lfKmmEkY7R" role="3cqZAp" />
+            <node concept="3clFbJ" id="6lfKmmEovb9" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEovba" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEovbb" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEovbc" role="lcghm">
+                    <property role="lacIc" value="color:themeColor_" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEovbd" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEovbe" role="lb14g">
+                      <node concept="2OqwBi" id="6lfKmmEovbh" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6lfKmmEovbi" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6lfKmmEovbj" role="2Oq$k0">
+                            <node concept="117lpO" id="6lfKmmEovbk" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="6lfKmmEovbl" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="6lfKmmEovbm" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:3Sngu6AleB9" resolve="color" />
+                          </node>
                         </node>
-                        <node concept="1mfA1w" id="3bkuCYRz1Gp" role="2OqNvi" />
+                        <node concept="3TrcHB" id="6lfKmmEoy5A" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6lfKmmEovbo" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="6lfKmmEovbp" role="37wK5m">
+                          <property role="Xl_RC" value=" " />
+                        </node>
+                        <node concept="Xl_RD" id="6lfKmmEovbq" role="37wK5m">
+                          <property role="Xl_RC" value="" />
+                        </node>
                       </node>
                     </node>
-                    <node concept="3TrcHB" id="3bkuCYRz1Gq" role="2OqNvi">
+                  </node>
+                  <node concept="la8eA" id="6lfKmmEovbr" role="lcghm">
+                    <property role="lacIc" value=", " />
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6lfKmmE_RUH" role="3clFbw">
+                <node concept="17QLQc" id="6lfKmmE_SaL" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmE$Jso" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmE$Jsp" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmE$Jsq" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmE$Jsn" role="3uHU7w" />
+                </node>
+                <node concept="17QLQc" id="6lfKmmEovbs" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmEovbt" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmEovbu" role="3uHU7B">
+                    <node concept="3TrcHB" id="6lfKmmEoxm_" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                    <node concept="2OqwBi" id="6lfKmmEovbv" role="2Oq$k0">
+                      <node concept="3TrEf2" id="6lfKmmEovbz" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:3Sngu6AleB9" resolve="color" />
+                      </node>
+                      <node concept="2OqwBi" id="6lfKmmEovbw" role="2Oq$k0">
+                        <node concept="3TrEf2" id="6lfKmmEovby" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                        </node>
+                        <node concept="117lpO" id="6lfKmmE$JPA" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eNFk2" id="6lfKmmEu1$k" role="3eNLev">
+                <node concept="3clFbS" id="6lfKmmEu1$l" role="3eOfB_">
+                  <node concept="lc7rE" id="6lfKmmEu1$m" role="3cqZAp">
+                    <node concept="la8eA" id="6lfKmmEu1$n" role="lcghm">
+                      <property role="lacIc" value="color:theme.palette.getContrastText('#1d77db'" />
+                    </node>
+                    <node concept="la8eA" id="6lfKmmEu1$o" role="lcghm">
+                      <property role="lacIc" value="), " />
+                    </node>
+                  </node>
+                </node>
+                <node concept="22lmx$" id="6lfKmmEQiOe" role="3eO9$A">
+                  <node concept="17R0WA" id="6lfKmmEQiKQ" role="3uHU7B">
+                    <node concept="2OqwBi" id="6lfKmmEQixf" role="3uHU7B">
+                      <node concept="117lpO" id="6lfKmmEQixg" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6lfKmmEQixh" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                      </node>
+                    </node>
+                    <node concept="10Nm6u" id="6lfKmmEQixi" role="3uHU7w" />
+                  </node>
+                  <node concept="17R0WA" id="6lfKmmEu2gd" role="3uHU7w">
+                    <node concept="10Nm6u" id="6lfKmmEu2gS" role="3uHU7w" />
+                    <node concept="2OqwBi" id="6lfKmmEu1IO" role="3uHU7B">
+                      <node concept="3TrEf2" id="6lfKmmEu1Ri" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEiEH1" resolve="barColor" />
+                      </node>
+                      <node concept="117lpO" id="6lfKmmEQiJ$" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="6lfKmmEu2iq" role="9aQIa">
+                <node concept="3clFbS" id="6lfKmmEu2ir" role="9aQI4">
+                  <node concept="lc7rE" id="6lfKmmEu2rW" role="3cqZAp">
+                    <node concept="la8eA" id="6lfKmmEu2rX" role="lcghm">
+                      <property role="lacIc" value="color:theme.palette.getContrastText('" />
+                    </node>
+                    <node concept="l9hG8" id="6lfKmmEu2tz" role="lcghm">
+                      <node concept="2OqwBi" id="6lfKmmEu2Tk" role="lb14g">
+                        <node concept="2OqwBi" id="6lfKmmEu2$Z" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmEu2ur" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6lfKmmEu2I0" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEiEH1" resolve="barColor" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEu36a" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="la8eA" id="6lfKmmEu2rY" role="lcghm">
+                      <property role="lacIc" value="'), " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6lfKmmEovbX" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEovbY" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEovbZ" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEovc0" role="lcghm">
+                    <property role="lacIc" value="fontFamily:themeFont_" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEovc1" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEovc2" role="lb14g">
+                      <node concept="2OqwBi" id="6lfKmmEovc5" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6lfKmmEovc6" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6lfKmmEovc7" role="2Oq$k0">
+                            <node concept="117lpO" id="6lfKmmEovc8" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="6lfKmmEovc9" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="6lfKmmEovca" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:3Sngu6AleBb" resolve="font" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEphFs" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UF1qb" resolve="font" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6lfKmmEovcc" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="6lfKmmEovcd" role="37wK5m">
+                          <property role="Xl_RC" value=" " />
+                        </node>
+                        <node concept="Xl_RD" id="6lfKmmEovce" role="37wK5m">
+                          <property role="Xl_RC" value="" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6lfKmmEovcf" role="lcghm">
+                    <property role="lacIc" value=", " />
+                  </node>
+                </node>
+              </node>
+              <node concept="17QLQc" id="6lfKmmEovcg" role="3clFbw">
+                <node concept="10Nm6u" id="6lfKmmEovch" role="3uHU7w" />
+                <node concept="2OqwBi" id="6lfKmmEphcf" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmEovcj" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6lfKmmEovck" role="2Oq$k0">
+                      <node concept="117lpO" id="6lfKmmEovcl" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6lfKmmEovcm" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="6lfKmmEovcn" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:3Sngu6AleBb" resolve="font" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="6lfKmmEphhU" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:7XyC30UF1qb" resolve="font" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6lfKmmEovcp" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEovcq" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEovcr" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEovcs" role="lcghm">
+                    <property role="lacIc" value="fontSize:&quot;" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEovct" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEovcu" role="lb14g">
+                      <node concept="2OqwBi" id="6lfKmmEovcw" role="2Oq$k0">
+                        <node concept="117lpO" id="6lfKmmEovcx" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="6lfKmmEovcy" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="6lfKmmEovc$" role="2OqNvi">
+                        <ref role="3TsBF5" to="wi2d:3Sngu6AleBk" resolve="size" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6lfKmmEovc_" role="lcghm">
+                    <property role="lacIc" value="&quot;, " />
+                  </node>
+                </node>
+              </node>
+              <node concept="17QLQc" id="6lfKmmEovcA" role="3clFbw">
+                <node concept="10Nm6u" id="6lfKmmEovcB" role="3uHU7w" />
+                <node concept="2OqwBi" id="6lfKmmEovcD" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmEovcE" role="2Oq$k0">
+                    <node concept="117lpO" id="6lfKmmEovcF" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmEovcG" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="6lfKmmEo$Ls" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:3Sngu6AleBk" resolve="size" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6lfKmmEzvDr" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEzvDs" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEzvDt" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEzvDu" role="lcghm">
+                    <property role="lacIc" value="textAlign:&quot;" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEzvDv" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEzvDx" role="lb14g">
+                      <node concept="117lpO" id="6lfKmmEzvDy" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="6lfKmmEzwvB" role="2OqNvi">
+                        <ref role="3TsBF5" to="wi2d:6lfKmmEvbA7" resolve="titleAlignement" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6lfKmmEzvD_" role="lcghm">
+                    <property role="lacIc" value="&quot;, " />
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6lfKmmE_S5E" role="3clFbw">
+                <node concept="17QLQc" id="6lfKmmE_S7o" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmE$K05" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmE$K06" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmE$K07" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmE$K04" role="3uHU7w" />
+                </node>
+                <node concept="17QLQc" id="6lfKmmEzvDA" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmEzvDB" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmEzvDD" role="3uHU7B">
+                    <node concept="3TrcHB" id="6lfKmmEzw3b" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:6lfKmmEvbA7" resolve="titleAlignement" />
+                    </node>
+                    <node concept="117lpO" id="6lfKmmE$Kde" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6lfKmmEzvu6" role="3cqZAp" />
+            <node concept="lc7rE" id="6lfKmmEkYcD" role="3cqZAp">
+              <node concept="la8eA" id="6lfKmmEkYcI" role="lcghm">
+                <property role="lacIc" value="}}&gt;" />
+              </node>
+              <node concept="l9hG8" id="6lfKmmEkYcJ" role="lcghm">
+                <node concept="2OqwBi" id="6lfKmmEkYcK" role="lb14g">
+                  <node concept="2OqwBi" id="6lfKmmEkYcL" role="2Oq$k0">
+                    <node concept="1PxgMI" id="6lfKmmEkYcM" role="2Oq$k0">
+                      <property role="1BlNFB" value="true" />
+                      <node concept="chp4Y" id="6lfKmmEkYcN" role="3oSUPX">
+                        <ref role="cht4Q" to="wi2d:1DHNIAI0daV" resolve="App" />
+                      </node>
+                      <node concept="2OqwBi" id="6lfKmmEkYcO" role="1m5AlR">
+                        <node concept="2OqwBi" id="6lfKmmEkYcP" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmEkYcQ" role="2Oq$k0" />
+                          <node concept="1mfA1w" id="6lfKmmEkYcR" role="2OqNvi" />
+                        </node>
+                        <node concept="1mfA1w" id="6lfKmmEkYcS" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="6lfKmmEkYcT" role="2OqNvi">
                       <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="3bkuCYRz1Gr" role="2OqNvi">
+                  <node concept="liA8E" id="6lfKmmEkYcU" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
                   </node>
                 </node>
               </node>
-              <node concept="la8eA" id="3bkuCYRz1Gs" role="lcghm">
+              <node concept="la8eA" id="6lfKmmEkYcV" role="lcghm">
                 <property role="lacIc" value="&lt;/Typography&gt;" />
               </node>
-              <node concept="l8MVK" id="3bkuCYRz1Gt" role="lcghm" />
+              <node concept="l8MVK" id="6lfKmmEkYcW" role="lcghm" />
             </node>
+            <node concept="3clFbH" id="6lfKmmEkYIA" role="3cqZAp" />
+            <node concept="3clFbH" id="6lfKmmEkYUy" role="3cqZAp" />
             <node concept="lc7rE" id="3bkuCYRz1qU" role="3cqZAp">
               <node concept="2BGw6n" id="3bkuCYRz1qV" role="lcghm" />
               <node concept="2BGw6n" id="3bkuCYRz1qW" role="lcghm" />
@@ -4105,72 +4436,543 @@
               </node>
               <node concept="l8MVK" id="58tSxDctIco" role="lcghm" />
             </node>
-            <node concept="lc7rE" id="58tSxDctI0b" role="3cqZAp">
-              <node concept="2BGw6n" id="58tSxDctI0c" role="lcghm" />
-              <node concept="2BGw6n" id="58tSxDctI0d" role="lcghm" />
-              <node concept="2BGw6n" id="58tSxDctI17" role="lcghm" />
-              <node concept="la8eA" id="58tSxDctI0e" role="lcghm">
-                <property role="lacIc" value="&lt;Toolbar sx={{ pr: '24px', }} &gt;" />
+            <node concept="lc7rE" id="6lfKmmEFFmU" role="3cqZAp">
+              <node concept="2BGw6n" id="6lfKmmEFFmV" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmEFFmW" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmEFFmX" role="lcghm" />
+              <node concept="la8eA" id="6lfKmmEFFmY" role="lcghm">
+                <property role="lacIc" value="&lt;Toolbar sx={{ pr: '24px', backgroundColor: '" />
               </node>
-              <node concept="l8MVK" id="58tSxDctId4" role="lcghm" />
             </node>
+            <node concept="3clFbJ" id="6lfKmmEFFmZ" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEFFn0" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEFFn1" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEFFn2" role="lcghm">
+                    <property role="lacIc" value="#1d77db" />
+                  </node>
+                </node>
+              </node>
+              <node concept="22lmx$" id="6lfKmmEFFn3" role="3clFbw">
+                <node concept="17R0WA" id="6lfKmmEFFn4" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmEFFn5" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmEFFn6" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmEFFn7" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmEFFn8" role="3uHU7w" />
+                </node>
+                <node concept="17R0WA" id="6lfKmmEFFn9" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmEFFna" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmEFFnb" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmEFFnc" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmEFFnd" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="6lfKmmEFFne" role="9aQIa">
+                <node concept="3clFbS" id="6lfKmmEFFnf" role="9aQI4">
+                  <node concept="lc7rE" id="6lfKmmEFFng" role="3cqZAp">
+                    <node concept="l9hG8" id="6lfKmmEFFnh" role="lcghm">
+                      <node concept="2OqwBi" id="6lfKmmEFFni" role="lb14g">
+                        <node concept="2OqwBi" id="6lfKmmEFFnj" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmEFFnk" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6lfKmmEFFnl" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEFFnm" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="lc7rE" id="6lfKmmEFFnn" role="3cqZAp">
+              <node concept="la8eA" id="6lfKmmEFFno" role="lcghm">
+                <property role="lacIc" value="' }} &gt;" />
+              </node>
+              <node concept="l8MVK" id="6lfKmmEFFnp" role="lcghm" />
+            </node>
+            <node concept="3clFbH" id="6lfKmmEFF6X" role="3cqZAp" />
             <node concept="lc7rE" id="3bkuCYR_vqi" role="3cqZAp">
               <node concept="2BGw6n" id="3bkuCYR_vqj" role="lcghm" />
               <node concept="2BGw6n" id="3bkuCYR_vqk" role="lcghm" />
               <node concept="2BGw6n" id="3bkuCYR_vql" role="lcghm" />
               <node concept="2BGw6n" id="3bkuCYR_vqm" role="lcghm" />
               <node concept="la8eA" id="4VHwwBJpdI3" role="lcghm">
-                <property role="lacIc" value="&lt;IconButton edge=&quot;start&quot; color=&quot;inherit&quot; aria-label=&quot;open drawer&quot;  onClick={toggleDrawer} sx={{marginRight: '36px', ...(open &amp;&amp; { display: 'none' }),}}&gt;\n                        &lt;MenuIcon /&gt;\n                    &lt;/IconButton&gt;" />
+                <property role="lacIc" value="&lt;IconButton edge=&quot;start&quot; aria-label=&quot;open drawer&quot; onClick={toggleDrawer} sx={{marginRight: '36px', ...(open &amp;&amp; { display: 'none' }), " />
               </node>
               <node concept="l8MVK" id="3bkuCYR_vq_" role="lcghm" />
             </node>
-            <node concept="lc7rE" id="4VHwwBJpdst" role="3cqZAp">
-              <node concept="2BGw6n" id="4VHwwBJpdsu" role="lcghm" />
-              <node concept="2BGw6n" id="4VHwwBJpdsv" role="lcghm" />
-              <node concept="2BGw6n" id="4VHwwBJpdsw" role="lcghm" />
-              <node concept="2BGw6n" id="4VHwwBJpdsx" role="lcghm" />
-              <node concept="la8eA" id="4VHwwBJpdsy" role="lcghm">
-                <property role="lacIc" value="&lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1 }}&gt;" />
-              </node>
-              <node concept="l9hG8" id="4VHwwBJpdsz" role="lcghm">
-                <node concept="2OqwBi" id="4VHwwBJpds$" role="lb14g">
-                  <node concept="2OqwBi" id="4VHwwBJpds_" role="2Oq$k0">
-                    <node concept="1PxgMI" id="4VHwwBJpdsA" role="2Oq$k0">
-                      <property role="1BlNFB" value="true" />
-                      <node concept="chp4Y" id="4VHwwBJpdsB" role="3oSUPX">
-                        <ref role="cht4Q" to="wi2d:1DHNIAI0daV" resolve="App" />
-                      </node>
-                      <node concept="2OqwBi" id="4VHwwBJpdsC" role="1m5AlR">
-                        <node concept="2OqwBi" id="4VHwwBJpdsD" role="2Oq$k0">
-                          <node concept="117lpO" id="4VHwwBJpdsE" role="2Oq$k0" />
-                          <node concept="1mfA1w" id="4VHwwBJpdsF" role="2OqNvi" />
+            <node concept="3clFbH" id="6lfKmmELxEg" role="3cqZAp" />
+            <node concept="3clFbJ" id="6lfKmmELyYB" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmELyYC" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmELyYD" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmELyYE" role="lcghm">
+                    <property role="lacIc" value="color:themeColor_" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmELyYF" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmELyYG" role="lb14g">
+                      <node concept="2OqwBi" id="6lfKmmELyYH" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6lfKmmELyYI" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6lfKmmELyYJ" role="2Oq$k0">
+                            <node concept="117lpO" id="6lfKmmELyYK" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="6lfKmmELyYL" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="6lfKmmELyYM" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:3Sngu6AleB9" resolve="color" />
+                          </node>
                         </node>
-                        <node concept="1mfA1w" id="4VHwwBJpdsG" role="2OqNvi" />
+                        <node concept="3TrcHB" id="6lfKmmELyYN" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6lfKmmELyYO" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="6lfKmmELyYP" role="37wK5m">
+                          <property role="Xl_RC" value=" " />
+                        </node>
+                        <node concept="Xl_RD" id="6lfKmmELyYQ" role="37wK5m">
+                          <property role="Xl_RC" value="" />
+                        </node>
                       </node>
                     </node>
-                    <node concept="3TrcHB" id="4VHwwBJpdsH" role="2OqNvi">
+                  </node>
+                  <node concept="la8eA" id="6lfKmmELyYR" role="lcghm">
+                    <property role="lacIc" value=", " />
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6lfKmmELyYS" role="3clFbw">
+                <node concept="17QLQc" id="6lfKmmELyYT" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmELyYU" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmELyYV" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmELyYW" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmELyYX" role="3uHU7w" />
+                </node>
+                <node concept="17QLQc" id="6lfKmmELyYY" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmELyYZ" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmELyZ0" role="3uHU7B">
+                    <node concept="3TrcHB" id="6lfKmmELyZ1" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                    <node concept="2OqwBi" id="6lfKmmELyZ2" role="2Oq$k0">
+                      <node concept="3TrEf2" id="6lfKmmELyZ3" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:3Sngu6AleB9" resolve="color" />
+                      </node>
+                      <node concept="2OqwBi" id="6lfKmmELyZ4" role="2Oq$k0">
+                        <node concept="3TrEf2" id="6lfKmmELyZ5" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                        </node>
+                        <node concept="117lpO" id="6lfKmmELyZ6" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eNFk2" id="6lfKmmELyZ7" role="3eNLev">
+                <node concept="3clFbS" id="6lfKmmELyZ8" role="3eOfB_">
+                  <node concept="lc7rE" id="6lfKmmELyZ9" role="3cqZAp">
+                    <node concept="la8eA" id="6lfKmmELyZa" role="lcghm">
+                      <property role="lacIc" value="color:theme.palette.getContrastText('#1d77db'" />
+                    </node>
+                    <node concept="la8eA" id="6lfKmmELyZb" role="lcghm">
+                      <property role="lacIc" value="), " />
+                    </node>
+                  </node>
+                </node>
+                <node concept="22lmx$" id="6lfKmmEQiWq" role="3eO9$A">
+                  <node concept="17R0WA" id="6lfKmmEQiWr" role="3uHU7B">
+                    <node concept="2OqwBi" id="6lfKmmEQiWs" role="3uHU7B">
+                      <node concept="117lpO" id="6lfKmmEQiWt" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6lfKmmEQiWu" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                      </node>
+                    </node>
+                    <node concept="10Nm6u" id="6lfKmmEQiWv" role="3uHU7w" />
+                  </node>
+                  <node concept="17R0WA" id="6lfKmmEQiWw" role="3uHU7w">
+                    <node concept="10Nm6u" id="6lfKmmEQiWx" role="3uHU7w" />
+                    <node concept="2OqwBi" id="6lfKmmEQiWy" role="3uHU7B">
+                      <node concept="3TrEf2" id="6lfKmmEQiWz" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                      </node>
+                      <node concept="117lpO" id="6lfKmmEQiW$" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="6lfKmmELyZh" role="9aQIa">
+                <node concept="3clFbS" id="6lfKmmELyZi" role="9aQI4">
+                  <node concept="lc7rE" id="6lfKmmELyZj" role="3cqZAp">
+                    <node concept="la8eA" id="6lfKmmELyZk" role="lcghm">
+                      <property role="lacIc" value="color:theme.palette.getContrastText('" />
+                    </node>
+                    <node concept="l9hG8" id="6lfKmmELyZl" role="lcghm">
+                      <node concept="2OqwBi" id="6lfKmmELyZm" role="lb14g">
+                        <node concept="2OqwBi" id="6lfKmmELyZn" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmELyZo" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6lfKmmELyZp" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmELyZq" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="la8eA" id="6lfKmmELyZr" role="lcghm">
+                      <property role="lacIc" value="'), " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6lfKmmELyik" role="3cqZAp" />
+            <node concept="3clFbH" id="6lfKmmELypp" role="3cqZAp" />
+            <node concept="lc7rE" id="6lfKmmELx2Q" role="3cqZAp">
+              <node concept="2BGw6n" id="6lfKmmELx2R" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmELx2S" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmELx2T" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmELx2U" role="lcghm" />
+              <node concept="la8eA" id="6lfKmmELx2V" role="lcghm">
+                <property role="lacIc" value="}}&gt;\n                        &lt;MenuIcon /&gt;\n                    &lt;/IconButton&gt;" />
+              </node>
+              <node concept="l8MVK" id="6lfKmmELx2W" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6lfKmmEB25D" role="3cqZAp">
+              <node concept="2BGw6n" id="6lfKmmEB25E" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmEB25F" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmEB25G" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmEB25H" role="lcghm" />
+              <node concept="la8eA" id="6lfKmmEB25I" role="lcghm">
+                <property role="lacIc" value="&lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; noWrap sx={{ flexGrow: 1, " />
+              </node>
+            </node>
+            <node concept="3clFbH" id="6lfKmmEB25J" role="3cqZAp" />
+            <node concept="3clFbJ" id="6lfKmmEB25K" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEB25L" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEB25M" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEB25N" role="lcghm">
+                    <property role="lacIc" value="color:themeColor_" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEB25O" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEB25P" role="lb14g">
+                      <node concept="2OqwBi" id="6lfKmmEB25Q" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6lfKmmEB25R" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6lfKmmEB25S" role="2Oq$k0">
+                            <node concept="117lpO" id="6lfKmmEB25T" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="6lfKmmEB25U" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="6lfKmmEB25V" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:3Sngu6AleB9" resolve="color" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEB25W" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6lfKmmEB25X" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="6lfKmmEB25Y" role="37wK5m">
+                          <property role="Xl_RC" value=" " />
+                        </node>
+                        <node concept="Xl_RD" id="6lfKmmEB25Z" role="37wK5m">
+                          <property role="Xl_RC" value="" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6lfKmmEB260" role="lcghm">
+                    <property role="lacIc" value=", " />
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6lfKmmEB261" role="3clFbw">
+                <node concept="17QLQc" id="6lfKmmEB262" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmEB263" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmEB264" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmEB265" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmEB266" role="3uHU7w" />
+                </node>
+                <node concept="17QLQc" id="6lfKmmEB267" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmEB268" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmEB269" role="3uHU7B">
+                    <node concept="3TrcHB" id="6lfKmmEB26a" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                    <node concept="2OqwBi" id="6lfKmmEB26b" role="2Oq$k0">
+                      <node concept="3TrEf2" id="6lfKmmEB26c" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:3Sngu6AleB9" resolve="color" />
+                      </node>
+                      <node concept="2OqwBi" id="6lfKmmEB26d" role="2Oq$k0">
+                        <node concept="3TrEf2" id="6lfKmmEB26e" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                        </node>
+                        <node concept="117lpO" id="6lfKmmEB26f" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eNFk2" id="6lfKmmEB26g" role="3eNLev">
+                <node concept="3clFbS" id="6lfKmmEB26h" role="3eOfB_">
+                  <node concept="lc7rE" id="6lfKmmEB26i" role="3cqZAp">
+                    <node concept="la8eA" id="6lfKmmEB26j" role="lcghm">
+                      <property role="lacIc" value="color:theme.palette.getContrastText('#1d77db'" />
+                    </node>
+                    <node concept="la8eA" id="6lfKmmEB26k" role="lcghm">
+                      <property role="lacIc" value="), " />
+                    </node>
+                  </node>
+                </node>
+                <node concept="22lmx$" id="6lfKmmEQiRu" role="3eO9$A">
+                  <node concept="17R0WA" id="6lfKmmEQiRv" role="3uHU7B">
+                    <node concept="2OqwBi" id="6lfKmmEQiRw" role="3uHU7B">
+                      <node concept="117lpO" id="6lfKmmEQiRx" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6lfKmmEQiRy" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                      </node>
+                    </node>
+                    <node concept="10Nm6u" id="6lfKmmEQiRz" role="3uHU7w" />
+                  </node>
+                  <node concept="17R0WA" id="6lfKmmEQiR$" role="3uHU7w">
+                    <node concept="10Nm6u" id="6lfKmmEQiR_" role="3uHU7w" />
+                    <node concept="2OqwBi" id="6lfKmmEQiRA" role="3uHU7B">
+                      <node concept="3TrEf2" id="6lfKmmEQiRB" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                      </node>
+                      <node concept="117lpO" id="6lfKmmEQiRC" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="6lfKmmEB26q" role="9aQIa">
+                <node concept="3clFbS" id="6lfKmmEB26r" role="9aQI4">
+                  <node concept="lc7rE" id="6lfKmmEB26s" role="3cqZAp">
+                    <node concept="la8eA" id="6lfKmmEB26t" role="lcghm">
+                      <property role="lacIc" value="color:theme.palette.getContrastText('" />
+                    </node>
+                    <node concept="l9hG8" id="6lfKmmEB26u" role="lcghm">
+                      <node concept="2OqwBi" id="6lfKmmEB26v" role="lb14g">
+                        <node concept="2OqwBi" id="6lfKmmEB26w" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmEB26x" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6lfKmmEB26y" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEB26z" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="la8eA" id="6lfKmmEB26$" role="lcghm">
+                      <property role="lacIc" value="'), " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6lfKmmEB26_" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEB26A" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEB26B" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEB26C" role="lcghm">
+                    <property role="lacIc" value="fontFamily:themeFont_" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEB26D" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEB26E" role="lb14g">
+                      <node concept="2OqwBi" id="6lfKmmEB26F" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6lfKmmEB26G" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6lfKmmEB26H" role="2Oq$k0">
+                            <node concept="117lpO" id="6lfKmmEB26I" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="6lfKmmEB26J" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="6lfKmmEB26K" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:3Sngu6AleBb" resolve="font" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEB26L" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UF1qb" resolve="font" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6lfKmmEB26M" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="6lfKmmEB26N" role="37wK5m">
+                          <property role="Xl_RC" value=" " />
+                        </node>
+                        <node concept="Xl_RD" id="6lfKmmEB26O" role="37wK5m">
+                          <property role="Xl_RC" value="" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6lfKmmEB26P" role="lcghm">
+                    <property role="lacIc" value=", " />
+                  </node>
+                </node>
+              </node>
+              <node concept="17QLQc" id="6lfKmmEB26Q" role="3clFbw">
+                <node concept="10Nm6u" id="6lfKmmEB26R" role="3uHU7w" />
+                <node concept="2OqwBi" id="6lfKmmEB26S" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmEB26T" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6lfKmmEB26U" role="2Oq$k0">
+                      <node concept="117lpO" id="6lfKmmEB26V" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6lfKmmEB26W" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="6lfKmmEB26X" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:3Sngu6AleBb" resolve="font" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="6lfKmmEB26Y" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:7XyC30UF1qb" resolve="font" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6lfKmmEB26Z" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEB270" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEB271" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEB272" role="lcghm">
+                    <property role="lacIc" value="fontSize:&quot;" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEB273" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEB274" role="lb14g">
+                      <node concept="2OqwBi" id="6lfKmmEB275" role="2Oq$k0">
+                        <node concept="117lpO" id="6lfKmmEB276" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="6lfKmmEB277" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="6lfKmmEB278" role="2OqNvi">
+                        <ref role="3TsBF5" to="wi2d:3Sngu6AleBk" resolve="size" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6lfKmmEB279" role="lcghm">
+                    <property role="lacIc" value="&quot;, " />
+                  </node>
+                </node>
+              </node>
+              <node concept="17QLQc" id="6lfKmmEB27a" role="3clFbw">
+                <node concept="10Nm6u" id="6lfKmmEB27b" role="3uHU7w" />
+                <node concept="2OqwBi" id="6lfKmmEB27c" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmEB27d" role="2Oq$k0">
+                    <node concept="117lpO" id="6lfKmmEB27e" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmEB27f" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="6lfKmmEB27g" role="2OqNvi">
+                    <ref role="3TsBF5" to="wi2d:3Sngu6AleBk" resolve="size" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6lfKmmEB27h" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEB27i" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEB27j" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEB27k" role="lcghm">
+                    <property role="lacIc" value="textAlign:&quot;" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEB27l" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEB27m" role="lb14g">
+                      <node concept="117lpO" id="6lfKmmEB27n" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="6lfKmmEB27o" role="2OqNvi">
+                        <ref role="3TsBF5" to="wi2d:6lfKmmEvbA1" resolve="titleAlignement" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6lfKmmEB27p" role="lcghm">
+                    <property role="lacIc" value="&quot;, " />
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6lfKmmEB27q" role="3clFbw">
+                <node concept="17QLQc" id="6lfKmmEB27r" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmEB27s" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmEB27t" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmEB27u" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmEB27v" role="3uHU7w" />
+                </node>
+                <node concept="17QLQc" id="6lfKmmEB27w" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmEB27x" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmEB27y" role="3uHU7B">
+                    <node concept="3TrcHB" id="6lfKmmEB27z" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:6lfKmmEvbA1" resolve="titleAlignement" />
+                    </node>
+                    <node concept="117lpO" id="6lfKmmEB27$" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6lfKmmEB27_" role="3cqZAp" />
+            <node concept="lc7rE" id="6lfKmmEB27A" role="3cqZAp">
+              <node concept="la8eA" id="6lfKmmEB27B" role="lcghm">
+                <property role="lacIc" value="}}&gt;" />
+              </node>
+              <node concept="l9hG8" id="6lfKmmEB27C" role="lcghm">
+                <node concept="2OqwBi" id="6lfKmmEB27D" role="lb14g">
+                  <node concept="2OqwBi" id="6lfKmmEB27E" role="2Oq$k0">
+                    <node concept="1PxgMI" id="6lfKmmEB27F" role="2Oq$k0">
+                      <property role="1BlNFB" value="true" />
+                      <node concept="chp4Y" id="6lfKmmEB27G" role="3oSUPX">
+                        <ref role="cht4Q" to="wi2d:1DHNIAI0daV" resolve="App" />
+                      </node>
+                      <node concept="2OqwBi" id="6lfKmmEB27H" role="1m5AlR">
+                        <node concept="2OqwBi" id="6lfKmmEB27I" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmEB27J" role="2Oq$k0" />
+                          <node concept="1mfA1w" id="6lfKmmEB27K" role="2OqNvi" />
+                        </node>
+                        <node concept="1mfA1w" id="6lfKmmEB27L" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="6lfKmmEB27M" role="2OqNvi">
                       <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="4VHwwBJpdsI" role="2OqNvi">
+                  <node concept="liA8E" id="6lfKmmEB27N" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
                   </node>
                 </node>
               </node>
-              <node concept="la8eA" id="4VHwwBJpdsJ" role="lcghm">
+              <node concept="la8eA" id="6lfKmmEB27O" role="lcghm">
                 <property role="lacIc" value="&lt;/Typography&gt;" />
               </node>
-              <node concept="l8MVK" id="4VHwwBJpdsK" role="lcghm" />
+              <node concept="l8MVK" id="6lfKmmEB27P" role="lcghm" />
             </node>
-            <node concept="lc7rE" id="58tSxDctI6V" role="3cqZAp">
-              <node concept="2BGw6n" id="58tSxDctI6W" role="lcghm" />
-              <node concept="2BGw6n" id="58tSxDctI6X" role="lcghm" />
-              <node concept="2BGw6n" id="58tSxDctI6Y" role="lcghm" />
-              <node concept="la8eA" id="58tSxDctI6Z" role="lcghm">
+            <node concept="3clFbH" id="6lfKmmEB3hX" role="3cqZAp" />
+            <node concept="lc7rE" id="6lfKmmEErwy" role="3cqZAp">
+              <node concept="2BGw6n" id="6lfKmmEErKE" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmEErKX" role="lcghm" />
+              <node concept="2BGw6n" id="6lfKmmEErL1" role="lcghm" />
+              <node concept="la8eA" id="6lfKmmEErLH" role="lcghm">
                 <property role="lacIc" value="&lt;/Toolbar&gt;" />
               </node>
-              <node concept="l8MVK" id="58tSxDctIew" role="lcghm" />
+              <node concept="l8MVK" id="6lfKmmEEuP2" role="lcghm" />
             </node>
+            <node concept="3clFbH" id="6lfKmmEEqFI" role="3cqZAp" />
             <node concept="lc7rE" id="58tSxDctI8P" role="3cqZAp">
               <node concept="2BGw6n" id="58tSxDctI8Q" role="lcghm" />
               <node concept="2BGw6n" id="58tSxDctI8R" role="lcghm" />
@@ -4187,19 +4989,281 @@
             <node concept="lc7rE" id="58tSxDcuaLA" role="3cqZAp">
               <node concept="2BGw6n" id="58tSxDcuaOl" role="lcghm" />
               <node concept="la8eA" id="58tSxDcuaOV" role="lcghm">
-                <property role="lacIc" value="&lt;Drawer variant=&quot;permanent&quot; open={open}&gt;" />
+                <property role="lacIc" value="&lt;Drawer variant=&quot;permanent&quot; open={open} PaperProps={{sx: {" />
               </node>
-              <node concept="l8MVK" id="58tSxDcuaPM" role="lcghm" />
             </node>
+            <node concept="3clFbJ" id="6lfKmmEShzH" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEShzI" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEShzJ" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEShzK" role="lcghm">
+                    <property role="lacIc" value="backgroundColor:themeColor_" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEShzL" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEShzM" role="lb14g">
+                      <node concept="2OqwBi" id="6lfKmmESjXj" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6lfKmmEShzP" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmEShzQ" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6lfKmmEShzR" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcw" resolve="menuColor" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmESk8A" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6lfKmmEShzU" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="6lfKmmEShzV" role="37wK5m">
+                          <property role="Xl_RC" value=" " />
+                        </node>
+                        <node concept="Xl_RD" id="6lfKmmEShzW" role="37wK5m">
+                          <property role="Xl_RC" value="" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6lfKmmEShzX" role="lcghm">
+                    <property role="lacIc" value=", " />
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6lfKmmEShzY" role="3clFbw">
+                <node concept="17QLQc" id="6lfKmmEShzZ" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmESh$0" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmESh$1" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmESh$2" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmESh$3" role="3uHU7w" />
+                </node>
+                <node concept="17QLQc" id="6lfKmmESh$4" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmESh$5" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmESh$8" role="3uHU7B">
+                    <node concept="3TrcHB" id="6lfKmmESjcQ" role="2OqNvi">
+                      <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                    </node>
+                    <node concept="2OqwBi" id="6lfKmmESh$a" role="2Oq$k0">
+                      <node concept="3TrEf2" id="6lfKmmESh$b" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcw" resolve="menuColor" />
+                      </node>
+                      <node concept="117lpO" id="6lfKmmESh$c" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6lfKmmESgNQ" role="3cqZAp" />
+            <node concept="lc7rE" id="6lfKmmESg10" role="3cqZAp">
+              <node concept="la8eA" id="6lfKmmESg12" role="lcghm">
+                <property role="lacIc" value="}}}&gt;" />
+              </node>
+              <node concept="l8MVK" id="6lfKmmESg13" role="lcghm" />
+            </node>
+            <node concept="3clFbH" id="6lfKmmERt6v" role="3cqZAp" />
+            <node concept="3clFbH" id="6lfKmmERtfG" role="3cqZAp" />
             <node concept="lc7rE" id="58tSxDcubKf" role="3cqZAp">
               <node concept="2BGw6n" id="58tSxDcubN2" role="lcghm" />
               <node concept="2BGw6n" id="58tSxDcubNC" role="lcghm" />
               <node concept="la8eA" id="58tSxDcubOg" role="lcghm">
-                <property role="lacIc" value="&lt;Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', px: [1], backgroundColor: 'primary.main'}}&gt;\n                    &lt;Typography component=&quot;h1&quot; variant=&quot;h6&quot; color=&quot;inherit&quot; noWrap sx={{ flexGrow: 1, color:'primary.contrastText', fontWeight:400 }} paddingLeft={8}&gt;Menu&lt;/Typography&gt;\n                    &lt;IconButton onClick={toggleDrawer} &gt;\n                        &lt;ChevronLeftIcon sx={{color: theme.palette.primary.contrastText}} /&gt;\n                    &lt;/IconButton&gt;\n                &lt;/Toolbar&gt;" />
+                <property role="lacIc" value="&lt;Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'end', px: [1], backgroundColor: '" />
               </node>
-              <node concept="l8MVK" id="58tSxDcubP9" role="lcghm" />
+            </node>
+            <node concept="3clFbJ" id="6lfKmmEHZqN" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmEHZqO" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmEHZqP" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEHZqQ" role="lcghm">
+                    <property role="lacIc" value="#1d77db" />
+                  </node>
+                </node>
+              </node>
+              <node concept="22lmx$" id="6lfKmmEHZqR" role="3clFbw">
+                <node concept="17R0WA" id="6lfKmmEHZqS" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmEHZqT" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmEHZqU" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmEHZqV" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmEHZqW" role="3uHU7w" />
+                </node>
+                <node concept="17R0WA" id="6lfKmmEHZqX" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmEHZqY" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmEHZqZ" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmEHZr0" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmEHZr1" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="6lfKmmEHZr2" role="9aQIa">
+                <node concept="3clFbS" id="6lfKmmEHZr3" role="9aQI4">
+                  <node concept="lc7rE" id="6lfKmmEHZr4" role="3cqZAp">
+                    <node concept="l9hG8" id="6lfKmmEHZr5" role="lcghm">
+                      <node concept="2OqwBi" id="6lfKmmEHZr6" role="lb14g">
+                        <node concept="2OqwBi" id="6lfKmmEHZr7" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmEHZr8" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6lfKmmEHZr9" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEHZra" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="lc7rE" id="6lfKmmEHZrb" role="3cqZAp">
+              <node concept="la8eA" id="6lfKmmEHZrc" role="lcghm">
+                <property role="lacIc" value="' }} &gt;" />
+              </node>
+              <node concept="l8MVK" id="6lfKmmEHZrd" role="lcghm" />
+            </node>
+            <node concept="lc7rE" id="6lfKmmEKj24" role="3cqZAp">
+              <node concept="la8eA" id="6lfKmmEKj25" role="lcghm">
+                <property role="lacIc" value="&lt;IconButton onClick={toggleDrawer} &gt;\n  &lt;ChevronLeftIcon sx={{" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6lfKmmENV2O" role="3cqZAp">
+              <node concept="3clFbS" id="6lfKmmENV2P" role="3clFbx">
+                <node concept="lc7rE" id="6lfKmmENV2Q" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmENV2R" role="lcghm">
+                    <property role="lacIc" value="color:themeColor_" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmENV2S" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmENV2T" role="lb14g">
+                      <node concept="2OqwBi" id="6lfKmmENV2U" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6lfKmmENV2V" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6lfKmmENV2W" role="2Oq$k0">
+                            <node concept="117lpO" id="6lfKmmENV2X" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="6lfKmmENV2Y" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="6lfKmmENV2Z" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:3Sngu6AleB9" resolve="color" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmENV30" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6lfKmmENV31" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="6lfKmmENV32" role="37wK5m">
+                          <property role="Xl_RC" value=" " />
+                        </node>
+                        <node concept="Xl_RD" id="6lfKmmENV33" role="37wK5m">
+                          <property role="Xl_RC" value="" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="6lfKmmENV34" role="lcghm">
+                    <property role="lacIc" value=", " />
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6lfKmmENV35" role="3clFbw">
+                <node concept="17QLQc" id="6lfKmmENV36" role="3uHU7B">
+                  <node concept="2OqwBi" id="6lfKmmENV37" role="3uHU7B">
+                    <node concept="117lpO" id="6lfKmmENV38" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6lfKmmENV39" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="6lfKmmENV3a" role="3uHU7w" />
+                </node>
+                <node concept="17QLQc" id="6lfKmmENV3b" role="3uHU7w">
+                  <node concept="10Nm6u" id="6lfKmmENV3c" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6lfKmmENV3d" role="3uHU7B">
+                    <node concept="3TrcHB" id="6lfKmmENV3e" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                    <node concept="2OqwBi" id="6lfKmmENV3f" role="2Oq$k0">
+                      <node concept="3TrEf2" id="6lfKmmENV3g" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:3Sngu6AleB9" resolve="color" />
+                      </node>
+                      <node concept="2OqwBi" id="6lfKmmENV3h" role="2Oq$k0">
+                        <node concept="3TrEf2" id="6lfKmmENV3i" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                        </node>
+                        <node concept="117lpO" id="6lfKmmENV3j" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eNFk2" id="6lfKmmENV3k" role="3eNLev">
+                <node concept="3clFbS" id="6lfKmmENV3l" role="3eOfB_">
+                  <node concept="lc7rE" id="6lfKmmENV3m" role="3cqZAp">
+                    <node concept="la8eA" id="6lfKmmENV3n" role="lcghm">
+                      <property role="lacIc" value="color:theme.palette.getContrastText('#1d77db'" />
+                    </node>
+                    <node concept="la8eA" id="6lfKmmENV3o" role="lcghm">
+                      <property role="lacIc" value="), " />
+                    </node>
+                  </node>
+                </node>
+                <node concept="22lmx$" id="6lfKmmEQj4o" role="3eO9$A">
+                  <node concept="17R0WA" id="6lfKmmEQj4p" role="3uHU7B">
+                    <node concept="2OqwBi" id="6lfKmmEQj4q" role="3uHU7B">
+                      <node concept="117lpO" id="6lfKmmEQj4r" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6lfKmmEQj4s" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                      </node>
+                    </node>
+                    <node concept="10Nm6u" id="6lfKmmEQj4t" role="3uHU7w" />
+                  </node>
+                  <node concept="17R0WA" id="6lfKmmEQj4u" role="3uHU7w">
+                    <node concept="10Nm6u" id="6lfKmmEQj4v" role="3uHU7w" />
+                    <node concept="2OqwBi" id="6lfKmmEQj4w" role="3uHU7B">
+                      <node concept="3TrEf2" id="6lfKmmEQj4x" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                      </node>
+                      <node concept="117lpO" id="6lfKmmEQj4y" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="6lfKmmENV3u" role="9aQIa">
+                <node concept="3clFbS" id="6lfKmmENV3v" role="9aQI4">
+                  <node concept="lc7rE" id="6lfKmmENV3w" role="3cqZAp">
+                    <node concept="la8eA" id="6lfKmmENV3x" role="lcghm">
+                      <property role="lacIc" value="color:theme.palette.getContrastText('" />
+                    </node>
+                    <node concept="l9hG8" id="6lfKmmENV3y" role="lcghm">
+                      <node concept="2OqwBi" id="6lfKmmENV3z" role="lb14g">
+                        <node concept="2OqwBi" id="6lfKmmENV3$" role="2Oq$k0">
+                          <node concept="117lpO" id="6lfKmmENV3_" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6lfKmmENV3A" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmENV3B" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="la8eA" id="6lfKmmENV3C" role="lcghm">
+                      <property role="lacIc" value="'), " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="lc7rE" id="6lfKmmENWgs" role="3cqZAp">
+              <node concept="la8eA" id="6lfKmmENWgt" role="lcghm">
+                <property role="lacIc" value="}} /&gt;\n                    &lt;/IconButton&gt;\n                &lt;/Toolbar&gt;" />
+              </node>
             </node>
             <node concept="3clFbH" id="4VHwwBJoI6h" role="3cqZAp" />
+            <node concept="3clFbH" id="6lfKmmENUgQ" role="3cqZAp" />
+            <node concept="3clFbH" id="6lfKmmENUoM" role="3cqZAp" />
             <node concept="lc7rE" id="58tSxDcubV2" role="3cqZAp">
               <node concept="2BGw6n" id="58tSxDcuc3W" role="lcghm" />
               <node concept="2BGw6n" id="58tSxDcuc4L" role="lcghm" />
@@ -4297,25 +5361,65 @@
                   <node concept="2BGw6n" id="58tSxDcuecR" role="lcghm" />
                   <node concept="2BGw6n" id="58tSxDcuedM" role="lcghm" />
                   <node concept="la8eA" id="58tSxDcuecS" role="lcghm">
-                    <property role="lacIc" value="&lt;ListItemIcon&gt;" />
+                    <property role="lacIc" value="&lt;ListItemIcon sx={{" />
                   </node>
                   <node concept="l8MVK" id="58tSxDcuecT" role="lcghm" />
                 </node>
-                <node concept="1X3_iC" id="7MJjWP4A6HX" role="lGtFl">
-                  <property role="3V$3am" value="statement" />
-                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                  <node concept="lc7rE" id="58tSxDcuefl" role="8Wnug">
-                    <node concept="2BGw6n" id="58tSxDcuefm" role="lcghm" />
-                    <node concept="2BGw6n" id="58tSxDcuefn" role="lcghm" />
-                    <node concept="2BGw6n" id="58tSxDcuefo" role="lcghm" />
-                    <node concept="2BGw6n" id="58tSxDcuefp" role="lcghm" />
-                    <node concept="2BGw6n" id="58tSxDcuefq" role="lcghm" />
-                    <node concept="2BGw6n" id="58tSxDcuegx" role="lcghm" />
-                    <node concept="la8eA" id="58tSxDcuefr" role="lcghm">
-                      <property role="lacIc" value="&lt;DashboardIcon /&gt;" />
+                <node concept="3clFbJ" id="6lfKmmEVPoF" role="3cqZAp">
+                  <node concept="3clFbS" id="6lfKmmEVPoG" role="3clFbx">
+                    <node concept="lc7rE" id="6lfKmmEVPpt" role="3cqZAp">
+                      <node concept="la8eA" id="6lfKmmEVPpu" role="lcghm">
+                        <property role="lacIc" value="color:theme.palette.getContrastText('" />
+                      </node>
+                      <node concept="l9hG8" id="6lfKmmEVPpv" role="lcghm">
+                        <node concept="2OqwBi" id="6lfKmmEVPpw" role="lb14g">
+                          <node concept="2OqwBi" id="6lfKmmEVPpx" role="2Oq$k0">
+                            <node concept="117lpO" id="6lfKmmEVPpy" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="6lfKmmEVPpz" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcw" resolve="menuColor" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="6lfKmmEVPp$" role="2OqNvi">
+                            <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="la8eA" id="6lfKmmEVPp_" role="lcghm">
+                        <property role="lacIc" value="'), " />
+                      </node>
                     </node>
-                    <node concept="l8MVK" id="58tSxDcuefs" role="lcghm" />
                   </node>
+                  <node concept="1Wc70l" id="6lfKmmEVPoW" role="3clFbw">
+                    <node concept="17QLQc" id="6lfKmmEVPoX" role="3uHU7B">
+                      <node concept="2OqwBi" id="6lfKmmEVPoY" role="3uHU7B">
+                        <node concept="117lpO" id="6lfKmmEVPoZ" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="6lfKmmEVPp0" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                        </node>
+                      </node>
+                      <node concept="10Nm6u" id="6lfKmmEVPp1" role="3uHU7w" />
+                    </node>
+                    <node concept="17QLQc" id="6lfKmmEVPp2" role="3uHU7w">
+                      <node concept="10Nm6u" id="6lfKmmEVPp3" role="3uHU7w" />
+                      <node concept="2OqwBi" id="6lfKmmEVRkJ" role="3uHU7B">
+                        <node concept="2OqwBi" id="6lfKmmEVPp8" role="2Oq$k0">
+                          <node concept="3TrEf2" id="6lfKmmEVPp9" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcw" resolve="menuColor" />
+                          </node>
+                          <node concept="117lpO" id="6lfKmmEVPpa" role="2Oq$k0" />
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEVRoq" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="lc7rE" id="6lfKmmEVQ2_" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEVQ9R" role="lcghm">
+                    <property role="lacIc" value="}}&gt;" />
+                  </node>
+                  <node concept="l8MVK" id="6lfKmmEVQaw" role="lcghm" />
                 </node>
                 <node concept="lc7rE" id="7MJjWP4A6Ao" role="3cqZAp">
                   <node concept="2BGw6n" id="7MJjWP4A6Ap" role="lcghm" />
@@ -4354,23 +5458,79 @@
                   <node concept="2BGw6n" id="58tSxDcuejY" role="lcghm" />
                   <node concept="2BGw6n" id="58tSxDcuejZ" role="lcghm" />
                   <node concept="la8eA" id="58tSxDcuek0" role="lcghm">
-                    <property role="lacIc" value="&lt;ListItemText primary=&quot;" />
+                    <property role="lacIc" value="&lt;ListItemText sx={{" />
                   </node>
-                  <node concept="l9hG8" id="58tSxDcuenJ" role="lcghm">
-                    <node concept="2OqwBi" id="58tSxDcueuQ" role="lb14g">
-                      <node concept="2GrUjf" id="58tSxDcueoH" role="2Oq$k0">
+                </node>
+                <node concept="3clFbJ" id="6lfKmmEVTo0" role="3cqZAp">
+                  <node concept="3clFbS" id="6lfKmmEVTo1" role="3clFbx">
+                    <node concept="lc7rE" id="6lfKmmEVTo2" role="3cqZAp">
+                      <node concept="la8eA" id="6lfKmmEVTo3" role="lcghm">
+                        <property role="lacIc" value="color:theme.palette.getContrastText('" />
+                      </node>
+                      <node concept="l9hG8" id="6lfKmmEVTo4" role="lcghm">
+                        <node concept="2OqwBi" id="6lfKmmEVTo5" role="lb14g">
+                          <node concept="2OqwBi" id="6lfKmmEVTo6" role="2Oq$k0">
+                            <node concept="117lpO" id="6lfKmmEVTo7" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="6lfKmmEVTo8" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcw" resolve="menuColor" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="6lfKmmEVTo9" role="2OqNvi">
+                            <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="la8eA" id="6lfKmmEVToa" role="lcghm">
+                        <property role="lacIc" value="'), " />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="6lfKmmEVTob" role="3clFbw">
+                    <node concept="17QLQc" id="6lfKmmEVToc" role="3uHU7B">
+                      <node concept="2OqwBi" id="6lfKmmEVTod" role="3uHU7B">
+                        <node concept="117lpO" id="6lfKmmEVToe" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="6lfKmmEVTof" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                        </node>
+                      </node>
+                      <node concept="10Nm6u" id="6lfKmmEVTog" role="3uHU7w" />
+                    </node>
+                    <node concept="17QLQc" id="6lfKmmEVToh" role="3uHU7w">
+                      <node concept="10Nm6u" id="6lfKmmEVToi" role="3uHU7w" />
+                      <node concept="2OqwBi" id="6lfKmmEVToj" role="3uHU7B">
+                        <node concept="2OqwBi" id="6lfKmmEVTok" role="2Oq$k0">
+                          <node concept="3TrEf2" id="6lfKmmEVTol" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wi2d:6lfKmmEvbcw" resolve="menuColor" />
+                          </node>
+                          <node concept="117lpO" id="6lfKmmEVTom" role="2Oq$k0" />
+                        </node>
+                        <node concept="3TrcHB" id="6lfKmmEVTon" role="2OqNvi">
+                          <ref role="3TsBF5" to="wi2d:7XyC30UC_lm" resolve="color" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="lc7rE" id="6lfKmmEVT$x" role="3cqZAp">
+                  <node concept="la8eA" id="6lfKmmEVTXA" role="lcghm">
+                    <property role="lacIc" value="}} primary=&quot;" />
+                  </node>
+                  <node concept="l9hG8" id="6lfKmmEVT$C" role="lcghm">
+                    <node concept="2OqwBi" id="6lfKmmEVT$D" role="lb14g">
+                      <node concept="2GrUjf" id="6lfKmmEVT$E" role="2Oq$k0">
                         <ref role="2Gs0qQ" node="58tSxDcucze" resolve="tab" />
                       </node>
-                      <node concept="3TrcHB" id="58tSxDcuePb" role="2OqNvi">
+                      <node concept="3TrcHB" id="6lfKmmEVT$F" role="2OqNvi">
                         <ref role="3TsBF5" to="wi2d:2dFAI0jBY8z" resolve="name" />
                       </node>
                     </node>
                   </node>
-                  <node concept="la8eA" id="58tSxDcuelZ" role="lcghm">
+                  <node concept="la8eA" id="6lfKmmEVT$G" role="lcghm">
                     <property role="lacIc" value="&quot; /&gt;" />
                   </node>
-                  <node concept="l8MVK" id="58tSxDcuek1" role="lcghm" />
+                  <node concept="l8MVK" id="6lfKmmEVT$H" role="lcghm" />
                 </node>
+                <node concept="3clFbH" id="6lfKmmEVTl0" role="3cqZAp" />
                 <node concept="lc7rE" id="58tSxDcueVo" role="3cqZAp">
                   <node concept="2BGw6n" id="58tSxDcueVp" role="lcghm" />
                   <node concept="2BGw6n" id="58tSxDcueVq" role="lcghm" />
