@@ -58,6 +58,11 @@
       </concept>
       <concept id="2552303901028114948" name="UXifier.structure.PresentationStyling" flags="ng" index="KX7z$">
         <property id="2552303901028127590" name="showImage" index="KMSA6" />
+        <property id="642913801729165536" name="imageBorderRadius" index="1dFPTi" />
+        <property id="642913801728340690" name="imageborderSize" index="1dQEhw" />
+        <property id="642913801728340681" name="imageFilter" index="1dQEhV" />
+        <property id="642913801728340685" name="imageBorder" index="1dQEhZ" />
+        <property id="642913801728381720" name="filterPercentage" index="1dQOmE" />
       </concept>
       <concept id="2552303901028114951" name="UXifier.structure.IFormat" flags="ng" index="KX7zB">
         <property id="2552303901028618557" name="name" index="KN0Jt" />
@@ -239,6 +244,11 @@
                 <node concept="KX7z$" id="zG5F94Yazf" role="KMSA4">
                   <property role="KMSA6" value="true" />
                   <property role="2ogUw1" value="true" />
+                  <property role="1dQEhZ" value="true" />
+                  <property role="1dQEhV" value="1eZdBFG4yzX/contrast" />
+                  <property role="1dQOmE" value="5" />
+                  <property role="1dQEhw" value="5" />
+                  <property role="1dFPTi" value="5" />
                 </node>
               </node>
               <node concept="1dCShr" id="6lfKmmEatGL" role="25jtg_">
