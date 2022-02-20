@@ -417,13 +417,13 @@
       <property role="IQ2ns" value="4474117192233409875" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="languageNameStyle" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6Ay_Pq" role="1TKVEi">
       <property role="IQ2ns" value="4474117192233409882" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="textualLevelStyle" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="1TIwiD" id="1c5gsjF0JAI">
@@ -1410,7 +1410,8 @@
   </node>
   <node concept="1TIwiD" id="3Sngu6AleB8">
     <property role="EcuMT" value="4474117192229906888" />
-    <property role="TrG5h" value="TextStyle" />
+    <property role="TrG5h" value="TextStyling" />
+    <property role="3GE5qa" value="styling" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="3Sngu6AleB9" role="1TKVEi">
       <property role="IQ2ns" value="4474117192229906889" />

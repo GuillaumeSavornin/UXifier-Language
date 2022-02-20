@@ -3119,6 +3119,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3Sngu6AleWC">
+    <property role="3GE5qa" value="styling" />
     <ref role="1XX52x" to="wi2d:3Sngu6AleB8" resolve="TextStyling" />
     <node concept="3EZMnI" id="3Sngu6AleWF" role="2wV5jI">
       <node concept="3EZMnI" id="3Sngu6AleWM" role="3EZMnx">

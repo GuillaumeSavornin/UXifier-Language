@@ -20,7 +20,7 @@
       <concept id="3662687154638270113" name="UXifier.structure.SimplePage" flags="ng" index="25jtgI">
         <child id="3662687154638270116" name="sections" index="25jtgF" />
       </concept>
-      <concept id="4474117192229906888" name="UXifier.structure.TextStyle" flags="ng" index="2ogUwD" />
+      <concept id="4474117192229906888" name="UXifier.structure.TextStyling" flags="ng" index="2ogUwD" />
       <concept id="4474117192229906902" name="UXifier.structure.ITextualStyling" flags="ng" index="2ogUwR">
         <property id="4474117192229906912" name="showTitle" index="2ogUw1" />
         <child id="4474117192229906905" name="title" index="2ogUwS" />
@@ -91,6 +91,7 @@
       <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN">
         <property id="4474117192226677577" name="showIcons" index="2odeaC" />
         <property id="4440341332753550748" name="showAge" index="2LRsXQ" />
+        <child id="4474117192233418868" name="additionalInformationStyle" index="2oBs6l" />
       </concept>
       <concept id="1904405720489579195" name="UXifier.structure.App" flags="ng" index="2OrhLi">
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
@@ -183,7 +184,7 @@
     </language>
   </registry>
   <node concept="2OrhLi" id="3bkuCYRAPlK">
-    <property role="TrG5h" value="CV Test 2" />
+    <property role="TrG5h" value="Gopher's CV" />
     <node concept="KX7zD" id="3bkuCYRBrBs" role="KX7zJ">
       <property role="KX7za" value="0" />
       <property role="KX7zc" value="2147483647" />
@@ -196,12 +197,6 @@
           <node concept="25jtgD" id="3bkuCYRBrBF" role="25jtgg">
             <node concept="25jtgA" id="3bkuCYRBrCp" role="25jtgz">
               <property role="25iauq" value="8" />
-              <node concept="2LRsGl" id="77VjBUESf43" role="25jtg_">
-                <property role="2LRsX$" value="Type of license" />
-                <property role="2LRsXU" value="XX" />
-                <property role="2LRsXT" value="list of countries" />
-                <node concept="2LRsXN" id="77VjBUESf45" role="2LRsXX" />
-              </node>
               <node concept="KX7Gv" id="zG5F94Yazd" role="25jtg_">
                 <property role="KMSAM" value="Name" />
                 <property role="KMSAP" value="LastName" />
@@ -449,6 +444,34 @@
       <node concept="15NFqT" id="77VjBUE9HO7" role="15NP1W">
         <property role="TrG5h" value="Times New Roman" />
         <property role="15NFqV" value="Times New Roman" />
+      </node>
+    </node>
+  </node>
+  <node concept="2OrhLi" id="77VjBUEYs3B">
+    <property role="TrG5h" value="Test CV" />
+    <node concept="KX7zD" id="77VjBUEYs3F" role="KX7zJ">
+      <property role="KX7za" value="0" />
+      <property role="KX7zc" value="2147483647" />
+      <property role="KN0Jt" value="WebSite" />
+      <node concept="KX7zG" id="77VjBUEYs3K" role="KX7zS">
+        <node concept="25jtgI" id="77VjBUEYs3P" role="25jtgi">
+          <node concept="2LRsGl" id="77VjBUEYs3X" role="25jtgF">
+            <property role="2LRsX$" value="Type of license" />
+            <property role="2LRsXU" value="XX" />
+            <property role="2LRsXT" value="list of countries" />
+            <node concept="2LRsXN" id="77VjBUEYs3Z" role="2LRsXX">
+              <node concept="2ogUwD" id="77VjBUEYs48" role="2oBs6l" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KX7Gu" id="77VjBUEYs3D" role="KX7zN">
+      <property role="15KOQd" value="#555555" />
+      <property role="15KOR_" value="5" />
+      <node concept="15Kflz" id="77VjBUEYs46" role="15KflD">
+        <property role="TrG5h" value="testColor" />
+        <property role="15KflA" value="#ff5555" />
       </node>
     </node>
   </node>
