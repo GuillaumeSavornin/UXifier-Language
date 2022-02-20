@@ -190,6 +190,31 @@
       <property role="TrG5h" value="showImage" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="zG5F95dFb9" role="1TKVEl">
+      <property role="IQ2nx" value="642913801728340681" />
+      <property role="TrG5h" value="imageFilter" />
+      <ref role="AX2Wp" node="1eZdBFG4yzS" resolve="IMAGE_FILTER" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95dPco" role="1TKVEl">
+      <property role="IQ2nx" value="642913801728381720" />
+      <property role="TrG5h" value="filterPercentage" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95dFbd" role="1TKVEl">
+      <property role="IQ2nx" value="642913801728340685" />
+      <property role="TrG5h" value="imageBorder" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95dFbi" role="1TKVEl">
+      <property role="IQ2nx" value="642913801728340690" />
+      <property role="TrG5h" value="imageborderSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95gOzw" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729165536" />
+      <property role="TrG5h" value="imageBorderRadius" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyi" id="2dFAI0jC1dC" role="1TKVEl">
       <property role="IQ2nx" value="2552303901028127592" />
       <property role="TrG5h" value="imageLocation" />
@@ -209,6 +234,11 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="catchPhraseStyle" />
       <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="zG5F95dFbo" role="1TKVEi">
+      <property role="IQ2ns" value="642913801728340696" />
+      <property role="20kJfa" value="imageBorderColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
     </node>
   </node>
   <node concept="PlHQZ" id="2dFAI0jBY87">
@@ -1369,13 +1399,13 @@
     <property role="3GE5qa" value="enumeration" />
     <property role="TrG5h" value="IMAGE_POSITION" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="1Vw2GbaZRuL" role="M5hS2">
-      <property role="1uS6qo" value="RIGHT" />
-      <property role="1uS6qv" value="row" />
-    </node>
     <node concept="M4N5e" id="1Vw2GbaZRuH" role="M5hS2">
-      <property role="1uS6qo" value="LEFT" />
-      <property role="1uS6qv" value="row-reverse" />
+      <property role="1uS6qo" value="SECOND" />
+      <property role="1uS6qv" value="second" />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaZRuL" role="M5hS2">
+      <property role="1uS6qo" value="FIRST" />
+      <property role="1uS6qv" value="first" />
     </node>
   </node>
   <node concept="1TIwiD" id="3Sngu6AleB8">
