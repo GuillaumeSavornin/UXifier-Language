@@ -269,5 +269,21 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="zG5F95jTtU">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:zG5F95jTbH" resolve="EducationStyling" />
+    <node concept="1N5Pfh" id="zG5F95jTtV" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:zG5F95jTbO" resolve="collapseColor" />
+      <node concept="1dDu$B" id="zG5F95jTtW" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="zG5F95jTtX" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:zG5F95jTbP" resolve="separatorColor" />
+      <node concept="1dDu$B" id="zG5F95jTtY" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -218,6 +218,57 @@ function WebSiteFormat(){
                                 </Grid>
                                 <Grid container margin={1}>
                                     <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
+                                        <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Education</Typography>
+                                        {(()=>{
+                                            let array = [];
+                                            for(let i = 0; i < 3; i++){
+                                                array.push(<div sx={{p: 2, display: "flex", flexDirection: "column", width: "100%"}}>
+                                                        <Typography sx={{ ml: 3, mr: 3,  }} variant="h6" gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.educationItems && data.educationItems[i] && data.educationItems[i].title){
+                                                                    return data.educationItems[i].title
+                                                                }
+                                                                return "Education title"
+                                                            })()}
+                                                        </Typography>
+                                                        <Typography sx={{ ml: 3, mr: 3,  }} variant="body2" gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.educationItems && data.educationItems[i] && data.educationItems[i].date){
+                                                                    return data.educationItems[i].date
+                                                                }
+                                                                return "September 14, 2016 - September 14, 2017"
+                                                            })()}
+                                                        </Typography>
+                                                        <Typography sx={{ ml: 3, mr: 3,  }} variant="body1" gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.educationItems && data.educationItems[i] && data.educationItems[i].school){
+                                                                    return data.educationItems[i].school
+                                                                }
+                                                                return "School name"
+                                                            })()}
+                                                        </Typography>
+                                                        <Typography paragraph sx={{ ml: 3, mr: 3,  }} align={"justify"} gutterBottom component="div">
+                                                            {(()=>{
+                                                                if(data.educationItems && data.educationItems[i] && data.educationItems[i].description){
+                                                                    return data.educationItems[i].description
+                                                                }
+                                                                return "Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  "
+                                                            })()}
+                                                        </Typography>
+                                                    </div>
+                                                )
+                                                if(i <3-1){
+                                                    array.push(<Divider sx={{ mb: 1,
+                                                    }} variant="middle"/>)
+                                                }
+                                            }
+                                            return array;
+                                        })()}
+                                    </Paper>
+
+                                </Grid>
+                                <Grid container margin={1}>
+                                    <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Typography gutterBottom sx={{ mb: 3, fontSize:"xx-large", }} align={"left"} variant="h5" component="div">Experiences</Typography>
                                         {(()=>{
                                             let array = [];
@@ -225,42 +276,42 @@ function WebSiteFormat(){
                                                 array.push(<div sx={{p: 2, display: "flex", flexDirection: "column", width: "100%"}}>
                                                         <Typography sx={{ ml: 3, mr: 3, fontSize:"xx-large",  }} variant="h6" gutterBottom component="div">
                                                             {(()=>{
-                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].title){
-                                                                    return data.projectItems[i].title
+                                                                if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].title){
+                                                                    return data.experienceItems[i].title
                                                                 }
                                                                 return "Experience title"
                                                             })()}
                                                         </Typography>
                                                         <Typography sx={{ ml: 3, mr: 3, fontSize:"xx-large",  }} variant="body2" gutterBottom component="div">
                                                             {(()=>{
-                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].date){
-                                                                    return data.projectItems[i].date
+                                                                if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].date){
+                                                                    return data.experienceItems[i].date
                                                                 }
                                                                 return "September 14, 2016 - September 14, 2017"
                                                             })()}
                                                         </Typography>
                                                         <Typography sx={{ ml: 3, mr: 3, fontSize:"xx-large",  }} variant="body1" gutterBottom component="div">
                                                             {(()=>{
-                                                                if(data.projectItems && data.projectItems[i] && data.projectItems[i].corporation){
-                                                                    return data.projectItems[i].corporation
+                                                                if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].corporation){
+                                                                    return data.experienceItems[i].corporation
                                                                 }
                                                                 return "Company name"
                                                             })()}
                                                         </Typography>
                                                         <div style={{ textAlign:"left" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={selectedCollapseIndex.includes(0+i)}
-                                                                        onClick={() => {handleClickCollapse(0+i)}}
-                                                                        aria-expanded={selectedCollapseIndex.includes(0+i)}
+                                                                        expand={selectedCollapseIndex.includes(3+i)}
+                                                                        onClick={() => {handleClickCollapse(3+i)}}
+                                                                        aria-expanded={selectedCollapseIndex.includes(3+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={selectedCollapseIndex.includes(0+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(3+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3, fontSize:"xx-large",  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
-                                                                    if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
-                                                                        return data.projectItems[i].description
+                                                                    if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].description){
+                                                                        return data.experienceItems[i].description
                                                                     }
                                                                     return "Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  "
                                                                 })()}
@@ -303,14 +354,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"left" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={selectedCollapseIndex.includes(5+i)}
-                                                                        onClick={() => {handleClickCollapse(5+i)}}
-                                                                        aria-expanded={selectedCollapseIndex.includes(5+i)}
+                                                                        expand={selectedCollapseIndex.includes(8+i)}
+                                                                        onClick={() => {handleClickCollapse(8+i)}}
+                                                                        aria-expanded={selectedCollapseIndex.includes(8+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={selectedCollapseIndex.includes(5+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(8+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3, fontSize:"xx-large",  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
@@ -814,14 +865,14 @@ function WebSiteFormat(){
                                                     </Typography>
                                                     <div style={{ textAlign:"left" }}>
                                                         <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                    expand={selectedCollapseIndex.includes(8+i)}
-                                                                    onClick={() => {handleClickCollapse(8+i)}}
-                                                                    aria-expanded={selectedCollapseIndex.includes(8+i)}
+                                                                    expand={selectedCollapseIndex.includes(11+i)}
+                                                                    onClick={() => {handleClickCollapse(11+i)}}
+                                                                    aria-expanded={selectedCollapseIndex.includes(11+i)}
                                                                     aria-label="show more">
                                                             <ExpandMoreIcon sx={{  }}/>
                                                         </ExpandMore>
                                                     </div>
-                                                    <Collapse in={selectedCollapseIndex.includes(8+i)} timeout="auto" unmountOnExit>
+                                                    <Collapse in={selectedCollapseIndex.includes(11+i)} timeout="auto" unmountOnExit>
                                                         <Typography paragraph sx={{ ml: 3, mr: 3, fontSize:"medium ",  }} align={"justify"} gutterBottom component="div">
                                                             {(()=>{
                                                                 if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){

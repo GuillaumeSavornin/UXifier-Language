@@ -877,5 +877,65 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="zG5F95jTwK">
+    <property role="3GE5qa" value="section.item" />
+    <ref role="13h7C2" to="wi2d:zG5F95jTbU" resolve="EducationItem" />
+    <node concept="13hLZK" id="zG5F95jTwL" role="13h7CW">
+      <node concept="3clFbS" id="zG5F95jTwM" role="2VODD2">
+        <node concept="3clFbF" id="zG5F95jTwN" role="3cqZAp">
+          <node concept="37vLTI" id="zG5F95jTwO" role="3clFbG">
+            <node concept="Xl_RD" id="zG5F95jTwP" role="37vLTx">
+              <property role="Xl_RC" value="September 14, 2016 - September 14, 2017" />
+            </node>
+            <node concept="2OqwBi" id="zG5F95jTwQ" role="37vLTJ">
+              <node concept="13iPFW" id="zG5F95jTwR" role="2Oq$k0" />
+              <node concept="3TrcHB" id="zG5F95jTwS" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:zG5F95jTbV" resolve="date" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="zG5F95jTwT" role="3cqZAp">
+          <node concept="37vLTI" id="zG5F95jTwU" role="3clFbG">
+            <node concept="Xl_RD" id="zG5F95jTwV" role="37vLTx">
+              <property role="Xl_RC" value="Education title" />
+            </node>
+            <node concept="2OqwBi" id="zG5F95jTwW" role="37vLTJ">
+              <node concept="13iPFW" id="zG5F95jTwX" role="2Oq$k0" />
+              <node concept="3TrcHB" id="zG5F95jTwY" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:zG5F95jTbW" resolve="title" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="zG5F95jTwZ" role="3cqZAp">
+          <node concept="37vLTI" id="zG5F95jTx0" role="3clFbG">
+            <node concept="Xl_RD" id="zG5F95jTx1" role="37vLTx">
+              <property role="Xl_RC" value="School name" />
+            </node>
+            <node concept="2OqwBi" id="zG5F95jTx2" role="37vLTJ">
+              <node concept="13iPFW" id="zG5F95jTx3" role="2Oq$k0" />
+              <node concept="3TrcHB" id="zG5F95jTx4" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:zG5F95jTbX" resolve="location" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="zG5F95jTx5" role="3cqZAp">
+          <node concept="37vLTI" id="zG5F95jTx6" role="3clFbG">
+            <node concept="Xl_RD" id="zG5F95jTx7" role="37vLTx">
+              <property role="Xl_RC" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
+            </node>
+            <node concept="2OqwBi" id="zG5F95jTx8" role="37vLTJ">
+              <node concept="13iPFW" id="zG5F95jTx9" role="2Oq$k0" />
+              <node concept="3TrcHB" id="zG5F95jTxa" role="2OqNvi">
+                <ref role="3TsBF5" to="wi2d:zG5F95jTbY" resolve="description" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
