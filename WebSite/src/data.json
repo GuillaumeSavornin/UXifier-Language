@@ -1,135 +1,262 @@
 {
   "languageItems": [
     {
-      "language":"Francais",
-      "flagImage":"https://cdn.countryflags.com/thumbs/france/flag-square-250.png",
+      "language": "Francais",
+      "flagImage": "https://cdn.countryflags.com/thumbs/france/flag-square-250.png",
       "level": 5
-    },{
-      "language":"English",
-      "flagImage":"https://cdn.countryflags.com/thumbs/united-kingdom/flag-square-250.png",
+    },
+    {
+      "language": "English",
+      "flagImage": "https://cdn.countryflags.com/thumbs/united-kingdom/flag-square-250.png",
       "level": 4
-    },{
-      "language":"Spanish",
-      "flagImage":"https://cdn.countryflags.com/thumbs/spain/flag-square-250.png",
+    },
+    {
+      "language": "Spanish",
+      "flagImage": "https://cdn.countryflags.com/thumbs/spain/flag-square-250.png",
       "level": 4
-    },{
-      "language":"Dutch",
-      "flagImage":"https://cdn.countryflags.com/thumbs/netherlands/flag-square-250.png",
+    },
+    {
+      "language": "Dutch",
+      "flagImage": "https://cdn.countryflags.com/thumbs/netherlands/flag-square-250.png",
       "level": 3
-    },{
-      "language":"Egyptian",
-      "flagImage":"https://cdn.countryflags.com/thumbs/egypt/flag-square-250.png",
+    },
+    {
+      "language": "Egyptian",
+      "flagImage": "https://cdn.countryflags.com/thumbs/egypt/flag-square-250.png",
       "level": 2
-    },{
-      "language":"Serbian",
-      "flagImage":"https://cdn.countryflags.com/thumbs/serbia/flag-square-250.png",
+    },
+    {
+      "language": "Serbian",
+      "flagImage": "https://cdn.countryflags.com/thumbs/serbia/flag-square-250.png",
       "level": 1
-    },{
-      "language":"Portuguese",
-      "flagImage":"https://cdn.countryflags.com/thumbs/portugal/flag-square-250.png",
+    },
+    {
+      "language": "Portuguese",
+      "flagImage": "https://cdn.countryflags.com/thumbs/portugal/flag-square-250.png",
       "level": 1
     }
   ],
   "skillItems": [
     {
-      "name":"Java",
-      "icon":"https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v2.png",
+      "name": "Java",
+      "icon": "https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v2.png",
       "level": 5,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },{
-      "name":"GoLang",
-      "icon":"https://img.icons8.com/color/96/000000/golang.png",
+    },
+    {
+      "name": "GoLang",
+      "icon": "https://img.icons8.com/color/96/000000/golang.png",
       "level": 4,
       "description": "Nullam et tempor sapien. Vivamus tempor metus sem."
-    },{
-      "name":"Python",
-      "icon":"https://img.icons8.com/color/96/000000/python--v1.png",
+    },
+    {
+      "name": "Python",
+      "icon": "https://img.icons8.com/color/96/000000/python--v1.png",
       "level": 2,
       "description": "Nullam et tempor sapien. Vivamus tempor metus sem, sed auctor leo ullamcorper id. Morbi nibh tellus, tincidunt."
-    },{
-      "name":"JavaScript",
-      "icon":"https://img.icons8.com/color/96/000000/javascript--v1.png",
+    },
+    {
+      "name": "JavaScript",
+      "icon": "https://img.icons8.com/color/96/000000/javascript--v1.png",
       "level": 1,
       "description": "Morbi nibh tellus, tincidunt."
-    },{
-      "name":"Kubernetes",
-      "icon":"https://img.icons8.com/color/96/000000/kubernetes.png",
+    },
+    {
+      "name": "Kubernetes",
+      "icon": "https://img.icons8.com/color/96/000000/kubernetes.png",
       "level": 4,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit."
-    },{
-      "name":"Docker",
-      "icon":"https://img.icons8.com/color/96/000000/docker.png",
+    },
+    {
+      "name": "Docker",
+      "icon": "https://img.icons8.com/color/96/000000/docker.png",
       "level": 5,
       "description": "Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit."
-    },{
-      "name":"MPS",
-      "icon":"https://upload.wikimedia.org/wikipedia/commons/6/69/MPS_Icon_2.png",
+    },
+    {
+      "name": "MPS",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/6/69/MPS_Icon_2.png",
       "level": 3,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ],
+  "projectItems": [
+    {
+      "title": "Polytech - DSL UXifier project ",
+      "date": "January 3, 2022 - March 7, 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "title": "Polytech - DSL UXifier project ",
+      "date": "January 3, 2022 - March 7, 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "title": "Polytech - DSL UXifier project ",
+      "date": "January 3, 2022 - March 7, 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "title": "Polytech - DSL UXifier project ",
+      "date": "January 3, 2022 - March 7, 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "title": "Polytech - DSL UXifier project ",
+      "date": "January 3, 2022 - March 7, 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "title": "Polytech - DSL UXifier project ",
+      "date": "January 3, 2022 - March 7, 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "title": "Polytech - DSL UXifier project ",
+      "date": "January 3, 2022 - March 7, 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "title": "Polytech - DSL UXifier project ",
+      "date": "January 3, 2022 - March 7, 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit.",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    }
+  ],
   "contactInformation": {
-    "address" : "1675 East Altadena Drive, Altadena, CA 91001",
+    "address": "1675 East Altadena Drive, Altadena, CA 91001",
     "phoneNumber": "55.51.56.88.11",
-    "email" : "leo.burette@golang.com"
+    "email": "leo.burette@golang.com"
   },
   "socialNetworkItems": [
     {
-      "icon":"INSTAGRAM",
-      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
-    },{
-      "icon":"FACEBOOK",
-      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
-    },{
-      "icon":"LINKEDIN",
-      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
-    },{
-      "icon":"PINTEREST",
-      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
-    },{
-      "icon":"TWITTER",
-      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
-    },{
-      "icon":"YOUTUBE",
-      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
-    },{
-      "icon":"REDDIT",
-      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
-    },{
-      "icon":"GITHUB",
-      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
-    },{
-      "icon":"ANY-LINK",
-      "url":"https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+      "icon": "INSTAGRAM",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "icon": "FACEBOOK",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "icon": "LINKEDIN",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "icon": "PINTEREST",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "icon": "TWITTER",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "icon": "YOUTUBE",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "icon": "REDDIT",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "icon": "GITHUB",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    },
+    {
+      "icon": "ANY-LINK",
+      "url": "https://miro.medium.com/max/1400/1*9D9u62mCYT7OhB9dNxXrkw.png"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://png.pngitem.com/pimgs/s/424-4242818_golang-logo-golang-gopher-hd-png-download.png",
+      "legend": "GoDragon"
+    },
+    {
+      "url": "https://ih1.redbubble.net/image.610280941.5895/pp,504x498-pad,600x600,f8f8f8.u1.jpg",
+      "legend": "GoGamer"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gogophercolor.png",
+      "legend": "GoPatato"
+    },
+    {
+      "url": "https://preview.redd.it/tcmyd3n69ng41.jpg?width=1999&format=pjpg&auto=webp&s=b79cf22d3e2adcaf52a2d22bcb0568e42eff8bc2",
+      "legend": "The Gopher family picture"
+    },
+    {
+      "url": "https://cdn.dribbble.com/users/530731/screenshots/14709504/media/3f755fc2ccb8bcf3239c18caae532b68.png",
+      "legend": "GoKube"
+    },
+    {
+      "url": "https://uilicious.com/blog/content/images/size/w2000/2019/08/53pghgra05e674dgnkqq.png",
+      "legend": "GoKids"
+    },
+    {
+      "url": "https://cx-discourse-user-uploads.s3.dualstack.us-east-1.amazonaws.com/original/1X/db01fe15c49f1d7e7be45aa6149f08cb261a279b.png",
+      "legend": "GoGirl"
+    },
+    {
+      "url": "https://qph.fs.quoracdn.net/main-qimg-b6d2313527e44ef5ec51e5d6523ec4d0-pjlq",
+      "legend": "GoPhd"
+    },
+    {
+      "url": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/30c621a657fb4a0bf4234e1f20f7ce91333fd712.png",
+      "legend": "GoDumb"
+    },
+    {
+      "url": "https://www.clipartkey.com/mpngs/b/198-1980581_gopher-clip-art.png",
+      "legend": "GoWizard"
+    },
+    {
+      "url": "https://image.emojipng.com/578/5513578.jpg",
+      "legend": "SuperGo"
+    },
+    {
+      "url": "https://miro.medium.com/max/1106/1*z93yvlIYe2kMObUaPxYTCg.png",
+      "legend": "GoRoutines"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/parnurzeal/gorequest/gh-pages/images/Gopher_GoRequest_400x300.jpg",
+      "legend": "GoPanPan"
+    },
+    {
+      "url": "https://png.pngitem.com/pimgs/s/424-4242745_gophers-golang-hd-png-download.png",
+      "legend": "GoGeek"
     }
   ],
   "additionalInformation": {
-    "driverLicense" : "Class D license",
+    "driverLicense": "Class D license",
     "age": "22",
-    "mobilityPlaces" : "France, Germany"
+    "mobilityPlaces": "France, Germany"
   },
   "presentation": {
-    "catchPhrase" : "Etudiant à Polytech Nice Sophia en 5ème année de la section \"Sciences Informatiques\" spécialité « Architecture logiciel ».\nPassionné de nouvelles technologies mais aussi de lecture, cinéma et musique que j'ai pratiqué au sein d'un groupe.",
+    "catchPhrase": "Etudiant à Polytech Nice Sophia en 5ème année de la section \"Sciences Informatiques\" spécialité « Architecture logiciel ».\nPassionné de nouvelles technologies mais aussi de lecture, cinéma et musique que j'ai pratiqué au sein d'un groupe.",
     "name": "Leo",
-    "lastName" : "Burette",
-    "image": "https://media-exp1.licdn.com/dms/image/C4E03AQHJCTvURBoEfA/profile-displayphoto-shrink_400_400/0/1604419009111?e=1650499200&v=beta&t=4QLi_MEZXGPRn04eTh0Q70_ZsGoc8sQ0NTp-WCpm7PU",
+    "lastName": "Burette",
+    "image": "https://cdn.dribbble.com/users/1691370/screenshots/14681612/media/550470cd1eb1cfa5fc74a1ddec2c0bf8.png",
     "backgroundImage": "https://media-exp1.licdn.com/dms/image/C4E16AQEwLigMhKAm2w/profile-displaybackgroundimage-shrink_350_1400/0/1604426523235?e=1650499200&v=beta&t=l7IUuv-lUnXOAqWIIxyAZpzKdJd06G6ioAxofUG6F8Y"
   },
   "experienceItems": [
     {
-      "title":"Software architecture apprenticeship",
-      "corporation":"Quantificare",
-      "startDate":"Sep 2021",
-      "endDate":"Present",
-      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor eros vel suscipit feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. In facilisis, turpis nec fermentum mollis, mi nisl fermentum tellus, quis finibus orci mi ac justo. Proin lobortis, libero non pulvinar rutrum, tellus ante facilisis lectus, eget scelerisque risus lectus in turpis. Aliquam bibendum est sit amet convallis commodo. Suspendisse ac nunc mi. Ut purus urna, rutrum nec cursus nec, dictum id lorem. Etiam pellentesque urna leo, et vulputate lorem tincidunt eu. Pellentesque semper, ex ut fermentum fringilla, felis. ",
-      "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum urna, id ultrices nisi. Curabitur viverra malesuada interdum. Mauris iaculis placerat lacus, eu tempor. "
-    },{
-      "title":"Internship",
-      "corporation":"Quantificare",
-      "startDate":"May 2021",
-      "endDate":"Sep 2021",
-      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit. Mauris et leo suscipit, elementum ante maximus, euismod sapien. Praesent erat lectus, tristique vel viverra a, lacinia nec turpis. Curabitur non rutrum dui, sit amet scelerisque dolor. Pellentesque cursus urna neque, sit amet ornare orci commodo eu. Etiam sollicitudin ullamcorper euismod. Maecenas molestie magna neque, nec volutpat metus elementum ut. Quisque vel dolor et nunc consectetur semper. Sed mattis diam velit. Suspendisse venenatis diam ut odio rhoncus suscipit. Suspendisse et tortor a turpis convallis efficitur. Ut gravida ante vulputate lacus posuere elementum. Nullam. ",
-      "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem, sed auctor leo ullamcorper id. Morbi nibh tellus, tincidunt. "
+      "title": "Software architecture apprenticeship",
+      "corporation": "Quantificare",
+      "date": "September 2021 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor eros vel suscipit feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. In facilisis, turpis nec fermentum mollis, mi nisl fermentum tellus, quis finibus orci mi ac justo. Proin lobortis, libero non pulvinar rutrum, tellus ante facilisis lectus, eget scelerisque risus lectus in turpis. Aliquam bibendum est sit amet convallis commodo. Suspendisse ac nunc mi. Ut purus urna, rutrum nec cursus nec, dictum id lorem. Etiam pellentesque urna leo, et vulputate lorem tincidunt eu. Pellentesque semper, ex ut fermentum fringilla, felis. ",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum urna, id ultrices nisi. Curabitur viverra malesuada interdum. Mauris iaculis placerat lacus, eu tempor. "
+    },
+    {
+      "title": "Internship",
+      "corporation": "Quantificare",
+      "date": "May 2021 - September 2021",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit. Mauris et leo suscipit, elementum ante maximus, euismod sapien. Praesent erat lectus, tristique vel viverra a, lacinia nec turpis. Curabitur non rutrum dui, sit amet scelerisque dolor. Pellentesque cursus urna neque, sit amet ornare orci commodo eu. Etiam sollicitudin ullamcorper euismod. Maecenas molestie magna neque, nec volutpat metus elementum ut. Quisque vel dolor et nunc consectetur semper. Sed mattis diam velit. Suspendisse venenatis diam ut odio rhoncus suscipit. Suspendisse et tortor a turpis convallis efficitur. Ut gravida ante vulputate lacus posuere elementum. Nullam. ",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem, sed auctor leo ullamcorper id. Morbi nibh tellus, tincidunt. "
     }
   ]
 }

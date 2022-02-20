@@ -23,12 +23,13 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
-        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -79,20 +80,48 @@
     <node concept="PrWs8" id="1DHNIAI0daW" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="77VjBUDWJfr" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY7Y">
     <property role="EcuMT" value="2552303901028114942" />
     <property role="TrG5h" value="Theme" />
+    <property role="3GE5qa" value="theme" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="58tSxDcszQX" role="1TKVEl">
-      <property role="IQ2nx" value="5917134088014282173" />
-      <property role="TrG5h" value="primaryColor" />
+    <node concept="1TJgyj" id="7XyC30UC_lp" role="1TKVEi">
+      <property role="IQ2ns" value="9179075119537083737" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="colors" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="7XyC30UFv1c" role="1TKVEi">
+      <property role="IQ2ns" value="9179075119537844300" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="fonts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7XyC30UF1q9" resolve="ThemeFont" />
+    </node>
+    <node concept="1TJgyi" id="7XyC30UCuQL" role="1TKVEl">
+      <property role="IQ2nx" value="9179075119537057201" />
+      <property role="TrG5h" value="backgroundImage" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="58tSxDcszQZ" role="1TKVEl">
-      <property role="IQ2nx" value="5917134088014282175" />
-      <property role="TrG5h" value="secondaryColor" />
+    <node concept="1TJgyi" id="7XyC30UCuQX" role="1TKVEl">
+      <property role="IQ2nx" value="9179075119537057213" />
+      <property role="TrG5h" value="backgroundColor" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7XyC30UCuRl" role="1TKVEl">
+      <property role="IQ2nx" value="9179075119537057237" />
+      <property role="TrG5h" value="sectionShadowLevel" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="7XyC30UCuRy" role="1TKVEl">
+      <property role="IQ2nx" value="9179075119537057250" />
+      <property role="TrG5h" value="sectionRoundedCorners" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY7Z">
@@ -109,7 +138,7 @@
       <ref role="20lvS9" node="2dFAI0jBY84" resolve="PresentationStyling" />
     </node>
     <node concept="PrWs8" id="2dFAI0jBY81" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ITextualSection" />
     </node>
     <node concept="1TJgyi" id="2dFAI0jC1dg" role="1TKVEl">
       <property role="IQ2nx" value="2552303901028127568" />
@@ -131,30 +160,23 @@
       <property role="TrG5h" value="image" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="2dFAI0jC1du" role="1TKVEl">
-      <property role="IQ2nx" value="2552303901028127582" />
-      <property role="TrG5h" value="backgroundImage" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
   </node>
   <node concept="PlHQZ" id="2dFAI0jBY80">
     <property role="EcuMT" value="2552303901028114944" />
-    <property role="TrG5h" value="ISection" />
+    <property role="TrG5h" value="ITextualSection" />
     <property role="3GE5qa" value="section" />
+    <node concept="PrWs8" id="77VjBUE25r$" role="PrDN$">
+      <ref role="PrY4T" node="3Sngu6Ap41D" resolve="ISection" />
+    </node>
   </node>
   <node concept="PlHQZ" id="2dFAI0jBY83">
     <property role="EcuMT" value="2552303901028114947" />
     <property role="TrG5h" value="IStyling" />
     <property role="3GE5qa" value="styling" />
-    <node concept="1TJgyi" id="1eZdBFFmBd4" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908834849604" />
-      <property role="TrG5h" value="showTitle" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="1eZdBFFnokT" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908835050809" />
-      <property role="TrG5h" value="alignTitle" />
-      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    <node concept="1TJgyj" id="7XyC30UDXDM" role="1TKVEi">
+      <property role="IQ2ns" value="9179075119537445490" />
+      <property role="20kJfa" value="backgroundColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
     </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY84">
@@ -167,13 +189,55 @@
       <property role="TrG5h" value="showImage" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="zG5F95dFb9" role="1TKVEl">
+      <property role="IQ2nx" value="642913801728340681" />
+      <property role="TrG5h" value="imageFilter" />
+      <ref role="AX2Wp" node="1eZdBFG4yzS" resolve="IMAGE_FILTER" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95dPco" role="1TKVEl">
+      <property role="IQ2nx" value="642913801728381720" />
+      <property role="TrG5h" value="filterPercentage" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95dFbd" role="1TKVEl">
+      <property role="IQ2nx" value="642913801728340685" />
+      <property role="TrG5h" value="imageBorder" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95dFbi" role="1TKVEl">
+      <property role="IQ2nx" value="642913801728340690" />
+      <property role="TrG5h" value="imageborderSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95gOzw" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729165536" />
+      <property role="TrG5h" value="imageBorderRadius" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyi" id="2dFAI0jC1dC" role="1TKVEl">
       <property role="IQ2nx" value="2552303901028127592" />
       <property role="TrG5h" value="imageLocation" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="1Vw2GbaZRhs" resolve="IMAGE_POSITION" />
     </node>
     <node concept="PrWs8" id="2dFAI0jBY85" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+      <ref role="PrY4T" node="3Sngu6AleBm" resolve="ITextualStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6Ay_sZ" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233408319" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nameStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6Ay_t5" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233408325" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="catchPhraseStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="zG5F95dFbo" role="1TKVEi">
+      <property role="IQ2ns" value="642913801728340696" />
+      <property role="20kJfa" value="imageBorderColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
     </node>
   </node>
   <node concept="PlHQZ" id="2dFAI0jBY87">
@@ -212,7 +276,7 @@
     <property role="EcuMT" value="2552303901028114953" />
     <property role="3GE5qa" value="format" />
     <property role="TrG5h" value="WebSiteFormat" />
-    <property role="34LRSv" value="website" />
+    <property role="34LRSv" value="website format" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8a" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
@@ -251,6 +315,11 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="2dFAI0jBY8w" resolve="TabLayout" />
     </node>
+    <node concept="1TJgyi" id="4VHwwBJqaWK" role="1TKVEl">
+      <property role="IQ2nx" value="5687344883621736240" />
+      <property role="TrG5h" value="isMenuOpen" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY8w">
     <property role="EcuMT" value="2552303901028114976" />
@@ -280,7 +349,7 @@
     <property role="EcuMT" value="2552303901028114983" />
     <property role="3GE5qa" value="format" />
     <property role="TrG5h" value="MobileFormat" />
-    <property role="34LRSv" value="mobile" />
+    <property role="34LRSv" value="mobile format" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2dFAI0jBY8C" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
@@ -293,7 +362,7 @@
     <property role="34LRSv" value="languages" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1c5gsjF0J_P" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ITextualSection" />
     </node>
     <node concept="1TJgyj" id="1c5gsjF0J_W" role="1TKVEi">
       <property role="IQ2ns" value="1370573975616420220" />
@@ -316,7 +385,7 @@
     <property role="TrG5h" value="LanguageStyling" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1c5gsjF0J_U" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+      <ref role="PrY4T" node="3Sngu6AleBm" resolve="ITextualStyling" />
     </node>
     <node concept="1TJgyi" id="1c5gsjF0X94" role="1TKVEl">
       <property role="IQ2nx" value="1370573975616475716" />
@@ -337,6 +406,23 @@
       <property role="IQ2nx" value="1422915908831962114" />
       <property role="TrG5h" value="levelDisplayMethod" />
       <ref role="AX2Wp" node="1eZdBFFbDUC" resolve="LANGUAGE_LEVEL_DISPLAY_METHOD" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_P3OD" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192221474089" />
+      <property role="20kJfa" value="separatorColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6Ay_Pj" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233409875" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="languageNameStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6Ay_Pq" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233409882" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="textualLevelStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="1TIwiD" id="1c5gsjF0JAI">
@@ -381,6 +467,42 @@
       <property role="1uS6qv" value="&lt;AssignmentIcon /&gt;" />
       <property role="1uS6qo" value="ASSIGNEMENT" />
     </node>
+    <node concept="M4N5e" id="1eZdBFGbW5O" role="M5hS2">
+      <property role="1uS6qv" value="&lt;ArrowForwardIosIcon /&gt;" />
+      <property role="1uS6qo" value="ARROW-RIGHT-1" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW5U" role="M5hS2">
+      <property role="1uS6qv" value="&lt;ArrowRightIcon /&gt;" />
+      <property role="1uS6qo" value="ARROW-RIGHT-2" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW61" role="M5hS2">
+      <property role="1uS6qv" value="&lt;FaceIcon /&gt;" />
+      <property role="1uS6qo" value="FACE" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW69" role="M5hS2">
+      <property role="1uS6qv" value="&lt;FilePresentIcon /&gt;" />
+      <property role="1uS6qo" value="FILE" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW6i" role="M5hS2">
+      <property role="1uS6qv" value="&lt;LocalFloristIcon /&gt;" />
+      <property role="1uS6qo" value="FLOWER" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW6s" role="M5hS2">
+      <property role="1uS6qv" value="&lt;PhotoIcon /&gt;" />
+      <property role="1uS6qo" value="PICTURE" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW6B" role="M5hS2">
+      <property role="1uS6qv" value="&lt;SportsBasketballIcon /&gt;" />
+      <property role="1uS6qo" value="SPORT" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW6N" role="M5hS2">
+      <property role="1uS6qv" value="&lt;WorkIcon /&gt;" />
+      <property role="1uS6qo" value="WORK" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFGbW70" role="M5hS2">
+      <property role="1uS6qv" value="&lt;StarIcon /&gt;" />
+      <property role="1uS6qo" value="STAR" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3QvgIEcgCBZ">
     <property role="EcuMT" value="4440341332753549823" />
@@ -389,7 +511,7 @@
     <property role="34LRSv" value="additional informat" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3QvgIEcgCQc" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ITextualSection" />
     </node>
     <node concept="1TJgyi" id="3QvgIEcgCQe" role="1TKVEl">
       <property role="IQ2nx" value="4440341332753550734" />
@@ -420,12 +542,33 @@
     <property role="TrG5h" value="AdditionalInformationStyling" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3QvgIEcgCQq" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+      <ref role="PrY4T" node="3Sngu6AleBm" resolve="ITextualStyling" />
     </node>
     <node concept="1TJgyi" id="3QvgIEcgCQs" role="1TKVEl">
       <property role="IQ2nx" value="4440341332753550748" />
       <property role="TrG5h" value="showAge" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6A8mOy" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192226532642" />
+      <property role="TrG5h" value="alignInformation" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6A8Ud9" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192226677577" />
+      <property role="TrG5h" value="showIcons" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6A8V4$" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192226681124" />
+      <property role="20kJfa" value="iconsColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AyC1O" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233418868" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="additionalInformationStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="1TIwiD" id="7quf1gMz0a$">
@@ -437,7 +580,7 @@
     <node concept="1TJgyj" id="7quf1gMz0a_" role="1TKVEi">
       <property role="IQ2ns" value="8547335200240829093" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="experiences" />
+      <property role="20kJfa" value="items" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="7quf1gMz0as" resolve="ExperienceItem" />
     </node>
@@ -446,15 +589,15 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="styling" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7quf1gMz3fN" resolve="ExperienceItemStyling" />
+      <ref role="20lvS9" node="7quf1gMz3fN" resolve="ExperienceStyling" />
     </node>
     <node concept="PrWs8" id="7quf1gMz0aA" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ITextualSection" />
     </node>
   </node>
   <node concept="1TIwiD" id="7quf1gMz3fN">
     <property role="EcuMT" value="8547335200240841715" />
-    <property role="TrG5h" value="ExperienceItemStyling" />
+    <property role="TrG5h" value="ExperienceStyling" />
     <property role="3GE5qa" value="styling" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7quf1gMz3fO" role="1TKVEl">
@@ -464,27 +607,70 @@
     </node>
     <node concept="1TJgyi" id="1eZdBFEIARP" role="1TKVEl">
       <property role="IQ2nx" value="1422915908824362485" />
-      <property role="TrG5h" value="usesShortDescription" />
+      <property role="TrG5h" value="collapseDescription" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6A4AG9" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192225549065" />
+      <property role="TrG5h" value="collapseButtonAlign" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6A4AGe" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192225549070" />
+      <property role="TrG5h" value="openCollapseDescriptions" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6A4AFU" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192225549050" />
+      <property role="TrG5h" value="separator" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="7quf1gMz3fQ" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+      <ref role="PrY4T" node="3Sngu6AleBm" resolve="ITextualStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6A4AFK" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192225549040" />
+      <property role="20kJfa" value="collapseColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6A4AFY" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192225549054" />
+      <property role="20kJfa" value="separatorColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AyBis" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233415836" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="dateStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AyBiC" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233415848" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="experienceNameStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AyBiP" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233415861" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="corporationStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AyBj3" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233415875" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="descriptionStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="1TIwiD" id="7quf1gMz0as">
     <property role="EcuMT" value="8547335200240829084" />
     <property role="TrG5h" value="ExperienceItem" />
     <property role="3GE5qa" value="section.item" />
-    <property role="R4oN_" value="represents an experience on the curriculum vitae, can be scholar or professional" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7quf1gMz0av" role="1TKVEl">
       <property role="IQ2nx" value="8547335200240829087" />
-      <property role="TrG5h" value="startDate" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7quf1gMz0aw" role="1TKVEl">
-      <property role="IQ2nx" value="8547335200240829088" />
-      <property role="TrG5h" value="endDate" />
+      <property role="TrG5h" value="date" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="7quf1gMz0ax" role="1TKVEl">
@@ -500,11 +686,6 @@
     <node concept="1TJgyi" id="7quf1gMz0az" role="1TKVEl">
       <property role="IQ2nx" value="8547335200240829091" />
       <property role="TrG5h" value="description" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7quf1gMz4R4" role="1TKVEl">
-      <property role="IQ2nx" value="8547335200240848324" />
-      <property role="TrG5h" value="summary" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -579,7 +760,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="sections" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="2dFAI0jBY80" resolve="ISection" />
+      <ref role="20lvS9" node="3Sngu6Ap41D" resolve="ISection" />
     </node>
   </node>
   <node concept="1TIwiD" id="3bkuCYRAqUA">
@@ -608,7 +789,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="sections" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2dFAI0jBY80" resolve="ISection" />
+      <ref role="20lvS9" node="3Sngu6Ap41D" resolve="ISection" />
     </node>
     <node concept="1TJgyi" id="3bkuCYRBdOl" role="1TKVEl">
       <property role="IQ2nx" value="3662687154638478613" />
@@ -649,7 +830,7 @@
     <property role="34LRSv" value="skills" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="1eZdBFFr7qB" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ITextualSection" />
     </node>
     <node concept="1TJgyj" id="1eZdBFFr7qD" role="1TKVEi">
       <property role="IQ2ns" value="1422915908836030121" />
@@ -671,6 +852,24 @@
     <property role="3GE5qa" value="styling" />
     <property role="TrG5h" value="SkillStyling" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3Sngu6Ap4u1" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192230913921" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="descriptionStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6Ap4un" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192230913943" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="skillStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6Ap4uu" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192230913950" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="textualLevelStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
     <node concept="1TJgyi" id="1eZdBFFrbj7" role="1TKVEl">
       <property role="IQ2nx" value="1422915908836046023" />
       <property role="TrG5h" value="numberItems" />
@@ -697,7 +896,12 @@
       <ref role="AX2Wp" node="1eZdBFFbDUC" resolve="LANGUAGE_LEVEL_DISPLAY_METHOD" />
     </node>
     <node concept="PrWs8" id="1eZdBFFreCq" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+      <ref role="PrY4T" node="3Sngu6AleBm" resolve="ITextualStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_Jl_a" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192219973962" />
+      <property role="20kJfa" value="separatorColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
     </node>
   </node>
   <node concept="1TIwiD" id="1eZdBFF$9F9">
@@ -707,7 +911,7 @@
     <property role="34LRSv" value="contact" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1eZdBFF$9Fa" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ISection" />
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ITextualSection" />
     </node>
     <node concept="1TJgyj" id="1eZdBFF$9Fb" role="1TKVEi">
       <property role="IQ2ns" value="1422915908838398667" />
@@ -803,7 +1007,7 @@
     <property role="TrG5h" value="ContactStyling" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1eZdBFF$mcv" role="PzmwI">
-      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+      <ref role="PrY4T" node="3Sngu6AleBm" resolve="ITextualStyling" />
     </node>
     <node concept="1TJgyi" id="1eZdBFF$mcy" role="1TKVEl">
       <property role="IQ2nx" value="1422915908838449954" />
@@ -812,7 +1016,7 @@
     </node>
     <node concept="1TJgyi" id="1eZdBFFAyVw" role="1TKVEl">
       <property role="IQ2nx" value="1422915908839026400" />
-      <property role="TrG5h" value="separator" />
+      <property role="TrG5h" value="socialNetworkSeparator" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="1eZdBFFA_lx" role="1TKVEl">
@@ -825,20 +1029,10 @@
       <property role="TrG5h" value="alignContactInformations" />
       <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
     </node>
-    <node concept="1TJgyi" id="1eZdBFFHLeu" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908840919966" />
-      <property role="TrG5h" value="socialNetworksColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="1eZdBFFHLez" role="1TKVEl">
       <property role="IQ2nx" value="1422915908840919971" />
       <property role="TrG5h" value="socialNetworkBorder" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="1eZdBFFHNqw" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908840928928" />
-      <property role="TrG5h" value="socialNetworkBackGroundColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="1eZdBFFXZ8I" role="1TKVEl">
       <property role="IQ2nx" value="1422915908845171246" />
@@ -850,10 +1044,31 @@
       <property role="TrG5h" value="showContactIcons" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="1eZdBFG0ORK" role="1TKVEl">
-      <property role="IQ2nx" value="1422915908845915632" />
-      <property role="TrG5h" value="contactIconColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="3Sngu6_TpcW" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610236" />
+      <property role="20kJfa" value="contactIconColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_Tpda" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610250" />
+      <property role="20kJfa" value="socialNetworkColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_Tpdp" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610265" />
+      <property role="20kJfa" value="socialNetworkBackgroundColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_TpdB" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192222610279" />
+      <property role="20kJfa" value="socialNetworkSeparatorColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AyBGW" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233417532" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contactInformationStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="AxPO7" id="7ytgQgx_ecx">
@@ -884,6 +1099,482 @@
     <node concept="M4N5e" id="7ytgQgxA_i3" role="M5hS2">
       <property role="1uS6qo" value="EXTRA-LARGE" />
       <property role="1uS6qv" value="xl" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFG4yzg">
+    <property role="EcuMT" value="1422915908846889168" />
+    <property role="TrG5h" value="ImageSection" />
+    <property role="3GE5qa" value="section" />
+    <property role="34LRSv" value="image" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1eZdBFG4yzy" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889186" />
+      <property role="TrG5h" value="url" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFG4yz$" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889188" />
+      <property role="TrG5h" value="legend" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="1eZdBFG4yzh" role="1TKVEi">
+      <property role="IQ2ns" value="1422915908846889169" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="styling" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1eZdBFG4yzH" resolve="ImageStyling" />
+    </node>
+    <node concept="PrWs8" id="1eZdBFG4yzi" role="PzmwI">
+      <ref role="PrY4T" node="3Sngu6Ap41D" resolve="ISection" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1eZdBFG4yzS">
+    <property role="3F6X1D" value="1422915908846889208" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="IMAGE_FILTER" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1eZdBFG4yzT" role="M5hS2">
+      <property role="1uS6qo" value="NONE" />
+      <property role="1uS6qv" value="none" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4yzU" role="M5hS2">
+      <property role="1uS6qo" value="BRIGHTNESS" />
+      <property role="1uS6qv" value="brightness" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4yzX" role="M5hS2">
+      <property role="1uS6qo" value="CONTRAST" />
+      <property role="1uS6qv" value="contrast" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4y$1" role="M5hS2">
+      <property role="1uS6qo" value="GRAYSCALE" />
+      <property role="1uS6qv" value="grayscale" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4y$c" role="M5hS2">
+      <property role="1uS6qo" value="INVERT" />
+      <property role="1uS6qv" value="invert" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4y$j" role="M5hS2">
+      <property role="1uS6qo" value="OPACITY" />
+      <property role="1uS6qv" value="opacity" />
+    </node>
+    <node concept="M4N5e" id="1eZdBFG4y$$" role="M5hS2">
+      <property role="1uS6qo" value="SEPIA" />
+      <property role="1uS6qv" value="sepia" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1eZdBFG4yzH">
+    <property role="EcuMT" value="1422915908846889197" />
+    <property role="TrG5h" value="ImageStyling" />
+    <property role="3GE5qa" value="styling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1eZdBFG4yzM" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889202" />
+      <property role="TrG5h" value="showLegend" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFG4yzO" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846889204" />
+      <property role="TrG5h" value="imageFilter" />
+      <ref role="AX2Wp" node="1eZdBFG4yzS" resolve="IMAGE_FILTER" />
+    </node>
+    <node concept="1TJgyi" id="1eZdBFG4CT2" role="1TKVEl">
+      <property role="IQ2nx" value="1422915908846915138" />
+      <property role="TrG5h" value="filterPercentage" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="1eZdBFG4yzK" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AyAZ2" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233414594" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="legendStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6hY3O8TM25D">
+    <property role="EcuMT" value="7241242027970011497" />
+    <property role="3GE5qa" value="format" />
+    <property role="TrG5h" value="CustomFormat" />
+    <property role="34LRSv" value="custom format" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6hY3O8TM25E" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY87" resolve="IFormat" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6_RkYJe8_QY">
+    <property role="EcuMT" value="7599635168451780030" />
+    <property role="3GE5qa" value="section" />
+    <property role="TrG5h" value="ProjectSection" />
+    <property role="34LRSv" value="projects" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6_RkYJe8_QZ" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ITextualSection" />
+    </node>
+    <node concept="1TJgyj" id="6_RkYJe8_R0" role="1TKVEi">
+      <property role="IQ2ns" value="7599635168451780032" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="6_RkYJe8_R2" resolve="ProjectItem" />
+    </node>
+    <node concept="1TJgyj" id="6_RkYJe8_R1" role="1TKVEi">
+      <property role="IQ2ns" value="7599635168451780033" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="styling" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6_RkYJe8_Rn" resolve="ProjectStyling" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6_RkYJe8_R2">
+    <property role="EcuMT" value="7599635168451780034" />
+    <property role="TrG5h" value="ProjectItem" />
+    <property role="3GE5qa" value="section.item" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6_RkYJe8_R9" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168451780041" />
+      <property role="TrG5h" value="title" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6_RkYJe8_Rb" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168451780043" />
+      <property role="TrG5h" value="date" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6_RkYJe8_Re" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168451780046" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6_RkYJe8_Ri" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168451780050" />
+      <property role="TrG5h" value="url" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6_RkYJe8_Rn">
+    <property role="EcuMT" value="7599635168451780055" />
+    <property role="3GE5qa" value="styling" />
+    <property role="TrG5h" value="ProjectStyling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6_RkYJe8_Ro" role="PzmwI">
+      <ref role="PrY4T" node="3Sngu6AleBm" resolve="ITextualStyling" />
+    </node>
+    <node concept="1TJgyi" id="6_RkYJe8_Rq" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168451780058" />
+      <property role="TrG5h" value="separator" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="6_RkYJe8_Rr" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168451780059" />
+      <property role="TrG5h" value="numberItems" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="6_RkYJe8_RD" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168451780073" />
+      <property role="TrG5h" value="collapseDescription" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="6_RkYJehIJq" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168454175706" />
+      <property role="TrG5h" value="collapseButtonAlign" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
+    <node concept="1TJgyi" id="6_RkYJeoPun" role="1TKVEl">
+      <property role="IQ2nx" value="7599635168456038295" />
+      <property role="TrG5h" value="openCollapseDescriptions" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6AbkT6" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192227311174" />
+      <property role="TrG5h" value="showUrl" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6Agatd" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192228579149" />
+      <property role="TrG5h" value="urlAlign" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_LdfM" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192220464114" />
+      <property role="20kJfa" value="separatorColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6_LdfU" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192220464122" />
+      <property role="20kJfa" value="collapseColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AxEdI" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233165678" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="projectStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AxEdU" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233165690" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="descriptionStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AxEe7" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233165703" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="dateStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AxEel" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192233165717" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="urlStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7XyC30UC_lj">
+    <property role="EcuMT" value="9179075119537083731" />
+    <property role="TrG5h" value="ThemeColor" />
+    <property role="3GE5qa" value="theme" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="7XyC30UC_lm" role="1TKVEl">
+      <property role="IQ2nx" value="9179075119537083734" />
+      <property role="TrG5h" value="color" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="77VjBUDWReA" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7XyC30UF1q9">
+    <property role="EcuMT" value="9179075119537723017" />
+    <property role="TrG5h" value="ThemeFont" />
+    <property role="3GE5qa" value="theme" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7XyC30UF1qb" role="1TKVEl">
+      <property role="IQ2nx" value="9179075119537723019" />
+      <property role="TrG5h" value="font" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="77VjBUE4Qnr" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1Vw2GbaVR50">
+    <property role="3F6X1D" value="2224790047665647936" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="TEXT_SIZE" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1Vw2GbaVR55" role="M5hS2">
+      <property role="1uS6qo" value="NORMAL" />
+      <property role="1uS6qv" value="medium " />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaZ2ZG" role="M5hS2">
+      <property role="1uS6qv" value="xx-small" />
+      <property role="1uS6qo" value="MICRO" />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaVR51" role="M5hS2">
+      <property role="1uS6qo" value="TINY" />
+      <property role="1uS6qv" value="x-small" />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaVR52" role="M5hS2">
+      <property role="1uS6qo" value="SMALL" />
+      <property role="1uS6qv" value="small " />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaVR59" role="M5hS2">
+      <property role="1uS6qo" value="LARGE" />
+      <property role="1uS6qv" value="large " />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaVR5e" role="M5hS2">
+      <property role="1uS6qo" value="HUGE" />
+      <property role="1uS6qv" value="x-large" />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaZ2ZN" role="M5hS2">
+      <property role="1uS6qv" value="xx-large" />
+      <property role="1uS6qo" value="BIGGER_THAN_HUGE" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1Vw2GbaZRhs">
+    <property role="3F6X1D" value="2224790047666697308" />
+    <property role="3GE5qa" value="enumeration" />
+    <property role="TrG5h" value="IMAGE_POSITION" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1Vw2GbaZRuH" role="M5hS2">
+      <property role="1uS6qo" value="SECOND" />
+      <property role="1uS6qv" value="second" />
+    </node>
+    <node concept="M4N5e" id="1Vw2GbaZRuL" role="M5hS2">
+      <property role="1uS6qo" value="FIRST" />
+      <property role="1uS6qv" value="first" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3Sngu6AleB8">
+    <property role="EcuMT" value="4474117192229906888" />
+    <property role="TrG5h" value="TextStyling" />
+    <property role="3GE5qa" value="styling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3Sngu6AleB9" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192229906889" />
+      <property role="20kJfa" value="color" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3Sngu6AleBb" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192229906891" />
+      <property role="20kJfa" value="font" />
+      <ref role="20lvS9" node="7XyC30UF1q9" resolve="ThemeFont" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6AleBk" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192229906900" />
+      <property role="TrG5h" value="size" />
+      <ref role="AX2Wp" node="1Vw2GbaVR50" resolve="NAME_SIZE" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3Sngu6AleBm">
+    <property role="EcuMT" value="4474117192229906902" />
+    <property role="3GE5qa" value="styling" />
+    <property role="TrG5h" value="ITextualStyling" />
+    <node concept="1TJgyj" id="3Sngu6AleBp" role="1TKVEi">
+      <property role="IQ2ns" value="4474117192229906905" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="title" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6AleBw" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192229906912" />
+      <property role="TrG5h" value="showTitle" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3Sngu6AleBr" role="1TKVEl">
+      <property role="IQ2nx" value="4474117192229906907" />
+      <property role="TrG5h" value="alignTitle" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
+    <node concept="PrWs8" id="3Sngu6Alg9R" role="PrDN$">
+      <ref role="PrY4T" node="2dFAI0jBY83" resolve="IStyling" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3Sngu6Ap41D">
+    <property role="EcuMT" value="4474117192230912105" />
+    <property role="TrG5h" value="ISection" />
+    <property role="3GE5qa" value="section" />
+    <node concept="PrWs8" id="3Sngu6Ap41E" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="zG5F95jTbD">
+    <property role="EcuMT" value="642913801729970921" />
+    <property role="TrG5h" value="EducationSection" />
+    <property role="3GE5qa" value="section" />
+    <property role="34LRSv" value="educations" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="zG5F95jTbE" role="1TKVEi">
+      <property role="IQ2ns" value="642913801729970922" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="zG5F95jTbU" resolve="EducationItem" />
+    </node>
+    <node concept="1TJgyj" id="zG5F95jTbF" role="1TKVEi">
+      <property role="IQ2ns" value="642913801729970923" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="styling" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="zG5F95jTbH" resolve="EducationStyling" />
+    </node>
+    <node concept="PrWs8" id="zG5F95jTbG" role="PzmwI">
+      <ref role="PrY4T" node="2dFAI0jBY80" resolve="ITextualSection" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="zG5F95jTbH">
+    <property role="EcuMT" value="642913801729970925" />
+    <property role="TrG5h" value="EducationStyling" />
+    <property role="3GE5qa" value="styling" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="zG5F95jTbI" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729970926" />
+      <property role="TrG5h" value="numberItems" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95jTbJ" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729970927" />
+      <property role="TrG5h" value="collapseDescription" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95jTbK" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729970928" />
+      <property role="TrG5h" value="collapseButtonAlign" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95jTbL" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729970929" />
+      <property role="TrG5h" value="openCollapseDescriptions" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95jTbM" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729970930" />
+      <property role="TrG5h" value="separator" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="zG5F95jTbN" role="PzmwI">
+      <ref role="PrY4T" node="3Sngu6AleBm" resolve="ITextualStyling" />
+    </node>
+    <node concept="1TJgyj" id="zG5F95jTbO" role="1TKVEi">
+      <property role="IQ2ns" value="642913801729970932" />
+      <property role="20kJfa" value="collapseColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="zG5F95jTbP" role="1TKVEi">
+      <property role="IQ2ns" value="642913801729970933" />
+      <property role="20kJfa" value="separatorColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="zG5F95jTbQ" role="1TKVEi">
+      <property role="IQ2ns" value="642913801729970934" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="dateStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+    </node>
+    <node concept="1TJgyj" id="zG5F95jTbR" role="1TKVEi">
+      <property role="IQ2ns" value="642913801729970935" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="educationNameStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+    </node>
+    <node concept="1TJgyj" id="zG5F95jTbS" role="1TKVEi">
+      <property role="IQ2ns" value="642913801729970936" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="corporationStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+    </node>
+    <node concept="1TJgyj" id="zG5F95jTbT" role="1TKVEi">
+      <property role="IQ2ns" value="642913801729970937" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="descriptionStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="zG5F95jTbU">
+    <property role="EcuMT" value="642913801729970938" />
+    <property role="TrG5h" value="EducationItem" />
+    <property role="3GE5qa" value="section.item" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="zG5F95jTbV" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729970939" />
+      <property role="TrG5h" value="date" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95jTbW" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729970940" />
+      <property role="TrG5h" value="title" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95jTbX" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729970941" />
+      <property role="TrG5h" value="location" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="zG5F95jTbY" role="1TKVEl">
+      <property role="IQ2nx" value="642913801729970942" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
