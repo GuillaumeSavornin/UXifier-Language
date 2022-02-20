@@ -89,6 +89,11 @@
     <property role="TrG5h" value="Theme" />
     <property role="3GE5qa" value="theme" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6lfKmmFhRzL" role="1TKVEi">
+      <property role="IQ2ns" value="7300266163400308977" />
+      <property role="20kJfa" value="backgroundColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
     <node concept="1TJgyj" id="7XyC30UC_lp" role="1TKVEi">
       <property role="IQ2ns" value="9179075119537083737" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -102,16 +107,6 @@
       <property role="20kJfa" value="fonts" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7XyC30UF1q9" resolve="ThemeFont" />
-    </node>
-    <node concept="1TJgyi" id="7XyC30UCuQL" role="1TKVEl">
-      <property role="IQ2nx" value="9179075119537057201" />
-      <property role="TrG5h" value="backgroundImage" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7XyC30UCuQX" role="1TKVEl">
-      <property role="IQ2nx" value="9179075119537057213" />
-      <property role="TrG5h" value="backgroundColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="7XyC30UCuRl" role="1TKVEl">
       <property role="IQ2nx" value="9179075119537057237" />

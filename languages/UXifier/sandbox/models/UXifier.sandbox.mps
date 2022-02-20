@@ -85,8 +85,6 @@
         <child id="2552303901028114981" name="tabs" index="KX7z5" />
       </concept>
       <concept id="2552303901028114942" name="UXifier.structure.Theme" flags="ng" index="KX7Gu">
-        <property id="9179075119537057201" name="backgroundImage" index="15KOQ1" />
-        <property id="9179075119537057213" name="backgroundColor" index="15KOQd" />
         <property id="9179075119537057250" name="sectionRoundedCorners" index="15KORi" />
         <property id="9179075119537057237" name="sectionShadowLevel" index="15KOR_" />
         <child id="9179075119537083737" name="colors" index="15KflD" />
@@ -228,8 +226,8 @@
       <node concept="KX7zX" id="3bkuCYRBrBz" role="KX7zS">
         <property role="2xxiOT" value="true" />
         <property role="3fcRz$" value="1eZdBFFmBcm/center" />
-        <ref role="3fcR9M" node="6lfKmmEotnI" resolve="light green" />
-        <ref role="3fcR95" node="77VjBUE9HML" resolve="primary" />
+        <ref role="3fcR9M" node="6lfKmmFlvbc" resolve="light green" />
+        <ref role="3fcR95" node="6lfKmmFlvba" resolve="primary" />
         <node concept="KX7z0" id="3bkuCYRBrB_" role="KX7z5">
           <property role="KX7z3" value="Menu" />
           <property role="Ses3W" value="7MJjWP4_CRH/&lt;MenuIcon /&gt;" />
@@ -263,7 +261,7 @@
                   <property role="2ogUw1" value="true" />
                   <property role="1dCSh0" value="true" />
                   <property role="1dCSht" value="true" />
-                  <ref role="1dCSh6" node="77VjBUE9HML" resolve="primary" />
+                  <ref role="1dCSh6" node="6lfKmmFlvba" resolve="primary" />
                 </node>
               </node>
               <node concept="1dCShr" id="6lfKmmEavek" role="25jtg_">
@@ -288,7 +286,7 @@
                   <property role="144wZw" value="2" />
                   <property role="2ogUw1" value="true" />
                   <property role="3T1lIf" value="true" />
-                  <ref role="2o1iGh" node="77VjBUE9HML" resolve="primary" />
+                  <ref role="2o1iGh" node="6lfKmmFlvba" resolve="primary" />
                   <node concept="2ogUwD" id="6lfKmmEeXRV" role="2oBjl9">
                     <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
                   </node>
@@ -409,7 +407,7 @@
               <property role="2LRsXU" value="XX" />
               <property role="2LRsXT" value="list of countries" />
               <node concept="2LRsXN" id="77VjBUERApR" role="2LRsXX">
-                <ref role="15LnD2" node="77VjBUE9HMY" resolve="other" />
+                <ref role="15LnD2" node="6lfKmmFlvbf" resolve="other" />
               </node>
             </node>
             <node concept="2LRsGl" id="zG5F94YaEB" role="25jtgF">
@@ -482,7 +480,7 @@
       <property role="KN0Jt" value="Mobile" />
       <node concept="KX7zG" id="3bkuCYRBeBr" role="KX7zS">
         <property role="3fcRzy" value="1eZdBFFmBcm/center" />
-        <ref role="3f1mC$" node="6lfKmmEotnI" resolve="light green" />
+        <ref role="3f1mC$" node="6lfKmmFlvbc" resolve="light green" />
         <node concept="25jtgI" id="3bkuCYRBBIG" role="25jtgi">
           <node concept="2LRsGl" id="77VjBUEVk32" role="25jtgF">
             <property role="2LRsX$" value="Type of license" />
@@ -514,42 +512,28 @@
         </node>
         <node concept="2ogUwD" id="6lfKmmEB022" role="3f1mQ0">
           <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
-          <ref role="2ogUwE" node="77VjBUE9HO7" resolve="Times New Roman" />
+          <ref role="2ogUwE" node="6lfKmmFlvbj" resolve="Times New Roman" />
         </node>
       </node>
     </node>
-    <node concept="KX7Gu" id="7XyC30UDXD_" role="KX7zN">
-      <property role="15KOQd" value="#FFFFFF" />
-      <property role="15KOR_" value="20" />
-      <property role="15KOQ1" value="https://cdn.dribbble.com/users/1691370/screenshots/14681612/media/550470cd1eb1cfa5fc74a1ddec2c0bf8.png" />
+    <node concept="KX7Gu" id="6lfKmmFlvb8" role="KX7zN">
+      <property role="15KOR_" value="5" />
       <property role="15KORi" value="true" />
-      <node concept="15Kflz" id="77VjBUE9HML" role="15KflD">
-        <property role="TrG5h" value="primary" />
-        <property role="15KflA" value="#ff0080" />
-      </node>
-      <node concept="15Kflz" id="77VjBUE9HMT" role="15KflD">
-        <property role="TrG5h" value="secondary" />
-        <property role="15KflA" value="#800000" />
-      </node>
-      <node concept="15Kflz" id="77VjBUE9HMY" role="15KflD">
-        <property role="TrG5h" value="other" />
-        <property role="15KflA" value="#212345" />
-      </node>
-      <node concept="15Kflz" id="77VjBUE9HNQ" role="15KflD">
-        <property role="TrG5h" value="rgb color" />
-        <property role="15KflA" value="#444444" />
-      </node>
-      <node concept="15Kflz" id="6lfKmmEotnI" role="15KflD">
-        <property role="TrG5h" value="light green" />
-        <property role="15KflA" value="#bce6d6" />
-      </node>
-      <node concept="15NFqT" id="77VjBUE9HNV" role="15NP1W">
-        <property role="TrG5h" value="Courier New" />
-        <property role="15NFqV" value="Courier New" />
-      </node>
-      <node concept="15NFqT" id="77VjBUE9HO7" role="15NP1W">
+      <node concept="15NFqT" id="6lfKmmFlvbj" role="15NP1W">
         <property role="TrG5h" value="Times New Roman" />
         <property role="15NFqV" value="Times New Roman" />
+      </node>
+      <node concept="15Kflz" id="6lfKmmFlvba" role="15KflD">
+        <property role="TrG5h" value="primary" />
+        <property role="15KflA" value="#ff5588" />
+      </node>
+      <node concept="15Kflz" id="6lfKmmFlvbc" role="15KflD">
+        <property role="TrG5h" value="light green" />
+        <property role="15KflA" value="#887755" />
+      </node>
+      <node concept="15Kflz" id="6lfKmmFlvbf" role="15KflD">
+        <property role="TrG5h" value="other" />
+        <property role="15KflA" value="#229544" />
       </node>
     </node>
   </node>
@@ -633,14 +617,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="KX7Gu" id="77VjBUEYs3D" role="KX7zN">
-      <property role="15KOQd" value="#555555" />
-      <property role="15KOR_" value="5" />
-      <node concept="15Kflz" id="77VjBUEYs46" role="15KflD">
-        <property role="TrG5h" value="testColor" />
-        <property role="15KflA" value="#ff5555" />
       </node>
     </node>
   </node>
