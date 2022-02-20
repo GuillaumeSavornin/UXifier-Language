@@ -138,23 +138,6 @@ function WebSiteFormat(){
                             <Grid container xs={8}>
                                 <Grid container margin={1}>
                                     <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
-                                        Driver's license: {(()=>{
-                                        if(data.additionalInformation){
-                                            return data.additionalInformation.driverLicense
-                                        }
-                                        return "Type of license"
-                                    })()}<br/>
-                                        Mobility places: {(()=>{
-                                        if(data.additionalInformation){
-                                            return data.additionalInformation.mobilityPlaces
-                                        }
-                                        return "list of countries"
-                                    })()}<br/>
-                                    </Paper>
-
-                                </Grid>
-                                <Grid container margin={1}>
-                                    <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Grid container sx={{flexDirection: 'row'}}>                <Grid item md={12} lg={8}>
                                             <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Presentation</Typography>
                                             <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">
@@ -326,7 +309,7 @@ function WebSiteFormat(){
                                             let array = [];
                                             for(let i = 0; i < 5; i++){
                                                 array.push(<Grid container spacing={3}>
-                                                        <Grid item xs={2} md={2} lg={2}>
+                                                        <Grid item xs={2} md={2} lg={2} sx={{alignSelf:'center', }}>
                                                             <Box component="img" src=
                                                                 {(()=>{
                                                                     if(data.languageItems && data.languageItems[i] && data.languageItems[i].flagImage){
@@ -346,7 +329,7 @@ function WebSiteFormat(){
                                                                 })()}</strong>
                                                             </p>
                                                         </Grid>
-                                                        <Grid item xs={6} md={6} lg={6}>
+                                                        <Grid item xs={6} md={6} lg={6} sx={{alignSelf:'center', }}>
                                                             <p>
                                                                 {(() => {
                                                                     switch((()=>{
