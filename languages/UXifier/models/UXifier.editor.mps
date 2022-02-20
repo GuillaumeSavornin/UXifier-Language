@@ -3482,7 +3482,7 @@
     <node concept="3EZMnI" id="zG5F95jTtL" role="2wV5jI">
       <node concept="VPM3Z" id="zG5F95jTtM" role="3F10Kt" />
       <node concept="3F0ifn" id="zG5F95jTtN" role="3EZMnx">
-        <property role="3F0ifm" value="Experience section:" />
+        <property role="3F0ifm" value="Education section:" />
       </node>
       <node concept="3EZMnI" id="zG5F95jTtO" role="3EZMnx">
         <node concept="VPM3Z" id="zG5F95jTtP" role="3F10Kt" />

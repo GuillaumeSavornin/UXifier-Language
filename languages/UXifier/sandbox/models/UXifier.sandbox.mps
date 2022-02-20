@@ -23,6 +23,7 @@
       <concept id="4474117192229906888" name="UXifier.structure.TextStyling" flags="ng" index="2ogUwD" />
       <concept id="4474117192229906902" name="UXifier.structure.ITextualStyling" flags="ng" index="2ogUwR">
         <property id="4474117192229906912" name="showTitle" index="2ogUw1" />
+        <property id="4474117192229906907" name="alignTitle" index="2ogUwU" />
         <child id="4474117192229906905" name="title" index="2ogUwS" />
       </concept>
       <concept id="7599635168451780034" name="UXifier.structure.ProjectItem" flags="ng" index="2BlgSD">
@@ -100,9 +101,9 @@
         <child id="2552303901028114963" name="theme" index="KX7zN" />
       </concept>
       <concept id="8547335200240841715" name="UXifier.structure.ExperienceStyling" flags="ng" index="144wZB">
-        <property id="4474117192225549050" name="separator" index="2o1iGr" />
         <property id="8547335200240841716" name="numberItems" index="144wZw" />
         <property id="1422915908824362485" name="collapseDescription" index="3T1lIf" />
+        <reference id="4474117192225549040" name="collapseColor" index="2o1iGh" />
       </concept>
       <concept id="8547335200240829084" name="UXifier.structure.ExperienceItem" flags="ng" index="144zU8">
         <property id="8547335200240829087" name="date" index="144zUb" />
@@ -134,6 +135,7 @@
         <property id="642913801729970930" name="separator" index="1dCSh0" />
         <property id="642913801729970926" name="numberItems" index="1dCShs" />
         <property id="642913801729970927" name="collapseDescription" index="1dCSht" />
+        <reference id="642913801729970932" name="collapseColor" index="1dCSh6" />
       </concept>
       <concept id="1370573975616420270" name="UXifier.structure.LanguageItem" flags="ng" index="3S1VxE">
         <property id="1370573975616475709" name="level" index="3S1DfT" />
@@ -149,7 +151,6 @@
         <property id="1370573975616475720" name="numberItems" index="3S1Dec" />
         <property id="1422915908831962114" name="levelDisplayMethod" index="3S$l9S" />
         <property id="1422915908830251866" name="separator" index="3SEROw" />
-        <child id="4474117192233409875" name="languageNameStyle" index="2oBhMM" />
         <child id="4474117192233409882" name="textualLevelStyle" index="2oBhMV" />
       </concept>
       <concept id="1422915908838449950" name="UXifier.structure.ContactStyling" flags="ng" index="3Sb_l$">
@@ -226,32 +227,44 @@
                   <property role="2ogUw1" value="true" />
                 </node>
               </node>
-              <node concept="1dCShr" id="zG5F95lRFH" role="25jtg_">
-                <node concept="1dCSh8" id="zG5F95lRFJ" role="1dCSho">
+              <node concept="1dCShr" id="6lfKmmEatGL" role="25jtg_">
+                <node concept="1dCSh8" id="6lfKmmEatGN" role="1dCSho">
                   <property role="1dCSh9" value="September 14, 2016 - September 14, 2017" />
                   <property role="1dCShe" value="Education title" />
                   <property role="1dCShf" value="School name" />
                   <property role="1dCShc" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
                 </node>
-                <node concept="1dCShv" id="zG5F95lRFL" role="1dCShp">
-                  <property role="1dCShs" value="3" />
+                <node concept="1dCShv" id="6lfKmmEatGP" role="1dCShp">
+                  <property role="1dCShs" value="2" />
                   <property role="2ogUw1" value="true" />
-                  <property role="1dCSht" value="true" />
                   <property role="1dCSh0" value="true" />
+                  <property role="1dCSht" value="true" />
+                  <ref role="1dCSh6" node="77VjBUE9HML" resolve="primary" />
                 </node>
               </node>
-              <node concept="144zUK" id="zG5F94YazN" role="25jtg_">
-                <node concept="144zU8" id="zG5F94YazO" role="144zUL">
+              <node concept="1dCShr" id="6lfKmmEavek" role="25jtg_">
+                <node concept="1dCSh8" id="6lfKmmEavem" role="1dCSho">
+                  <property role="1dCSh9" value="September 14, 2016 - September 14, 2017" />
+                  <property role="1dCShe" value="Education title" />
+                  <property role="1dCShf" value="School name" />
+                  <property role="1dCShc" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
+                </node>
+                <node concept="1dCShv" id="6lfKmmEaveo" role="1dCShp">
+                  <property role="1dCShs" value="1" />
+                </node>
+              </node>
+              <node concept="144zUK" id="6lfKmmEarDM" role="25jtg_">
+                <node concept="144zU8" id="6lfKmmEarDN" role="144zUL">
                   <property role="144zUb" value="September 14, 2016 - September 14, 2017" />
                   <property role="144zUP" value="Experience title" />
                   <property role="144zUQ" value="Company name" />
                   <property role="144zUR" value="Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description Long description long description  " />
                 </node>
-                <node concept="144wZB" id="zG5F94YazQ" role="144zUy">
-                  <property role="2o1iGr" value="true" />
-                  <property role="3T1lIf" value="true" />
+                <node concept="144wZB" id="6lfKmmEarDP" role="144zUy">
+                  <property role="144wZw" value="2" />
                   <property role="2ogUw1" value="true" />
-                  <property role="144wZw" value="5" />
+                  <property role="3T1lIf" value="true" />
+                  <ref role="2o1iGh" node="77VjBUE9HML" resolve="primary" />
                 </node>
               </node>
               <node concept="2BlgTl" id="zG5F94Ya$I" role="25jtg_">
@@ -287,7 +300,6 @@
                   <property role="3S$l9S" value="1eZdBFFbDUE/1" />
                   <node concept="2ogUwD" id="zG5F94YaC8" role="2oBhMV" />
                   <node concept="2ogUwD" id="zG5F94YaCa" role="2ogUwS" />
-                  <node concept="2ogUwD" id="77VjBUER1Ae" role="2oBhMM" />
                 </node>
               </node>
               <node concept="3ZFhUE" id="zG5F94YaBb" role="25jtg_">
@@ -352,7 +364,7 @@
             </node>
           </node>
           <node concept="25jtgI" id="3bkuCYRBrDd" role="25jtgg">
-            <property role="1p2q1V" value="7ytgQgxA_hJ/sm" />
+            <property role="1p2q1V" value="7ytgQgxA_hY/lg" />
             <node concept="2LRsGl" id="77VjBUERApP" role="25jtgF">
               <property role="2LRsX$" value="Type of license" />
               <property role="2LRsXU" value="XX" />
@@ -369,6 +381,7 @@
                 <property role="2LRsXQ" value="true" />
                 <property role="2odeaC" value="true" />
                 <property role="2ogUw1" value="true" />
+                <property role="2ogUwU" value="1eZdBFFmBcm/center" />
               </node>
             </node>
           </node>
