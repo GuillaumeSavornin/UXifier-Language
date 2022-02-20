@@ -128,7 +128,7 @@ function WebSiteFormat(){
                 </List>
             </Drawer>
 
-            <Box component="main" sx={{backgroundColor: '#f5f5f5' , flexGrow: 1, height: '100vh', overflow: 'auto'}}>
+            <Box component="main" sx={{backgroundColor: '#887755' , flexGrow: 1, height: '100vh', overflow: 'auto'}}>
 
                 <Toolbar />  {/* Set the space on top of the page */}
                 <Switch>
@@ -316,14 +316,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"left" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={selectedCollapseIndex.includes(9+i)}
-                                                                        onClick={() => {handleClickCollapse(9+i)}}
-                                                                        aria-expanded={selectedCollapseIndex.includes(9+i)}
+                                                                        expand={selectedCollapseIndex.includes(6+i)}
+                                                                        onClick={() => {handleClickCollapse(6+i)}}
+                                                                        aria-expanded={selectedCollapseIndex.includes(6+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{ color:themeColor_primary,  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={selectedCollapseIndex.includes(9+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(6+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3,  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].description){
@@ -366,14 +366,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"center" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={selectedCollapseIndex.includes(11+i)}
-                                                                        onClick={() => {handleClickCollapse(11+i)}}
-                                                                        aria-expanded={selectedCollapseIndex.includes(11+i)}
+                                                                        expand={selectedCollapseIndex.includes(8+i)}
+                                                                        onClick={() => {handleClickCollapse(8+i)}}
+                                                                        aria-expanded={selectedCollapseIndex.includes(8+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={selectedCollapseIndex.includes(11+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(8+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3,  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
@@ -1237,12 +1237,7 @@ const themeFont_TimesNewRoman="Times New Roman"
 
 const theme_squareSections = false
 const theme_shadowLevel = 5
-const theme = createTheme({
-    palette: {
-        background: {
-            default: "#222222"
-        }
-    }
+document.getElementsByTagName("body")[0].style.backgroundColor = "#887755";const theme = createTheme({
 });
 
 

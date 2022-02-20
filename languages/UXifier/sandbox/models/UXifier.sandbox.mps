@@ -87,6 +87,7 @@
       <concept id="2552303901028114942" name="UXifier.structure.Theme" flags="ng" index="KX7Gu">
         <property id="9179075119537057250" name="sectionRoundedCorners" index="15KORi" />
         <property id="9179075119537057237" name="sectionShadowLevel" index="15KOR_" />
+        <reference id="7300266163400308977" name="backgroundColor" index="3e2bAk" />
         <child id="9179075119537083737" name="colors" index="15KflD" />
         <child id="9179075119537844300" name="fonts" index="15NP1W" />
       </concept>
@@ -519,6 +520,7 @@
     <node concept="KX7Gu" id="6lfKmmFlvb8" role="KX7zN">
       <property role="15KOR_" value="5" />
       <property role="15KORi" value="true" />
+      <ref role="3e2bAk" node="6lfKmmFlvbc" resolve="light green" />
       <node concept="15NFqT" id="6lfKmmFlvbj" role="15NP1W">
         <property role="TrG5h" value="Times New Roman" />
         <property role="15NFqV" value="Times New Roman" />
