@@ -267,15 +267,27 @@
       "title": "Software architecture apprenticeship",
       "corporation": "Quantificare",
       "date": "September 2021 - Present",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor eros vel suscipit feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. In facilisis, turpis nec fermentum mollis, mi nisl fermentum tellus, quis finibus orci mi ac justo. Proin lobortis, libero non pulvinar rutrum, tellus ante facilisis lectus, eget scelerisque risus lectus in turpis. Aliquam bibendum est sit amet convallis commodo. Suspendisse ac nunc mi. Ut purus urna, rutrum nec cursus nec, dictum id lorem. Etiam pellentesque urna leo, et vulputate lorem tincidunt eu. Pellentesque semper, ex ut fermentum fringilla, felis. ",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum urna, id ultrices nisi. Curabitur viverra malesuada interdum. Mauris iaculis placerat lacus, eu tempor. "
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor eros vel suscipit feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. In facilisis, turpis nec fermentum mollis, mi nisl fermentum tellus, quis finibus orci mi ac justo. Proin lobortis, libero non pulvinar rutrum, tellus ante facilisis lectus, eget scelerisque risus lectus in turpis. Aliquam bibendum est sit amet convallis commodo. Suspendisse ac nunc mi. Ut purus urna, rutrum nec cursus nec, dictum id lorem. Etiam pellentesque urna leo, et vulputate lorem tincidunt eu. Pellentesque semper, ex ut fermentum fringilla, felis. "
     },
     {
       "title": "Internship",
       "corporation": "Quantificare",
       "date": "May 2021 - September 2021",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit. Mauris et leo suscipit, elementum ante maximus, euismod sapien. Praesent erat lectus, tristique vel viverra a, lacinia nec turpis. Curabitur non rutrum dui, sit amet scelerisque dolor. Pellentesque cursus urna neque, sit amet ornare orci commodo eu. Etiam sollicitudin ullamcorper euismod. Maecenas molestie magna neque, nec volutpat metus elementum ut. Quisque vel dolor et nunc consectetur semper. Sed mattis diam velit. Suspendisse venenatis diam ut odio rhoncus suscipit. Suspendisse et tortor a turpis convallis efficitur. Ut gravida ante vulputate lacus posuere elementum. Nullam. ",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et tempor sapien. Vivamus tempor metus sem, sed auctor leo ullamcorper id. Morbi nibh tellus, tincidunt. "
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit. Mauris et leo suscipit, elementum ante maximus, euismod sapien. Praesent erat lectus, tristique vel viverra a, lacinia nec turpis. Curabitur non rutrum dui, sit amet scelerisque dolor. Pellentesque cursus urna neque, sit amet ornare orci commodo eu. Etiam sollicitudin ullamcorper euismod. Maecenas molestie magna neque, nec volutpat metus elementum ut. Quisque vel dolor et nunc consectetur semper. Sed mattis diam velit. Suspendisse venenatis diam ut odio rhoncus suscipit. Suspendisse et tortor a turpis convallis efficitur. Ut gravida ante vulputate lacus posuere elementum. Nullam. "
     }
-  ]
+  ],
+  "educationItems": [
+    {
+      "title": "Polytech Sophia Antipolis",
+      "location": "France, Biot - Sophia Antipolis",
+      "date": "September 2021 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor eros vel suscipit feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. In facilisis, turpis nec fermentum mollis, mi nisl fermentum tellus, quis finibus orci mi ac justo. Proin lobortis, libero non pulvinar rutrum, tellus ante facilisis lectus, eget scelerisque risus lectus in turpis. Aliquam bibendum est sit amet convallis commodo. Suspendisse ac nunc mi. Ut purus urna, rutrum nec cursus nec, dictum id lorem. Etiam pellentesque urna leo, et vulputate lorem tincidunt eu. Pellentesque semper, ex ut fermentum fringilla, felis. "
+    },
+    {
+    "title": "School name",
+    "location": "France",
+    "date": "May 2021 - September 2021",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec lectus pellentesque, ullamcorper turpis sed, consectetur velit. Mauris et leo suscipit, elementum ante maximus, euismod sapien. Praesent erat lectus, tristique vel viverra a, lacinia nec turpis. Curabitur non rutrum dui, sit amet scelerisque dolor. Pellentesque cursus urna neque, sit amet ornare orci commodo eu. Etiam sollicitudin ullamcorper euismod. Maecenas molestie magna neque, nec volutpat metus elementum ut. Quisque vel dolor et nunc consectetur semper. Sed mattis diam velit. Suspendisse venenatis diam ut odio rhoncus suscipit. Suspendisse et tortor a turpis convallis efficitur. Ut gravida ante vulputate lacus posuere elementum. Nullam. "
+  }
+]
 }
