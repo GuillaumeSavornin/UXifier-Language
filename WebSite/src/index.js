@@ -638,7 +638,7 @@ function WebSiteFormat(){
                                     <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Typography gutterBottom sx={{ mb: 3, fontSize:"xx-large", }} align={"left"} variant="h5" component="div">Contact</Typography>
                                         <div style={{alignSelf:"left", display:"flex"}}>
-                                            <HomeIcon sx={{  }} />
+                                            <HomeIcon sx={{ alignSelf:'center'  }} />
                                             <Typography sx={{ml: 1, mr: 1, textAlign:"left", fontSize:"xx-large",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
                                                 {(()=>{
                                                     if(data.contactInformation){
@@ -649,7 +649,7 @@ function WebSiteFormat(){
                                             </Typography>
                                         </div>
                                         <div style={{alignSelf:"left", display:"flex"}}>
-                                            <PhoneIcon sx={{
+                                            <PhoneIcon sx={{ alignSelf:'center'
                                             }} />
                                             <Typography sx={{ml: 1, mr: 1, textAlign:"left", fontSize:"xx-large",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
                                                 {(()=>{
@@ -661,7 +661,7 @@ function WebSiteFormat(){
                                             </Typography>
                                         </div>
                                         <div style={{alignSelf:"left", display:"flex"}}>
-                                            <EmailIcon sx={{
+                                            <EmailIcon sx={{ alignSelf:'center'
                                             }} />
                                             <Typography sx={{ml: 1, mr: 1, textAlign:"left", fontSize:"xx-large",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
                                                 {(()=>{
@@ -1051,7 +1051,7 @@ function MobileFormat(){
                             <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                 <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Contact</Typography>
                                 <div style={{alignSelf:"left", display:"flex"}}>
-                                    <HomeIcon sx={{  }} />
+                                    <HomeIcon sx={{ alignSelf:'center'  }} />
                                     <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
                                         {(()=>{
                                             if(data.contactInformation){
@@ -1062,7 +1062,7 @@ function MobileFormat(){
                                     </Typography>
                                 </div>
                                 <div style={{alignSelf:"left", display:"flex"}}>
-                                    <PhoneIcon sx={{
+                                    <PhoneIcon sx={{ alignSelf:'center'
                                     }} />
                                     <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
                                         {(()=>{
@@ -1074,7 +1074,7 @@ function MobileFormat(){
                                     </Typography>
                                 </div>
                                 <div style={{alignSelf:"left", display:"flex"}}>
-                                    <EmailIcon sx={{
+                                    <EmailIcon sx={{ alignSelf:'center'
                                     }} />
                                     <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
                                         {(()=>{
