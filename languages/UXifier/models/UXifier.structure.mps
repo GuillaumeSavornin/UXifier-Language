@@ -195,11 +195,6 @@
       <property role="TrG5h" value="imageLocation" />
       <ref role="AX2Wp" node="1Vw2GbaZRhs" resolve="IMAGE_POSITION" />
     </node>
-    <node concept="1TJgyi" id="1Vw2GbaVR4S" role="1TKVEl">
-      <property role="IQ2nx" value="2224790047665647928" />
-      <property role="TrG5h" value="sizeName" />
-      <ref role="AX2Wp" node="1Vw2GbaVR50" resolve="NAME_SIZE" />
-    </node>
     <node concept="PrWs8" id="2dFAI0jBY85" role="PzmwI">
       <ref role="PrY4T" node="3Sngu6AleBm" resolve="ITextualStyling" />
     </node>
@@ -207,15 +202,13 @@
       <property role="IQ2ns" value="4474117192233408319" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="nameStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6Ay_t5" role="1TKVEi">
       <property role="IQ2ns" value="4474117192233408325" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="catchPhraseStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="PlHQZ" id="2dFAI0jBY87">
@@ -548,8 +541,7 @@
       <property role="IQ2ns" value="4474117192233418868" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="additionalInformationStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="1TIwiD" id="7quf1gMz0a$">
@@ -623,29 +615,25 @@
       <property role="IQ2ns" value="4474117192233415836" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="dateStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6AyBiC" role="1TKVEi">
       <property role="IQ2ns" value="4474117192233415848" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="experienceNameStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6AyBiP" role="1TKVEi">
       <property role="IQ2ns" value="4474117192233415861" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="corporationStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6AyBj3" role="1TKVEi">
       <property role="IQ2ns" value="4474117192233415875" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="descriptionStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="1TIwiD" id="7quf1gMz0as">
@@ -842,22 +830,19 @@
       <property role="IQ2ns" value="4474117192230913921" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="descriptionStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6Ap4un" role="1TKVEi">
       <property role="IQ2ns" value="4474117192230913943" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="skillStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6Ap4uu" role="1TKVEi">
       <property role="IQ2ns" value="4474117192230913950" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="textualLevelStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyi" id="1eZdBFFrbj7" role="1TKVEl">
       <property role="IQ2nx" value="1422915908836046023" />
@@ -1057,8 +1042,7 @@
       <property role="IQ2ns" value="4474117192233417532" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="contactInformationStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="AxPO7" id="7ytgQgx_ecx">
@@ -1179,8 +1163,7 @@
       <property role="IQ2ns" value="4474117192233414594" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="legendStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hY3O8TM25D">
@@ -1300,29 +1283,25 @@
       <property role="IQ2ns" value="4474117192233165678" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="projectStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6AxEdU" role="1TKVEi">
       <property role="IQ2ns" value="4474117192233165690" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="descriptionStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6AxEe7" role="1TKVEi">
       <property role="IQ2ns" value="4474117192233165703" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="dateStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyj" id="3Sngu6AxEel" role="1TKVEi">
       <property role="IQ2ns" value="4474117192233165717" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="urlStyle" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
   </node>
   <node concept="1TIwiD" id="7XyC30UC_lj">
@@ -1429,8 +1408,7 @@
       <property role="IQ2ns" value="4474117192229906905" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="title" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyle" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
     </node>
     <node concept="1TJgyi" id="3Sngu6AleBw" role="1TKVEl">
       <property role="IQ2nx" value="4474117192229906912" />

@@ -629,20 +629,6 @@
         </node>
         <node concept="2iRfu4" id="1Vw2GbaZRrK" role="2iSdaV" />
       </node>
-      <node concept="3EZMnI" id="1Vw2GbaVYv7" role="3EZMnx">
-        <node concept="VPM3Z" id="1Vw2GbaVYv9" role="3F10Kt" />
-        <node concept="3F0ifn" id="3Sngu6_Y_Wg" role="3EZMnx">
-          <property role="3F0ifm" value="-" />
-        </node>
-        <node concept="2iRfu4" id="1Vw2GbaVYvc" role="2iSdaV" />
-        <node concept="3F0ifn" id="1Vw2GbaVYBy" role="3EZMnx">
-          <property role="3F0ifm" value="name size:" />
-        </node>
-        <node concept="3F0A7n" id="1Vw2GbaVYBs" role="3EZMnx">
-          <ref role="1NtTu8" to="wi2d:1Vw2GbaVR4S" resolve="sizeName" />
-          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
-        </node>
-      </node>
       <node concept="2iRkQZ" id="3ksNkQL29O1" role="2iSdaV" />
     </node>
   </node>
@@ -2877,7 +2863,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3Sngu6AleWC">
-    <ref role="1XX52x" to="wi2d:3Sngu6AleB8" resolve="TextStyle" />
+    <ref role="1XX52x" to="wi2d:3Sngu6AleB8" resolve="TextStyling" />
     <node concept="3EZMnI" id="3Sngu6AleWF" role="2wV5jI">
       <node concept="3EZMnI" id="3Sngu6AleWM" role="3EZMnx">
         <node concept="VPM3Z" id="3Sngu6AleWO" role="3F10Kt" />
@@ -2905,6 +2891,13 @@
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
+        </node>
+        <node concept="3F0ifn" id="zG5F950d11" role="3EZMnx">
+          <property role="3F0ifm" value="[S]:" />
+        </node>
+        <node concept="3F0A7n" id="zG5F950d1p" role="3EZMnx">
+          <ref role="1NtTu8" to="wi2d:3Sngu6AleBk" resolve="size" />
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
         </node>
         <node concept="2iRfu4" id="3Sngu6AleWR" role="2iSdaV" />
       </node>
