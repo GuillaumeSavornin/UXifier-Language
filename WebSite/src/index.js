@@ -345,6 +345,40 @@ function WebSiteFormat(){
                                 </Grid>
                                 <Grid container margin={1}>
                                     <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
+                                        {(()=>{
+                                            let array = [];
+                                            for(let i = 0; i < 2; i++){
+                                                array.push(<Grid container spacing={3}>
+                                                        <Grid item xs={4} md={4} lg={4}>
+                                                            <p style={{  }}>
+                                                                <strong>{(()=>{
+                                                                    if(data.activityItems && data.activityItems[i] && data.activityItems[i].name){
+                                                                        return data.activityItems[i].name
+                                                                    }
+                                                                    return "activity"
+                                                                })()}</strong>
+                                                            </p>
+                                                            <Grid item xs={4} md={4} lg={4}>
+                                                                <p style={{  }}>
+                                                                    <strong>{(()=>{
+                                                                        if(data.activityItems && data.activityItems[i] && data.activityItems[i].description){
+                                                                            return data.activityItems[i].description
+                                                                        }
+                                                                        return "description"
+                                                                    })()}</strong>
+                                                                </p>
+                                                            </Grid>
+                                                        </Grid>
+                                                    </Grid>
+                                                )
+                                            }
+                                            return array;
+                                        })()}
+                                    </Paper>
+
+                                </Grid>
+                                <Grid container margin={1}>
+                                    <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Typography gutterBottom sx={{ mb: 3, }} align={"left"} variant="h5" component="div">Projects</Typography>
                                         {(()=>{
                                             let array = [];
