@@ -67,6 +67,9 @@ import LinearProgress, {
     linearProgressClasses
 } from "@mui/material/LinearProgress";
 import "./hover.css";
+import DirectionsCarFilledIcon from '@mui/icons-material/DirectionsCarFilled';
+import AddLocationIcon from '@mui/icons-material/AddLocation';
+import CakeIcon from '@mui/icons-material/Cake';
 
 // ========================================================================================================================
 /**
@@ -91,38 +94,38 @@ function WebSiteFormat(){
     return (
         <Box sx={{ display: 'flex' }}>
             <AppBar position="absolute" open={open}>
-                <Toolbar sx={{ pr: '24px', backgroundColor: '#1d77db' }} >
+                <Toolbar sx={{ pr: '24px', backgroundColor: '#229544' }} >
                     <IconButton edge="start" aria-label="open drawer" onClick={toggleDrawer} sx={{marginRight: '36px', ...(open && { display: 'none' }),
-                        color:theme.palette.getContrastText('#1d77db'),                 }}>
+                        color:theme.palette.getContrastText('#229544'),                 }}>
                         <MenuIcon />
                     </IconButton>
-                    <Typography component="h1" variant="h6" noWrap sx={{ flexGrow: 1, color:theme.palette.getContrastText('#1d77db'), }}>GOPHER'S CV</Typography>
+                    <Typography component="h1" variant="h6" noWrap sx={{ flexGrow: 1, color:theme.palette.getContrastText('#229544'), fontSize:"medium ", textAlign:"center", }}>GOPHER'S CV</Typography>
                 </Toolbar>
             </AppBar>
 
-            <Drawer variant="permanent" open={open} PaperProps={{sx: {}}}>
-                <Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'end', px: [1], backgroundColor: '#1d77db' }} >
+            <Drawer variant="permanent" open={open} PaperProps={{sx: {backgroundColor:themeColor_other, }}}>
+                <Toolbar sx={{display: 'flex', alignItems: 'center', justifyContent: 'end', px: [1], backgroundColor: '#229544' }} >
                     <IconButton onClick={toggleDrawer} >
-                        <ChevronLeftIcon sx={{color:theme.palette.getContrastText('#1d77db'), }} />
+                        <ChevronLeftIcon sx={{color:theme.palette.getContrastText('#229544'), }} />
                     </IconButton>
                 </Toolbar>        <Divider />
                 <List component="nav">
                     <Link to="/">
                         <ListItemButton>
                             <ListItemIcon sx={{
-                            }}>
+                                color:theme.palette.getContrastText('#229544'), }}>
                                 <MenuIcon />
                             </ListItemIcon>
-                            <ListItemText sx={{}} primary="Menu" />
+                            <ListItemText sx={{color:theme.palette.getContrastText('#229544'), }} primary="Menu" />
                         </ListItemButton>
                     </Link>
                     <Link to="/Personal">
                         <ListItemButton>
                             <ListItemIcon sx={{
-                            }}>
+                                color:theme.palette.getContrastText('#229544'), }}>
                                 <PeopleIcon />
                             </ListItemIcon>
-                            <ListItemText sx={{}} primary="Personal" />
+                            <ListItemText sx={{color:theme.palette.getContrastText('#229544'), }} primary="Personal" />
                         </ListItemButton>
                     </Link>
                 </List>
@@ -135,6 +138,45 @@ function WebSiteFormat(){
                     <Route exact path="/">
                         <Grid container maxWidth="'100%'" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                             <Grid container xs={8}>
+                                <Grid container margin={1}>
+                                    <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_other}}>
+                                        <Typography gutterBottom sx={{ mb: 3, color:theme.palette.getContrastText(themeColor_other), fontFamily:themeFont_TimesNewRoman, fontSize:"medium ", }} align={"center"} variant="h5" component="div">Additional Information</Typography>
+                                        <div style={{alignSelf:"center", display:"flex"}}>
+                                            <DirectionsCarFilledIcon sx={{ alignSelf:'center', color:themeColor_lightgreen,  }} />
+                                            <Typography sx={{ml: 1, mr: 1, textAlign:"center", color:themeColor_lightgreen, fontFamily:themeFont_TimesNewRoman, fontSize:"small ",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                                Driver's license: {(()=>{
+                                                if(data.additionalInformation){
+                                                    return data.additionalInformation.driverLicense
+                                                }
+                                                return "Type of license"
+                                            })()}
+                                            </Typography>
+                                        </div>
+                                        <div style={{alignSelf:"center", display:"flex"}}>
+                                            <CakeIcon sx={{ alignSelf:'center', color:themeColor_lightgreen,  }} />
+                                            <Typography sx={{ml: 1, mr: 1, textAlign:"center", color:themeColor_lightgreen, fontFamily:themeFont_TimesNewRoman, fontSize:"small ",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                                Age: {(()=>{
+                                                if(data.additionalInformation){
+                                                    return data.additionalInformation.age
+                                                }
+                                                return "XX"
+                                            })()} years old
+                                            </Typography>
+                                        </div>
+                                        <div style={{alignSelf:"center", display:"flex"}}>
+                                            <AddLocationIcon sx={{ alignSelf:'center', color:themeColor_lightgreen,  }} />
+                                            <Typography sx={{ml: 1, mr: 1, textAlign:"center", color:themeColor_lightgreen, fontFamily:themeFont_TimesNewRoman, fontSize:"small ",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                                Mobility places: {(()=>{
+                                                if(data.additionalInformation){
+                                                    return data.additionalInformation.mobilityPlaces
+                                                }
+                                                return "list of countries"
+                                            })()}
+                                            </Typography>
+                                        </div>
+                                    </Paper>
+
+                                </Grid>
                                 <Grid container margin={1}>
                                     <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
                                         <Grid container sx={{flexDirection: 'row'}}>                <Grid item md={12} lg={8}>
@@ -208,14 +250,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"left" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={selectedCollapseIndex.includes(3+i)}
-                                                                        onClick={() => {handleClickCollapse(3+i)}}
-                                                                        aria-expanded={selectedCollapseIndex.includes(3+i)}
+                                                                        expand={selectedCollapseIndex.includes(6+i)}
+                                                                        onClick={() => {handleClickCollapse(6+i)}}
+                                                                        aria-expanded={selectedCollapseIndex.includes(6+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{ color:themeColor_primary,  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={selectedCollapseIndex.includes(3+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(6+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3,  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.educationItems && data.educationItems[i] && data.educationItems[i].description){
@@ -316,14 +358,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"left" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={selectedCollapseIndex.includes(6+i)}
-                                                                        onClick={() => {handleClickCollapse(6+i)}}
-                                                                        aria-expanded={selectedCollapseIndex.includes(6+i)}
+                                                                        expand={selectedCollapseIndex.includes(9+i)}
+                                                                        onClick={() => {handleClickCollapse(9+i)}}
+                                                                        aria-expanded={selectedCollapseIndex.includes(9+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{ color:themeColor_primary,  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={selectedCollapseIndex.includes(6+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(9+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3,  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.experienceItems && data.experienceItems[i] && data.experienceItems[i].description){
@@ -366,14 +408,14 @@ function WebSiteFormat(){
                                                         </Typography>
                                                         <div style={{ textAlign:"center" }}>
                                                             <ExpandMore sx={{ ml: 3, mr: 3}}
-                                                                        expand={selectedCollapseIndex.includes(8+i)}
-                                                                        onClick={() => {handleClickCollapse(8+i)}}
-                                                                        aria-expanded={selectedCollapseIndex.includes(8+i)}
+                                                                        expand={selectedCollapseIndex.includes(11+i)}
+                                                                        onClick={() => {handleClickCollapse(11+i)}}
+                                                                        aria-expanded={selectedCollapseIndex.includes(11+i)}
                                                                         aria-label="show more">
                                                                 <ExpandMoreIcon sx={{  }}/>
                                                             </ExpandMore>
                                                         </div>
-                                                        <Collapse in={selectedCollapseIndex.includes(8+i)} timeout="auto" unmountOnExit>
+                                                        <Collapse in={selectedCollapseIndex.includes(11+i)} timeout="auto" unmountOnExit>
                                                             <Typography paragraph sx={{ ml: 3, mr: 3,  }} align={"justify"} gutterBottom component="div">
                                                                 {(()=>{
                                                                     if(data.projectItems && data.projectItems[i] && data.projectItems[i].description){
@@ -763,43 +805,66 @@ function WebSiteFormat(){
 
                         <Grid container maxWidth="lg" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                             <Grid container margin={1}>
-                                <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_other}}>
-                                    Driver's license: {(()=>{
-                                    if(data.additionalInformation){
-                                        return data.additionalInformation.driverLicense
-                                    }
-                                    return "Type of license"
-                                })()}<br/>
-                                    Mobility places: {(()=>{
-                                    if(data.additionalInformation){
-                                        return data.additionalInformation.mobilityPlaces
-                                    }
-                                    return "list of countries"
-                                })()}<br/>
+                                <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
+                                    <div style={{alignSelf:"left", display:"flex"}}>
+                                        <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            Driver's license: {(()=>{
+                                            if(data.additionalInformation){
+                                                return data.additionalInformation.driverLicense
+                                            }
+                                            return "Type of license"
+                                        })()}
+                                        </Typography>
+                                    </div>
+                                    <div style={{alignSelf:"left", display:"flex"}}>
+                                        <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            Mobility places: {(()=>{
+                                            if(data.additionalInformation){
+                                                return data.additionalInformation.mobilityPlaces
+                                            }
+                                            return "list of countries"
+                                        })()}
+                                        </Typography>
+                                    </div>
                                 </Paper>
 
                             </Grid>
                             <Grid container margin={1}>
                                 <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
-                                    <Typography gutterBottom sx={{ mb: 3, }} align={"center"} variant="h5" component="div">Additional Informations</Typography>
-                                    Driver's license: {(()=>{
-                                    if(data.additionalInformation){
-                                        return data.additionalInformation.driverLicense
-                                    }
-                                    return "Type of license"
-                                })()}<br/>
-                                    Age: {(()=>{
-                                    if(data.additionalInformation){
-                                        return data.additionalInformation.age
-                                    }
-                                    return "XX"
-                                })()} years old <br/>
-                                    Mobility places: {(()=>{
-                                    if(data.additionalInformation){
-                                        return data.additionalInformation.mobilityPlaces
-                                    }
-                                    return "list of countries"
-                                })()}<br/>
+                                    <Typography gutterBottom sx={{ mb: 3, }} align={"center"} variant="h5" component="div">Additional Information</Typography>
+                                    <div style={{alignSelf:"left", display:"flex"}}>
+                                        <DirectionsCarFilledIcon sx={{ alignSelf:'center',  }} />
+                                        <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            Driver's license: {(()=>{
+                                            if(data.additionalInformation){
+                                                return data.additionalInformation.driverLicense
+                                            }
+                                            return "Type of license"
+                                        })()}
+                                        </Typography>
+                                    </div>
+                                    <div style={{alignSelf:"left", display:"flex"}}>
+                                        <CakeIcon sx={{ alignSelf:'center',  }} />
+                                        <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            Age: {(()=>{
+                                            if(data.additionalInformation){
+                                                return data.additionalInformation.age
+                                            }
+                                            return "XX"
+                                        })()} years old
+                                        </Typography>
+                                    </div>
+                                    <div style={{alignSelf:"left", display:"flex"}}>
+                                        <AddLocationIcon sx={{ alignSelf:'center',  }} />
+                                        <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            Mobility places: {(()=>{
+                                            if(data.additionalInformation){
+                                                return data.additionalInformation.mobilityPlaces
+                                            }
+                                            return "list of countries"
+                                        })()}
+                                        </Typography>
+                                    </div>
                                 </Paper>
 
                             </Grid>
@@ -872,36 +937,55 @@ function WebSiteFormat(){
 
                             </Grid>
                             <Grid container margin={1}>
-                                <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
-                                    Driver's license: {(()=>{
-                                    if(data.additionalInformation){
-                                        return data.additionalInformation.driverLicense
-                                    }
-                                    return "Type of license"
-                                })()}<br/>
-                                    Mobility places: {(()=>{
-                                    if(data.additionalInformation){
-                                        return data.additionalInformation.mobilityPlaces
-                                    }
-                                    return "list of countries"
-                                })()}<br/>
+                                <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%', background:themeColor_primary}}>
+                                    <Typography gutterBottom sx={{ mb: 3, color:themeColor_other, fontFamily:themeFont_TimesNewRoman, fontSize:"small ", }} align={"right"} variant="h5" component="div">Additional Information</Typography>
+                                    <div style={{alignSelf:"center", display:"flex"}}>
+                                        <DirectionsCarFilledIcon sx={{ alignSelf:'center', color:theme.palette.getContrastText(themeColor_primary),  }} />
+                                        <Typography sx={{ml: 1, mr: 1, textAlign:"center", color:theme.palette.getContrastText(themeColor_primary), fontFamily:themeFont_TimesNewRoman, fontSize:"xx-large",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            Driver's license: {(()=>{
+                                            if(data.additionalInformation){
+                                                return data.additionalInformation.driverLicense
+                                            }
+                                            return "Type of license"
+                                        })()}
+                                        </Typography>
+                                    </div>
+                                    <div style={{alignSelf:"center", display:"flex"}}>
+                                        <AddLocationIcon sx={{ alignSelf:'center', color:theme.palette.getContrastText(themeColor_primary),  }} />
+                                        <Typography sx={{ml: 1, mr: 1, textAlign:"center", color:theme.palette.getContrastText(themeColor_primary), fontFamily:themeFont_TimesNewRoman, fontSize:"xx-large",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            Mobility places: {(()=>{
+                                            if(data.additionalInformation){
+                                                return data.additionalInformation.mobilityPlaces
+                                            }
+                                            return "list of countries"
+                                        })()}
+                                        </Typography>
+                                    </div>
                                 </Paper>
 
                             </Grid>
                             <Grid container margin={1}>
                                 <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
-                                    Driver's license: {(()=>{
-                                    if(data.additionalInformation){
-                                        return data.additionalInformation.driverLicense
-                                    }
-                                    return "Type of license"
-                                })()}<br/>
-                                    Mobility places: {(()=>{
-                                    if(data.additionalInformation){
-                                        return data.additionalInformation.mobilityPlaces
-                                    }
-                                    return "list of countries"
-                                })()}<br/>
+                                    <div style={{alignSelf:"left", display:"flex"}}>
+                                        <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            Driver's license: {(()=>{
+                                            if(data.additionalInformation){
+                                                return data.additionalInformation.driverLicense
+                                            }
+                                            return "Type of license"
+                                        })()}
+                                        </Typography>
+                                    </div>
+                                    <div style={{alignSelf:"left", display:"flex"}}>
+                                        <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                            Mobility places: {(()=>{
+                                            if(data.additionalInformation){
+                                                return data.additionalInformation.mobilityPlaces
+                                            }
+                                            return "list of countries"
+                                        })()}
+                                        </Typography>
+                                    </div>
                                 </Paper>
 
                             </Grid>
@@ -1013,35 +1097,61 @@ function MobileFormat(){
                     <Grid container maxWidth="'100%'" sx={{ p:2, alignItems:'start', margin:'auto'}}>
                         <Grid container margin={1}>
                             <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
-                                Driver's license: {(()=>{
-                                if(data.additionalInformation){
-                                    return data.additionalInformation.driverLicense
-                                }
-                                return "Type of license"
-                            })()}<br/>
-                                Mobility places: {(()=>{
-                                if(data.additionalInformation){
-                                    return data.additionalInformation.mobilityPlaces
-                                }
-                                return "list of countries"
-                            })()}<br/>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        Driver's license: {(()=>{
+                                        if(data.additionalInformation){
+                                            return data.additionalInformation.driverLicense
+                                        }
+                                        return "Type of license"
+                                    })()}
+                                    </Typography>
+                                </div>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        Mobility places: {(()=>{
+                                        if(data.additionalInformation){
+                                            return data.additionalInformation.mobilityPlaces
+                                        }
+                                        return "list of countries"
+                                    })()}
+                                    </Typography>
+                                </div>
                             </Paper>
 
                         </Grid>
                         <Grid container margin={1}>
                             <Paper square={theme_squareSections} elevation={theme_shadowLevel} sx={{p: 2, display: 'flex', flexDirection: 'column', width:'100%'}}>
-                                Driver's license: {(()=>{
-                                if(data.additionalInformation){
-                                    return data.additionalInformation.driverLicense
-                                }
-                                return "Type of license"
-                            })()}<br/>
-                                Mobility places: {(()=>{
-                                if(data.additionalInformation){
-                                    return data.additionalInformation.mobilityPlaces
-                                }
-                                return "list of countries"
-                            })()}<br/>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        Driver's license: {(()=>{
+                                        if(data.additionalInformation){
+                                            return data.additionalInformation.driverLicense
+                                        }
+                                        return "Type of license"
+                                    })()}
+                                    </Typography>
+                                </div>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        Age: {(()=>{
+                                        if(data.additionalInformation){
+                                            return data.additionalInformation.age
+                                        }
+                                        return "XX"
+                                    })()} years old
+                                    </Typography>
+                                </div>
+                                <div style={{alignSelf:"left", display:"flex"}}>
+                                    <Typography sx={{ml: 1, mr: 1, textAlign:"left",  }} align={"justify"} variant="subtitle1" gutterBottom component="div">
+                                        Mobility places: {(()=>{
+                                        if(data.additionalInformation){
+                                            return data.additionalInformation.mobilityPlaces
+                                        }
+                                        return "list of countries"
+                                    })()}
+                                    </Typography>
+                                </div>
                             </Paper>
 
                         </Grid>

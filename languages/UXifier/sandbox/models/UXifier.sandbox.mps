@@ -22,6 +22,7 @@
       </concept>
       <concept id="4474117192229906888" name="UXifier.structure.TextStyling" flags="ng" index="2ogUwD">
         <property id="4474117192229906900" name="size" index="2ogUwP" />
+        <reference id="4474117192229906889" name="color" index="2ogUwC" />
         <reference id="4474117192229906891" name="font" index="2ogUwE" />
       </concept>
       <concept id="4474117192229906902" name="UXifier.structure.ITextualStyling" flags="ng" index="2ogUwR">
@@ -83,6 +84,7 @@
         <reference id="7300266163387020064" name="menuColor" index="3fcR95" />
         <reference id="7300266163387020055" name="barColor" index="3fcR9M" />
         <child id="2552303901028114981" name="tabs" index="KX7z5" />
+        <child id="7300266163387020049" name="barTextStyling" index="3fcR9O" />
       </concept>
       <concept id="2552303901028114942" name="UXifier.structure.Theme" flags="ng" index="KX7Gu">
         <property id="9179075119537057250" name="sectionRoundedCorners" index="15KORi" />
@@ -106,7 +108,10 @@
       </concept>
       <concept id="4440341332753550745" name="UXifier.structure.AdditionalInformationStyling" flags="ng" index="2LRsXN">
         <property id="4474117192226677577" name="showIcons" index="2odeaC" />
+        <property id="4474117192226532642" name="alignInformation" index="2odyN3" />
         <property id="4440341332753550748" name="showAge" index="2LRsXQ" />
+        <reference id="4474117192226681124" name="iconsColor" index="2odf35" />
+        <child id="4474117192233418868" name="additionalInformationStyle" index="2oBs6l" />
       </concept>
       <concept id="1904405720489579195" name="UXifier.structure.App" flags="ng" index="2OrhLi">
         <child id="2552303901028114959" name="formats" index="KX7zJ" />
@@ -227,14 +232,35 @@
       <node concept="KX7zX" id="3bkuCYRBrBz" role="KX7zS">
         <property role="2xxiOT" value="true" />
         <property role="3fcRz$" value="1eZdBFFmBcm/center" />
-        <ref role="3fcR9M" node="6lfKmmFlvbc" resolve="light green" />
-        <ref role="3fcR95" node="6lfKmmFlvba" resolve="primary" />
+        <ref role="3fcR9M" node="6lfKmmFlvbf" resolve="other" />
+        <ref role="3fcR95" node="6lfKmmFlvbf" resolve="other" />
         <node concept="KX7z0" id="3bkuCYRBrB_" role="KX7z5">
           <property role="KX7z3" value="Menu" />
           <property role="Ses3W" value="7MJjWP4_CRH/&lt;MenuIcon /&gt;" />
           <node concept="25jtgD" id="3bkuCYRBrBF" role="25jtgg">
             <node concept="25jtgA" id="3bkuCYRBrCp" role="25jtgz">
               <property role="25iauq" value="8" />
+              <node concept="2LRsGl" id="7WrX6ZNvYOT" role="25jtg_">
+                <property role="2LRsX$" value="Type of license" />
+                <property role="2LRsXU" value="XX" />
+                <property role="2LRsXT" value="list of countries" />
+                <node concept="2LRsXN" id="7WrX6ZNvYOV" role="2LRsXX">
+                  <property role="2ogUw1" value="true" />
+                  <property role="2LRsXQ" value="true" />
+                  <property role="2odeaC" value="true" />
+                  <property role="2ogUwU" value="1eZdBFFmBcm/center" />
+                  <property role="2odyN3" value="1eZdBFFmBcm/center" />
+                  <ref role="15LnD2" node="6lfKmmFlvbf" resolve="other" />
+                  <node concept="2ogUwD" id="7WrX6ZNvYPe" role="2ogUwS">
+                    <ref role="2ogUwE" node="6lfKmmFlvbj" resolve="Times New Roman" />
+                  </node>
+                  <node concept="2ogUwD" id="7WrX6ZNvYPQ" role="2oBs6l">
+                    <property role="2ogUwP" value="1Vw2GbaVR52/small " />
+                    <ref role="2ogUwE" node="6lfKmmFlvbj" resolve="Times New Roman" />
+                    <ref role="2ogUwC" node="6lfKmmFlvbc" resolve="light green" />
+                  </node>
+                </node>
+              </node>
               <node concept="KX7Gv" id="zG5F94Yazd" role="25jtg_">
                 <property role="KMSAM" value="Name" />
                 <property role="KMSAP" value="LastName" />
@@ -408,7 +434,7 @@
               <property role="2LRsXU" value="XX" />
               <property role="2LRsXT" value="list of countries" />
               <node concept="2LRsXN" id="77VjBUERApR" role="2LRsXX">
-                <ref role="15LnD2" node="6lfKmmFlvbf" resolve="other" />
+                <ref role="2odf35" node="6lfKmmFlvba" resolve="primary" />
               </node>
             </node>
             <node concept="2LRsGl" id="zG5F94YaEB" role="25jtgF">
@@ -448,7 +474,23 @@
               <property role="2LRsX$" value="Type of license" />
               <property role="2LRsXU" value="XX" />
               <property role="2LRsXT" value="list of countries" />
-              <node concept="2LRsXN" id="77VjBUEURrJ" role="2LRsXX" />
+              <node concept="2LRsXN" id="77VjBUEURrJ" role="2LRsXX">
+                <property role="2ogUw1" value="true" />
+                <property role="2ogUwU" value="1eZdBFFmBcp/right" />
+                <property role="2odeaC" value="true" />
+                <property role="2odyN3" value="1eZdBFFmBcm/center" />
+                <ref role="15LnD2" node="6lfKmmFlvba" resolve="primary" />
+                <ref role="2odf35" node="6lfKmmFlvbf" resolve="other" />
+                <node concept="2ogUwD" id="7WrX6ZNqeb8" role="2ogUwS">
+                  <property role="2ogUwP" value="1Vw2GbaVR52/small " />
+                  <ref role="2ogUwE" node="6lfKmmFlvbj" resolve="Times New Roman" />
+                  <ref role="2ogUwC" node="6lfKmmFlvbf" resolve="other" />
+                </node>
+                <node concept="2ogUwD" id="7WrX6ZNqeba" role="2oBs6l">
+                  <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
+                  <ref role="2ogUwE" node="6lfKmmFlvbj" resolve="Times New Roman" />
+                </node>
+              </node>
             </node>
             <node concept="2LRsGl" id="77VjBUEURs3" role="25jtgF">
               <property role="2LRsX$" value="Type of license" />
@@ -473,6 +515,7 @@
             </node>
           </node>
         </node>
+        <node concept="2ogUwD" id="7WrX6ZNvYQw" role="3fcR9O" />
       </node>
     </node>
     <node concept="KX7z7" id="3bkuCYRBeBm" role="KX7zJ">
@@ -493,7 +536,9 @@
             <property role="2LRsX$" value="Type of license" />
             <property role="2LRsXU" value="XX" />
             <property role="2LRsXT" value="list of countries" />
-            <node concept="2LRsXN" id="77VjBUEVk2O" role="2LRsXX" />
+            <node concept="2LRsXN" id="77VjBUEVk2O" role="2LRsXX">
+              <property role="2LRsXQ" value="true" />
+            </node>
           </node>
           <node concept="3SbUMN" id="zG5F94YaUc" role="25jtgF">
             <property role="3SbUMR" value="Number Address, Country" />
