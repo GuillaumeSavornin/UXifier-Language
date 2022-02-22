@@ -22,6 +22,8 @@
       </concept>
       <concept id="4474117192229906888" name="UXifier.structure.TextStyling" flags="ng" index="2ogUwD">
         <property id="4474117192229906900" name="size" index="2ogUwP" />
+        <reference id="4474117192229906889" name="color" index="2ogUwC" />
+        <reference id="4474117192229906891" name="font" index="2ogUwE" />
       </concept>
       <concept id="4474117192229906902" name="UXifier.structure.ITextualStyling" flags="ng" index="2ogUwR">
         <property id="4474117192229906912" name="showTitle" index="2ogUw1" />
@@ -112,7 +114,11 @@
         <child id="8834168481947200882" name="styling" index="2QWQwv" />
       </concept>
       <concept id="8834168481947188231" name="UXifier.structure.ActivityStyling" flags="ng" index="2QWb_E">
+        <property id="8834168481947188236" name="separator" index="2QWb_x" />
         <property id="8834168481947188239" name="numberItems" index="2QWb_y" />
+        <property id="8834168481947313672" name="showDescription" index="2QWEd_" />
+        <child id="8834168481947309633" name="activityNameStyle" index="2QWDcG" />
+        <child id="8834168481947309635" name="descriptionStyle" index="2QWDcI" />
       </concept>
       <concept id="8547335200240841715" name="UXifier.structure.ExperienceStyling" flags="ng" index="144wZB">
         <property id="8547335200240841716" name="numberItems" index="144wZw" />
@@ -295,6 +301,18 @@
                 </node>
                 <node concept="2QWb_E" id="7EphmRcuvTo" role="2QWQwv">
                   <property role="2QWb_y" value="2" />
+                  <property role="2ogUw1" value="true" />
+                  <property role="2QWEd_" value="true" />
+                  <property role="2QWb_x" value="true" />
+                  <node concept="2ogUwD" id="7Tcmj4_eIC2" role="2QWDcG">
+                    <property role="2ogUwP" value="1Vw2GbaZ2ZN/xx-large" />
+                    <ref role="2ogUwE" node="77VjBUE9HO7" resolve="Times New Roman" />
+                    <ref role="2ogUwC" node="77VjBUE9HML" resolve="primary" />
+                  </node>
+                  <node concept="2ogUwD" id="7Tcmj4_eIC4" role="2QWDcI">
+                    <ref role="2ogUwE" node="77VjBUE9HNV" resolve="Courier New" />
+                    <ref role="2ogUwC" node="77VjBUE9HNQ" resolve="rgb color" />
+                  </node>
                 </node>
               </node>
               <node concept="2BlgTl" id="zG5F94Ya$I" role="25jtg_">
