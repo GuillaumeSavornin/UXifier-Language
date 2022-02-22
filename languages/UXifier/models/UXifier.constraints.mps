@@ -336,6 +336,12 @@
         <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
       </node>
     </node>
+    <node concept="1N5Pfh" id="7WrX6ZNK949" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:7Tcmj4_jsw5" resolve="collapseColor" />
+      <node concept="1dDu$B" id="7WrX6ZNK964" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
   </node>
 </model>
 

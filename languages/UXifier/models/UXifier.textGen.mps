@@ -1908,7 +1908,7 @@
               <node concept="2BGw6n" id="zG5F95bLtd" role="lcghm" />
               <node concept="2BGw6n" id="zG5F95bLte" role="lcghm" />
               <node concept="la8eA" id="zG5F95bLtf" role="lcghm">
-                <property role="lacIc" value="&lt;Grid item xs={12}" />
+                <property role="lacIc" value="&lt;Grid item sx={{alignSelf:'center'}} xs={12}" />
               </node>
             </node>
             <node concept="3clFbJ" id="zG5F95bLtg" role="3cqZAp">
@@ -3129,7 +3129,7 @@
                 <node concept="2BGw6n" id="4VHwwBJrXWi" role="lcghm" />
                 <node concept="2BGw6n" id="4VHwwBJrY0z" role="lcghm" />
                 <node concept="la8eA" id="4VHwwBJrWMd" role="lcghm">
-                  <property role="lacIc" value="&lt;Grid item xs={12}" />
+                  <property role="lacIc" value="&lt;Grid item sx={{alignSelf:'center'}} xs={12}" />
                 </node>
               </node>
               <node concept="3clFbJ" id="3bkuCYRFv3Y" role="3cqZAp">
@@ -32672,11 +32672,11 @@
                                       </node>
                                     </node>
                                     <node concept="3TrEf2" id="7Tcmj4_j__m" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="wi2d:7quf1gMz0aQ" resolve="styling" />
+                                      <ref role="3Tt5mk" to="wi2d:7EphmRcqyPM" resolve="styling" />
                                     </node>
                                   </node>
                                   <node concept="3TrEf2" id="7Tcmj4_j__n" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="wi2d:3Sngu6AyBj3" resolve="descriptionStyle" />
+                                    <ref role="3Tt5mk" to="wi2d:7EphmRcqXp3" resolve="descriptionStyle" />
                                   </node>
                                 </node>
                                 <node concept="3TrcHB" id="7Tcmj4_j__o" role="2OqNvi">
