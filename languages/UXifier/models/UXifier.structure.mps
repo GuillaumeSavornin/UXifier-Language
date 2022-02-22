@@ -1692,6 +1692,21 @@
       <property role="TrG5h" value="numberItems" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="7Tcmj4_jsvI" role="1TKVEl">
+      <property role="IQ2nx" value="9100747014623053806" />
+      <property role="TrG5h" value="collapseDescription" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="7Tcmj4_jsvJ" role="1TKVEl">
+      <property role="IQ2nx" value="9100747014623053807" />
+      <property role="TrG5h" value="collapseButtonAlign" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
+    <node concept="1TJgyi" id="7Tcmj4_jsvK" role="1TKVEl">
+      <property role="IQ2nx" value="9100747014623053808" />
+      <property role="TrG5h" value="openCollapseDescriptions" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="7EphmRcqXp1" role="1TKVEi">
       <property role="IQ2ns" value="8834168481947309633" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1707,6 +1722,11 @@
     <node concept="1TJgyj" id="7EphmRcqXp6" role="1TKVEi">
       <property role="IQ2ns" value="8834168481947309638" />
       <property role="20kJfa" value="separatorColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="7Tcmj4_jsw5" role="1TKVEi">
+      <property role="IQ2ns" value="9100747014623053829" />
+      <property role="20kJfa" value="collapseColor" />
       <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
     </node>
   </node>
