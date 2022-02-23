@@ -2719,6 +2719,9 @@
           <ref role="1NtTu8" to="wi2d:3bkuCYRBdOl" resolve="size" />
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
         </node>
+        <node concept="3F0ifn" id="4GAJ$CPNYlq" role="3EZMnx">
+          <property role="3F0ifm" value="/12" />
+        </node>
       </node>
       <node concept="3F2HdR" id="3bkuCYRAqWR" role="3EZMnx">
         <ref role="1NtTu8" to="wi2d:3bkuCYRAqUE" resolve="sections" />
