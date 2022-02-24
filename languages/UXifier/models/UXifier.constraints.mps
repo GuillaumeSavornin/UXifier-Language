@@ -301,5 +301,47 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="7WrX6ZNFPjq">
+    <property role="3GE5qa" value="layout" />
+    <ref role="1M2myG" to="wi2d:2dFAI0jBY8c" resolve="SimpleLayout" />
+    <node concept="1N5Pfh" id="7WrX6ZNFPjr" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:6lfKmmEiEH1" resolve="barColor" />
+      <node concept="1dDu$B" id="7WrX6ZNFPjt" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7WrX6ZNFKf5">
+    <property role="3GE5qa" value="layout" />
+    <ref role="1M2myG" to="wi2d:2dFAI0jBY8t" resolve="MenuLayout" />
+    <node concept="1N5Pfh" id="7WrX6ZNFKf6" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+      <node concept="1dDu$B" id="7WrX6ZNFKiR" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7WrX6ZNFKgY" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:6lfKmmEvbcw" resolve="menuColor" />
+      <node concept="1dDu$B" id="7WrX6ZNFKjO" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7EphmRcqZHs">
+    <property role="3GE5qa" value="styling" />
+    <ref role="1M2myG" to="wi2d:7EphmRcqvK7" resolve="ActivityStyling" />
+    <node concept="1N5Pfh" id="7EphmRcqZIM" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:7EphmRcqXp6" resolve="separatorColor" />
+      <node concept="1dDu$B" id="7EphmRcqZIN" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7WrX6ZNK949" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:7Tcmj4_jsw5" resolve="collapseColor" />
+      <node concept="1dDu$B" id="7WrX6ZNK964" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+  </node>
 </model>
 
