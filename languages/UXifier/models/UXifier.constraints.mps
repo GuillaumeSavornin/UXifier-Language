@@ -305,7 +305,7 @@
     <property role="3GE5qa" value="layout" />
     <ref role="1M2myG" to="wi2d:2dFAI0jBY8c" resolve="SimpleLayout" />
     <node concept="1N5Pfh" id="7WrX6ZNFPjr" role="1Mr941">
-      <ref role="1N5Vy1" to="wi2d:6lfKmmEiEH1" resolve="barColor" />
+      <ref role="1N5Vy1" to="wi2d:3uwOBu7Lgxw" resolve="barColor" />
       <node concept="1dDu$B" id="7WrX6ZNFPjt" role="1N6uqs">
         <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
       </node>
@@ -315,7 +315,7 @@
     <property role="3GE5qa" value="layout" />
     <ref role="1M2myG" to="wi2d:2dFAI0jBY8t" resolve="MenuLayout" />
     <node concept="1N5Pfh" id="7WrX6ZNFKf6" role="1Mr941">
-      <ref role="1N5Vy1" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+      <ref role="1N5Vy1" to="wi2d:3uwOBu7Lgxw" resolve="barColor" />
       <node concept="1dDu$B" id="7WrX6ZNFKiR" role="1N6uqs">
         <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
       </node>

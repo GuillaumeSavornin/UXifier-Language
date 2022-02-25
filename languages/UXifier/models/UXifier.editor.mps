@@ -390,7 +390,7 @@
           </node>
           <node concept="3F1sOY" id="6lfKmmEwiBO" role="3EZMnx">
             <property role="1$x2rV" value=" [no style]" />
-            <ref role="1NtTu8" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+            <ref role="1NtTu8" to="wi2d:3uwOBu7Lgxu" resolve="barTextStyling" />
           </node>
           <node concept="l2Vlx" id="6lfKmmEiEKG" role="2iSdaV" />
           <node concept="pkWqt" id="6lfKmmExnl1" role="pqm2j">
@@ -400,7 +400,7 @@
                   <node concept="2OqwBi" id="6lfKmmExnzb" role="3uHU7B">
                     <node concept="pncrf" id="6lfKmmExnl6" role="2Oq$k0" />
                     <node concept="3TrEf2" id="6lfKmmExnNX" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                      <ref role="3Tt5mk" to="wi2d:3uwOBu7Lgxu" resolve="barTextStyling" />
                     </node>
                   </node>
                   <node concept="10Nm6u" id="6lfKmmExof7" role="3uHU7w" />
@@ -433,7 +433,7 @@
                   <property role="3F0ifm" value="- color:" />
                 </node>
                 <node concept="1iCGBv" id="6lfKmmEiEMP" role="3EZMnx">
-                  <ref role="1NtTu8" to="wi2d:6lfKmmEiEH1" resolve="barColor" />
+                  <ref role="1NtTu8" to="wi2d:3uwOBu7Lgxw" resolve="barColor" />
                   <node concept="1sVBvm" id="6lfKmmEiEMR" role="1sWHZn">
                     <node concept="3F0A7n" id="6lfKmmEiEMZ" role="2wV5jI">
                       <property role="1Intyy" value="true" />
@@ -450,7 +450,7 @@
                 </node>
                 <node concept="3F1sOY" id="6lfKmmEiENO" role="3EZMnx">
                   <property role="1$x2rV" value=" [no style]" />
-                  <ref role="1NtTu8" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                  <ref role="1NtTu8" to="wi2d:3uwOBu7Lgxu" resolve="barTextStyling" />
                 </node>
                 <node concept="2iRfu4" id="6lfKmmEiEN7" role="2iSdaV" />
               </node>
@@ -476,7 +476,7 @@
                   <node concept="2OqwBi" id="6lfKmmEwjHf" role="3uHU7B">
                     <node concept="pncrf" id="6lfKmmEwjHg" role="2Oq$k0" />
                     <node concept="3TrEf2" id="6lfKmmEwjHh" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wi2d:6lfKmmEiEN_" resolve="barTextStyling" />
+                      <ref role="3Tt5mk" to="wi2d:3uwOBu7Lgxu" resolve="barTextStyling" />
                     </node>
                   </node>
                 </node>
@@ -535,7 +535,7 @@
           </node>
           <node concept="3F1sOY" id="6lfKmmEB0ik" role="3EZMnx">
             <property role="1$x2rV" value=" [no style]" />
-            <ref role="1NtTu8" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+            <ref role="1NtTu8" to="wi2d:3uwOBu7Lgxu" resolve="barTextStyling" />
           </node>
           <node concept="l2Vlx" id="6lfKmmEB0il" role="2iSdaV" />
           <node concept="pkWqt" id="6lfKmmEB0im" role="pqm2j">
@@ -545,7 +545,7 @@
                   <node concept="2OqwBi" id="6lfKmmEB0iq" role="3uHU7B">
                     <node concept="pncrf" id="6lfKmmEB0ir" role="2Oq$k0" />
                     <node concept="3TrEf2" id="6lfKmmEB0is" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                      <ref role="3Tt5mk" to="wi2d:3uwOBu7Lgxu" resolve="barTextStyling" />
                     </node>
                   </node>
                   <node concept="10Nm6u" id="6lfKmmEB0it" role="3uHU7w" />
@@ -588,7 +588,7 @@
                   <property role="3F0ifm" value="- color:" />
                 </node>
                 <node concept="1iCGBv" id="6lfKmmEB0iK" role="3EZMnx">
-                  <ref role="1NtTu8" to="wi2d:6lfKmmEvbcn" resolve="barColor" />
+                  <ref role="1NtTu8" to="wi2d:3uwOBu7Lgxw" resolve="barColor" />
                   <node concept="1sVBvm" id="6lfKmmEB0iL" role="1sWHZn">
                     <node concept="3F0A7n" id="6lfKmmEB0iM" role="2wV5jI">
                       <property role="1Intyy" value="true" />
@@ -605,7 +605,7 @@
                 </node>
                 <node concept="3F1sOY" id="6lfKmmEB0iQ" role="3EZMnx">
                   <property role="1$x2rV" value=" [no style]" />
-                  <ref role="1NtTu8" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                  <ref role="1NtTu8" to="wi2d:3uwOBu7Lgxu" resolve="barTextStyling" />
                 </node>
                 <node concept="2iRfu4" id="6lfKmmEB0iR" role="2iSdaV" />
               </node>
@@ -615,8 +615,8 @@
                   <property role="3F0ifm" value="- alignement:" />
                 </node>
                 <node concept="3F0A7n" id="6lfKmmEB0iV" role="3EZMnx">
-                  <ref role="1NtTu8" to="wi2d:6lfKmmEvbA1" resolve="titleAlignement" />
                   <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+                  <ref role="1NtTu8" to="wi2d:6lfKmmEvbA7" resolve="titleAlignement" />
                 </node>
                 <node concept="2iRfu4" id="6lfKmmEB0iW" role="2iSdaV" />
               </node>
@@ -650,7 +650,7 @@
                   <node concept="2OqwBi" id="6lfKmmEB0j3" role="3uHU7B">
                     <node concept="pncrf" id="6lfKmmEB0j4" role="2Oq$k0" />
                     <node concept="3TrEf2" id="6lfKmmEB0j5" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wi2d:6lfKmmEvbch" resolve="barTextStyling" />
+                      <ref role="3Tt5mk" to="wi2d:3uwOBu7Lgxu" resolve="barTextStyling" />
                     </node>
                   </node>
                 </node>

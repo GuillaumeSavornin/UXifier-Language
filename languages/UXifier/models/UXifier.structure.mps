@@ -266,6 +266,22 @@
     <property role="EcuMT" value="2552303901028114952" />
     <property role="TrG5h" value="ILayout" />
     <property role="3GE5qa" value="layout" />
+    <node concept="1TJgyj" id="3uwOBu7Lgxw" role="1TKVEi">
+      <property role="IQ2ns" value="4008435079180519520" />
+      <property role="20kJfa" value="barColor" />
+      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3uwOBu7Lgxu" role="1TKVEi">
+      <property role="IQ2ns" value="4008435079180519518" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="barTextStyling" />
+      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
+    </node>
+    <node concept="1TJgyi" id="6lfKmmEvbA7" role="1TKVEl">
+      <property role="IQ2nx" value="7300266163387021703" />
+      <property role="TrG5h" value="titleAlignement" />
+      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY89">
     <property role="EcuMT" value="2552303901028114953" />
@@ -283,16 +299,6 @@
     <property role="TrG5h" value="SimpleLayout" />
     <property role="34LRSv" value="single page" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6lfKmmEvbA7" role="1TKVEl">
-      <property role="IQ2nx" value="7300266163387021703" />
-      <property role="TrG5h" value="titleAlignement" />
-      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
-    </node>
-    <node concept="1TJgyj" id="6lfKmmEiEH1" role="1TKVEi">
-      <property role="IQ2ns" value="7300266163383741249" />
-      <property role="20kJfa" value="barColor" />
-      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
-    </node>
     <node concept="PrWs8" id="2dFAI0jBY8d" role="PzmwI">
       <ref role="PrY4T" node="2dFAI0jBY88" resolve="ILayout" />
     </node>
@@ -303,12 +309,6 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3bkuCYRAqUs" resolve="IPage" />
     </node>
-    <node concept="1TJgyj" id="6lfKmmEiEN_" role="1TKVEi">
-      <property role="IQ2ns" value="7300266163383741669" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="barTextStyling" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
-    </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY8t">
     <property role="EcuMT" value="2552303901028114973" />
@@ -316,11 +316,6 @@
     <property role="TrG5h" value="MenuLayout" />
     <property role="34LRSv" value="menu layout" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6lfKmmEvbcn" role="1TKVEi">
-      <property role="IQ2ns" value="7300266163387020055" />
-      <property role="20kJfa" value="barColor" />
-      <ref role="20lvS9" node="7XyC30UC_lj" resolve="ThemeColor" />
-    </node>
     <node concept="1TJgyj" id="6lfKmmEvbcw" role="1TKVEi">
       <property role="IQ2ns" value="7300266163387020064" />
       <property role="20kJfa" value="menuColor" />
@@ -336,21 +331,10 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="2dFAI0jBY8w" resolve="TabLayout" />
     </node>
-    <node concept="1TJgyj" id="6lfKmmEvbch" role="1TKVEi">
-      <property role="IQ2ns" value="7300266163387020049" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="barTextStyling" />
-      <ref role="20lvS9" node="3Sngu6AleB8" resolve="TextStyling" />
-    </node>
     <node concept="1TJgyi" id="4VHwwBJqaWK" role="1TKVEl">
       <property role="IQ2nx" value="5687344883621736240" />
       <property role="TrG5h" value="isMenuOpen" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="6lfKmmEvbA1" role="1TKVEl">
-      <property role="IQ2nx" value="7300266163387021697" />
-      <property role="TrG5h" value="titleAlignement" />
-      <ref role="AX2Wp" node="1eZdBFFmBck" resolve="ALIGN_OPTIONS" />
     </node>
   </node>
   <node concept="1TIwiD" id="2dFAI0jBY8w">
