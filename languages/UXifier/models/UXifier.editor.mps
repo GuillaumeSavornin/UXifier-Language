@@ -1965,7 +1965,7 @@
           <property role="3F0ifm" value="-" />
         </node>
         <node concept="3F0ifn" id="1A3hF0yNbb_" role="3EZMnx">
-          <property role="3F0ifm" value="number of experience:" />
+          <property role="3F0ifm" value="number of educations" />
         </node>
         <node concept="3F0A7n" id="7quf1gMz7jG" role="3EZMnx">
           <ref role="1NtTu8" to="wi2d:7quf1gMz3fO" resolve="numberItems" />
@@ -4075,20 +4075,6 @@
           </node>
         </node>
       </node>
-      <node concept="3EZMnI" id="7EphmRcqYeT" role="3EZMnx">
-        <node concept="VPM3Z" id="7EphmRcqYeU" role="3F10Kt" />
-        <node concept="3F0ifn" id="7EphmRcqYeV" role="3EZMnx">
-          <property role="3F0ifm" value="-" />
-        </node>
-        <node concept="3F0ifn" id="7EphmRcqYeW" role="3EZMnx">
-          <property role="3F0ifm" value="number of activities: " />
-        </node>
-        <node concept="3F0A7n" id="7EphmRcqYeX" role="3EZMnx">
-          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
-          <ref role="1NtTu8" to="wi2d:7EphmRcqvKf" resolve="numberItems" />
-        </node>
-        <node concept="2iRfu4" id="7EphmRcqYeY" role="2iSdaV" />
-      </node>
       <node concept="3EZMnI" id="7Tcmj4_jsWs" role="3EZMnx">
         <node concept="VPM3Z" id="7Tcmj4_jsWt" role="3F10Kt" />
         <node concept="3F0ifn" id="7Tcmj4_jsWu" role="3EZMnx">
@@ -4188,6 +4174,20 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="3EZMnI" id="7EphmRcqYeT" role="3EZMnx">
+        <node concept="VPM3Z" id="7EphmRcqYeU" role="3F10Kt" />
+        <node concept="3F0ifn" id="7EphmRcqYeV" role="3EZMnx">
+          <property role="3F0ifm" value="-" />
+        </node>
+        <node concept="3F0ifn" id="7EphmRcqYeW" role="3EZMnx">
+          <property role="3F0ifm" value="number of activities: " />
+        </node>
+        <node concept="3F0A7n" id="7EphmRcqYeX" role="3EZMnx">
+          <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
+          <ref role="1NtTu8" to="wi2d:7EphmRcqvKf" resolve="numberItems" />
+        </node>
+        <node concept="2iRfu4" id="7EphmRcqYeY" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="7EphmRcqXxW" role="2iSdaV" />
     </node>
