@@ -20615,7 +20615,7 @@
                 <node concept="lc7rE" id="1eZdBFFZnZJ" role="3cqZAp">
                   <node concept="2BGw6n" id="1eZdBFFZp60" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFZp6A" role="lcghm">
-                    <property role="lacIc" value="&lt;HomeIcon sx={{ alignSelf:'center' " />
+                    <property role="lacIc" value="&lt;HomeIcon sx={{ alignSelf:'center', " />
                   </node>
                 </node>
                 <node concept="3clFbJ" id="3Sngu6_UHKW" role="3cqZAp">
@@ -21157,7 +21157,7 @@
                 <node concept="lc7rE" id="1eZdBFFZw9i" role="3cqZAp">
                   <node concept="2BGw6n" id="1eZdBFFZw9j" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFZw9k" role="lcghm">
-                    <property role="lacIc" value="&lt;PhoneIcon sx={{ alignSelf:'center' " />
+                    <property role="lacIc" value="&lt;PhoneIcon sx={{ alignSelf:'center', " />
                   </node>
                   <node concept="l8MVK" id="1eZdBFG0oKQ" role="lcghm" />
                 </node>
@@ -21700,7 +21700,7 @@
                 <node concept="lc7rE" id="1eZdBFFZt9b" role="3cqZAp">
                   <node concept="2BGw6n" id="1eZdBFFZt9c" role="lcghm" />
                   <node concept="la8eA" id="1eZdBFFZt9d" role="lcghm">
-                    <property role="lacIc" value="&lt;EmailIcon sx={{ alignSelf:'center' " />
+                    <property role="lacIc" value="&lt;EmailIcon sx={{ alignSelf:'center', " />
                   </node>
                   <node concept="l8MVK" id="1eZdBFG0neH" role="lcghm" />
                 </node>
