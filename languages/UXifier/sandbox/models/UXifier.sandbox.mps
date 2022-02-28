@@ -780,11 +780,10 @@
               <node concept="3Sb_l$" id="3LFYMnVORnw" role="3SbUMQ">
                 <property role="2ogUw1" value="true" />
                 <property role="3S9hyq" value="true" />
-                <property role="3Sgwy7" value="true" />
-                <property role="3S9mcr" value="true" />
                 <property role="3Sichk" value="1eZdBFFmBcm/center" />
                 <property role="3Sb_lo" value="5" />
                 <property role="2ogUwU" value="1eZdBFFmBcm/center" />
+                <property role="3Sgwy7" value="true" />
                 <ref role="2rWHbt" node="3LFYMnVS7aM" resolve="icon_color" />
                 <node concept="2ogUwD" id="3LFYMnVORnx" role="2ogUwS">
                   <property role="2ogUwP" value="1Vw2GbaVR5e/x-large" />
