@@ -3721,7 +3721,7 @@
           <node concept="VPM3Z" id="5DQ6TvjoCq" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="zG5F95jTdq" role="3EZMnx">
-          <property role="3F0ifm" value="open all collapsed descriptions:" />
+          <property role="3F0ifm" value="open all:" />
         </node>
         <node concept="2iRfu4" id="zG5F95jTdr" role="2iSdaV" />
         <node concept="2yq9I_" id="zG5F95jTds" role="3EZMnx">
@@ -3749,7 +3749,7 @@
           <node concept="VPM3Z" id="5DQ6TvjoCs" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="zG5F95jTdC" role="3EZMnx">
-          <property role="3F0ifm" value="align collapse button:" />
+          <property role="3F0ifm" value="button alignment:" />
         </node>
         <node concept="3F0A7n" id="zG5F95jTdD" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
