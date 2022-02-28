@@ -802,7 +802,7 @@
         </node>
         <node concept="VPM3Z" id="3Sngu6_Zgd2" role="3F10Kt" />
         <node concept="3F0ifn" id="3Sngu6_Zgd3" role="3EZMnx">
-          <property role="3F0ifm" value="align title:" />
+          <property role="3F0ifm" value="alignment:" />
         </node>
         <node concept="3F0A7n" id="3Sngu6_Zgd4" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -892,7 +892,7 @@
         </node>
         <node concept="VPM3Z" id="1Vw2GbaZRrH" role="3F10Kt" />
         <node concept="3F0ifn" id="1Vw2GbaZRrJ" role="3EZMnx">
-          <property role="3F0ifm" value="image position: " />
+          <property role="3F0ifm" value="position: " />
         </node>
         <node concept="3F0A7n" id="1Vw2GbaZRuA" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -920,7 +920,7 @@
         </node>
         <node concept="VPM3Z" id="zG5F95dG6t" role="3F10Kt" />
         <node concept="3F0ifn" id="zG5F95dG6u" role="3EZMnx">
-          <property role="3F0ifm" value="image filter:" />
+          <property role="3F0ifm" value="filter:" />
         </node>
         <node concept="3F0A7n" id="zG5F95dG6v" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -949,7 +949,7 @@
         </node>
         <node concept="VPM3Z" id="zG5F95dPgH" role="3F10Kt" />
         <node concept="3F0ifn" id="zG5F95dPgI" role="3EZMnx">
-          <property role="3F0ifm" value="filter percentage:" />
+          <property role="3F0ifm" value="percentage:" />
         </node>
         <node concept="3F0A7n" id="zG5F95dPgJ" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -1025,7 +1025,7 @@
         </node>
         <node concept="VPM3Z" id="zG5F95dHYx" role="3F10Kt" />
         <node concept="3F0ifn" id="zG5F95dHYy" role="3EZMnx">
-          <property role="3F0ifm" value="border color:" />
+          <property role="3F0ifm" value="color:" />
         </node>
         <node concept="1iCGBv" id="zG5F95dIJd" role="3EZMnx">
           <ref role="1NtTu8" to="wi2d:zG5F95dFbo" resolve="imageBorderColor" />
@@ -1059,7 +1059,7 @@
         </node>
         <node concept="VPM3Z" id="zG5F95dIK6" role="3F10Kt" />
         <node concept="3F0ifn" id="zG5F95dIK7" role="3EZMnx">
-          <property role="3F0ifm" value="border size (px):" />
+          <property role="3F0ifm" value="size (px):" />
         </node>
         <node concept="3F0A7n" id="zG5F95dIK8" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -1088,7 +1088,7 @@
         </node>
         <node concept="VPM3Z" id="zG5F95gOID" role="3F10Kt" />
         <node concept="3F0ifn" id="zG5F95gOIE" role="3EZMnx">
-          <property role="3F0ifm" value="border radius (px):" />
+          <property role="3F0ifm" value="radius (px):" />
         </node>
         <node concept="3F0A7n" id="zG5F95gOIF" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -1282,7 +1282,7 @@
         </node>
         <node concept="VPM3Z" id="3Sngu6_P4WQ" role="3F10Kt" />
         <node concept="3F0ifn" id="3Sngu6_P4WR" role="3EZMnx">
-          <property role="3F0ifm" value="align title:" />
+          <property role="3F0ifm" value="alignment:" />
         </node>
         <node concept="3F0A7n" id="3Sngu6_P4WS" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -1540,7 +1540,7 @@
         </node>
         <node concept="VPM3Z" id="3Sngu6A7T4P" role="3F10Kt" />
         <node concept="3F0ifn" id="3Sngu6A7T4Q" role="3EZMnx">
-          <property role="3F0ifm" value="align title:" />
+          <property role="3F0ifm" value="alignment:" />
         </node>
         <node concept="3F0A7n" id="3Sngu6A7T4R" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -1728,7 +1728,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="3Sngu6A4B9x" role="3EZMnx">
-          <property role="3F0ifm" value="align title:" />
+          <property role="3F0ifm" value="alignment:" />
         </node>
         <node concept="3F0A7n" id="3Sngu6A4B9y" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -1864,7 +1864,7 @@
           <node concept="VPM3Z" id="5DQ6Tvjoy_" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="3Sngu6A4DVY" role="3EZMnx">
-          <property role="3F0ifm" value="open all collapsed descriptions:" />
+          <property role="3F0ifm" value="open all:" />
         </node>
         <node concept="2iRfu4" id="3Sngu6A4DVZ" role="2iSdaV" />
         <node concept="2yq9I_" id="3Sngu6A4DW0" role="3EZMnx">
@@ -1892,7 +1892,7 @@
           <node concept="VPM3Z" id="5DQ6TvjoyB" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="3Sngu6A4E4U" role="3EZMnx">
-          <property role="3F0ifm" value="align collapse button:" />
+          <property role="3F0ifm" value="button alignment:" />
         </node>
         <node concept="3F0A7n" id="3Sngu6A4E4V" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -2045,7 +2045,7 @@
         </node>
         <node concept="VPM3Z" id="1eZdBFFreCu" role="3F10Kt" />
         <node concept="3F0ifn" id="1eZdBFFreCv" role="3EZMnx">
-          <property role="3F0ifm" value="align title:" />
+          <property role="3F0ifm" value="alignment:" />
         </node>
         <node concept="3F0A7n" id="1eZdBFFreCw" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -2500,7 +2500,7 @@
           <node concept="VPM3Z" id="5DQ6TvjoOf" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="1eZdBFFHOxn" role="3EZMnx">
-          <property role="3F0ifm" value="social network icon color:" />
+          <property role="3F0ifm" value="icon color:" />
         </node>
         <node concept="2iRfu4" id="1eZdBFFHOxp" role="2iSdaV" />
         <node concept="pkWqt" id="1eZdBFFHOxq" role="pqm2j">
@@ -2534,7 +2534,7 @@
           <node concept="VPM3Z" id="5DQ6TvjoOh" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="1eZdBFFHODU" role="3EZMnx">
-          <property role="3F0ifm" value="social networks background color:" />
+          <property role="3F0ifm" value="background color:" />
         </node>
         <node concept="2iRfu4" id="1eZdBFFHODW" role="2iSdaV" />
         <node concept="pkWqt" id="1eZdBFFHODX" role="pqm2j">
@@ -2569,7 +2569,7 @@
           <node concept="VPM3Z" id="5DQ6TvjoOj" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="1eZdBFFHOJB" role="3EZMnx">
-          <property role="3F0ifm" value="social networks border:" />
+          <property role="3F0ifm" value="border:" />
         </node>
         <node concept="3F0A7n" id="1eZdBFFHOJC" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -2597,7 +2597,7 @@
           <node concept="VPM3Z" id="5DQ6TvjoOl" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="1eZdBFFXZgP" role="3EZMnx">
-          <property role="3F0ifm" value="align social networks:" />
+          <property role="3F0ifm" value="alignment:" />
         </node>
         <node concept="3F0A7n" id="1eZdBFFXZgQ" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -2930,7 +2930,7 @@
           <node concept="VPM3Z" id="5DQ6Tvjopa" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="1eZdBFG4CT9" role="3EZMnx">
-          <property role="3F0ifm" value="image filter percentage:" />
+          <property role="3F0ifm" value="filter percentage:" />
         </node>
         <node concept="3F0A7n" id="1eZdBFG4CTa" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -3096,7 +3096,7 @@
         </node>
         <node concept="VPM3Z" id="3Sngu6_Lj5m" role="3F10Kt" />
         <node concept="3F0ifn" id="3Sngu6_Lj5n" role="3EZMnx">
-          <property role="3F0ifm" value="align title:" />
+          <property role="3F0ifm" value="alignment:" />
         </node>
         <node concept="3F0A7n" id="3Sngu6_Lj5o" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -3231,7 +3231,7 @@
           <node concept="VPM3Z" id="5DQ6Tvjo18" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="6_RkYJeoP_m" role="3EZMnx">
-          <property role="3F0ifm" value="open all collapsed descriptions:" />
+          <property role="3F0ifm" value="open all:" />
         </node>
         <node concept="2iRfu4" id="6_RkYJeoP_n" role="2iSdaV" />
         <node concept="2yq9I_" id="6_RkYJeoP_o" role="3EZMnx">
@@ -3259,7 +3259,7 @@
           <node concept="VPM3Z" id="5DQ6Tvjo1a" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="6_RkYJehSgp" role="3EZMnx">
-          <property role="3F0ifm" value="align collapse button:" />
+          <property role="3F0ifm" value="button alignment:" />
         </node>
         <node concept="3F0A7n" id="6_RkYJehSgq" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -3321,7 +3321,7 @@
           <node concept="VPM3Z" id="5DQ6Tvjo1c" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="3Sngu6Agerx" role="3EZMnx">
-          <property role="3F0ifm" value="align &quot;go to project&quot; button:" />
+          <property role="3F0ifm" value="alignment:" />
         </node>
         <node concept="3F0A7n" id="3Sngu6Agery" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
@@ -3647,7 +3647,7 @@
           <property role="3F0ifm" value="-" />
         </node>
         <node concept="3F0ifn" id="zG5F95jTcS" role="3EZMnx">
-          <property role="3F0ifm" value="corporation name style:" />
+          <property role="3F0ifm" value="school name style:" />
         </node>
         <node concept="3F1sOY" id="zG5F95jTcT" role="3EZMnx">
           <property role="1$x2rV" value=" [no style]" />
@@ -4138,7 +4138,7 @@
           <node concept="VPM3Z" id="7Tcmj4_jsWP" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="7Tcmj4_jsWQ" role="3EZMnx">
-          <property role="3F0ifm" value="open all collapsed descriptions:" />
+          <property role="3F0ifm" value="open all:" />
         </node>
         <node concept="2iRfu4" id="7Tcmj4_jsWR" role="2iSdaV" />
         <node concept="2yq9I_" id="7Tcmj4_jsWS" role="3EZMnx">
@@ -4166,7 +4166,7 @@
           <node concept="VPM3Z" id="7Tcmj4_jsX4" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="7Tcmj4_jsX5" role="3EZMnx">
-          <property role="3F0ifm" value="align collapse button:" />
+          <property role="3F0ifm" value="button alignment:" />
         </node>
         <node concept="3F0A7n" id="7Tcmj4_jsX6" role="3EZMnx">
           <ref role="1k5W1q" node="3bkuCYRcB0t" resolve="ValueStyle" />
