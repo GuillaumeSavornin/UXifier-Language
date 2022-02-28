@@ -84,7 +84,7 @@ New script can be created doing a right-clicking on the project's sandbox and se
     “skill name style:” <TextStyling>
     “show icon:” <Boolean>
     “show description:” <Boolean> <TextStyling>
-    “show separator:” <Boolean>  “[C]:” <String>
+    “show separator:” <Boolean> “[C]:” <String>
     “level display method:” <Integer> <TextStyling>
     “number of skills:” <Integer>;
 <ExperiencesStyling> = 
@@ -95,7 +95,7 @@ New script can be created doing a right-clicking on the project's sandbox and se
     “date style:” <TextStyling>
     “corporation name style:” <TextStyling>
     “description style:” <TextStyling>
-    “collapse description:” <Boolean>  “[C]:” <String>
+    “collapse description:” <Boolean> “[C]:” <String>
         “open all:” <Boolean>
         “button alignment:” <ALIGN_OPTIONS>
     “show separator:” <Boolean>  “[C]:” <String>
@@ -108,12 +108,12 @@ New script can be created doing a right-clicking on the project's sandbox and se
     “date style:” <TextStyling>
     “school name style:” <TextStyling>
     “description style:” <TextStyling>
-    “collapse description:” <Boolean>  “[C]:” <String>
+    “collapse description:” <Boolean> “[C]:” <String>
         “open all:” <Boolean>
         “button alignment:” <ALIGN_OPTIONS>
-    “show separator:” <Boolean>  “[C]:” <String>
+    “show separator:” <Boolean> “[C]:” <String>
     “number of educations:” <Integer>;
-<ActivitiesStyling>   = 
+<ActivitiesStyling> = 
     “show title:” <Boolean> <String>
         “alignment:” <ALIGN_TITLE>
     “background color:” <TextStyling>
@@ -121,7 +121,7 @@ New script can be created doing a right-clicking on the project's sandbox and se
     “date style:” <TextStyling>
     “school name style:” <TextStyling>
     “description style:” <TextStyling>
-    “collapse description:” <Boolean>  “[C]:” <String>
+    “collapse description:” <Boolean> “[C]:” <String>
         “open all:” <Boolean>
         “button alignment:” <ALIGN_OPTIONS>
     “show separator:” <Boolean>  “[C]:” <String>
@@ -172,7 +172,7 @@ New script can be created doing a right-clicking on the project's sandbox and se
 <Styling> = <TextualStyling> | <ImageStyling>;
 
 <GridElements> = 
-    “Size” <Integer> “/ 12”
+    “Size” <Integer> “/12”
     (<Section>)*;
 <GridPage> = 
     “Grid page:    width:” <Integer>
