@@ -2,6 +2,7 @@
 <model ref="r:acbba52e-6fd0-45c4-b8d8-15ace250ebe9(UXifier.generator.templates@generator)">
   <persistence version="9" />
   <languages>
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
