@@ -246,7 +246,7 @@ Notation | Usage
 #### Syntax example
 
 <p align="center" width="100%">
-    <img width="33%" src="assets/syntax_example.PNG"> 
+    <img width="100%" src="assets/syntax_example.PNG"> 
 </p>
 
 ### Scenarios implemented
