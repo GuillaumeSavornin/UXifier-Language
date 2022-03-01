@@ -343,5 +343,15 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="4be6AEiXz4T">
+    <property role="3GE5qa" value="theme" />
+    <ref role="1M2myG" to="wi2d:2dFAI0jBY7Y" resolve="Theme" />
+    <node concept="1N5Pfh" id="4be6AEiXz4U" role="1Mr941">
+      <ref role="1N5Vy1" to="wi2d:6lfKmmFhRzL" resolve="backgroundColor" />
+      <node concept="1dDu$B" id="4be6AEiXzkI" role="1N6uqs">
+        <ref role="1dDu$A" to="wi2d:7XyC30UC_lj" resolve="ThemeColor" />
+      </node>
+    </node>
+  </node>
 </model>
 
