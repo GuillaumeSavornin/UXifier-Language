@@ -347,6 +347,17 @@
             </node>
           </node>
           <node concept="3clFbS" id="2dFAI0jC$8X" role="2LFqv$">
+            <node concept="3clFbF" id="1pUaGcueVOB" role="3cqZAp">
+              <node concept="37vLTI" id="1pUaGcueVOC" role="3clFbG">
+                <node concept="3cmrfG" id="1pUaGcueVOD" role="37vLTx">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="10M0yZ" id="1pUaGcueVOE" role="37vLTJ">
+                  <ref role="3cqZAo" node="1eZdBFG4P6x" resolve="imageCount" />
+                  <ref role="1PxDUh" node="4ccJuxnam4K" resolve="JSONLoader" />
+                </node>
+              </node>
+            </node>
             <node concept="lc7rE" id="2dFAI0jC$Ib" role="3cqZAp">
               <node concept="l9hG8" id="2dFAI0jC$Ix" role="lcghm">
                 <node concept="2GrUjf" id="2dFAI0jC$Jn" role="lb14g">
