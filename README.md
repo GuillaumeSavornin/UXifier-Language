@@ -245,13 +245,35 @@ Notation | Usage
 
 #### Syntax example
 
-```java
-TBD
-```
+<p align="center" width="100%">
+    <img width="33%" src="assets/syntax_example.PNG"> 
+</p>
 
 ### Scenarios implemented
 
-TBD
+<p align="center" width="100%">
+    <img width="100%" src="assets/CV1.PNG"> 
+</p>
+
+> Website format CV 1 (Multi Layout CV)
+
+<p align="center" width="100%">
+    <img width="50%" src="assets/CV1_2.PNG"> 
+</p>
+
+> Mobile format CV 1 (Multi Layout CV)
+
+<p align="center" width="100%">
+    <img width="100%" src="assets/CV2.PNG"> 
+</p>
+
+> Website format CV 2 (Red Theme CV)
+
+<p align="center" width="100%">
+    <img width="50%" src="assets/CV2_2.PNG"> 
+</p>
+
+> Mobile format CV 2 (Red Theme CV)
 
 ### Requirements
 
